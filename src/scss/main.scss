@@ -1,4 +1,20 @@
 @import "reset";
-body{
 
+//var setup
+$main-yellow: #FEB332;
+$dark-yellow: #FFA100;
+$main-blue: #0057B2;
+$sry-blue: #007CFF;
+$dark-blue: #034D9A;
+$baby-blue: #B4D9FF;
+$rich-black: #333333;
+$med-black: #555555;
+$lt-black: #707070;
+$lt-gray: #F8F9FB;
+
+*{
+  box-sizing: border-box;
+}
+body{
+background: $main-yellow;
 }
