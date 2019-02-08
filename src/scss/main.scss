@@ -18,6 +18,16 @@ $lt-gray: #F8F9FB;
 *{
   box-sizing: border-box;
 }
+
 body{
-// background: $main-yellow;
+  width: 100vh;
+}
+
+#container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: $med-black;
 }
