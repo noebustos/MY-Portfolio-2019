@@ -47,7 +47,20 @@ table {
   border-spacing: 0; }
 
 header {
-  padding: 15px 0; }
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-size: 14px; }
+  header .logo {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.1rem; }
+  header nav {
+    float: right; }
+    header nav a {
+      font-weight: 600;
+      margin-right: 50px; }
+      header nav a:nth-child(5) {
+        margin-right: 0; }
 
 * {
   -webkit-box-sizing: border-box;
