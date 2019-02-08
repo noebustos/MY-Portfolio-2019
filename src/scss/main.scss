@@ -9,7 +9,7 @@ $rich-black: #333333;
 $med-black: #555555;
 $lt-black: #707070;
 $lt-gray: #F8F9FB;
-
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:300,400,500,600,700,800,900');
 @import "reset";
 @import "header";
 @import "home-section";
@@ -20,13 +20,15 @@ $lt-gray: #F8F9FB;
 }
 
 body{
-  width: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  // font-family: 'Lato', sans-serif;
 }
 
 #container{
   max-width: 1400px;
   margin: 0 auto;
 }
+
 a{
   text-decoration: none;
   color: $med-black;
