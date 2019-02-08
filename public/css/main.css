@@ -50,9 +50,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  background: #0057B2; }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
-
-body {
-  background: #FEB332; }

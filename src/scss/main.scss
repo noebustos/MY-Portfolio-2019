@@ -1,5 +1,3 @@
-@import "reset";
-
 //var setup
 $main-yellow: #FEB332;
 $dark-yellow: #FFA100;
@@ -12,9 +10,13 @@ $med-black: #555555;
 $lt-black: #707070;
 $lt-gray: #F8F9FB;
 
+@import "reset";
+@import "home-section";
+
+
 *{
   box-sizing: border-box;
 }
 body{
-background: $main-yellow;
+// background: $main-yellow;
 }
