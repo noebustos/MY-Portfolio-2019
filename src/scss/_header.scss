@@ -1,7 +1,9 @@
 header{
-  padding: 15px 0;
+  padding: 25px 0;
   text-transform: uppercase;
   font-size: 14px;
+  color: #fff;
+  background: $main-blue;
 
   .logo{
     display: inline-block;
@@ -13,11 +15,24 @@ header{
     float: right;
     
     a{
+      letter-spacing: .5px;
+      color: #fff;
       font-weight: 600;
       margin-right: 50px;
 
       &:nth-child(5){
-        margin-right: 0;
+        margin-right: -.5px;
+      }
+
+      &:hover{
+        color: $main-yellow;
+        padding-bottom: 5px;
+        border-bottom: 4px solid $main-yellow;
+      }
+      &.active{
+        color: #aaa;
+        padding-bottom: none;
+        border-bottom: none;
       }
     }
   }

@@ -47,9 +47,11 @@ table {
   border-spacing: 0; }
 
 header {
-  padding: 15px 0;
+  padding: 25px 0;
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 14px;
+  color: #fff;
+  background: #0057B2; }
   header .logo {
     display: inline-block;
     font-weight: 700;
@@ -57,10 +59,24 @@ header {
   header nav {
     float: right; }
     header nav a {
+      letter-spacing: .5px;
+      color: #fff;
       font-weight: 600;
       margin-right: 50px; }
       header nav a:nth-child(5) {
-        margin-right: 0; }
+        margin-right: -.5px; }
+      header nav a:hover {
+        color: #FEB332;
+        padding-bottom: 5px;
+        border-bottom: 4px solid #FEB332; }
+      header nav a.active {
+        color: #aaa;
+        padding-bottom: none;
+        border-bottom: none; }
+
+#home-section {
+  background: #0057B2;
+  height: 100vh; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -69,7 +85,7 @@ header {
 body {
   font-family: 'Montserrat', sans-serif; }
 
-#container {
+.container {
   max-width: 1400px;
   margin: 0 auto; }
 
