@@ -2,20 +2,39 @@
   background: $main-blue;
   height: 100vh;
   overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  align-content: center;
+
+  .vertical-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
 
   .intro-container{
     width: 50%;
     display: inline-block;
+    background: $main-yellow;
+    padding: 45px;
+
+    h1{
+      font-size: 55px;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+
+      span{
+        font-weight: 300;
+        font-family: 'Lato', sans-serif;
+      }
+    }
   }
 
   .img-container{
     width: 50%;
-    float: right;
+    display: inline-block;
 
     img{
       width: 350px;
