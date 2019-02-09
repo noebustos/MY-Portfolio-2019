@@ -16,19 +16,41 @@
   .intro-container{
     width: 50%;
     display: inline-block;
+
+    h5{
+      margin-left: 40px;
+      font-size: 30px;
+      font-weight: 800;
+      background: rgb(255,255,255);
+      background: linear-gradient(0deg, rgba(255,255,255,0) 20%, rgba(255,255,255,.3) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .yellow-bg{
     background: $main-yellow;
-    padding: 45px;
+    padding: 40px;
 
-    h1{
-      font-size: 55px;
-      font-weight: 700;
-      color: #fff;
-      text-transform: uppercase;
-
-      span{
-        font-weight: 300;
-        font-family: 'Lato', sans-serif;
+      h1{
+        font-size: 55px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        // margin-top: -84px;
+  
+        span{
+          font-weight: 300;
+          font-family: 'Lato', sans-serif;
+        }
       }
+
+      h3{
+        font-size: 28px;
+        color: #fff;
+        text-transform: capitalize;
+        margin-top: 10px;
+      }
+
     }
   }
 
