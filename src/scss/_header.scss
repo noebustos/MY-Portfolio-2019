@@ -31,8 +31,9 @@ header{
       }
       &.active{
         color: #aaa;
-        padding-bottom: none;
+        padding-bottom: 0;
         border-bottom: none;
+        cursor: default;
       }
     }
   }

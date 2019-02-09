@@ -71,12 +71,36 @@ header {
         border-bottom: 4px solid #FEB332; }
       header nav a.active {
         color: #aaa;
-        padding-bottom: none;
-        border-bottom: none; }
+        padding-bottom: 0;
+        border-bottom: none;
+        cursor: default; }
 
 #home-section {
   background: #0057B2;
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+  #home-section .intro-container {
+    width: 50%;
+    display: inline-block; }
+  #home-section .img-container {
+    width: 50%;
+    float: right; }
+    #home-section .img-container img {
+      width: 350px; }
 
 * {
   -webkit-box-sizing: border-box;
