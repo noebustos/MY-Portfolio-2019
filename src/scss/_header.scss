@@ -5,10 +5,11 @@ header{
   left: 0;
   right: 0;
   padding: 25px 0;
+  z-index: 20;
   text-transform: uppercase;
   font-size: 14px;
   color: #fff;
-  background: $main-blue;
+
 
   .logo{
     display: inline-block;
@@ -21,9 +22,9 @@ header{
     float: right;
     
     a{
-      letter-spacing: .5px;
+      letter-spacing: 1px;
       color: #fff;
-      font-weight: 600;
+      font-weight: 700;
       margin-right: 50px;
 
       &:nth-child(5){

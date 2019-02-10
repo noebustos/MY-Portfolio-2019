@@ -53,10 +53,10 @@ header {
   left: 0;
   right: 0;
   padding: 25px 0;
+  z-index: 20;
   text-transform: uppercase;
   font-size: 14px;
-  color: #fff;
-  background: #0057B2; }
+  color: #fff; }
   header .logo {
     display: inline-block;
     font-weight: 700;
@@ -65,9 +65,9 @@ header {
     display: inline-block;
     float: right; }
     header nav a {
-      letter-spacing: .5px;
+      letter-spacing: 1px;
       color: #fff;
-      font-weight: 600;
+      font-weight: 700;
       margin-right: 50px; }
       header nav a:nth-child(5) {
         margin-right: -.5px; }
@@ -121,7 +121,9 @@ header {
       background: #FEB332;
       padding: 40px;
       margin-top: -14px;
-      width: 1000px; }
+      width: 1000px;
+      position: relative;
+      z-index: 5; }
       #home-section .intro-container .yellow-bg h1 {
         font-size: 55px;
         font-weight: 700;
@@ -168,10 +170,21 @@ header {
     width: 50%;
     display: inline-block; }
     #home-section .img-container img {
-      width: 400px;
+      width: 420px;
       margin: 0 auto;
       -webkit-transform: translateX(40%);
-      transform: translateX(40%); }
+      transform: translateX(40%);
+      position: relative;
+      z-index: 10; }
+    #home-section .img-container .bg-container {
+      position: absolute;
+      display: inline-block;
+      right: 260px;
+      z-index: 1;
+      -webkit-transform: translateY(-170px) rotate(10deg);
+      transform: translateY(-170px) rotate(10deg); }
+      #home-section .img-container .bg-container img {
+        width: 750px; }
 
 * {
   -webkit-box-sizing: border-box;
