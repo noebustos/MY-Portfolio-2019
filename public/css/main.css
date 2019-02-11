@@ -104,47 +104,48 @@ header {
     align-items: center;
     -ms-flex-line-pack: center;
     align-content: center; }
-  #home-section .intro-container {
+  #home-section .intro-area {
     width: 50%;
     display: inline-block; }
-    #home-section .intro-container h5 {
-      margin-left: 40px;
+    #home-section .intro-area h5 {
+      margin-left: 140px;
       font-size: 100px;
       letter-spacing: -5px;
       font-weight: 800;
       background: white;
-      background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.1)));
-      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.1) 100%);
+      background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.09)));
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.09) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
-    #home-section .intro-container .yellow-bg {
-      background: #FEB332;
-      padding: 40px;
+    #home-section .intro-area .yellow-bg {
+      background-image: url("../img/yellowbg.svg");
+      padding: 40px 140px;
       margin-top: -14px;
+      margin-bottom: 21px;
       width: 1000px;
       position: relative;
       z-index: 5; }
-      #home-section .intro-container .yellow-bg h1 {
+      #home-section .intro-area .yellow-bg h1 {
         font-size: 55px;
         font-weight: 700;
         color: #fff;
         text-transform: uppercase; }
-        #home-section .intro-container .yellow-bg h1 span {
+        #home-section .intro-area .yellow-bg h1 span {
           font-weight: 300;
           font-family: 'Lato', sans-serif; }
-      #home-section .intro-container .yellow-bg h3 {
+      #home-section .intro-area .yellow-bg h3 {
         font-size: 28px;
         color: #fff;
         text-transform: capitalize;
         margin-top: 10px; }
-      #home-section .intro-container .yellow-bg p {
+      #home-section .intro-area .yellow-bg p {
         font-size: 1rem;
         color: #fff;
         font-weight: 500;
         margin-top: 40px; }
-      #home-section .intro-container .yellow-bg .call-actions {
+      #home-section .intro-area .yellow-bg .call-actions {
         margin-top: 50px; }
-        #home-section .intro-container .yellow-bg .call-actions a {
+        #home-section .intro-area .yellow-bg .call-actions a {
           margin-right: 20px;
           text-transform: uppercase;
           padding: 10px 30px;
@@ -154,37 +155,69 @@ header {
           border-radius: 5px;
           -webkit-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out; }
-          #home-section .intro-container .yellow-bg .call-actions a.resume-btn {
+          #home-section .intro-area .yellow-bg .call-actions a.resume-btn {
             background: #fff;
             color: #FEB332; }
-          #home-section .intro-container .yellow-bg .call-actions a.hire-btn {
+          #home-section .intro-area .yellow-bg .call-actions a.hire-btn {
             padding: 7px 27px;
             border: 3px solid #fff;
             color: #fff; }
-          #home-section .intro-container .yellow-bg .call-actions a:hover {
+          #home-section .intro-area .yellow-bg .call-actions a:hover {
             background: #0057B2;
             color: #fff;
             border: none;
             padding: 10px 30px; }
   #home-section .img-container {
     width: 50%;
-    display: inline-block; }
-    #home-section .img-container img {
+    display: inline-block;
+    text-align: center; }
+    #home-section .img-container img.hero-img {
       width: 420px;
       margin: 0 auto;
-      -webkit-transform: translateX(40%);
-      transform: translateX(40%);
-      position: relative;
-      z-index: 10; }
-    #home-section .img-container .bg-container {
       position: absolute;
-      display: inline-block;
-      right: 260px;
-      z-index: 1;
-      -webkit-transform: translateY(-170px) rotate(10deg);
-      transform: translateY(-170px) rotate(10deg); }
-      #home-section .img-container .bg-container img {
-        width: 750px; }
+      top: 50%;
+      right: 11%;
+      z-index: 10;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); }
+    #home-section .img-container .circle-bg {
+      background: #034D9A;
+      width: 1000px;
+      height: 1000px;
+      border-radius: 50%;
+      position: relative;
+      right: 20px;
+      z-index: 1; }
+    #home-section .img-container .path7 {
+      width: 100px;
+      position: absolute;
+      z-index: 50;
+      left: 20%;
+      top: -10px;
+      opacity: .7; }
+    #home-section .img-container .path12 {
+      width: 70px;
+      position: absolute;
+      z-index: 50;
+      left: 35%;
+      bottom: 8%;
+      opacity: .7; }
+    #home-section .img-container .path16 {
+      width: 120px;
+      position: absolute;
+      z-index: 4;
+      right: 20%;
+      bottom: 10px;
+      opacity: .7; }
+    #home-section .img-container .path313 {
+      width: 240px;
+      position: absolute;
+      z-index: 4;
+      left: -65px;
+      bottom: 16%;
+      opacity: .7;
+      -webkit-transform: scaleX(-1) rotate(45deg);
+      transform: scaleX(-1) rotate(45deg); }
 
 * {
   -webkit-box-sizing: border-box;
