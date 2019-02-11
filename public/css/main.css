@@ -72,6 +72,7 @@ header {
       header nav a:nth-child(5) {
         margin-right: -.5px; }
       header nav a:hover {
+        font-weight: 800;
         color: #FEB332;
         padding-bottom: 5px;
         border-bottom: 2px solid #FEB332; }
@@ -118,7 +119,7 @@ header {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
     #home-section .intro-area .yellow-bg {
-      background-image: url("../img/yellowbg.svg");
+      background-image: url("../img/yellowbg-2.svg");
       padding: 40px 140px;
       margin-top: -14px;
       margin-bottom: 21px;
@@ -139,7 +140,7 @@ header {
         text-transform: capitalize;
         margin-top: 10px; }
       #home-section .intro-area .yellow-bg p {
-        font-size: 1rem;
+        font-size: 1.1rem;
         color: #fff;
         font-weight: 500;
         margin-top: 40px; }
@@ -150,7 +151,7 @@ header {
           text-transform: uppercase;
           padding: 10px 30px;
           font-size: 14px;
-          font-weight: 500;
+          font-weight: 700;
           letter-spacing: 1px;
           border-radius: 5px;
           -webkit-transition: all .2s ease-in-out;
@@ -167,6 +168,14 @@ header {
             color: #fff;
             border: none;
             padding: 10px 30px; }
+      #home-section .intro-area .yellow-bg .bg-cutout {
+        width: 349px;
+        float: right;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%); }
   #home-section .img-container {
     width: 50%;
     display: inline-block;
@@ -180,42 +189,76 @@ header {
       z-index: 10;
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%); }
-    #home-section .img-container .circle-bg {
+    #home-section .img-container img.shirt-gradient {
+      width: 425px;
+      margin: 0 auto;
+      position: absolute;
+      bottom: 11.85%;
+      right: 10.79%;
+      z-index: 11; }
+    #home-section .img-container .circle-bg-shadow {
+      position: absolute;
+      top: 50%;
+      right: 21%;
+      z-index: 9;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 145px;
+      height: 145px;
+      border-radius: 50%;
+      -webkit-box-shadow: 0 0 200px 200px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 200px 200px rgba(0, 0, 0, 0.2); }
+    #home-section .img-container .circle-bg-big {
       background: #034D9A;
       width: 1000px;
       height: 1000px;
       border-radius: 50%;
       position: relative;
-      right: 20px;
-      z-index: 1; }
+      z-index: 1;
+      -webkit-box-shadow: 0px 0px 50px 20px rgba(50, 50, 50, 0.1);
+      box-shadow: 0px 0px 50px 20px rgba(50, 50, 50, 0.1); }
+    #home-section .img-container .path6 {
+      width: 200px;
+      position: absolute;
+      z-index: 9;
+      right: 15%;
+      top: -25px;
+      opacity: .3; }
     #home-section .img-container .path7 {
       width: 100px;
       position: absolute;
       z-index: 50;
       left: 20%;
       top: -10px;
-      opacity: .7; }
+      opacity: .3; }
     #home-section .img-container .path12 {
-      width: 70px;
+      width: 80px;
       position: absolute;
       z-index: 50;
       left: 35%;
       bottom: 8%;
-      opacity: .7; }
+      opacity: .3; }
+    #home-section .img-container .path13 {
+      width: 60px;
+      position: absolute;
+      z-index: 50;
+      right: 5%;
+      top: 50%;
+      opacity: .3; }
     #home-section .img-container .path16 {
-      width: 120px;
+      width: 130px;
       position: absolute;
       z-index: 4;
-      right: 20%;
-      bottom: 10px;
-      opacity: .7; }
+      right: 25%;
+      bottom: 8px;
+      opacity: .3; }
     #home-section .img-container .path313 {
       width: 240px;
       position: absolute;
       z-index: 4;
       left: -65px;
-      bottom: 16%;
-      opacity: .7;
+      bottom: 18%;
+      opacity: .3;
       -webkit-transform: scaleX(-1) rotate(45deg);
       transform: scaleX(-1) rotate(45deg); }
 
