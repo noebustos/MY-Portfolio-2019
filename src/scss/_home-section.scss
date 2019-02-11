@@ -38,6 +38,9 @@
     width: 1000px;
     position: relative;
     z-index: 5;
+    filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
+
+
     // transform: skewX(-15deg);
 
     // .triangle-cutout{
@@ -160,7 +163,7 @@
       width: 145px;
       height: 145px;
       border-radius: 50%;
-      box-shadow: 0 0 200px 200px rgba(0,0,0,.2);
+      box-shadow: 0 0 180px 180px rgba(0,0,0,.2);
     }
 
     .circle-bg-big{
@@ -186,13 +189,13 @@
       width: 100px;
       position: absolute;
       z-index: 50;
-      left: 20%;
+      left: 25%;
       top: -10px;
       opacity: .3;
     }
 
     .path12{
-      width: 80px;
+      width: 60px;
       position: absolute;
       z-index: 50;
       left: 35%;
@@ -212,23 +215,25 @@
     }
 
     .path16{
-      width: 130px;
+      width: 135px;
       position: absolute;
       z-index: 4;
       right: 25%;
-      bottom: 8px;
+      bottom: -55px;
       opacity: .3;
-      // transform: scaleY(-1);
+      transform: scaleY(-1);
     }
 
     .path313{
-      width: 240px;
+      width: 250px;
       position: absolute;
       z-index: 4;
-      left: -65px;
+      // left: -65px;
+      left: -70px;
       bottom: 18%;
       opacity: .3;
-      transform: scaleX(-1) rotate(45deg);
+      // transform: scaleX(-1) rotate(45deg);
+      transform: scaleX(-1) rotate(30deg);
     }
 
 
