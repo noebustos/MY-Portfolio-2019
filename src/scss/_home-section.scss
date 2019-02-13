@@ -29,8 +29,6 @@
     }
 
     .yellow-bg{
-    // background: $main-yellow;
-    // background: linear-gradient(90deg, rgba(254,179,50,1) 0%, rgba(255,161,0,1) 100%);
     background-image: url("../img/yellowbg-2.svg");
     padding: 40px 140px;
     margin-top: -13px;
@@ -39,21 +37,6 @@
     position: relative;
     z-index: 5;
     filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
-
-
-    // transform: skewX(-15deg);
-
-    // .triangle-cutout{
-    //   z-index: 5;
-    //   position: absolute;
-    //   left: 0;
-    //   transform: translateY(-40px);
-    //   width: 0;
-    //   height: 0;
-    //   border-style: solid;
-    //   border-width: 296px 0 0 50px;
-    //   border-color:  transparent transparent transparent $main-blue;
-    // }
 
       h1{
         font-size: 55px;
