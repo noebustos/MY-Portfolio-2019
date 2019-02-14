@@ -1,5 +1,5 @@
 header{
-  width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   position: fixed;
   left: 0;
@@ -43,6 +43,7 @@ header{
       color: #fff;
       font-weight: 700;
       margin-right: 50px;
+      transition: all .2s ease-in-out;
 
       &:nth-child(5){
         margin-right: -.5px;

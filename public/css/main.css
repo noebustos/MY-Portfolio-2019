@@ -47,7 +47,7 @@ table {
   border-spacing: 0; }
 
 header {
-  width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   position: fixed;
   left: 0;
@@ -82,7 +82,9 @@ header {
       letter-spacing: 1px;
       color: #fff;
       font-weight: 700;
-      margin-right: 50px; }
+      margin-right: 50px;
+      -webkit-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out; }
       header nav a:nth-child(5) {
         margin-right: -.5px; }
       header nav a:hover {
@@ -123,8 +125,8 @@ header {
     width: 50%;
     display: inline-block; }
     #home-section .intro-area h5 {
-      margin-left: 140px;
-      font-size: 90px;
+      margin-left: 65px;
+      font-size: 85px;
       letter-spacing: -5px;
       font-weight: 800;
       background: white;
@@ -133,9 +135,9 @@ header {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
     #home-section .intro-area .yellow-bg {
-      background-image: url("../img/yellowbg-2.svg");
-      padding: 40px 140px;
-      margin-top: -13px;
+      background-image: url("../img/yellowbg-3.svg");
+      padding: 40px 65px;
+      margin-top: -12px;
       width: 1000px;
       position: relative;
       z-index: 5;
@@ -145,7 +147,8 @@ header {
         font-size: 55px;
         font-weight: 700;
         color: #fff;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        margin-top: -8px; }
         #home-section .intro-area .yellow-bg h1 span {
           font-weight: 300;
           font-family: 'Lato', sans-serif; }
@@ -161,7 +164,7 @@ header {
         margin-top: 40px; }
       #home-section .intro-area .yellow-bg .call-actions {
         margin-top: 50px;
-        margin-bottom: 20px; }
+        margin-bottom: 12px; }
         #home-section .intro-area .yellow-bg .call-actions a {
           margin-right: 20px;
           text-transform: uppercase;
@@ -185,11 +188,11 @@ header {
             border: none;
             padding: 10px 30px; }
       #home-section .intro-area .yellow-bg .bg-cutout {
-        width: 349px;
+        width: 331px;
         float: right;
         position: absolute;
         top: 50%;
-        left: 69.9%;
+        left: 59.9%;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%); }
   #home-section .img-container {
@@ -197,30 +200,30 @@ header {
     display: inline-block;
     text-align: center; }
     #home-section .img-container img.hero-img {
-      width: 420px;
+      width: 450px;
       margin: 0 auto;
       position: absolute;
       top: 50%;
-      right: 11%;
+      right: 8.5%;
       z-index: 10;
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%); }
     #home-section .img-container img.shirt-gradient {
-      width: 425px;
+      width: 422px;
       margin: 0 auto;
       position: absolute;
       bottom: 11.85%;
-      right: 10.79%;
+      right: 8.5%;
       z-index: 11; }
     #home-section .img-container .circle-bg-shadow {
       position: absolute;
       top: 50%;
-      right: 21%;
+      right: 18%;
       z-index: 9;
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%);
-      width: 145px;
-      height: 145px;
+      width: 140px;
+      height: 140px;
       border-radius: 50%;
       -webkit-box-shadow: 0 0 180px 180px rgba(0, 0, 0, 0.2);
       box-shadow: 0 0 180px 180px rgba(0, 0, 0, 0.2); }
@@ -229,11 +232,11 @@ header {
       width: 1100px;
       height: 1100px;
       border-radius: 50%;
-      -webkit-box-shadow: inset 0px 0px 50px 20px rgba(50, 50, 50, 0.1);
-      box-shadow: inset 0px 0px 50px 20px rgba(50, 50, 50, 0.1);
       position: relative;
       z-index: 2; }
       #home-section .img-container .bg-circle-container .bg-circle-big {
+        -webkit-box-shadow: 0px 0px 50px 20px rgba(50, 50, 50, 0.1);
+        box-shadow: 0px 0px 50px 20px rgba(50, 50, 50, 0.1);
         background: -webkit-gradient(linear, left top, right top, from(rgba(3, 77, 154, 0.9)), to(rgba(3, 77, 154, 0.9))), url("../img/code-syntax.jpg") center center;
         background: linear-gradient(90deg, rgba(3, 77, 154, 0.9) 0%, rgba(3, 77, 154, 0.9) 100%), url("../img/code-syntax.jpg") center center;
         background-size: 950px;
@@ -305,7 +308,7 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto; }
 
 a {
