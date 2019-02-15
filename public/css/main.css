@@ -125,16 +125,17 @@ header {
     width: 50%;
     display: inline-block; }
     #home-section .intro-area h5 {
-      margin-left: 65px;
-      font-size: 85px;
+      margin-left: 50px;
+      font-size: 80px;
       letter-spacing: -5px;
       font-weight: 800;
       background: white;
-      background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.09)));
-      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.09) 100%);
+      background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.08)));
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.08) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
     #home-section .intro-area .yellow-bg {
+      right: 20px;
       background-image: url("../img/yellowbg-3.svg");
       padding: 45px 75px;
       margin-top: -12px;

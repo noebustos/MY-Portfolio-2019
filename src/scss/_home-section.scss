@@ -18,18 +18,18 @@
     display: inline-block;
 
     h5{
-      margin-left: 65px;
-      font-size: 85px;
+      margin-left: 50px;
+      font-size: 80px;
       letter-spacing: -5px;
       font-weight: 800;
       background: rgb(255,255,255);
-      background: linear-gradient(0deg, rgba(255,255,255,0) 20%, rgba(255,255,255,.09) 100%);
+      background: linear-gradient(0deg, rgba(255,255,255,0) 20%, rgba(255,255,255,.08) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
     .yellow-bg{
-      // right: 64px;
+      right: 20px;
       
     background-image: url("../img/yellowbg-3.svg");
     padding: 45px 75px;
@@ -40,13 +40,12 @@
     filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
 
       h1{
-        
+
         font-size: 55px;
         font-weight: 700;
         color: #fff;
         text-transform: uppercase;
         margin-top: -8px;
-        // margin-left: 40px;
 
         span{
           font-weight: 300;
@@ -59,8 +58,6 @@
         color: #fff;
         text-transform: capitalize;
         margin-top: 10px;
-        // margin-left: 146px;
-
       }
 
       p{
@@ -68,15 +65,11 @@
         color: #fff;
         font-weight: 500;
         margin-top: 40px;
-        // margin-left: 170px;
-
       }
 
       .call-actions{
         margin-top: 50px;
         margin-bottom: 12px;
-        // margin-left: 200px;
-
 
         a{
           margin-right: 20px;
@@ -131,7 +124,6 @@
       top: 20.1%;
       right: 6%;
       z-index: 10;
-      // transform: translateY(-38.8%);
     }
 
     img.shirt-gradient{
@@ -164,7 +156,6 @@
       z-index: 2;
 
       .bg-circle-big{
-        // box-shadow: inset 0px 0px 50px 20px rgba(50,50,50,.1);
         box-shadow: 0px 0px 50px 20px rgba(50,50,50,.1);
         background:linear-gradient(90deg, rgba(3,77,154,.9) 0%, rgba(3,77,154,.9) 100%), url("../img/code-syntax.jpg")center center;
         background-size: 950px;
@@ -184,10 +175,7 @@
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-
     }
-
-
 
     .path6{
       width: 200px;
@@ -242,9 +230,6 @@
       bottom: 18%;
       opacity: .3;
       transform: scaleX(-1) rotate(30deg);
-    }
-
-
-   
+    }   
   }
 }
