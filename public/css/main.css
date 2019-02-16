@@ -299,6 +299,9 @@ header {
       -webkit-transform: scaleX(-1) rotate(30deg);
       transform: scaleX(-1) rotate(30deg); }
 
+body {
+  background: green; }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
