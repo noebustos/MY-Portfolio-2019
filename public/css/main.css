@@ -299,6 +299,20 @@ header {
       -webkit-transform: scaleX(-1) rotate(30deg);
       transform: scaleX(-1) rotate(30deg); }
 
+#contact-section {
+  background: #FEB332;
+  height: 100vh;
+  overflow: hidden;
+  position: relative; }
+  #contact-section .lower-bg-shape {
+    position: absolute;
+    z-index: 1;
+    opacity: .2;
+    bottom: 0;
+    width: 160vh; }
+    #contact-section .lower-bg-shape img {
+      width: 160vh; }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
