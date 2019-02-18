@@ -42,10 +42,41 @@
 
 
       .title-questions{
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         color: $med-black;
         font-weight: 600;
+        text-align: center;
         text-transform: capitalize;
+        position: relative;
+        margin: 0 auto;
+        
+        h6{
+          position: relative;
+          z-index: 20;
+          letter-spacing: 1px;
+        }
+
+        h5{
+          font-size: 12rem;
+          font-weight: 800;
+          // color: $main-yellow;
+          color: $main-blue;
+          position: absolute;
+          right: 50%;
+          top: -64px;
+          transform: translateX(50%);
+          z-index: 8;
+          opacity: .17;
+        }
+
+      }
+
+      .container-subtitle{
+        text-align: center;
+        max-width: 75%;
+        margin: 50px auto;
+        font-size: 1rem;
+        color: $med-black;
       }
     } 
 
