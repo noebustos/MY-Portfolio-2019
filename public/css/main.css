@@ -301,6 +301,7 @@ header {
 
 #contact-section {
   background: #FEB332;
+  height: 100vh;
   overflow: hidden;
   position: relative; }
   #contact-section .lower-bg-shape {
@@ -311,34 +312,35 @@ header {
     width: 160vh; }
     #contact-section .lower-bg-shape img {
       width: 160vh; }
-  #contact-section .contact-title {
+  #contact-section .section-title {
     text-align: center;
     padding: 150px 0 50px; }
-    #contact-section .contact-title h2 {
+    #contact-section .section-title h2 {
       font-size: 50px;
       font-weight: 700;
       text-transform: uppercase;
       color: #333333; }
-      #contact-section .contact-title h2 span {
+      #contact-section .section-title h2 span {
         color: #fff; }
-  #contact-section .right-column {
-    display: inline-block; }
-    #contact-section .right-column .forward-content {
+  #contact-section .columns-area .right-column {
+    display: inline-block;
+    width: 50%; }
+    #contact-section .columns-area .right-column .forward-content {
       background: #fff;
-      padding: 100px; }
-      #contact-section .right-column .forward-content .title-questions {
+      padding: 50px; }
+      #contact-section .columns-area .right-column .forward-content .title-questions {
         font-size: 1.7rem;
         color: #555555;
         font-weight: 600;
         text-align: center;
         text-transform: capitalize;
         position: relative;
-        margin: 0 auto; }
-        #contact-section .right-column .forward-content .title-questions h6 {
+        margin: 37px auto 0; }
+        #contact-section .columns-area .right-column .forward-content .title-questions h6 {
           position: relative;
           z-index: 20;
           letter-spacing: 1px; }
-        #contact-section .right-column .forward-content .title-questions h5 {
+        #contact-section .columns-area .right-column .forward-content .title-questions h5 {
           font-size: 12rem;
           font-weight: 800;
           color: #0057B2;
@@ -349,20 +351,20 @@ header {
           transform: translateX(50%);
           z-index: 8;
           opacity: .17; }
-      #contact-section .right-column .forward-content .container-subtitle {
+      #contact-section .columns-area .right-column .forward-content .container-subtitle {
         text-align: center;
         max-width: 75%;
         margin: 50px auto;
         font-size: 1rem;
         color: #555555; }
-  #contact-section .left-column {
+  #contact-section .columns-area .left-column {
     width: 50%;
     display: inline-block;
     float: right;
     position: relative;
     z-index: 5;
     text-align: right; }
-    #contact-section .left-column img {
+    #contact-section .columns-area .left-column img {
       max-width: 90%; }
 
 * {
