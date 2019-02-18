@@ -1,6 +1,6 @@
 #contact-section{
   background: $main-yellow;
-  height: 100vh;
+  // height: 100vh;
   overflow: hidden;
   position: relative;
 
@@ -19,10 +19,50 @@
 
   .contact-title{
     text-align: center;
-    padding: 50px;
+    padding: 150px 0 50px;
 
     h2{
       font-size: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $rich-black;
+
+      span{
+        color: #fff;
+        // font-weight: 800;
+      }
+    }
+  }
+  .right-column{
+    display: inline-block;
+    
+    .forward-content{
+      background: #fff;
+      padding: 100px;
+
+
+      .title-questions{
+        font-size: 1.6rem;
+        color: $med-black;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+    } 
+
+
+
+  }
+
+  .left-column{
+    width: 50%;
+    display: inline-block;
+    float: right;
+    position: relative; 
+    z-index: 5;
+    text-align: right;
+    
+    img{
+      max-width: 90%;
     }
   }
 }
