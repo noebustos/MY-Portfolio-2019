@@ -338,12 +338,17 @@ header {
     z-index: 10; }
     #contact-section .columns-area .right-column {
       width: 50%;
-      text-align: center; }
+      text-align: center;
+      position: relative; }
       #contact-section .columns-area .right-column .forward-content {
         background: #fff;
-        max-width: 500px;
+        max-width: 450px;
         padding: 50px;
-        color: #707070; }
+        color: #707070;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        z-index: 20; }
         #contact-section .columns-area .right-column .forward-content .title-questions {
           font-size: 1.7rem;
           font-weight: 600;
@@ -380,23 +385,37 @@ header {
           font-weight: 600;
           text-transform: capitalize;
           margin-bottom: 17px; }
-        #contact-section .columns-area .right-column .forward-content .social-media-container .social-media-links a {
-          margin: 0 20px;
-          display: inline-block;
-          -webkit-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out; }
-          #contact-section .columns-area .right-column .forward-content .social-media-container .social-media-links a i.fab {
+        #contact-section .columns-area .right-column .forward-content .social-media-container .social-media-links {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          #contact-section .columns-area .right-column .forward-content .social-media-container .social-media-links a {
             display: inline-block;
-            font-size: 30px;
-            margin-bottom: 5px; }
-          #contact-section .columns-area .right-column .forward-content .social-media-container .social-media-links a:hover {
-            color: #FEB332; }
+            -webkit-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; }
+            #contact-section .columns-area .right-column .forward-content .social-media-container .social-media-links a i.fab {
+              font-size: 30px;
+              margin-bottom: 5px; }
+            #contact-section .columns-area .right-column .forward-content .social-media-container .social-media-links a:hover {
+              color: #FEB332; }
+      #contact-section .columns-area .right-column .bg-box-blue {
+        background: #0057B2;
+        width: 275px;
+        height: 598px;
+        color: #707070;
+        position: absolute;
+        z-index: 15;
+        top: 0; }
     #contact-section .columns-area .left-column {
       width: 50%;
       position: relative;
-      text-align: right; }
+      text-align: center;
+      vertical-align: middle; }
       #contact-section .columns-area .left-column img {
-        max-width: 90%; }
+        max-width: 95%; }
 
 * {
   -webkit-box-sizing: border-box;

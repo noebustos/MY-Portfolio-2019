@@ -50,12 +50,17 @@
       // display: inline-block;
       width: 50%;
       text-align: center;
+      position: relative;
 
       .forward-content{
         background: #fff;
-        max-width: 500px;
+        max-width: 450px;
         padding: 50px;
         color: $med-gray;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        z-index: 20;
 
         .title-questions{
           font-size: 1.7rem;
@@ -111,13 +116,16 @@
 
         .social-media-container{
           .social-media-links{
+            display: flex;
+            justify-content: space-between;
+
             a{
-              margin: 0 20px;
+              // margin: 0 20px;
               display: inline-block;
               transition: all .2s ease-in-out;
 
               i.fab{
-                display: inline-block;
+                // display: inline-block;
                 font-size: 30px;
                 margin-bottom: 5px;
               }
@@ -133,6 +141,16 @@
           }
         }
       } 
+
+      .bg-box-blue{
+        background: $main-blue;
+        width: 275px;
+        height: 598px;
+        color: $med-gray;
+        position: absolute;
+        z-index: 15;
+        top: 0;
+      }
     }
 
     .left-column{
@@ -140,10 +158,14 @@
       // display: inline-block;
       // float: right;
       position: relative; 
-      text-align: right;
+      text-align: center;
+      vertical-align: middle;
       
       img{
-        max-width: 90%;
+        // position: absolute;
+        max-width: 95%;
+        // top: 0;
+        // bottom: 0;
       }
     }
   }
