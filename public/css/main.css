@@ -380,6 +380,13 @@ header {
           font-weight: 600;
           text-transform: capitalize;
           margin-bottom: 17px; }
+        #contact-section .columns-area .right-column .forward-content .social-media-container .social-media-links a {
+          margin: 0 20px;
+          display: inline-block; }
+          #contact-section .columns-area .right-column .forward-content .social-media-container .social-media-links a i.fab {
+            display: inline-block;
+            font-size: 30px;
+            margin-bottom: 5px; }
     #contact-section .columns-area .left-column {
       width: 50%;
       position: relative;

@@ -99,7 +99,7 @@
           font-size: 1rem;
           margin-bottom: 50px;
         }
-
+        
         .contact-title{
           color: $med-gray;
           // font-size: 1.1rem;
@@ -108,10 +108,26 @@
           text-transform: capitalize;
           margin-bottom: 17px;
         }
+
+        .social-media-container{
+          .social-media-links{
+            a{
+              margin: 0 20px;
+              display: inline-block;
+
+              i.fab{
+                display: inline-block;
+                font-size: 30px;
+                margin-bottom: 5px;
+              }
+
+              span{
+                // font-size: 14px;
+              }
+            }
+          }
+        }
       } 
-
-
-
     }
 
     .left-column{
