@@ -301,7 +301,6 @@ header {
 
 #contact-section {
   background: #FEB332;
-  height: 100vh;
   overflow: hidden;
   position: relative;
   padding: 150px 0; }
@@ -424,8 +423,7 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
-  height: 100vh; }
+  margin: 0 auto; }
 
 a {
   text-decoration: none;
