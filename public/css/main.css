@@ -430,9 +430,9 @@ a {
   color: #555555; }
 
 footer {
-  border-top: 5px solid #fff;
-  padding: 25px 0;
-  color: #707070;
+  background: #F8F9FB;
+  padding: 36px 0;
+  color: #555555;
   font-weight: 500; }
   footer .container {
     display: -webkit-box;

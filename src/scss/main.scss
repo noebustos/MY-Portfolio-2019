@@ -38,15 +38,17 @@ a{
 }
 
   footer{
+
+    background: $lt-gray;
     // font-size: 1.1rem;
     // position: absolute;
     // bottom: 0;
-    border-top: 5px solid #fff;
-    padding: 25px 0;
-    color: $med-gray;
+    padding: 36px 0;
+    color: $med-black;
     font-weight: 500;
  
     .container{
+      // border-top: 5px solid #fff;
       display: flex;
       justify-content: space-between;
       align-items: center;
