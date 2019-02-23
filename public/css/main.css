@@ -421,6 +421,16 @@ header {
   background: #F8F9FB;
   height: 100vh;
   overflow: hidden; }
+  #projects-section .section-title {
+    text-align: center;
+    margin-bottom: 50px; }
+    #projects-section .section-title h2 {
+      font-size: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #fff; }
+      #projects-section .section-title h2 span {
+        color: #fff; }
 
 * {
   -webkit-box-sizing: border-box;
