@@ -417,6 +417,11 @@ header {
         #contact-section .columns-container .columns-area .left-column img {
           width: 115%; }
 
+#projects-section {
+  background: #F8F9FB;
+  height: 100vh;
+  overflow: hidden; }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
