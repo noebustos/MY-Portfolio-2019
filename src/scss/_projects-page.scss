@@ -2,21 +2,62 @@
   background: $lt-gray;
   height: 100vh;
   overflow: hidden;
+  padding: 150px 0;
   
   .section-title{
     text-align: center;
     margin-bottom: 50px;
-    // padding: 11% 0 10%;
-
     h2{
       font-size: 50px;
       font-weight: 700;
       text-transform: uppercase;
-      color: #fff;
+      color: #rich-black;
+    }
 
-      span{
-        color: #fff;
-        // font-weight: 800;
+    p{
+      margin: 18px auto 0;
+      width: 500px;
+      line-height: 1.5;
+      font-size: 1.5rem;
+    }
+  }
+
+  .projects-container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px  400px;
+
+    .projects{
+
+      &.project1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        // background: red;
+      } 
+
+      &.project2{
+        grid-column: 2/3;
+        grid-row: 1/3;
+        // background: blue;
+      }
+
+      &.project3{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        // background: orange;
+      }
+
+      &.project4{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        // background: purple;
+      }
+
+      &.project5{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        // background: yellow;
       }
     }
   }
