@@ -30,6 +30,7 @@
     grid-gap: 25px;
 
     .projects{
+      position: relative;
 
       &.active{
         display: block;
@@ -37,6 +38,53 @@
 
       &.in-active{
         display: none;
+      }
+
+      .project-info-box{
+        width: 90%;
+        height: 90%;
+        background: #fff;
+        padding: 25px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: middle;
+
+        &.info-box-lx{
+          height: 95%;
+        }
+
+        .project-title{
+          text-transform: capitalize;
+          margin: 0 auto;
+          text-align: center;
+
+          .title-container{
+          display: inline-block;
+
+          }
+
+          .placement {
+            display: inline-block;
+            margin-right: 17px;
+            font-size: 3rem;
+            font-weight: 900;
+            color: $main-yellow;
+            // vertical-align: middle;
+                        text-align: left;
+
+          }
+
+          h6 {
+            display: inline-block;
+            // width: 75%;
+            text-align: left;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: $med-black;
+          }
+
+        }
       }
 
       &.project1{
