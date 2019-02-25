@@ -11,14 +11,15 @@
       font-size: 50px;
       font-weight: 700;
       text-transform: uppercase;
-      color: #rich-black;
+      color: $rich-black;
     }
 
     p{
-      margin: 18px auto 0;
+      margin: 17px auto 0;
       width: 500px;
       line-height: 1.5;
       font-size: 1.5rem;
+      color: $med-black;
     }
   }
 
@@ -44,7 +45,7 @@
         width: 90%;
         height: 90%;
         background: #fff;
-        padding: 25px;
+        padding: 28px;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -61,17 +62,15 @@
 
           .title-container{
           display: inline-block;
-
           }
 
           .placement {
             display: inline-block;
             margin-right: 17px;
-            font-size: 3rem;
+            font-size: 3.3rem;
             font-weight: 900;
             color: $main-yellow;
-            // vertical-align: middle;
-                        text-align: left;
+            text-align: left;
 
           }
 
@@ -82,8 +81,38 @@
             font-size: 1.2rem;
             font-weight: 600;
             color: $med-black;
+            line-height: 1.2;
           }
 
+        }
+
+        .project-desc{
+          display: table;
+          margin:auto;
+
+          // margin: 30px auto;
+          line-height: 1.5;
+          color: $med-gray;
+          // width: 90%;
+        }
+
+        .project-btns{
+          margin: 0 auto;
+          width: 100%;
+          display: flex;
+          justify-content: space-evenly;
+          font-size: 12px;
+          text-transform: uppercase;
+          font-weight: 700;
+          letter-spacing: 1px;
+          
+          .code,.site {
+            &:hover{
+              color: $dark-yellow;
+              padding-bottom: 5px;
+              border-bottom: 3px solid $main-yellow;
+            }
+          }
         }
       }
 

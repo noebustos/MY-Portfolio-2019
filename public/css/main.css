@@ -429,12 +429,13 @@ header {
       font-size: 50px;
       font-weight: 700;
       text-transform: uppercase;
-      color: #rich-black; }
+      color: #333333; }
     #projects-section .section-title p {
-      margin: 18px auto 0;
+      margin: 17px auto 0;
       width: 500px;
       line-height: 1.5;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      color: #555555; }
   #projects-section .projects-container {
     margin: 0 auto;
     display: grid;
@@ -451,7 +452,7 @@ header {
         width: 90%;
         height: 90%;
         background: #fff;
-        padding: 25px;
+        padding: 28px;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -467,7 +468,7 @@ header {
           #projects-section .projects-container .projects .project-info-box .project-title .placement {
             display: inline-block;
             margin-right: 17px;
-            font-size: 3rem;
+            font-size: 3.3rem;
             font-weight: 900;
             color: #FEB332;
             text-align: left; }
@@ -476,7 +477,30 @@ header {
             text-align: left;
             font-size: 1.2rem;
             font-weight: 600;
-            color: #555555; }
+            color: #555555;
+            line-height: 1.2; }
+        #projects-section .projects-container .projects .project-info-box .project-desc {
+          display: table;
+          margin: auto;
+          line-height: 1.5;
+          color: #707070; }
+        #projects-section .projects-container .projects .project-info-box .project-btns {
+          margin: 0 auto;
+          width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+          font-size: 12px;
+          text-transform: uppercase;
+          font-weight: 700;
+          letter-spacing: 1px; }
+          #projects-section .projects-container .projects .project-info-box .project-btns .code:hover, #projects-section .projects-container .projects .project-info-box .project-btns .site:hover {
+            color: #FFA100;
+            padding-bottom: 5px;
+            border-bottom: 3px solid #FEB332; }
       #projects-section .projects-container .projects.project1 {
         grid-column: 1/2;
         grid-row: 1/2;
