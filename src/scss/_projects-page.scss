@@ -31,6 +31,14 @@
 
     .projects{
 
+      &.active{
+        display: block;
+      }
+
+      &.in-active{
+        display: none;
+      }
+
       &.project1{
         grid-column: 1/2;
         grid-row: 1/2;
