@@ -442,13 +442,16 @@ header {
     grid-gap: 25px; }
     #projects-section .projects-container .projects {
       position: relative; }
-      #projects-section .projects-container .projects.active {
+      #projects-section .projects-container .projects:hover {
+        background: #FEB332 !important;
+        -webkit-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.05);
+        box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.05); }
+      #projects-section .projects-container .projects:hover .project-info-box {
         display: block; }
-      #projects-section .projects-container .projects.in-active {
-        display: none; }
       #projects-section .projects-container .projects .project-info-box {
+        display: none;
         width: 95%;
-        height: 95%;
+        height: 94%;
         background: #fff;
         padding: 30px;
         position: absolute;

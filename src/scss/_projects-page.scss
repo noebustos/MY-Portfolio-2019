@@ -32,18 +32,20 @@
 
     .projects{
       position: relative;
+    
+      &:hover{
+        background: $main-yellow !important;
+        box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.05);
+      }
 
-      &.active{
+      &:hover .project-info-box{
         display: block;
       }
 
-      &.in-active{
-        display: none;
-      }
-
       .project-info-box{
+        display: none;
         width: 95%;
-        height: 95%;
+        height: 94%;
         background: #fff;
         padding: 30px;
         position: absolute;
