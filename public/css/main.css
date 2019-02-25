@@ -438,7 +438,7 @@ header {
   #projects-section .projects-container {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr .86fr 1fr;
     grid-template-rows: 400px  400px;
     grid-gap: 25px; }
     #projects-section .projects-container .projects.project1 {
