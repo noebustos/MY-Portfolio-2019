@@ -107,8 +107,15 @@
           font-weight: 700;
           letter-spacing: 1px;
           
-          .code,.site {
-            padding: 0 15px;
+          .code-btn{
+            margin-right: 15px;      
+          }
+          .site-btn{
+            margin-left: 15px;      
+          }
+
+          .code-btn,.site-btn {
+            // margin: 0 15px;
             &:hover{
               color: $dark-yellow;
               padding-bottom: 5px;

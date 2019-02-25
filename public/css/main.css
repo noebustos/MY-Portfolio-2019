@@ -500,12 +500,14 @@ header {
           text-transform: uppercase;
           font-weight: 700;
           letter-spacing: 1px; }
-          #projects-section .projects-container .projects .project-info-box .project-btns .code, #projects-section .projects-container .projects .project-info-box .project-btns .site {
-            padding: 0 15px; }
-            #projects-section .projects-container .projects .project-info-box .project-btns .code:hover, #projects-section .projects-container .projects .project-info-box .project-btns .site:hover {
-              color: #FFA100;
-              padding-bottom: 5px;
-              border-bottom: 3px solid #FEB332; }
+          #projects-section .projects-container .projects .project-info-box .project-btns .code-btn {
+            margin-right: 15px; }
+          #projects-section .projects-container .projects .project-info-box .project-btns .site-btn {
+            margin-left: 15px; }
+          #projects-section .projects-container .projects .project-info-box .project-btns .code-btn:hover, #projects-section .projects-container .projects .project-info-box .project-btns .site-btn:hover {
+            color: #FFA100;
+            padding-bottom: 5px;
+            border-bottom: 3px solid #FEB332; }
       #projects-section .projects-container .projects.project1 {
         grid-column: 1/2;
         grid-row: 1/2;
