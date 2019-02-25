@@ -56,6 +56,7 @@
         &.info-box-xl{
           height: 97%;
           width: 94%;
+           padding: 50% 30px;
         }
 
         .project-title{
@@ -74,7 +75,6 @@
             font-weight: 900;
             color: $main-yellow;
             text-align: left;
-
           }
 
           h6 {
@@ -94,7 +94,7 @@
             margin: 35px auto;
             line-height: 1.5;
             color: $med-gray;
-            width: 90%;
+            // width: 90%;
           }
 
         .project-btns{
@@ -108,6 +108,7 @@
           letter-spacing: 1px;
           
           .code,.site {
+            padding: 0 15px;
             &:hover{
               color: $dark-yellow;
               padding-bottom: 5px;
@@ -133,6 +134,10 @@
         grid-column: 3/4;
         grid-row: 1/2;
         background: #5cdd78;
+
+        .placement{
+          vertical-align: middle;
+        }
       }
 
       &.project4{
@@ -145,6 +150,10 @@
         grid-column: 3/4;
         grid-row: 2/3;
         background: #e64fdc;
+
+              .placement{
+          vertical-align: middle;
+        }
       }
     }
   }

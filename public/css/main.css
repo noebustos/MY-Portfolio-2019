@@ -460,7 +460,8 @@ header {
         text-align: middle; }
         #projects-section .projects-container .projects .project-info-box.info-box-xl {
           height: 97%;
-          width: 94%; }
+          width: 94%;
+          padding: 50% 30px; }
         #projects-section .projects-container .projects .project-info-box .project-title {
           text-transform: capitalize;
           margin: 0 auto;
@@ -485,8 +486,7 @@ header {
           text-align: left;
           margin: 35px auto;
           line-height: 1.5;
-          color: #707070;
-          width: 90%; }
+          color: #707070; }
         #projects-section .projects-container .projects .project-info-box .project-btns {
           margin: 0 auto;
           width: 100%;
@@ -500,10 +500,12 @@ header {
           text-transform: uppercase;
           font-weight: 700;
           letter-spacing: 1px; }
-          #projects-section .projects-container .projects .project-info-box .project-btns .code:hover, #projects-section .projects-container .projects .project-info-box .project-btns .site:hover {
-            color: #FFA100;
-            padding-bottom: 5px;
-            border-bottom: 3px solid #FEB332; }
+          #projects-section .projects-container .projects .project-info-box .project-btns .code, #projects-section .projects-container .projects .project-info-box .project-btns .site {
+            padding: 0 15px; }
+            #projects-section .projects-container .projects .project-info-box .project-btns .code:hover, #projects-section .projects-container .projects .project-info-box .project-btns .site:hover {
+              color: #FFA100;
+              padding-bottom: 5px;
+              border-bottom: 3px solid #FEB332; }
       #projects-section .projects-container .projects.project1 {
         grid-column: 1/2;
         grid-row: 1/2;
@@ -516,6 +518,8 @@ header {
         grid-column: 3/4;
         grid-row: 1/2;
         background: #5cdd78; }
+        #projects-section .projects-container .projects.project3 .placement {
+          vertical-align: middle; }
       #projects-section .projects-container .projects.project4 {
         grid-column: 1/2;
         grid-row: 2/3;
@@ -524,6 +528,8 @@ header {
         grid-column: 3/4;
         grid-row: 2/3;
         background: #e64fdc; }
+        #projects-section .projects-container .projects.project5 .placement {
+          vertical-align: middle; }
 
 * {
   -webkit-box-sizing: border-box;
