@@ -1,7 +1,7 @@
 #projects-section{
   background: $lt-gray;
-  height: 100vh;
-  overflow: hidden;
+  // height: 100vh;
+  // overflow: hidden;
   padding: 150px 0;
   
   .section-title{
@@ -27,7 +27,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr .86fr 1fr;
-    grid-template-rows: 370px  370px;
+    grid-template-rows: 325px 325px;
     grid-gap: 25px;
 
     .projects{
@@ -42,8 +42,8 @@
       }
 
       .project-info-box{
-        width: 90%;
-        height: 90%;
+        width: 95%;
+        height: 95%;
         background: #fff;
         padding: 30px;
         position: absolute;
