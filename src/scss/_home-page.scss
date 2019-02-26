@@ -30,17 +30,15 @@
 
     .yellow-bg{
       right: 20px;
-      
-    background-image: url("../img/yellowbg-3.svg");
-    padding: 45px 75px;
-    margin-top: -12px;
-    width: 1000px;
-    position: relative;
-    z-index: 5;
-    filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
+      background-image: url("../img/yellowbg-3.svg");
+      padding: 45px 75px;
+      margin-top: -12px;
+      width: 1000px;
+      position: relative;
+      z-index: 5;
+      filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
 
       h1{
-
         font-size: 55px;
         font-weight: 700;
         color: #fff;
@@ -169,8 +167,6 @@
       }
     }
 
-
-
     .circle-bg-big2{
       position: absolute;
       top: 50%;
@@ -185,6 +181,7 @@
       top: -25px;
       opacity: .3;
     }
+    
     .path7{
       width: 100px;
       position: absolute;
