@@ -37,12 +37,13 @@
               // position: absolute;
               // top: 0;
               margin-left: -7px;
+              margin-bottom: 20px;
               // background: rgb(228,237,246);
               // background: linear-gradient(90deg, rgba(228,237,246,1) 0%, rgba(255,255,255,1) 100%);
               background: -webkit-linear-gradient(120deg, rgba(228,237,246,1) 50%, rgba(255,255,255,1) 100%);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;            
-                        }
+            }
 
             .title-container{
               position: absolute;
@@ -64,6 +65,14 @@
             }
           }
 
+          p.body-text{
+            width: 500px;
+            line-height: 1.5;
+          }
+
+          .other-info{
+            
+          }
         }
 
       }
