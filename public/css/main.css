@@ -550,6 +550,9 @@ header {
         #projects-section .projects-container .projects.project5 .placement {
           vertical-align: middle; }
 
+body {
+  background: green; }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
