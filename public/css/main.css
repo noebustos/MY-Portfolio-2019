@@ -312,7 +312,7 @@ header {
     width: 100vh; }
   #contact-section .section-title {
     text-align: center;
-    margin-bottom: 50px; }
+    margin-bottom: 70px; }
     #contact-section .section-title h2 {
       font-size: 50px;
       font-weight: 700;
@@ -550,8 +550,52 @@ header {
         #projects-section .projects-container .projects.project5 .placement {
           vertical-align: middle; }
 
-body {
-  background: green; }
+#about-section {
+  padding: 150px 0; }
+  #about-section .section-title {
+    text-align: center;
+    margin-bottom: 70px; }
+    #about-section .section-title h2 {
+      margin-top: -5px;
+      font-size: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #333333; }
+  #about-section .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+    #about-section .content .columns {
+      width: 50%;
+      overflow: auto;
+      position: relative; }
+      #about-section .content .columns.left-column .col-title {
+        text-transform: uppercase;
+        position: relative; }
+        #about-section .content .columns.left-column .col-title .bg-text {
+          font-size: 155px;
+          font-weight: 900;
+          color: #E4EDF6;
+          margin-left: -7px;
+          background: -webkit-linear-gradient(120deg, #e4edf6 50%, white 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent; }
+        #about-section .content .columns.left-column .col-title .title-container {
+          position: absolute;
+          bottom: 30px; }
+          #about-section .content .columns.left-column .col-title .title-container h5 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            margin-bottom: 5px; }
+          #about-section .content .columns.left-column .col-title .title-container h6 {
+            font-size: 1.4rem;
+            font-weight: 400; }
 
 * {
   -webkit-box-sizing: border-box;
