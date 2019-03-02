@@ -583,6 +583,7 @@ header {
           color: #E4EDF6;
           margin-left: -7px;
           margin-bottom: 20px;
+          margin: -22px 0 20px -7px;
           background: -webkit-linear-gradient(120deg, #e4edf6 45%, white 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent; }
@@ -616,11 +617,33 @@ header {
           #about-section .content .columns.left-column .other-info .interest-container ul.interests li.interest-title {
             font-weight: 600;
             margin: 0 0 9px; }
-      #about-section .content .columns.right-column img {
-        width: 90%;
-        opacity: .7;
-        position: relative;
-        z-index: 1; }
+      #about-section .content .columns.right-column {
+        vertical-align: middle; }
+        #about-section .content .columns.right-column img {
+          width: 85%;
+          opacity: .95;
+          position: relative;
+          z-index: 5;
+          float: right; }
+        #about-section .content .columns.right-column .name-accent-text {
+          font-size: 4rem;
+          font-weight: 800;
+          text-transform: uppercase;
+          color: #555555;
+          position: absolute;
+          z-index: 10; }
+        #about-section .content .columns.right-column .bg-circle {
+          width: 60%;
+          height: 75%;
+          border-radius: 50%;
+          background: #E4EDF6;
+          opacity: .5;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          z-index: 1; }
 
 * {
   -webkit-box-sizing: border-box;
