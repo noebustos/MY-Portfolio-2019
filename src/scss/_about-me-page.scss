@@ -40,7 +40,7 @@
               margin-bottom: 20px;
               // background: rgb(228,237,246);
               // background: linear-gradient(90deg, rgba(228,237,246,1) 0%, rgba(255,255,255,1) 100%);
-              background: -webkit-linear-gradient(120deg, rgba(228,237,246,1) 50%, rgba(255,255,255,1) 100%);
+              background: -webkit-linear-gradient(120deg, rgba(228,237,246,1) 45%, rgba(255,255,255,1) 100%);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;            
             }
@@ -50,16 +50,17 @@
               // top: 50%;
               // transform: translateY(-50%);
               bottom: 30px;
+              color: $med-black;
 
               h5{
                 font-size: 1.8rem;
                 font-weight: 700;
-                letter-spacing: 3px;
+                letter-spacing: 2px;
                 margin-bottom: 5px;
               }
 
               h6{
-                font-size: 1.4rem;
+                font-size: 1.3rem;
                 font-weight: 400;
               }
             }
@@ -68,10 +69,36 @@
           p.body-text{
             width: 500px;
             line-height: 1.5;
+            margin-bottom: 50px;
           }
 
           .other-info{
-            
+            h6{
+              font-size: 1.3rem;
+              font-weight: 600;
+              color: $med-black;
+              margin-bottom: 17px;
+            }
+
+            .interest-container{
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              color: $med-black;
+
+              ul.interests{
+                li{
+                  margin: 5px 0;
+
+                  &.interest-title{
+                    // font-size: 1.2rem;
+                    font-weight: 600;
+                    margin: 0 0 8px;
+                  }
+                }
+              }
+
+            }
+
           }
         }
 
