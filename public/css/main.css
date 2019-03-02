@@ -615,7 +615,12 @@ header {
           margin: 5px 0; }
           #about-section .content .columns.left-column .other-info .interest-container ul.interests li.interest-title {
             font-weight: 600;
-            margin: 0 0 8px; }
+            margin: 0 0 9px; }
+      #about-section .content .columns.right-column img {
+        width: 90%;
+        opacity: .7;
+        position: relative;
+        z-index: 1; }
 
 * {
   -webkit-box-sizing: border-box;

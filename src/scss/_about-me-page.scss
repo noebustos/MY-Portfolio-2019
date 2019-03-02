@@ -92,13 +92,22 @@
                   &.interest-title{
                     // font-size: 1.2rem;
                     font-weight: 600;
-                    margin: 0 0 8px;
+                    margin: 0 0 9px;
                   }
                 }
               }
 
             }
 
+          }
+        }
+
+        &.right-column{
+          img{
+            width: 90%;
+            opacity: .7;
+            position: relative;
+            z-index: 1;
           }
         }
 
