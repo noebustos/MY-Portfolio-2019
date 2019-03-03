@@ -106,29 +106,33 @@
         }
 
         &.right-column{
-        //  text-align: center;
+         text-align: center;
           vertical-align: middle;
 
           img{
             //  filter: grayscale(100%);
-            width: 85%;
-            opacity: .95;
+            width: 90%;
+            // opacity: .9;
             position: relative;
             z-index: 5;
-            float: right;
+            // float: right;
           }
 
           .name-accent-text{
-            font-size: 4rem;
+            font-size: 5.5rem;
             font-weight: 800;
             text-transform: uppercase;
-            color: $med-black;
+            // text-align: left;
+            // color: $med-black;
+            // color: $main-yellow ;
+            // color: $main-blue;
+            color: #fff;
+
             position: absolute;
             z-index: 10;
-
-            span{
-              
-            }
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
           }
 
           .bg-circle{
@@ -136,9 +140,9 @@
             height: 75%;
             border-radius: 50%;
             // background: $lt-gray;
-            background: #E4EDF6;
-            opacity: .5;
-            // background: $main-yellow;
+            // background: #E4EDF6;
+            // opacity: .5;
+            background: $main-yellow;
             // background: black;
             position: absolute;
             top: 50%;

@@ -618,26 +618,28 @@ header {
             font-weight: 600;
             margin: 0 0 9px; }
       #about-section .content .columns.right-column {
+        text-align: center;
         vertical-align: middle; }
         #about-section .content .columns.right-column img {
-          width: 85%;
-          opacity: .95;
+          width: 90%;
           position: relative;
-          z-index: 5;
-          float: right; }
+          z-index: 5; }
         #about-section .content .columns.right-column .name-accent-text {
-          font-size: 4rem;
+          font-size: 5.5rem;
           font-weight: 800;
           text-transform: uppercase;
-          color: #555555;
+          color: #fff;
           position: absolute;
-          z-index: 10; }
+          z-index: 10;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
         #about-section .content .columns.right-column .bg-circle {
           width: 60%;
           height: 75%;
           border-radius: 50%;
-          background: #E4EDF6;
-          opacity: .5;
+          background: #FEB332;
           position: absolute;
           top: 50%;
           left: 50%;
