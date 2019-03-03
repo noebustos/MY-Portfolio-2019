@@ -584,7 +584,7 @@ header {
           margin-left: -7px;
           margin-bottom: 20px;
           margin: -22px 0 20px -7px;
-          background: -webkit-linear-gradient(120deg, #e4edf6 45%, white 100%);
+          background: -webkit-linear-gradient(120deg, #e4edf6 40%, #f8fafc 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent; }
         #about-section .content .columns.left-column .col-title .title-container {
