@@ -29,6 +29,19 @@
 
     .skill{
       justify-self: center;
+      color: $med-gray;
+
+      .skill-title{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: $med-black;
+        margin-bottom: 17px;
+      }
+      ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-row-gap: 6px;
+      }
     }
   }
 }      
