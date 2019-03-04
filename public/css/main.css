@@ -667,6 +667,12 @@ header {
       font-size: 1rem;
       color: #555555;
       font-weight: 500; }
+  #skills-section .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto; }
+    #skills-section .skills-container .skill {
+      justify-self: center; }
 
 * {
   -webkit-box-sizing: border-box;
