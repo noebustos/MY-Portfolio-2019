@@ -648,9 +648,21 @@ header {
           transform: translate(-50%, -50%);
           z-index: 1; }
 
+img.slant-edge1 {
+  width: 100%;
+  height: 13%;
+  margin-bottom: -3px; }
+
+img.slant-edge2 {
+  width: 100%;
+  height: 13%;
+  margin-top: -4px;
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1); }
+
 #skills-section {
   background: #0057B2;
-  padding: 150px 0;
+  padding: 100px 0;
   position: relative;
   z-index: 1;
   color: #fff; }
@@ -709,8 +721,8 @@ header {
     background: #fff;
     opacity: .4;
     position: absolute;
-    bottom: 20%;
-    left: 10%;
+    bottom: -15%;
+    left: 7%;
     z-index: 5; }
   #skills-section .bg-circle-md2 {
     width: 100px;
@@ -719,8 +731,18 @@ header {
     background: #fff;
     opacity: .4;
     position: absolute;
-    top: 20%;
-    right: 10%;
+    top: -15%;
+    right: 7%;
+    z-index: 5; }
+  #skills-section .bg-circle-sm1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: .4;
+    position: absolute;
+    top: 30%;
+    left: 0;
     z-index: 5; }
   #skills-section .bg-circle-sm2 {
     width: 50px;
