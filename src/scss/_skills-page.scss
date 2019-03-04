@@ -1,47 +1,115 @@
 #skills-section{
-  background: $main-yellow;
+  // background: $main-yellow;
+  background: $main-blue;
   padding: 150px 0;
-  
+  position: relative;
+  z-index: 1;
+  color: #fff;
+
   .section-title{
     text-align: center;
     margin-bottom: 70px;
+    position: relative;
+    z-index: 10;
+
     h2{
       margin-top: -5px;
       font-size: 50px;
       font-weight: 700;
       text-transform: uppercase;
-      color: $rich-black;
+      // color: $rich-black;
     }
     p{
       margin: 17px auto 0;
       width: 600px;
       line-height: 1.5;
       font-size: 1rem;
-      color: $med-black;
+      // color: $med-black;
       font-weight: 500;
     }
   }
 
   .skills-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    margin: auto; 
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr; 
+    position: relative;
+    z-index: 10;
+    // justify-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 68%;
+    margin: 0 auto;
+
 
     .skill{
-      justify-self: center;
-      color: $med-gray;
+      // justify-self: center;
+      // color: $med-gray;
 
       .skill-title{
         font-size: 1.2rem;
         font-weight: 700;
-        color: $med-black;
+        letter-spacing: 1.5px;
+        // color: $med-black;
         margin-bottom: 17px;
       }
       ul{
         display: grid;
         grid-template-columns: 1fr 1fr; 
-        grid-row-gap: 6px;
+        grid-row-gap: 5px;
       }
     }
   }
+
+  .bg-circle-xl{
+    // width: 60%;
+    // height: 250%;
+    width: 800px;
+    height: 800px;
+
+    border-radius: 50%;
+    background: #fff;
+    opacity: .4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+  }
+  .bg-circle-md1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: .4;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    // transform: translate(-50%, -50%);
+    z-index: 5;
+  }
+  .bg-circle-md2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: .4;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    // transform: translate(-50%, -50%);
+    z-index: 5;
+  }
+  .bg-circle-sm2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: .4;
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    // transform: translate(-50%, -50%);
+    z-index: 5;
+  }
+
 }      
