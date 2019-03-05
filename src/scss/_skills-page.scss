@@ -1,24 +1,33 @@
- img.slant-edge1{
-    width:100%;
-    height: 13%;
-    margin-bottom: -3px;
-  }
- img.slant-edge2{
-    width:100%;
-    height: 13%;
-    margin-top: -4px;
-    transform: scale(-1, -1);
-  }
+
+
 #skills-section{
   // background: $main-yellow;
   background: $main-blue;
-  padding: 100px 0;
+  // padding: 50px 0;
   position: relative;
   z-index: 1;
   color: #fff;
 
- 
+  img.slant-edge1{
+    width:100%;
+    height: 13%;
+    // margin-bottom: -3px !important;
+    position: relative;
+    // bottom: 200px;
+    top: -123px !important;
+    // transform: translateY(3px);
+  }
 
+ img.slant-edge2{
+    width:100%;
+    height: 13%;
+    // margin-top: -4px !important;
+    transform: scale(-1, -1);
+    position: relative;
+    bottom: -122px !important;
+    
+  }
+  
   .section-title{
     text-align: center;
     margin-bottom: 70px;
