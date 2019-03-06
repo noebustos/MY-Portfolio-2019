@@ -3,10 +3,50 @@
 #skills-section{
   // background: $main-yellow;
   background: $main-blue;
-  padding: 150px 0;
+  padding: 80px 0;
   position: relative;
   z-index: 1;
   color: #fff;
+
+  //  clip-path: polygon(0 0, 1200px 0, 1200px 87%, 0 100%);
+  // margin: 0 auto;
+
+
+
+
+
+
+  &:before,
+  &:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden; // for Chrome Windows
+  }
+  &:before {
+    top: 0;
+    transform: skewY(4deg);
+    transform-origin: 100% 0;
+  }
+  
+  &:after {
+    // bottom: 0;
+    transform: skewY(4deg);
+    transform-origin: 100%;
+  }
+
+
+
+
+
+
+
+
 
   img.slant-edge1{
     width:100%;
