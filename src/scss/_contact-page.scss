@@ -63,13 +63,14 @@
             font-weight: 600;
             text-transform: capitalize;
             position: relative;
-            margin: 37px auto 0;
+            // margin: 37px auto 0;
             color: $med-black;
 
             h6{
               position: relative;
               z-index: 20;
               letter-spacing: 1px;
+              margin-bottom: 3px;
             }
 
             h5{
@@ -93,6 +94,7 @@
             
             p{
               color: $med-black;
+              line-height: 1.3;
             }
           }
 
