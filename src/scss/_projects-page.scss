@@ -1,24 +1,9 @@
 #projects-section{
   background: $lt-gray;
   padding: 180px 0 150px;
-  // position: relative;
-  // z-index: 10;
-  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+  margin-top: -68px;
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
 
-
-
-
-margin-top: -68px;
-
-
-
-    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
-
-
-
-
-
-  
   .section-title{
     text-align: center;
     margin-bottom: 70px;
@@ -103,7 +88,6 @@ margin-top: -68px;
             color: $med-black;
             line-height: 1.2;
           }
-
         }
 
           .project-desc{
