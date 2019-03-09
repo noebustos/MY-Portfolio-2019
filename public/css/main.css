@@ -320,6 +320,8 @@ header {
       color: #fff; }
       #contact-section .section-title h2 span {
         color: #fff; }
+    #contact-section .section-title img {
+      width: 120px; }
   #contact-section .columns-container {
     position: relative;
     z-index: 10;
@@ -433,6 +435,8 @@ header {
       font-weight: 700;
       text-transform: uppercase;
       color: #333333; }
+    #projects-section .section-title img {
+      width: 200px; }
     #projects-section .section-title p {
       margin: 17px auto 0;
       width: 500px;
@@ -685,7 +689,8 @@ header {
       margin-top: -5px;
       font-size: 50px;
       font-weight: 700;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #fff; }
     #skills-section .section-title p {
       margin: 17px auto 0;
       width: 600px;
