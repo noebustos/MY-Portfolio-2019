@@ -562,10 +562,13 @@ header {
     margin-bottom: 70px; }
     #about-section .section-title h2 {
       margin-top: -5px;
+      margin-bottom: 14px;
       font-size: 50px;
       font-weight: 700;
       text-transform: uppercase;
       color: #333333; }
+    #about-section .section-title img {
+      width: 100px; }
   #about-section .content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -853,6 +856,19 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   position: relative; }
+
+.section-title {
+  text-align: center;
+  margin-bottom: 70px; }
+  .section-title h2 {
+    margin-top: -5px;
+    margin-bottom: 14px;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333; }
+  .section-title img {
+    width: 100px; }
 
 a {
   text-decoration: none;
