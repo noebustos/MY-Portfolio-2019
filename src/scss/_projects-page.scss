@@ -110,29 +110,33 @@
           letter-spacing: 1px;
           
           .code-btn-container{
-            // display: inline-block;
+            margin-right: 15px;      
+
             .code-btn{
-              margin-right: 15px;      
               display: block;
-              margin-bottom: 5px;
+              margin: 0 auto 5px;
             }
+
             img{
-              width: 85px;
-              margin-left: -2px;
+              // width: 85px;
+              // margin-left: -2px;
+              display: none;
+              margin-left: -1px;
+            }
+
+            &:hover{
+              .code-btn{
+              color: $dark-yellow;
+              } 
+              
+              img{
+                display: block;
+              }
             }
           }
-
          
           .site-btn{
             margin-left: 15px;      
-          }
-
-          .code-btn,.site-btn {
-            &:hover{
-              color: $dark-yellow;
-              // padding-bottom: 5px;
-              // border-bottom: 3px solid $main-yellow;
-            }
           }
         }
       }
