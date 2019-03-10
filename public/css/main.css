@@ -514,6 +514,9 @@ header {
             margin-right: 15px;
             display: block;
             margin-bottom: 5px; }
+          #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container img {
+            width: 85px;
+            margin-left: -2px; }
           #projects-section .projects-container .projects .project-info-box .project-btns .site-btn {
             margin-left: 15px; }
           #projects-section .projects-container .projects .project-info-box .project-btns .code-btn:hover, #projects-section .projects-container .projects .project-info-box .project-btns .site-btn:hover {
