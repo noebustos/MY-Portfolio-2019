@@ -522,8 +522,20 @@ header {
               color: #FFA100; }
             #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container:hover img {
               display: block; }
-          #projects-section .projects-container .projects .project-info-box .project-btns .site-btn {
+          #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container {
             margin-left: 15px; }
+            #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container .site-btn {
+              display: block;
+              margin: 0 auto 5px; }
+            #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container img {
+              display: none;
+              position: relative; }
+            #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container:hover .site-btn {
+              color: #FFA100;
+              position: relative;
+              left: 2px; }
+            #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container:hover img {
+              display: block; }
       #projects-section .projects-container .projects.project1 {
         grid-column: 1/2;
         grid-row: 1/2;

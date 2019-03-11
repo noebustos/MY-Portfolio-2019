@@ -134,10 +134,40 @@
               }
             }
           }
-         
-          .site-btn{
+
+          .site-btn-container{
             margin-left: 15px;      
+
+            .site-btn{
+              display: block;
+              margin: 0 auto 5px;
+            }
+
+            img{
+              // width: 85px;
+              // margin-left: -2px;
+              display: none;
+              // margin-right: -1px;
+              position: relative;
+              // right: 1px;
+            }
+
+            &:hover{
+              .site-btn{
+              color: $dark-yellow;
+               position: relative;
+              left: 2px;
+              } 
+
+              img{
+                display: block;
+              }
+            }
           }
+         
+          // .site-btn{
+          //   margin-left: 15px;      
+          // }
         }
       }
 
