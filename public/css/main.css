@@ -521,14 +521,18 @@ header {
               display: block;
               margin-left: -1px;
               opacity: 0;
-              height: 0;
-              -webkit-transition: opacity .2s ease-in-out;
-              transition: opacity .2s ease-in-out; }
+              -webkit-transform: translateY(-5px);
+              transform: translateY(-5px);
+              -webkit-transition: opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+              transition: opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+              transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s;
+              transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
             #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container:hover .code-btn {
               color: #FFA100; }
             #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container:hover img {
               opacity: 1;
-              height: auto; }
+              -webkit-transform: translateY(0);
+              transform: translateY(0); }
           #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container {
             margin-left: 15px; }
             #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container .site-btn {
@@ -539,16 +543,21 @@ header {
             #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container img {
               display: block;
               opacity: 0;
-              height: 0;
-              -webkit-transition: opacity .2s ease-in-out;
-              transition: opacity .2s ease-in-out; }
+              -webkit-transform: translateY(-5px);
+              transform: translateY(-5px);
+              -webkit-transition: opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+              transition: opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+              transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s;
+              transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
             #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container:hover .site-btn {
               color: #FFA100;
-              position: relative;
-              left: 2px; }
+              position: relative; }
             #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container:hover img {
               opacity: 1;
-              height: auto; }
+              -webkit-transform: translateY(0);
+              transform: translateY(0);
+              position: relative;
+              right: 2px; }
       #projects-section .projects-container .projects.project1 {
         grid-column: 1/2;
         grid-row: 1/2;
