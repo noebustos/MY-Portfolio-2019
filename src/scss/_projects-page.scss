@@ -115,13 +115,17 @@
             .code-btn{
               display: block;
               margin: 0 auto 5px;
+              transition: all .2s ease-in-out;
             }
 
             img{
               // width: 85px;
               // margin-left: -2px;
-              display: none;
+              display: block;
               margin-left: -1px;
+                 opacity: 0; 
+              height : 0;
+              transition: opacity .2s ease-in-out;
             }
 
             &:hover{
@@ -130,29 +134,32 @@
               } 
               
               img{
-                display: block;
+                opacity: 1;
+                height: auto;
               }
             }
           }
 
           .site-btn-container{
             margin-left: 15px;      
+            // transition: all .5s ease-in-out;
 
             .site-btn{
               display: block;
               margin: 0 auto 5px;
+              transition: all .2s ease-in-out;
             }
 
             img{
-              // width: 85px;
-              // margin-left: -2px;
-              display: none;
-              // margin-right: -1px;
-              position: relative;
-              // right: 1px;
+
+              display: block;
+              opacity: 0; 
+              height : 0;
+              transition: opacity .2s ease-in-out;
             }
 
             &:hover{
+              // transition: all .5s ease-in-out;
               .site-btn{
               color: $dark-yellow;
                position: relative;
@@ -160,7 +167,8 @@
               } 
 
               img{
-                display: block;
+                opacity: 1;
+                height: auto;
               }
             }
           }
