@@ -39,18 +39,19 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
     .projects{
       position: relative;
+      // border-radius: 4px;
+      overflow: hidden;
+      // transition: background .4s cubic-bezier(1,.01,1,1);
+      // transition: background .4s cubic-bezier(1,.01,.99,.03);
+      transition: background .4s ease-in-out;
     
       &:hover{
         background: $main-yellow !important;
         box-shadow: 0px 0px 30px 8px rgba(0,0,0,0.05);
       }
 
-      &:hover .project-info-box{
-        display: block;
-      }
-
       .project-info-box{
-        display: none;
+        // display: none;
         width: 95%;
         height: 94%;
         background: #fff;
@@ -59,7 +60,8 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
         bottom: 0;
         left: 0;
         text-align: middle;
-
+        transform: translate(-100%, 100%);
+        transition: transform .5s cubic-bezier(0,.02,.33,1.35);
         &.info-box-xl{
           height: 97%;
           width: 94%;
@@ -191,13 +193,18 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
         }
       }
 
+      &:hover .project-info-box{
+        // display: block;
+        transform: translate(0%, 0%);
+
+      }
+
       &.project1{
         grid-column: 1/2;
         grid-row: 1/2;
         background: url("https://cdn.dribbble.com/users/443226/screenshots/5321244/music_ui_design_preview.jpg") center center;
         background-repeat: no-repeat;
         background-size: 155%;
-        border-radius: 5px 0 0 0;
       } 
 
       &.project2{
@@ -213,7 +220,6 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
         grid-column: 3/4;
         grid-row: 1/2;
         background: #5cdd78;
-        border-radius: 0 5px 0 0;
         background: url("https://cdn.dribbble.com/users/160219/screenshots/6084707/ro_2x.png")center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -240,7 +246,6 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
         background-repeat: no-repeat;
         background-size: cover;
         
-
         .placement{
           vertical-align: middle;
         }
