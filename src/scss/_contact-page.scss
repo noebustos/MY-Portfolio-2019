@@ -38,7 +38,7 @@
     //   z-index: 10;
     .columns{
       width: 50%;
-      overflow: hidden;
+      // overflow: hidden;
       position: relative;
 
       &.left-column{
@@ -62,20 +62,20 @@
           box-shadow: 10px 10px 20px 5px rgba(100,100,100,0.05);
 
           .title-questions{
-            font-size: 1.7rem;
             font-weight: 600;
             text-transform: capitalize;
             position: relative;
             color: $med-black;
 
             h6{
+              font-size: 1.7rem;
               position: relative;
               z-index: 20;
               letter-spacing: 1px;
               margin-bottom: 3px;
             }
 
-            h5{
+            h5.bg-question-mark{
               font-size: 16rem;
               font-weight: 800;
               color: $main-blue;
@@ -88,7 +88,7 @@
             }
           }
 
-          .container-subtitle{
+          .subtitle{
             max-width: 75%;
             margin: 17px auto 50px;
             font-size: 1.2rem;
@@ -100,7 +100,6 @@
           }
 
           .email-container{
-            font-size: 1rem;
             margin-bottom: 50px;
           }
           
@@ -135,8 +134,12 @@
 
         .bg-container{
           background: $main-blue;
-          width: 275px;
-          height: 598px;
+          // width: 275px;
+          width: 50%;
+          // height: 598px;
+          height: 100%;
+          box-sizing: content-box;
+          padding-bottom: 8.5%;
           color: $med-gray;
           position: absolute;
           z-index: 15;
