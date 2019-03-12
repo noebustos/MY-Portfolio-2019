@@ -35,21 +35,24 @@
     }
   }
 
-  .columns-container{
+  .content{
     position: relative;
     z-index: 10;
     width: 100%;
     text-align: center;
 
-    .columns-area{
-      display: inline-block;
-      width: 100%;
+    // .columns-area{
+    //   display: inline-block;
+    //   width: 100%;
+    //   position: relative;
+    //   z-index: 10;
+    .columns{
+      width: 50%;
+      overflow: auto;
       position: relative;
-      z-index: 10;
 
-      .right-column{
+      &.left-column{
         display: inline-block;
-        width: 50%;
         text-align: center;
         position: relative;
 
@@ -148,7 +151,7 @@
         }
       }
 
-      .left-column{
+      &.right-column{
         width: 50%;
         display: inline-block;
         float: right;
@@ -160,6 +163,7 @@
           width: 115%;
         }
       }
-    }
+    }  
+    // }
   }
 }
