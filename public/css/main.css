@@ -139,10 +139,10 @@ header {
         bottom: 27.1%;
         left: 6%;
         z-index: 11; }
-      #home-section .vertical-container .img-container .circle-bg-shadow {
+      #home-section .vertical-container .img-container .hero-bg-shadow {
         position: absolute;
         top: 50%;
-        right: 18%;
+        left: 18%;
         z-index: 9;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -170,59 +170,13 @@ header {
           filter: blur(3px);
           border-radius: 50%;
           position: relative;
-          left: 3px;
+          right: 3px;
           z-index: 1; }
       #home-section .vertical-container .img-container .circle-bg-big2 {
         position: absolute;
         top: 50%;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%); }
-      #home-section .vertical-container .img-container .path6 {
-        width: 200px;
-        position: absolute;
-        z-index: 9;
-        right: 15%;
-        top: -25px;
-        opacity: .3; }
-      #home-section .vertical-container .img-container .path7 {
-        width: 100px;
-        position: absolute;
-        z-index: 50;
-        left: 25%;
-        top: -10px;
-        opacity: .3; }
-      #home-section .vertical-container .img-container .path12 {
-        width: 60px;
-        position: absolute;
-        z-index: 50;
-        left: 35%;
-        bottom: 8%;
-        opacity: .3; }
-      #home-section .vertical-container .img-container .path13 {
-        width: 60px;
-        position: absolute;
-        z-index: 50;
-        right: 5%;
-        top: 50%;
-        opacity: .3; }
-      #home-section .vertical-container .img-container .path16 {
-        width: 135px;
-        position: absolute;
-        z-index: 4;
-        right: 25%;
-        bottom: -55px;
-        opacity: .3;
-        -webkit-transform: scaleY(-1);
-        transform: scaleY(-1); }
-      #home-section .vertical-container .img-container .path313 {
-        width: 250px;
-        position: absolute;
-        z-index: 4;
-        left: -70px;
-        bottom: 18%;
-        opacity: .3;
-        -webkit-transform: scaleX(-1) rotate(30deg);
-        transform: scaleX(-1) rotate(30deg); }
     #home-section .vertical-container .intro-area {
       width: 50%;
       display: inline-block; }

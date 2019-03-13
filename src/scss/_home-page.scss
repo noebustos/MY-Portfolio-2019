@@ -36,10 +36,10 @@
           z-index: 11;
         }
 
-        .circle-bg-shadow{
+        .hero-bg-shadow{
           position: absolute;
           top: 50%;
-          right: 18%;
+          left: 18%;
           z-index: 9;
           transform: translateY(-50%);
           width: 140px;
@@ -65,7 +65,8 @@
             filter: blur(3px);
             border-radius: 50%;
             position: relative;
-            left: 3px;
+            // left: 3px;
+            right: 3px;
             z-index: 1;
           }
         }
@@ -75,62 +76,6 @@
           top: 50%;
           transform: translateY(-50%);
         }
-
-        .path6{
-          width: 200px;
-          position: absolute;
-          z-index: 9;
-          right: 15%;
-          top: -25px;
-          opacity: .3;
-        }
-        
-        .path7{
-          width: 100px;
-          position: absolute;
-          z-index: 50;
-          left: 25%;
-          top: -10px;
-          opacity: .3;
-        }
-
-        .path12{
-          width: 60px;
-          position: absolute;
-          z-index: 50;
-          left: 35%;
-          bottom: 8%;
-          opacity: .3;
-        }
-        
-        .path13{
-          width: 60px;
-          position: absolute;
-          z-index: 50;
-          right: 5%;
-          top: 50%;
-          opacity: .3;
-        }
-
-        .path16{
-          width: 135px;
-          position: absolute;
-          z-index: 4;
-          right: 25%;
-          bottom: -55px;
-          opacity: .3;
-          transform: scaleY(-1);
-        }
-
-        .path313{
-          width: 250px;
-          position: absolute;
-          z-index: 4;
-          left: -70px;
-          bottom: 18%;
-          opacity: .3;
-          transform: scaleX(-1) rotate(30deg);
-        }   
     }
 
     .intro-area{
