@@ -54,7 +54,9 @@
           height: 1200px;
           border-radius: 50%;
           position: relative;
-          right: 50%;
+          // right: 50%;
+              right: 98%;
+              
           z-index: 2;
 
           .bg-circle-big{
@@ -90,14 +92,19 @@
         }
 
         .yellow-bg{
-          right: 20px;
-          background-image: url("../img/yellowbg-3.svg");
+          // right: 20px;
+          //a) left: 20px;
+          // background: url("../img/yellowbg4.svg");
+          background: $main-yellow;
           padding: 45px 75px;
           margin-top: -12px;
-          width: 1000px;
+          width: 850px;
+          height: 300px;
           position: relative;
+           right: 39%;
+          //  right: 600px;
           z-index: 5;
-          filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);          filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
 
           h1{
             font-size: 55px;
@@ -162,11 +169,12 @@
 
           .bg-cutout{
             width: 342px;
-            float: right;
+            // float: left;
             position: absolute;
             top: 50%;
-            left: 61.9%;
-            transform: translateY(-50%);
+            right: 61.9%;
+            transform: translateY(-50%) scaleX(-1);
+            //a)  transform: scaleX(-1);
           }
         }
     }

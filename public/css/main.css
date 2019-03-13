@@ -157,7 +157,7 @@ header {
         height: 1200px;
         border-radius: 50%;
         position: relative;
-        right: 50%;
+        right: 98%;
         z-index: 2; }
         #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
           -webkit-box-shadow: 0px 0px 50px 20px rgba(50, 50, 50, 0.1);
@@ -186,13 +186,16 @@ header {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
       #home-section .vertical-container .intro-area .yellow-bg {
-        right: 20px;
-        background-image: url("../img/yellowbg-3.svg");
+        background: #FEB332;
         padding: 45px 75px;
         margin-top: -12px;
-        width: 1000px;
+        width: 850px;
+        height: 300px;
         position: relative;
+        right: 39%;
         z-index: 5;
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
         -webkit-filter: drop-shadow(-20px 20px 10px rgba(50, 50, 50, 0.1));
         filter: drop-shadow(-20px 20px 10px rgba(50, 50, 50, 0.1)); }
         #home-section .vertical-container .intro-area .yellow-bg h1 {
@@ -241,12 +244,11 @@ header {
               padding: 10px 30px; }
         #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
           width: 342px;
-          float: right;
           position: absolute;
           top: 50%;
-          left: 61.9%;
-          -webkit-transform: translateY(-50%);
-          transform: translateY(-50%); }
+          right: 61.9%;
+          -webkit-transform: translateY(-50%) scaleX(-1);
+          transform: translateY(-50%) scaleX(-1); }
 
 #contact-section {
   background: #FEB332;
