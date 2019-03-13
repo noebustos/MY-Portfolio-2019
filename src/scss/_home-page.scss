@@ -11,222 +11,227 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-  }
 
-  .intro-area{
-    width: 50%;
-    display: inline-block;
+    .img-container{
+        width: 50%;
+        display: inline-block;
+        text-align: center;
 
-    h5{
-      margin-left: 50px;
-      font-size: 80px;
-      letter-spacing: -5px;
-      font-weight: 800;
-      background: rgb(255,255,255);
-      background: linear-gradient(0deg, rgba(255,255,255,0) 20%, rgba(255,255,255,.08) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .yellow-bg{
-      right: 20px;
-      background-image: url("../img/yellowbg-3.svg");
-      padding: 45px 75px;
-      margin-top: -12px;
-      width: 1000px;
-      position: relative;
-      z-index: 5;
-      filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
-
-      h1{
-        font-size: 55px;
-        font-weight: 700;
-        color: #fff;
-        text-transform: uppercase;
-        margin-top: -8px;
-
-        span{
-          font-weight: 300;
-          font-family: 'Lato', sans-serif;
+        img.hero-img{
+          width: 440px;
+          margin: 0 auto;
+          position: absolute;
+          top: 20.1%;
+          left: 6%;
+          z-index: 10;
         }
-      }
 
-      h3{
-        font-size: 28px;
-        color: #fff;
-        text-transform: capitalize;
-        margin-top: 10px;
-      }
+        img.shirt-gradient{
+          width: 440px;
+          margin: 0 auto;
+          position: absolute;
+          // bottom: 0;
+          bottom: 27.1%;
+          left: 6%;
+          z-index: 11;
+        }
 
-      p{
-        font-size: 1.1rem;
-        color: #fff;
-        font-weight: 500;
-        margin-top: 40px;
-      }
+        .circle-bg-shadow{
+          position: absolute;
+          top: 50%;
+          right: 18%;
+          z-index: 9;
+          transform: translateY(-50%);
+          width: 140px;
+          height: 140px;
+          border-radius: 50%;
+          box-shadow: 0 0 140px 140px rgba(0,0,0,.2);
+        }
 
-      .call-actions{
-        margin-top: 50px;
-        margin-bottom: 12px;
+        .bg-circle-container{
+          background: rgba(3, 77, 154,.95);
+          width: 1200px;
+          height: 1200px;
+          border-radius: 50%;
+          position: relative;
+          z-index: 2;
 
-        a{
-          margin-right: 20px;
-          text-transform: uppercase;
-          padding: 10px 30px;
-          font-size: 14px;
-          font-weight: 700;
-          letter-spacing: 1px;
-          border-radius: 5px;
-          transition: all .2s ease-in-out;
-          
-          &.resume-btn{
-            background: #fff;
-            color: $main-yellow;
-          }
-          
-          &.hire-btn{
-            padding: 7px 27px;
-            border: 3px solid #fff;
-            color: #fff;
-          }
-
-          &:hover{
-            background: $main-blue;
-            color: #fff;
-            border: none;
-            padding: 10px 30px;
+          .bg-circle-big{
+            box-shadow: 0px 0px 50px 20px rgba(50,50,50,.1);
+            background:linear-gradient(90deg, rgba(3,77,154,.9) 0%, rgba(3,77,154,.9) 100%), url("../img/code-syntax.jpg")center center;
+            background-size: 950px;
+            width: 1200px;
+            height: 1200px;
+            filter: blur(3px);
+            border-radius: 50%;
+            position: relative;
+            left: 3px;
+            z-index: 1;
           }
         }
-      }
 
-      .bg-cutout{
-        width: 342px;
-        float: right;
-        position: absolute;
-        top: 50%;
-        left: 61.9%;
-        transform: translateY(-50%);
-      }
+        .circle-bg-big2{
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        .path6{
+          width: 200px;
+          position: absolute;
+          z-index: 9;
+          right: 15%;
+          top: -25px;
+          opacity: .3;
+        }
+        
+        .path7{
+          width: 100px;
+          position: absolute;
+          z-index: 50;
+          left: 25%;
+          top: -10px;
+          opacity: .3;
+        }
+
+        .path12{
+          width: 60px;
+          position: absolute;
+          z-index: 50;
+          left: 35%;
+          bottom: 8%;
+          opacity: .3;
+        }
+        
+        .path13{
+          width: 60px;
+          position: absolute;
+          z-index: 50;
+          right: 5%;
+          top: 50%;
+          opacity: .3;
+        }
+
+        .path16{
+          width: 135px;
+          position: absolute;
+          z-index: 4;
+          right: 25%;
+          bottom: -55px;
+          opacity: .3;
+          transform: scaleY(-1);
+        }
+
+        .path313{
+          width: 250px;
+          position: absolute;
+          z-index: 4;
+          left: -70px;
+          bottom: 18%;
+          opacity: .3;
+          transform: scaleX(-1) rotate(30deg);
+        }   
+    }
+
+    .intro-area{
+        width: 50%;
+        display: inline-block;
+
+        h5{
+          margin-left: 50px;
+          font-size: 80px;
+          letter-spacing: -5px;
+          font-weight: 800;
+          background: rgb(255,255,255);
+          background: linear-gradient(0deg, rgba(255,255,255,0) 20%, rgba(255,255,255,.08) 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .yellow-bg{
+          right: 20px;
+          background-image: url("../img/yellowbg-3.svg");
+          padding: 45px 75px;
+          margin-top: -12px;
+          width: 1000px;
+          position: relative;
+          z-index: 5;
+          filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
+
+          h1{
+            font-size: 55px;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            margin-top: -8px;
+
+            span{
+              font-weight: 300;
+              font-family: 'Lato', sans-serif;
+            }
+          }
+
+          h3{
+            font-size: 28px;
+            color: #fff;
+            text-transform: capitalize;
+            margin-top: 10px;
+          }
+
+          p{
+            font-size: 1.1rem;
+            color: #fff;
+            font-weight: 500;
+            margin-top: 40px;
+          }
+
+          .call-actions{
+            margin-top: 50px;
+            margin-bottom: 12px;
+
+            a{
+              margin-right: 20px;
+              text-transform: uppercase;
+              padding: 10px 30px;
+              font-size: 14px;
+              font-weight: 700;
+              letter-spacing: 1px;
+              border-radius: 5px;
+              transition: all .2s ease-in-out;
+              
+              &.resume-btn{
+                background: #fff;
+                color: $main-yellow;
+              }
+              
+              &.hire-btn{
+                padding: 7px 27px;
+                border: 3px solid #fff;
+                color: #fff;
+              }
+
+              &:hover{
+                background: $main-blue;
+                color: #fff;
+                border: none;
+                padding: 10px 30px;
+              }
+            }
+          }
+
+          .bg-cutout{
+            width: 342px;
+            float: right;
+            position: absolute;
+            top: 50%;
+            left: 61.9%;
+            transform: translateY(-50%);
+          }
+        }
     }
   }
 
-  .img-container{
-    width: 50%;
-    display: inline-block;
-    text-align: center;
+ 
 
-    img.hero-img{
-      width: 440px;
-      margin: 0 auto;
-      position: absolute;
-      top: 20.1%;
-      right: 6%;
-      z-index: 10;
-    }
 
-    img.shirt-gradient{
-      width: 440px;
-      margin: 0 auto;
-      position: absolute;
-      bottom: 0;
-      right: 6%;
-      z-index: 11;
-    }
-
-    .circle-bg-shadow{
-      position: absolute;
-      top: 50%;
-      right: 18%;
-      z-index: 9;
-      transform: translateY(-50%);
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      box-shadow: 0 0 140px 140px rgba(0,0,0,.2);
-    }
-
-    .bg-circle-container{
-      background: rgba(3, 77, 154,.95);
-      width: 1200px;
-      height: 1200px;
-      border-radius: 50%;
-      position: relative;
-      z-index: 2;
-
-      .bg-circle-big{
-        box-shadow: 0px 0px 50px 20px rgba(50,50,50,.1);
-        background:linear-gradient(90deg, rgba(3,77,154,.9) 0%, rgba(3,77,154,.9) 100%), url("../img/code-syntax.jpg")center center;
-        background-size: 950px;
-        width: 1200px;
-        height: 1200px;
-        filter: blur(3px);
-        border-radius: 50%;
-        position: relative;
-        left: 3px;
-        z-index: 1;
-      }
-    }
-
-    .circle-bg-big2{
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-
-    .path6{
-      width: 200px;
-      position: absolute;
-      z-index: 9;
-      right: 15%;
-      top: -25px;
-      opacity: .3;
-    }
-    
-    .path7{
-      width: 100px;
-      position: absolute;
-      z-index: 50;
-      left: 25%;
-      top: -10px;
-      opacity: .3;
-    }
-
-    .path12{
-      width: 60px;
-      position: absolute;
-      z-index: 50;
-      left: 35%;
-      bottom: 8%;
-      opacity: .3;
-    }
-    
-    .path13{
-      width: 60px;
-      position: absolute;
-      z-index: 50;
-      right: 5%;
-      top: 50%;
-      opacity: .3;
-    }
-
-    .path16{
-      width: 135px;
-      position: absolute;
-      z-index: 4;
-      right: 25%;
-      bottom: -55px;
-      opacity: .3;
-      transform: scaleY(-1);
-    }
-
-    .path313{
-      width: 250px;
-      position: absolute;
-      z-index: 4;
-      left: -70px;
-      bottom: 18%;
-      opacity: .3;
-      transform: scaleX(-1) rotate(30deg);
-    }   
-  }
 }
