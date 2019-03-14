@@ -26,7 +26,6 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
 body{
   font-family: 'Montserrat', sans-serif;
-  // font-family: 'Lato', sans-serif;
 }
 
 .container{
@@ -50,29 +49,12 @@ body{
         font-weight: 700;
         text-transform: uppercase;
         color: $rich-black;
-
-        // &::after{
-        //   content: " ";
-        //   display: block;
-        //   width: 100px;
-
-        //   background: url(../img/wavy-underline-med.svg);
-        //   background-size: 200px;
-        // }
       }
 
       img{
-        // stroke: $main-yellow;
-        // color: $main-yellow;
         width: 100px;
-        // stroke-width: 8px;
       }
     }
-
-
-
-
-
 
 a{
   text-decoration: none;
@@ -82,15 +64,11 @@ a{
   footer{
 
     background: $lt-gray;
-    // font-size: 1.1rem;
-    // position: absolute;
-    // bottom: 0;
     padding: 36px 0;
     color: $med-black;
     font-weight: 500;
  
     .container{
-      // border-top: 5px solid #fff;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -101,6 +79,4 @@ a{
       font-size: 1.5rem;
       font-weight: 700;
     }
-
-
   }
