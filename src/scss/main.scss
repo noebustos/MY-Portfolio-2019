@@ -9,6 +9,7 @@ $rich-black: #333333;
 $med-black: #555555;
 $med-gray: #707070;
 $lt-gray: #F8F9FB;
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:300,400,500,600,700,800,900');
 @import "reset";
