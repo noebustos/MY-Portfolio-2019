@@ -1,155 +1,125 @@
 #about-section{
   padding: 150px 0;
-  // position: relative;
-  // z-index: 20;
 
-    .section-title{
-      img{
-        // stroke: $main-yellow;
-        // color: $main-yellow;
-        width: 100px;
-        // stroke-width: 8px;
-      }
+  .section-title{
+    img{
+      width: 100px;
     }
+  }
 
-    .content{
-      display: flex;
-      justify-content: center;
-      align-content: center;
+  .content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
-      .columns{
-        width: 50%;
-        overflow: auto;
-        position: relative;
+    .columns{
+      width: 50%;
+      overflow: auto;
+      position: relative;
 
-        &.left-column{
-          .col-title{
-            text-transform: uppercase;
-            position: relative;
+      &.left-column{
+        .col-title{
+          text-transform: uppercase;
+          position: relative;
 
-            .bg-text{
-              font-size: 155px;
-              font-weight: 900;
-              color: #E4EDF6;
-              // opacity: .3;
-              // position: absolute;
-              // top: 0;
-              margin-left: -7px;
-              margin-bottom: 20px;
-              margin: -22px 0 20px -7px;
-              // background: rgb(228,237,246);
-              // background: linear-gradient(90deg, rgba(228,237,246,1) 0%, rgba(255,255,255,1) 100%);
-              background: -webkit-linear-gradient(120deg, rgba(228,237,246,1) 40%, rgba(248,250,252,1) 100%);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;       
-
-              // linear-gradient(90deg, rgba(228,237,246,1) 0%, rgba(248,250,252,1) 100%);     
-            }
-
-            .title-container{
-              position: absolute;
-              // top: 50%;
-              // transform: translateY(-50%);
-              bottom: 30px;
-              color: $med-black;
-
-              h5{
-                font-size: 1.8rem;
-                font-weight: 700;
-                letter-spacing: 2px;
-                margin-bottom: 5px;
-              }
-
-              h6{
-                font-size: 1.3rem;
-                font-weight: 400;
-              }
-            }
+          .bg-text{
+            font-size: 155px;
+            font-weight: 900;
+            color: #E4EDF6;
+            margin-left: -7px;
+            margin-bottom: 20px;
+            margin: -22px 0 20px -7px;
+            background: -webkit-linear-gradient(120deg, rgba(228,237,246,1) 40%, rgba(248,250,252,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;       
           }
 
-          p.body-text{
-            width: 500px;
-            line-height: 1.5;
-            margin-bottom: 50px;
-          }
+          .title-container{
+            position: absolute;
+            bottom: 30px;
+            color: $med-black;
 
-          .other-info{
+            h5{
+              font-size: 1.8rem;
+              font-weight: 700;
+              letter-spacing: 2px;
+              margin-bottom: 5px;
+            }
+
             h6{
               font-size: 1.3rem;
-              font-weight: 600;
-              color: $med-black;
-              margin-bottom: 17px;
+              font-weight: 400;
             }
+          }
+        }
 
-            .interest-container{
-              display: grid;
-              grid-template-columns: 1fr 1fr 1fr;
-              color: $med-black;
+        p.body-text{
+          width: 500px;
+          line-height: 1.5;
+          margin-bottom: 50px;
+        }
 
-              ul.interests{
-                li{
-                  margin: 5px 0;
+        .other-info{
+          h6{
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: $med-black;
+            margin-bottom: 17px;
+          }
 
-                  &.interest-title{
-                    // font-size: 1.2rem;
-                    font-weight: 600;
-                    margin: 0 0 9px;
-                  }
+          .interest-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            color: $med-black;
+
+            ul.interests{
+              li{
+                margin: 5px 0;
+
+                &.interest-title{
+                  font-weight: 600;
+                  margin: 0 0 9px;
                 }
               }
-
             }
-
           }
         }
+      }
 
-        &.right-column{
-         text-align: center;
-          vertical-align: middle;
+      &.right-column{
+        text-align: center;
+        vertical-align: middle;
 
-          img{
-            //  filter: grayscale(100%);
-            width: 77%;
-            // opacity: .9;
-            position: relative;
-            z-index: 5;
-            // float: right;
-          }
-
-          .name-accent-text{
-            font-size: 5.5rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            // text-align: left;
-            // color: $med-black;
-            // color: $main-yellow ;
-            // color: $main-blue;
-            color: #fff;
-
-            position: absolute;
-            z-index: 10;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-          }
-
-          .bg-circle{
-            width: 60%;
-            height: 75%;
-            border-radius: 50%;
-            // background: $lt-gray;
-            // background: #E4EDF6;
-            // opacity: .5;
-            background: $main-yellow;
-            // background: black;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 1;
-          }
+        img{
+          width: 77%;
+          position: relative;
+          z-index: 5;
         }
 
+        .name-accent-text{
+          font-size: 5.5rem;
+          font-weight: 800;
+          text-transform: uppercase;
+          color: #fff;
+          position: absolute;
+          z-index: 10;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        .bg-circle{
+          width: 60%;
+          height: 75%;
+          border-radius: 50%;
+          background: $main-yellow;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 1;
+        }
       }
     }
+  }
 }
