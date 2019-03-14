@@ -18,10 +18,7 @@
     }
 
     img{
-      // stroke: $main-yellow;
-      // color: $main-yellow;
       width: 120px;
-      // stroke-width: 8px;
     }
   }
 
@@ -31,14 +28,8 @@
     width: 100%;
     text-align: center;
 
-    // .columns-area{
-    //   display: inline-block;
-    //   width: 100%;
-    //   position: relative;
-    //   z-index: 10;
     .columns{
       width: 50%;
-      // overflow: hidden;
       position: relative;
 
       &.left-column{
@@ -134,9 +125,7 @@
 
         .bg-container{
           background: $main-blue;
-          // width: 275px;
           width: 50%;
-          // height: 598px;
           height: 100%;
           box-sizing: content-box;
           padding-bottom: 8.5%;
@@ -160,6 +149,5 @@
         }
       }
     }  
-    // }
   }
 }
