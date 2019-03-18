@@ -43,6 +43,33 @@ header{
       font-weight: 700;
       margin-right: 50px;
       transition: all .2s ease-in-out;
+      display: inline-block;
+
+      img{
+        display: block;
+        margin-top: 5px;
+        opacity: 0; 
+        transform: translateY(- 5px);
+	      transition: transform .2s $easeOutBack, opacity .15s;
+
+        &.home-underline{
+          width: 60%;
+        }
+
+        &.about-underline{
+          width: 70%;
+          margin-left: -2px;
+        }
+        &.skills-underline{
+          width: 65%;
+        }
+        &.projects-underline{
+          width: 98%;
+        }
+        &.contact-underline{
+          width: 90%;
+        }
+      }
 
       &:nth-child(5){
         margin-right: -.5px;
@@ -51,15 +78,23 @@ header{
       &:hover{
         font-weight: 800;
         color: $main-yellow;
-        padding-bottom: 5px;
-        border-bottom: 2px solid $main-yellow;
+
+               img{
+                opacity: 1;
+			          transform: translateY(0);
+              }
       }
       
       &.active{
         color: #aaa;
         padding-bottom: 0;
-        border-bottom: none;
         cursor: default;
+
+        &:hover{
+          img{
+            opacity: 0;
+          }
+        }
       }
     }
   }
