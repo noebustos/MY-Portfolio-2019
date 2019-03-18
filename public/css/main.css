@@ -189,8 +189,8 @@ header {
         background: #FEB332;
         padding: 45px 75px;
         margin-top: -12px;
-        width: 850px;
-        height: 300px;
+        width: 835px;
+        height: 310px;
         position: relative;
         right: 39%;
         z-index: 5;
@@ -198,55 +198,57 @@ header {
         clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
         -webkit-filter: drop-shadow(-20px 20px 10px rgba(50, 50, 50, 0.1));
         filter: drop-shadow(-20px 20px 10px rgba(50, 50, 50, 0.1)); }
-        #home-section .vertical-container .intro-area .yellow-bg h1 {
-          font-size: 55px;
-          font-weight: 700;
-          color: #fff;
-          text-transform: uppercase;
-          margin-top: -8px; }
-          #home-section .vertical-container .intro-area .yellow-bg h1 span {
-            font-weight: 300;
-            font-family: 'Lato', sans-serif; }
-        #home-section .vertical-container .intro-area .yellow-bg h3 {
-          font-size: 28px;
-          color: #fff;
-          text-transform: capitalize;
-          margin-top: 10px; }
-        #home-section .vertical-container .intro-area .yellow-bg p {
-          font-size: 1.1rem;
-          color: #fff;
-          font-weight: 500;
-          margin-top: 40px; }
-        #home-section .vertical-container .intro-area .yellow-bg .call-actions {
-          margin-top: 50px;
-          margin-bottom: 12px; }
-          #home-section .vertical-container .intro-area .yellow-bg .call-actions a {
-            margin-right: 20px;
-            text-transform: uppercase;
-            padding: 10px 30px;
-            font-size: 14px;
+        #home-section .vertical-container .intro-area .yellow-bg .container {
+          margin-left: 220px; }
+          #home-section .vertical-container .intro-area .yellow-bg .container h1 {
+            font-size: 55px;
             font-weight: 700;
-            letter-spacing: 1px;
-            border-radius: 5px;
-            -webkit-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out; }
-            #home-section .vertical-container .intro-area .yellow-bg .call-actions a.resume-btn {
-              background: #fff;
-              color: #FEB332; }
-            #home-section .vertical-container .intro-area .yellow-bg .call-actions a.hire-btn {
-              padding: 7px 27px;
-              border: 3px solid #fff;
-              color: #fff; }
-            #home-section .vertical-container .intro-area .yellow-bg .call-actions a:hover {
-              background: #0057B2;
-              color: #fff;
-              border: none;
-              padding: 10px 30px; }
+            color: #fff;
+            text-transform: uppercase;
+            margin-top: -8px; }
+            #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
+              font-weight: 300;
+              font-family: 'Lato', sans-serif; }
+          #home-section .vertical-container .intro-area .yellow-bg .container h3 {
+            font-size: 28px;
+            color: #fff;
+            text-transform: capitalize;
+            margin-top: 10px; }
+          #home-section .vertical-container .intro-area .yellow-bg .container p {
+            font-size: 1.1rem;
+            color: #fff;
+            font-weight: 500;
+            margin-top: 40px; }
+          #home-section .vertical-container .intro-area .yellow-bg .container .call-actions {
+            margin-top: 50px;
+            margin-bottom: 12px; }
+            #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a {
+              margin-right: 20px;
+              text-transform: uppercase;
+              padding: 10px 30px;
+              font-size: 14px;
+              font-weight: 700;
+              letter-spacing: 1px;
+              border-radius: 5px;
+              -webkit-transition: all .2s ease-in-out;
+              transition: all .2s ease-in-out; }
+              #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.resume-btn {
+                background: #fff;
+                color: #FEB332; }
+              #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn {
+                padding: 7px 27px;
+                border: 3px solid #fff;
+                color: #fff; }
+              #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a:hover {
+                background: #0057B2;
+                color: #fff;
+                border: none;
+                padding: 10px 30px; }
         #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
           width: 342px;
           position: absolute;
           top: 50%;
-          right: 61.9%;
+          right: 69.9%;
           -webkit-transform: translateY(-50%) scaleX(-1);
           transform: translateY(-50%) scaleX(-1); }
 

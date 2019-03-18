@@ -98,81 +98,83 @@
           background: $main-yellow;
           padding: 45px 75px;
           margin-top: -12px;
-          width: 850px;
-          height: 300px;
+          width: 835px;          
+          height: 310px;
           position: relative;
            right: 39%;
           //  right: 600px;
           z-index: 5;
-    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);          filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
+          clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);          filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
 
-          h1{
-            font-size: 55px;
-            font-weight: 700;
-            color: #fff;
-            text-transform: uppercase;
-            margin-top: -8px;
+          .container{
+            margin-left: 220px;
 
-            span{
-              font-weight: 300;
-              font-family: 'Lato', sans-serif;
-            }
-          }
-
-          h3{
-            font-size: 28px;
-            color: #fff;
-            text-transform: capitalize;
-            margin-top: 10px;
-          }
-
-          p{
-            font-size: 1.1rem;
-            color: #fff;
-            font-weight: 500;
-            margin-top: 40px;
-          }
-
-          .call-actions{
-            margin-top: 50px;
-            margin-bottom: 12px;
-
-            a{
-              margin-right: 20px;
-              text-transform: uppercase;
-              padding: 10px 30px;
-              font-size: 14px;
+            h1{
+              font-size: 55px;
               font-weight: 700;
-              letter-spacing: 1px;
-              border-radius: 5px;
-              transition: all .2s ease-in-out;
-              
-              &.resume-btn{
-                background: #fff;
-                color: $main-yellow;
-              }
-              
-              &.hire-btn{
-                padding: 7px 27px;
-                border: 3px solid #fff;
-                color: #fff;
-              }
+              color: #fff;
+              text-transform: uppercase;
+              margin-top: -8px;
 
-              &:hover{
-                background: $main-blue;
-                color: #fff;
-                border: none;
+              span{
+                font-weight: 300;
+                font-family: 'Lato', sans-serif;
+              }
+            }
+
+            h3{
+              font-size: 28px;
+              color: #fff;
+              text-transform: capitalize;
+              margin-top: 10px;
+            }
+
+            p{
+              font-size: 1.1rem;
+              color: #fff;
+              font-weight: 500;
+              margin-top: 40px;            }
+
+            .call-actions{
+              margin-top: 50px;
+              margin-bottom: 12px;
+
+              a{
+                margin-right: 20px;
+                text-transform: uppercase;
                 padding: 10px 30px;
+                font-size: 14px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                border-radius: 5px;
+                transition: all .2s ease-in-out;
+                
+                &.resume-btn{
+                  background: #fff;
+                  color: $main-yellow;
+                }
+                
+                &.hire-btn{
+                  padding: 7px 27px;
+                  border: 3px solid #fff;
+                  color: #fff;
+                }
+
+                &:hover{
+                  background: $main-blue;
+                  color: #fff;
+                  border: none;
+                  padding: 10px 30px;
+                }
               }
             }
           }
-
           .bg-cutout{
             width: 342px;
             // float: left;
             position: absolute;
             top: 50%;
-            right: 61.9%;
+            right: 69.9%;
             transform: translateY(-50%) scaleX(-1);
             //a)  transform: scaleX(-1);
           }
