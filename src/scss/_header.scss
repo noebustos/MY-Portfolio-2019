@@ -15,18 +15,6 @@ header{
     font-weight: 700;
     font-size: 1.1rem;
 
-    .bg-circle{
-      width: 150px;
-      height: 150px;
-      display: inline-block;
-      background: $dark-blue;
-      border-radius: 50%;
-      position: absolute;
-      z-index: 19;
-      top: -50px;
-      left: -50px;
-    }
-
     a{
       color: #fff;position: relative;
       z-index: 21
@@ -79,10 +67,10 @@ header{
         font-weight: 800;
         color: $main-yellow;
 
-               img{
-                opacity: 1;
-			          transform: translateY(0);
-              }
+        img{
+          opacity: 1;
+          transform: translateY(0);
+        }
       }
       
       &.active{

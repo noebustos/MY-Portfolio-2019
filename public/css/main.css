@@ -61,16 +61,6 @@ header {
     display: inline-block;
     font-weight: 700;
     font-size: 1.1rem; }
-    header .logo .bg-circle {
-      width: 150px;
-      height: 150px;
-      display: inline-block;
-      background: #034D9A;
-      border-radius: 50%;
-      position: absolute;
-      z-index: 19;
-      top: -50px;
-      left: -50px; }
     header .logo a {
       color: #fff;
       position: relative;
