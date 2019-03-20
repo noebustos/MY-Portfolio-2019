@@ -86,17 +86,8 @@ header {
         transition: opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s;
         transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-        header nav a img.home-underline {
-          width: 60%; }
-        header nav a img.about-underline {
-          width: 70%;
-          margin-left: -2px; }
         header nav a img.skills-underline {
-          width: 65%; }
-        header nav a img.projects-underline {
-          width: 98%; }
-        header nav a img.contact-underline {
-          width: 90%; }
+          width: 100%; }
       header nav a:nth-child(5) {
         margin-right: -.5px; }
       header nav a:hover {
