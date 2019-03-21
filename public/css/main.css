@@ -47,7 +47,6 @@ table {
   border-spacing: 0; }
 
 header {
-  max-width: 1200px;
   margin: 0 auto;
   position: fixed;
   left: 0;
@@ -57,9 +56,18 @@ header {
   text-transform: uppercase;
   font-size: 14px;
   color: #fff; }
+  header.no-scroll {
+    background: rgba(0, 0, 0, 0); }
+    header.no-scroll .logo a {
+      color: #fff; }
+    header.no-scroll a {
+      color: #fff; }
   header.scroll {
-    background: green !important;
-    color: #555555 !important; }
+    background: #fff; }
+    header.scroll .logo a {
+      color: #555555; }
+    header.scroll a {
+      color: #555555; }
   header .logo {
     display: inline-block;
     font-weight: 700;
@@ -641,7 +649,7 @@ header {
   background: #0057B2;
   padding: 190px 0;
   position: relative;
-  z-index: 20;
+  z-index: 10;
   color: #fff;
   width: 100%;
   -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);

@@ -1,5 +1,4 @@
 header{
-  max-width: 1200px;
   margin: 0 auto;
   position: fixed;
   left: 0;
@@ -10,9 +9,34 @@ header{
   font-size: 14px;
   color: #fff;
 
+  &.no-scroll{
+    background: rgba(0,0,0,0);
+    // color: $med-black !important;
+    
+    .logo{
+      a{
+        color: #fff;
+      }
+    }
+
+    a{
+      color: #fff;
+    }
+  }
+
   &.scroll{
-    background: green !important;
-    color: $med-black !important;
+    background: #fff;
+    // color: $med-black !important;
+    
+    .logo{
+      a{
+        color: $med-black;
+      }
+    }
+
+    a{
+      color: $med-black;
+    }
   }
 
   .logo{
