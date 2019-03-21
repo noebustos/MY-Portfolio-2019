@@ -57,6 +57,9 @@ header {
   text-transform: uppercase;
   font-size: 14px;
   color: #fff; }
+  header.scroll {
+    background: green !important;
+    color: #555555 !important; }
   header .logo {
     display: inline-block;
     font-weight: 700;

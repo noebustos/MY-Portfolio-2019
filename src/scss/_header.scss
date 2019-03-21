@@ -10,6 +10,11 @@ header{
   font-size: 14px;
   color: #fff;
 
+  &.scroll{
+    background: green !important;
+    color: $med-black !important;
+  }
+
   .logo{
     display: inline-block;
     font-weight: 700;
