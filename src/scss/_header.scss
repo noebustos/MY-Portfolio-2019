@@ -11,7 +11,6 @@ header{
 
   &.no-scroll{
     background: rgba(0,0,0,0);
-    // color: $med-black !important;
     
     .logo{
       a{
@@ -26,7 +25,6 @@ header{
 
   &.scroll{
     background: #fff;
-    // color: $med-black !important;
     
     .logo{
       a{
@@ -69,23 +67,9 @@ header{
         transform: translateY(- 5px);
 	      transition: transform .2s $easeOutBack, opacity .15s;
 
-        // &.home-underline{
-        //   width: 60%;
-        // }
-
-        // &.about-underline{
-        //   width: 70%;
-        //   margin-left: -2px;
-        // }
         &.skills-underline{
           width: 100%;
         }
-        // &.projects-underline{
-        //   width: 98%;
-        // }
-        // &.contact-underline{
-        //   width: 90%;
-        // }
       }
 
       &:nth-child(5){
