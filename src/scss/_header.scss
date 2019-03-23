@@ -9,20 +9,6 @@ header{
   font-size: 14px;
   color: #fff;
 
-  &.no-scroll{
-    background: rgba(0,0,0,0);
-    
-    .logo{
-      a{
-        color: #fff;
-      }
-    }
-
-    a{
-      color: #fff;
-    }
-  }
-
   &.scroll{
     background: #fff;
     
