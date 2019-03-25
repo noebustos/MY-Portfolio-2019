@@ -86,3 +86,13 @@ header{
     }
   }
 }
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px){ 
+
+  header{
+    width: 100% !important;
+    padding: 20px;
+  }
+}

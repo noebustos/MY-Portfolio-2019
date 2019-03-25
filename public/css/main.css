@@ -109,6 +109,12 @@ header {
         header nav a.active:hover img {
           opacity: 0; }
 
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  header {
+    width: 100% !important;
+    padding: 20px; } }
+
 #home-section {
   background: #0057B2;
   height: 100vh;
@@ -998,6 +1004,4 @@ footer {
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px) {
   footer {
-    display: none; }
-  header {
     display: none; } }
