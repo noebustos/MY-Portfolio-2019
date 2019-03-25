@@ -151,3 +151,11 @@
     }  
   }
 }
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px){ 
+  #contact-section{
+    display: none;
+  }
+}

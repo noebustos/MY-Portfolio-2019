@@ -104,7 +104,8 @@
            right: 39%;
           //  right: 600px;
           z-index: 5;
-          clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);          filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
+          clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);          
+          filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
 
           .container{
             margin-left: 220px;
@@ -133,7 +134,8 @@
               font-size: 1.1rem;
               color: #fff;
               font-weight: 500;
-              margin-top: 40px;            }
+              margin-top: 40px;            
+            }
 
             .call-actions{
               margin-top: 50px;
@@ -169,6 +171,7 @@
               }
             }
           }
+          
           .bg-cutout{
             width: 342px;
             // float: left;
@@ -181,8 +184,177 @@
         }
     }
   }
-
- 
-
-
 }
+
+
+//im choosing this breakpoints
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px){ 
+  // body{
+  //   background: green;
+  // }  
+  #home-section{
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+
+    .container{
+      width: 100% !important;
+    }
+
+    .vertical-container{
+      width: 100% !important;
+      display: grid !important;
+      grid-template-columns: 1fr !important;
+      grid-template-rows: 1fr 1fr !important;
+    }
+
+    .img-container{
+      width: 100% !important;
+      display: block !important;
+      grid-row: 2 / 3 !important;
+      justify-self: center !important;
+      align-self: center !important;
+      text-align: center;
+
+      .hero-img{
+        // display: none;
+        // // text-align: center !important;
+      //  margin: 45% auto 0 !important;
+       margin: 0 auto 0 !important;
+      //  position: static;
+       position: relative;
+      //  top: initial;
+      //  left: initial;
+       left: 50% !important;
+       top: 50% !important;
+      //  top: 20.1%;
+      //  left: 6%;
+      //  z-index: 10;
+        width: 60% !important;
+        // top: 50% !important;
+        // left: 50% !important;
+        transform: translateX(-50%)!important;
+      }
+
+      img.shirt-gradient{
+        display: none !important;
+        position: relative !important;
+        width: 58.5% !important;
+        // top: 126px;
+        // top: 59% !important;
+        // left: 50% !important;
+        left: 3px !important;
+        // transform: translateX(-50%)!important;
+      }
+
+      .hero-bg-shadow{
+        // display: none;
+        // top: 50%;
+        // left: 50% !important;
+        // z-index: 9;
+        position: relative !important;
+        top: -70px !important;
+        left: 50% !important;
+        width: 50px !important;
+        height: 50px !important;
+        box-shadow: 0 0 100px 100px rgba(0,0,0,.2) !important;
+        transform: translateX(-50%)!important;
+      }
+
+      .bg-circle-container{
+        display: none;
+      }
+    }
+
+    .intro-area{
+      width: 100% !important;
+      display: block !important;
+      grid-row: 1 / 2 !important;
+      justify-self: center !important;
+      align-self: center !important;
+      text-align: center;
+      margin-top: 5%;
+
+      h5{
+        // margin-left: 25px !important;
+        margin-left: 0 !important;
+        font-size: 	4rem !important;
+      }
+
+      .yellow-bg{
+        padding: 7% !important;
+        width: 100% !important;            
+        height: auto !important;  
+        position: static !important;  
+        clip-path: none !important;          
+        filter: none !important;  
+        box-shadow: 0 0 5px 5px rgba(0,0,0,.1);
+
+        .container{
+          margin-left: 0 !important;
+          width: 100% !important;
+
+          h1{
+            font-size: 2rem !important;
+          }
+
+          h3{
+            font-size: 1.3rem !important;
+            color: #fff;
+            margin-top: 7px !important;
+          }
+          p{
+            font-size: 1rem !important;
+            color: #fff;
+            font-weight: 500;
+            margin-top: 30px !important;            
+          }
+
+          .call-actions{
+            margin-top: 45px !important;
+            // margin-bottom: 12px;
+
+            a{
+              // margin-right: 20px;
+              padding: 10px 25px !important;
+              font-size: 12px !important;
+              // font-weight: 800 !important;
+              
+              &.resume-btn{
+                background: #fff;
+                color: $main-yellow;
+              }
+              
+              &.hire-btn{
+                padding: 8px 25px !important;
+              }
+
+              &:hover{
+                background: $main-blue;
+                color: #fff;
+                border: none;
+                padding: 10px 25px !important;
+              }
+            }
+          }
+        }
+        .bg-cutout{
+          display: none;
+        }
+      }  
+    }
+  }
+}
+
+
+ /* Tablet (portrait and landscape) */
+// @media only screen and (min-width: 480px) and (max-width: 767px){ ... }
+
+
+ /* laptop */
+// @media only screen and (min-width: 768px) and (max-width: 999px){ ... }
+
+
+ /* Desktop and large devices */
+// @media only screen and (min-width: 1000px) { ... }

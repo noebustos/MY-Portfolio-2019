@@ -263,6 +263,108 @@ header {
           -webkit-transform: translateY(-50%) scaleX(-1);
           transform: translateY(-50%) scaleX(-1); }
 
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  #home-section {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important; }
+    #home-section .container {
+      width: 100% !important; }
+    #home-section .vertical-container {
+      width: 100% !important;
+      display: grid !important;
+      grid-template-columns: 1fr !important;
+      grid-template-rows: 1fr 1fr !important; }
+    #home-section .img-container {
+      width: 100% !important;
+      display: block !important;
+      grid-row: 2 / 3 !important;
+      justify-self: center !important;
+      align-self: center !important;
+      text-align: center; }
+      #home-section .img-container .hero-img {
+        margin: 0 auto 0 !important;
+        position: relative;
+        left: 50% !important;
+        top: 50% !important;
+        width: 60% !important;
+        -webkit-transform: translateX(-50%) !important;
+        transform: translateX(-50%) !important; }
+      #home-section .img-container img.shirt-gradient {
+        display: none !important;
+        position: relative !important;
+        width: 58.5% !important;
+        left: 3px !important; }
+      #home-section .img-container .hero-bg-shadow {
+        position: relative !important;
+        top: -70px !important;
+        left: 50% !important;
+        width: 50px !important;
+        height: 50px !important;
+        -webkit-box-shadow: 0 0 100px 100px rgba(0, 0, 0, 0.2) !important;
+        box-shadow: 0 0 100px 100px rgba(0, 0, 0, 0.2) !important;
+        -webkit-transform: translateX(-50%) !important;
+        transform: translateX(-50%) !important; }
+      #home-section .img-container .bg-circle-container {
+        display: none; }
+    #home-section .intro-area {
+      width: 100% !important;
+      display: block !important;
+      grid-row: 1 / 2 !important;
+      justify-self: center !important;
+      align-self: center !important;
+      text-align: center;
+      margin-top: 5%; }
+      #home-section .intro-area h5 {
+        margin-left: 0 !important;
+        font-size: 4rem !important; }
+      #home-section .intro-area .yellow-bg {
+        padding: 7% !important;
+        width: 100% !important;
+        height: auto !important;
+        position: static !important;
+        -webkit-clip-path: none !important;
+        clip-path: none !important;
+        -webkit-filter: none !important;
+        filter: none !important;
+        -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1); }
+        #home-section .intro-area .yellow-bg .container {
+          margin-left: 0 !important;
+          width: 100% !important; }
+          #home-section .intro-area .yellow-bg .container h1 {
+            font-size: 2rem !important; }
+          #home-section .intro-area .yellow-bg .container h3 {
+            font-size: 1.3rem !important;
+            color: #fff;
+            margin-top: 7px !important; }
+          #home-section .intro-area .yellow-bg .container p {
+            font-size: 1rem !important;
+            color: #fff;
+            font-weight: 500;
+            margin-top: 30px !important; }
+          #home-section .intro-area .yellow-bg .container .call-actions {
+            margin-top: 45px !important; }
+            #home-section .intro-area .yellow-bg .container .call-actions a {
+              padding: 10px 25px !important;
+              font-size: 12px !important; }
+              #home-section .intro-area .yellow-bg .container .call-actions a.resume-btn {
+                background: #fff;
+                color: #FEB332; }
+              #home-section .intro-area .yellow-bg .container .call-actions a.hire-btn {
+                padding: 8px 25px !important; }
+              #home-section .intro-area .yellow-bg .container .call-actions a:hover {
+                background: #0057B2;
+                color: #fff;
+                border: none;
+                padding: 10px 25px !important; }
+        #home-section .intro-area .yellow-bg .bg-cutout {
+          display: none; } }
+
+/* Tablet (portrait and landscape) */
+/* laptop */
+/* Desktop and large devices */
 #contact-section {
   background: #FEB332;
   overflow: hidden;
@@ -373,6 +475,11 @@ header {
         vertical-align: middle; }
         #contact-section .content .columns.right-column img {
           width: 115%; }
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  #contact-section {
+    display: none; } }
 
 #projects-section {
   background: #F8F9FB;
@@ -549,6 +656,11 @@ header {
         #projects-section .projects-container .projects.project5 .placement {
           vertical-align: middle; }
 
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  #projects-section {
+    display: none; } }
+
 #about-section {
   padding: 150px 0; }
   #about-section .section-title img {
@@ -638,6 +750,11 @@ header {
           -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
           z-index: 1; }
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  #about-section {
+    display: none; } }
 
 #skills-section {
   background: #0057B2;
@@ -824,6 +941,11 @@ header {
     left: 20%;
     z-index: 5; }
 
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  #skills-section {
+    display: none; } }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -872,3 +994,10 @@ footer {
   footer .logo {
     font-size: 1.5rem;
     font-weight: 700; }
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  footer {
+    display: none; }
+  header {
+    display: none; } }

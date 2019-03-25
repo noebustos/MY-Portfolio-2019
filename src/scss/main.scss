@@ -32,11 +32,8 @@ body{
   max-width: 1200px;
   margin: 0 auto;
   // height: 100vh;
-  position: relative;;
+  position: relative;
 }
-
-
-
 
    .section-title{
       text-align: center;
@@ -80,6 +77,19 @@ a{
       font-weight: 700;
     }
   }
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px){ 
+  footer{
+    display: none;
+  }
+  header{
+    display: none;
+  }
+}
+
 
 
 
