@@ -28,14 +28,13 @@ header{
     .hamburger-icon{
       display: none;
       padding: 5px;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
     .out-icon{
       display: none;
       padding: 5px;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
-
   }
 
 
@@ -112,11 +111,26 @@ header{
     width: 100% !important;
     padding: 20px;
 
-    .hamburger-icon{
-      display: block;
-      position: absolute ;
-      left: 15px ;
-      top: 15px ;
+    .mobile-menu-icons{
+      .hamburger-icon{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        
+        &.active{
+          display: block;
+        }
+
+      }
+      .out-icon{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+
+        &.active{
+          display: block;
+        }
+      }
     }
     .logo{
       display: block;

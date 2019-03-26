@@ -65,11 +65,11 @@ header {
   header .mobile-menu-icons .hamburger-icon {
     display: none;
     padding: 5px;
-    font-size: 1.1rem; }
+    font-size: 1.2rem; }
   header .mobile-menu-icons .out-icon {
     display: none;
     padding: 5px;
-    font-size: 1.1rem; }
+    font-size: 1.2rem; }
   header .logo {
     display: inline-block;
     font-weight: 700;
@@ -122,11 +122,18 @@ header {
   header {
     width: 100% !important;
     padding: 20px; }
-    header .hamburger-icon {
-      display: block;
+    header .mobile-menu-icons .hamburger-icon {
       position: absolute;
       left: 15px;
       top: 15px; }
+      header .mobile-menu-icons .hamburger-icon.active {
+        display: block; }
+    header .mobile-menu-icons .out-icon {
+      position: absolute;
+      left: 15px;
+      top: 15px; }
+      header .mobile-menu-icons .out-icon.active {
+        display: block; }
     header .logo {
       display: block;
       text-align: center; }
