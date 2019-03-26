@@ -27,13 +27,19 @@ header{
   .mobile-menu-icons{
     .hamburger-icon{
       display: none;
-      padding: 5px;
-      font-size: 1.2rem;
+      
+      i{
+        padding: 5px;
+        font-size: 1.2rem;
+      }
     }
     .out-icon{
       display: none;
-      padding: 5px;
-      font-size: 1.2rem;
+      
+      i{
+        padding: 5px;
+        font-size: 1.2rem;
+      }
     }
   }
 
@@ -117,8 +123,10 @@ header{
         left: 15px;
         top: 15px;
         
-        &.active{
-          display: block;
+        i{
+          &.active{
+            display: block;
+          }
         }
 
       }
@@ -127,9 +135,12 @@ header{
         left: 15px;
         top: 15px;
 
-        &.active{
-          display: block;
+        i{
+          &.active{
+            display: block;
+          }
         }
+
       }
     }
     .logo{
