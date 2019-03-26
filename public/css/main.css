@@ -62,14 +62,12 @@ header {
       color: #555555; }
     header.scroll a {
       color: #555555; }
-  header .mobile-menu-icons .hamburger-icon {
+  header .mobile-menu-icons {
     display: none; }
-    header .mobile-menu-icons .hamburger-icon i {
+    header .mobile-menu-icons .hamburger-icon {
       padding: 5px;
       font-size: 1.2rem; }
-  header .mobile-menu-icons .out-icon {
-    display: none; }
-    header .mobile-menu-icons .out-icon i {
+    header .mobile-menu-icons .out-icon {
       padding: 5px;
       font-size: 1.2rem; }
   header .logo {
@@ -124,18 +122,22 @@ header {
   header {
     width: 100% !important;
     padding: 20px; }
+    header .mobile-menu-icons.active {
+      display: block; }
     header .mobile-menu-icons .hamburger-icon {
+      display: block;
       position: absolute;
       left: 15px;
       top: 15px; }
-      header .mobile-menu-icons .hamburger-icon i.active {
-        display: block; }
+      header .mobile-menu-icons .hamburger-icon.unactive {
+        display: none; }
     header .mobile-menu-icons .out-icon {
+      display: block;
       position: absolute;
       left: 15px;
       top: 15px; }
-      header .mobile-menu-icons .out-icon i.active {
-        display: block; }
+      header .mobile-menu-icons .out-icon.unactive {
+        display: none; }
     header .logo {
       display: block;
       text-align: center; }

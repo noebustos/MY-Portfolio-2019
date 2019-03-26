@@ -25,21 +25,16 @@ header{
 
 
   .mobile-menu-icons{
+    display: none;
+
     .hamburger-icon{
-      display: none;
-      
-      i{
-        padding: 5px;
-        font-size: 1.2rem;
-      }
+      padding: 5px;
+      font-size: 1.2rem;
     }
+
     .out-icon{
-      display: none;
-      
-      i{
-        padding: 5px;
-        font-size: 1.2rem;
-      }
+      padding: 5px;
+      font-size: 1.2rem;
     }
   }
 
@@ -118,29 +113,29 @@ header{
     padding: 20px;
 
     .mobile-menu-icons{
+      &.active{
+        display: block;
+      }
+      
       .hamburger-icon{
+        display: block;
         position: absolute;
         left: 15px;
         top: 15px;
-        
-        i{
-          &.active{
-            display: block;
-          }
-        }
 
+        &.unactive{
+          display: none;
+        }
       }
       .out-icon{
+        display: block;
         position: absolute;
         left: 15px;
         top: 15px;
 
-        i{
-          &.active{
-            display: block;
-          }
+        &.unactive{
+          display: none;
         }
-
       }
     }
     .logo{
