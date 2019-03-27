@@ -115,6 +115,7 @@ header{
     &.active{
       background: rgba(0,0,0,0.5) !important;
     }
+
     .container{
       &.unactive{
         display: none;
@@ -122,9 +123,7 @@ header{
     }
 
     .mobile-menu-icons{
-      &.active{
-        display: block;
-      }
+      display: block;
       
       .hamburger-icon{
         display: block;
