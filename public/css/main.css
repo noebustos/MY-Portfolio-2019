@@ -122,6 +122,10 @@ header {
   header {
     width: 100% !important;
     padding: 20px; }
+    header.active {
+      background: rgba(0, 0, 0, 0.5) !important; }
+    header .container.unactive {
+      display: none; }
     header .mobile-menu-icons.active {
       display: block; }
     header .mobile-menu-icons .hamburger-icon {

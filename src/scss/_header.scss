@@ -112,6 +112,15 @@ header{
     width: 100% !important;
     padding: 20px;
 
+    &.active{
+      background: rgba(0,0,0,0.5) !important;
+    }
+    .container{
+      &.unactive{
+        display: none;
+      }
+    }
+
     .mobile-menu-icons{
       &.active{
         display: block;
