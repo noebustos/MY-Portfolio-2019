@@ -68,22 +68,3 @@ mobileMenuIcons.addEventListener("click", function(){
 //   console.log(outIcon);
 //   console.log(this);
 // })
-
-
-
-
-
-
-
-
-
-var john = {
-  // billValues: [124, 48, 268, 180, 42],
-  // //add a method to calc the tip.
-  // //this should include a loop to iterate over all the paid bills and do the tip calcs
-  // tipBill: function(){
-  //   for(var i = 0; i < this.billValues.length -1 ; i++){
-             
-  //   }
-  // },
-}
