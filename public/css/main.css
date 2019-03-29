@@ -835,7 +835,7 @@ header {
         width: 90px; }
     #about-section .content {
       display: grid;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr 540px;
       grid-template-columns: 100%; }
       #about-section .content .columns {
         width: 100%;
@@ -844,21 +844,23 @@ header {
         #about-section .content .columns.left-column {
           justify-self: center;
           grid-row: 2/3; }
-          #about-section .content .columns.left-column .col-title .bg-text {
-            font-size: 6.8rem;
-            margin: 0;
-            position: relative;
-            right: 3px; }
-          #about-section .content .columns.left-column .col-title .title-container {
-            position: absolute;
-            bottom: -15px;
-            right: 0;
-            left: 0; }
-            #about-section .content .columns.left-column .col-title .title-container h5 {
-              font-size: 1.5625rem;
-              margin-bottom: 3px; }
-            #about-section .content .columns.left-column .col-title .title-container h6 {
-              font-size: 1.25rem; }
+          #about-section .content .columns.left-column .col-title {
+            margin-bottom: 2.1875rem; }
+            #about-section .content .columns.left-column .col-title .bg-text {
+              font-size: 6.8rem;
+              margin: 0;
+              position: relative;
+              right: 3px; }
+            #about-section .content .columns.left-column .col-title .title-container {
+              position: absolute;
+              bottom: -15px;
+              right: 0;
+              left: 0; }
+              #about-section .content .columns.left-column .col-title .title-container h5 {
+                font-size: 1.5625rem;
+                margin-bottom: 3px; }
+              #about-section .content .columns.left-column .col-title .title-container h6 {
+                font-size: 1.25rem; }
           #about-section .content .columns.left-column p.body-text {
             width: 100%;
             text-align: left;
@@ -882,33 +884,12 @@ header {
           -ms-flex-order: 1;
           order: 1;
           text-align: center;
-          vertical-align: middle; }
+          vertical-align: middle;
+          margin-bottom: 3.4375rem; }
           #about-section .content .columns.right-column img {
-            width: 77%;
+            width: 100%;
             position: relative;
-            z-index: 5; }
-          #about-section .content .columns.right-column .name-accent-text {
-            font-size: 5.5rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            color: #fff;
-            position: absolute;
-            z-index: 10;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); }
-          #about-section .content .columns.right-column .bg-circle {
-            width: 60%;
-            height: 75%;
-            border-radius: 50%;
-            background: #FEB332;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            z-index: 1; } }
+            z-index: 5; } }
 
 #skills-section {
   background: #0057B2;

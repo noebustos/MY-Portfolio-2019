@@ -149,7 +149,7 @@
     
     .content{
       display: grid;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr 540px;
       grid-template-columns: 100%;  
 
       .columns{
@@ -162,6 +162,7 @@
           grid-row: 2/3;
 
           .col-title{
+            margin-bottom: 2.1875rem;
             .bg-text{
               // font-size: 7.5rem;
               font-size: 6.8rem;
@@ -256,35 +257,12 @@
           order: 1;
           text-align: center;
           vertical-align: middle;
+          margin-bottom: 3.4375rem;
 
           img{
-            width: 77%;
+            width: 100%;
             position: relative;
             z-index: 5;
-          }
-
-          .name-accent-text{
-            font-size: 5.5rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            color: #fff;
-            position: absolute;
-            z-index: 10;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-          }
-
-          .bg-circle{
-            width: 60%;
-            height: 75%;
-            border-radius: 50%;
-            background: $main-yellow;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 1;
           }
         }
       }  
