@@ -35,23 +35,23 @@ body{
   position: relative;
 }
 
-   .section-title{
-      text-align: center;
-      margin-bottom: 70px;
+.section-title{
+  text-align: center;
+  margin-bottom: 70px;
 
-      h2{
-        margin-top: -5px;
-        margin-bottom: 14px;
-        font-size: 	3.125rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: $rich-black;
-      }
+  h2{
+    margin-top: -5px;
+    margin-bottom: 14px;
+    font-size: 	3.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $rich-black;
+  }
 
-      img{
-        width: 100px;
-      }
-    }
+  img{
+    width: 100px;
+  }
+}
 
 a{
   text-decoration: none;
@@ -82,6 +82,19 @@ a{
 
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px){ 
+  section{
+    .section-title{
+      margin-bottom: 3.4375rem;
+
+      h2{
+        font-size: 	2.5rem;
+      }
+      img{
+        width: 90px;
+      }
+    }
+  }
+  
   footer{
     display: none;
   }

@@ -1079,7 +1079,8 @@ header {
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px) {
   #skills-section {
-    display: none; } }
+    padding: 6.25rem 1.25rem;
+    overflow: hidden; } }
 
 * {
   -webkit-box-sizing: border-box;
@@ -1132,5 +1133,11 @@ footer {
 
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px) {
+  section .section-title {
+    margin-bottom: 3.4375rem; }
+    section .section-title h2 {
+      font-size: 2.5rem; }
+    section .section-title img {
+      width: 90px; }
   footer {
     display: none; } }

@@ -227,6 +227,8 @@
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px){ 
   #skills-section{
-    display: none;
+    // display: none;
+    padding: 6.25rem 1.25rem;
+    overflow: hidden;
   }
 }
