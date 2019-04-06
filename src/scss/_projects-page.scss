@@ -247,61 +247,38 @@
       margin: 0 auto;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 300px 300px 300px 300px 300px;
-      grid-gap: 25px;
+      grid-template-rows: 340px 340px 340px 340px 340px;
+      grid-gap: 30px;
 
       .projects{
         .project-info-box{
-          width: 95%;
-          height: 94%;
-          background: #fff;
-          padding: 30px;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          z-index: 10;
-          text-align: middle;
-          transform: translate(-60%, 60%);
-          opacity: 0;
-          transition: all .5s cubic-bezier(0,.02,.33,1.35);        
+          // padding: 1.5625rem;
+          // padding: 7%;
+          padding: 6%;
+          text-align: left;       
 
           &.info-box-xl{
-            height: 97%;
-            width: 94%;
-            padding: 50% 30px;
+            width: 95%;
+            height: 94%;
+            padding: 30px;
           }
 
           .project-title{
-            text-transform: capitalize;
-            margin: 0 auto;
-            text-align: center;
+            text-align: left;
 
             .title-container{
-              display: inline-block;
-            }
-
-            .placement {
-              display: inline-block;
-              margin-right: 17px;
-              font-size: 3.3rem;
-              font-weight: 900;
-              color: $main-yellow;
-              text-align: left;
+              display: block;
             }
 
             h6 {
-              display: inline-block;
-              text-align: left;
-              font-size: 1.2rem;
-              font-weight: 600;
-              color: $med-black;
-              line-height: 1.2;
+              // font-size: 1.2rem;
+              font-size: 1.25rem;
             }
           }
 
             .project-desc{
               text-align: left;
-              margin: 35px auto;
+              margin: 30px auto;
               line-height: 1.5;
               color: $med-gray;
             }
