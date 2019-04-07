@@ -563,72 +563,35 @@ header {
         #contact-section .content .columns.left-column {
           text-align: left; }
           #contact-section .content .columns.left-column .forward-container {
-            width: 100%;
+            border-radius: 0;
+            min-width: 100%;
             padding: 6%;
             margin: 0; }
-            #contact-section .content .columns.left-column .forward-container .title-questions {
-              font-weight: 600;
-              text-transform: capitalize;
-              position: relative;
-              color: #555555; }
-              #contact-section .content .columns.left-column .forward-container .title-questions h6 {
-                font-size: 1.7rem;
-                position: relative;
-                z-index: 20;
-                letter-spacing: 1px;
-                margin-bottom: 3px; }
-              #contact-section .content .columns.left-column .forward-container .title-questions h5.bg-question-mark {
-                font-size: 16rem;
-                font-weight: 800;
-                color: #0057B2;
-                position: absolute;
-                right: 50%;
-                top: -74px;
-                -webkit-transform: translateX(50%);
-                transform: translateX(50%);
-                z-index: 8;
-                opacity: .1; }
+            #contact-section .content .columns.left-column .forward-container .title-questions h6 {
+              font-size: 1.25rem;
+              letter-spacing: normal;
+              margin-bottom: 0; }
+            #contact-section .content .columns.left-column .forward-container .title-questions h5.bg-question-mark {
+              font-size: 5rem;
+              position: absolute;
+              right: 71px;
+              top: -20px;
+              -webkit-transform: none;
+              transform: none;
+              opacity: .15; }
             #contact-section .content .columns.left-column .forward-container .subtitle {
-              max-width: 75%;
-              margin: 17px auto 50px;
-              font-size: 1.2rem; }
+              max-width: 90%;
+              margin: 17px 0 50px;
+              font-size: 1rem; }
               #contact-section .content .columns.left-column .forward-container .subtitle p {
-                color: #555555;
-                line-height: 1.3; }
-            #contact-section .content .columns.left-column .forward-container .email-container {
-              margin-bottom: 50px; }
-            #contact-section .content .columns.left-column .forward-container .contact-title {
-              color: #707070;
-              font-weight: 600;
-              text-transform: capitalize;
-              margin-bottom: 17px; }
-            #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links {
-              display: -webkit-box;
-              display: -ms-flexbox;
-              display: flex;
-              -webkit-box-pack: justify;
-              -ms-flex-pack: justify;
-              justify-content: space-between; }
-              #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links a {
-                display: inline-block;
-                -webkit-transition: all .2s ease-in-out;
-                transition: all .2s ease-in-out; }
-                #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links a i.fab {
-                  font-size: 30px;
-                  margin-bottom: 5px; }
-                #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links a:hover {
-                  color: #FEB332; }
+                line-height: 1.4; }
+            #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links a i.fab {
+              font-size: 26px;
+              text-align: center; }
+            #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links a span {
+              text-align: center; }
           #contact-section .content .columns.left-column .bg-container {
-            background: #0057B2;
-            width: 50%;
-            height: 100%;
-            -webkit-box-sizing: content-box;
-            box-sizing: content-box;
-            padding-bottom: 8.5%;
-            color: #707070;
-            position: absolute;
-            z-index: 15;
-            top: 0; }
+            display: none; }
         #contact-section .content .columns.right-column {
           width: 100%;
           display: block;

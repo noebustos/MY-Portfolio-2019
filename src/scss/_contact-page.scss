@@ -180,78 +180,49 @@
           text-align: left;
 
           .forward-container{
-            // border-radius: 5px;
-            width: 100%;
-            // padding: 50px;
+            border-radius: 0;
+            min-width: 100%;
             padding: 6%;
-            // margin: 8.5% 0 0 8.5%;
-            margin: 0;;
+            margin: 0;
 
             .title-questions{
-              font-weight: 600;
-              text-transform: capitalize;
-              position: relative;
-              color: $med-black;
-
               h6{
-                font-size: 1.7rem;
-                position: relative;
-                z-index: 20;
-                letter-spacing: 1px;
-                margin-bottom: 3px;
+                font-size: 1.25rem;
+                letter-spacing: normal;
+                // margin-bottom: 3px;
+                margin-bottom: 0;
               }
 
               h5.bg-question-mark{
-                font-size: 16rem;
-                font-weight: 800;
-                color: $main-blue;
+                // font-size: 16rem;
+                font-size: 5rem;
                 position: absolute;
-                right: 50%;
-                top: -74px;
-                transform: translateX(50%);
-                z-index: 8;
-                opacity: .1;
+                right: 71px;
+                top: -20px;
+                transform: none;
+                opacity: .15;
               }
             }
 
             .subtitle{
-              max-width: 75%;
-              margin: 17px auto 50px;
-              font-size: 1.2rem;
+              max-width: 90%;
+              margin: 17px 0 50px;
+              font-size: 1rem;
               
               p{
-                color: $med-black;
-                line-height: 1.3;
+                line-height: 1.4;
               }
             }
-
-            .email-container{
-              margin-bottom: 50px;
-            }
             
-            .contact-title{
-              color: $med-gray;
-              font-weight: 600;
-              text-transform: capitalize;
-              margin-bottom: 17px;
-            }
-
             .social-media-container{
               .social-media-links{
-                display: flex;
-                justify-content: space-between;
-
                 a{
-                  display: inline-block;
-                  transition: all .2s ease-in-out;
-
                   i.fab{
-                    font-size: 30px;
-                    margin-bottom: 5px;
+                    font-size: 26px;
+                    text-align: center;
                   }
-
-                  &:hover{
-                    color: $main-yellow;
+                  span{
+                    text-align: center;
                   }
                 }
               }
@@ -259,15 +230,16 @@
           } 
 
           .bg-container{
-            background: $main-blue;
-            width: 50%;
-            height: 100%;
-            box-sizing: content-box;
-            padding-bottom: 8.5%;
-            color: $med-gray;
-            position: absolute;
-            z-index: 15;
-            top: 0;
+            display: none;
+            // background: $main-blue;
+            // width: 50%;
+            // height: 100%;
+            // box-sizing: content-box;
+            // padding-bottom: 8.5%;
+            // color: $med-gray;
+            // position: absolute;
+            // z-index: 15;
+            // top: 0;
           }
         }
 
