@@ -609,7 +609,7 @@ header {
           width: 100%;
           display: block;
           float: none;
-          margin: 70px auto; }
+          margin: 70px auto -2px; }
           #contact-section .content .columns.right-column img {
             width: 100%; } }
 
