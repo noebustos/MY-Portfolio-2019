@@ -556,28 +556,16 @@ header {
     #contact-section .section-title img {
       width: 100px; }
     #contact-section .content {
-      position: relative;
-      z-index: 10;
       width: 100%;
       text-align: center; }
       #contact-section .content .columns {
-        width: 50%;
-        position: relative; }
+        width: 100%; }
         #contact-section .content .columns.left-column {
-          display: inline-block;
-          text-align: center;
-          position: relative; }
+          text-align: left; }
           #contact-section .content .columns.left-column .forward-container {
-            border-radius: 5px;
-            background: #fff;
-            max-width: 75%;
-            padding: 50px;
-            color: #707070;
-            margin: 8.5% 0 0 8.5%;
-            position: relative;
-            z-index: 20;
-            -webkit-box-shadow: 10px 10px 20px 5px rgba(100, 100, 100, 0.05);
-            box-shadow: 10px 10px 20px 5px rgba(100, 100, 100, 0.05); }
+            width: 100%;
+            padding: 6%;
+            margin: 0; }
             #contact-section .content .columns.left-column .forward-container .title-questions {
               font-weight: 600;
               text-transform: capitalize;
@@ -642,14 +630,12 @@ header {
             z-index: 15;
             top: 0; }
         #contact-section .content .columns.right-column {
-          width: 50%;
-          display: inline-block;
-          float: right;
-          position: relative;
-          text-align: center;
-          vertical-align: middle; }
+          width: 100%;
+          display: block;
+          float: none;
+          margin: 50px auto; }
           #contact-section .content .columns.right-column img {
-            width: 115%; } }
+            width: 100%; } }
 
 #projects-section {
   background: #F8F9FB;
