@@ -585,11 +585,16 @@ header {
               font-size: 1rem; }
               #contact-section .content .columns.left-column .forward-container .subtitle p {
                 line-height: 1.4; }
-            #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links a i.fab {
-              font-size: 26px;
+            #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links a {
+              display: block;
               text-align: center; }
-            #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links a span {
-              text-align: center; }
+              #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links a i.fab {
+                font-size: 26px;
+                text-align: center; }
+              #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links a span {
+                text-align: left;
+                font-size: .9rem;
+                font-weight: 500; }
           #contact-section .content .columns.left-column .bg-container {
             display: none; }
         #contact-section .content .columns.right-column {

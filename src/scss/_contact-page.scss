@@ -180,10 +180,12 @@
           text-align: left;
 
           .forward-container{
+            // background: rgba(255,255,255,.4);
             border-radius: 0;
             min-width: 100%;
             padding: 6%;
             margin: 0;
+            // color: #fff;
 
             .title-questions{
               h6{
@@ -217,12 +219,21 @@
             .social-media-container{
               .social-media-links{
                 a{
+                  display: block;
+                  text-align: center;
+
                   i.fab{
+
                     font-size: 26px;
+                    // margin: 0 auto;
+                    // padding: 0 25%;
                     text-align: center;
+
                   }
                   span{
-                    text-align: center;
+                    text-align: left;
+                    font-size: .9rem;
+                    font-weight: 500;
                   }
                 }
               }
