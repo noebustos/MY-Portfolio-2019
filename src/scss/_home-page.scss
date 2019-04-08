@@ -325,19 +325,11 @@
               font-size: 12px !important;
               // font-weight: 800 !important;
               
-              &.resume-btn{
-                background: #fff;
-                color: $main-yellow;
-              }
-              
               &.hire-btn{
                 padding: 8px 25px !important;
               }
 
               &:hover{
-                background: $main-blue;
-                color: #fff;
-                border: none;
                 padding: 10px 25px !important;
               }
             }
@@ -437,13 +429,9 @@
 
         .hero-bg-shadow{
           position: absolute;
-          // top: 50%;
           left: 20%;
-          // z-index: 9;
-          // transform: translateY(-50%);
           width: 100px;
           height: 100px;
-          // box-shadow: 0 0 140px 140px rgba(0,0,0,.2);
         }
 
         .bg-circle-container{
@@ -464,13 +452,14 @@
         display: block;
 
         h5{
-          font-size: 80px;
-          letter-spacing: -5px;
-          font-weight: 800;
-          background: rgb(255,255,255);
-          background: linear-gradient(0deg, rgba(255,255,255,0) 20%, rgba(255,255,255,.08) 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          display: none;
+          // font-size: 80px;
+          // letter-spacing: -5px;
+          // font-weight: 800;
+          // background: rgb(255,255,255);
+          // background: linear-gradient(0deg, rgba(255,255,255,0) 20%, rgba(255,255,255,.08) 100%);
+          // -webkit-background-clip: text;
+          // -webkit-text-fill-color: transparent;
         }
 
         .yellow-bg{
@@ -486,62 +475,29 @@
             margin-left: 0;
 
             h1{
-              font-size: 55px;
-              font-weight: 700;
-              color: #fff;
-              text-transform: uppercase;
-              margin-top: -8px;
-
-              span{
-                font-weight: 300;
-                font-family: 'Lato', sans-serif;
-              }
+              font-size: 45px;
             }
 
             h3{
-              font-size: 28px;
+              font-size: 24px;
               color: #fff;
-              text-transform: capitalize;
-              margin-top: 10px;
             }
 
             p{
-              font-size: 1.1rem;
-              color: #fff;
-              font-weight: 500;
-              margin-top: 40px;            
+              font-size: 1rem;
             }
 
             .call-actions{
-              margin-top: 50px;
-              margin-bottom: 12px;
-
               a{
-                margin-right: 20px;
-                text-transform: uppercase;
-                padding: 10px 30px;
-                font-size: 14px;
-                font-weight: 700;
-                letter-spacing: 1px;
-                border-radius: 5px;
-                transition: all .2s ease-in-out;
-                
-                &.resume-btn{
-                  background: #fff;
-                  color: $main-yellow;
-                }
+                padding: 10px 28px;
+                letter-spacing: 0;
                 
                 &.hire-btn{
-                  padding: 7px 27px;
-                  border: 3px solid #fff;
-                  color: #fff;
+                  padding: 7px 25px;
                 }
 
                 &:hover{
-                  background: $main-blue;
-                  color: #fff;
-                  border: none;
-                  padding: 10px 30px;
+                  padding: 10px 28px;
                 }
               }
             }

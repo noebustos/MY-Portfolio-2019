@@ -411,15 +411,9 @@ header {
             #home-section .intro-area .yellow-bg .container .call-actions a {
               padding: 10px 25px !important;
               font-size: 12px !important; }
-              #home-section .intro-area .yellow-bg .container .call-actions a.resume-btn {
-                background: #fff;
-                color: #FEB332; }
               #home-section .intro-area .yellow-bg .container .call-actions a.hire-btn {
                 padding: 8px 25px !important; }
               #home-section .intro-area .yellow-bg .container .call-actions a:hover {
-                background: #0057B2;
-                color: #fff;
-                border: none;
                 padding: 10px 25px !important; }
         #home-section .intro-area .yellow-bg .bg-cutout {
           display: none; } }
@@ -472,14 +466,7 @@ header {
     width: 50%;
     display: block; }
     #home-section .vertical-container .intro-area h5 {
-      font-size: 80px;
-      letter-spacing: -5px;
-      font-weight: 800;
-      background: white;
-      background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.08)));
-      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.08) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
+      display: none; }
     #home-section .vertical-container .intro-area .yellow-bg {
       padding: 35px 0 0 40%;
       width: 63.5vw;
@@ -494,49 +481,19 @@ header {
       #home-section .vertical-container .intro-area .yellow-bg .container {
         margin-left: 0; }
         #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-          font-size: 55px;
-          font-weight: 700;
-          color: #fff;
-          text-transform: uppercase;
-          margin-top: -8px; }
-          #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
-            font-weight: 300;
-            font-family: 'Lato', sans-serif; }
+          font-size: 45px; }
         #home-section .vertical-container .intro-area .yellow-bg .container h3 {
-          font-size: 28px;
-          color: #fff;
-          text-transform: capitalize;
-          margin-top: 10px; }
+          font-size: 24px;
+          color: #fff; }
         #home-section .vertical-container .intro-area .yellow-bg .container p {
-          font-size: 1.1rem;
-          color: #fff;
-          font-weight: 500;
-          margin-top: 40px; }
-        #home-section .vertical-container .intro-area .yellow-bg .container .call-actions {
-          margin-top: 50px;
-          margin-bottom: 12px; }
-          #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a {
-            margin-right: 20px;
-            text-transform: uppercase;
-            padding: 10px 30px;
-            font-size: 14px;
-            font-weight: 700;
-            letter-spacing: 1px;
-            border-radius: 5px;
-            -webkit-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out; }
-            #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.resume-btn {
-              background: #fff;
-              color: #FEB332; }
-            #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn {
-              padding: 7px 27px;
-              border: 3px solid #fff;
-              color: #fff; }
-            #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a:hover {
-              background: #0057B2;
-              color: #fff;
-              border: none;
-              padding: 10px 30px; }
+          font-size: 1rem; }
+        #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a {
+          padding: 10px 28px;
+          letter-spacing: 0; }
+          #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn {
+            padding: 7px 25px; }
+          #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a:hover {
+            padding: 10px 28px; }
       #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
         display: none; } }
 
