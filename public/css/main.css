@@ -468,9 +468,9 @@ header {
     #home-section .vertical-container .intro-area h5 {
       display: none; }
     #home-section .vertical-container .intro-area .yellow-bg {
-      padding: 35px 0 0 40%;
+      padding: 38px 0 38px 33%;
       width: 63.5vw;
-      height: 310px;
+      height: 277px;
       right: 27%;
       -webkit-clip-path: none;
       clip-path: none;
@@ -481,7 +481,7 @@ header {
       #home-section .vertical-container .intro-area .yellow-bg .container {
         margin-left: 0; }
         #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-          font-size: 45px; }
+          font-size: 40px; }
         #home-section .vertical-container .intro-area .yellow-bg .container h3 {
           font-size: 24px;
           color: #fff; }
