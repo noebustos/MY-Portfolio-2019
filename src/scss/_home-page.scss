@@ -394,91 +394,76 @@
 
 
  /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
+@media only screen and (min-width: 480px) and (max-width: 768px){ 
   #home-section{
-    background: $main-blue;
-    height: 100vh;
-    overflow: hidden;
+    // height: 100vh;
+    // overflow: hidden;
 
     .vertical-container{
-      height: 100vh;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
+      // height: 100vh;
+      // display: flex;
+      // flex-direction: row;
+      // flex-wrap: nowrap;
+      // justify-content: center;
+      // align-items: center;
+      // align-content: center;
 
       .img-container{
-        width: 50%;
-        display: inline-block;
-        text-align: center;
+        // width: 50%;
+        display: block;
+        // text-align: center;
 
         img.hero-img{
-          width: 440px;
-          margin: 0 auto;
-          position: absolute;
-          top: 20.1%;
-          left: 6%;
-          z-index: 10;
+          width: 45%;
+          // margin: 0 auto;
+          // position: absolute;
+          // top: 20.1%;
+          top: 50%;
+          // left: 6%;
+          // z-index: 10;
+          transform: translateY(-50%);
         }
 
         img.shirt-gradient{
-          width: 440px;
+          // width: 440px;
+          width: 45%;
           margin: 0 auto;
           position: absolute;
           // bottom: 0;
-          bottom: 27.1%;
-          left: 6%;
-          z-index: 11;
+          bottom: 24.7%;
+          // left: 6%;
+          // z-index: 11;
         }
 
         .hero-bg-shadow{
           position: absolute;
-          top: 50%;
-          left: 18%;
-          z-index: 9;
-          transform: translateY(-50%);
-          width: 140px;
-          height: 140px;
-          border-radius: 50%;
-          box-shadow: 0 0 140px 140px rgba(0,0,0,.2);
+          // top: 50%;
+          left: 20%;
+          // z-index: 9;
+          // transform: translateY(-50%);
+          width: 100px;
+          height: 100px;
+          // box-shadow: 0 0 140px 140px rgba(0,0,0,.2);
         }
 
         .bg-circle-container{
-          background: rgba(3, 77, 154,.95);
-          width: 1200px;
-          height: 1200px;
-          border-radius: 50%;
-          position: relative;
-          // right: 50%;
-              right: 98%;
-              
+          width: 900px;
+          height: 900px;
+          position: relative;    
           z-index: 2;
 
           .bg-circle-big{
-            box-shadow: 0px 0px 50px 20px rgba(50,50,50,.1);
-            background:linear-gradient(90deg, rgba(3,77,154,.9) 0%, rgba(3,77,154,.9) 100%), url("../img/code-syntax.jpg")center center;
-            background-size: 950px;
-            width: 1200px;
-            height: 1200px;
-            filter: blur(3px);
-            border-radius: 50%;
-            position: relative;
-            // left: 3px;
-            // right: 3px;
-            // // right: 30%;
-            z-index: 1;
+            width: 900px;
+            height: 900px;
           }
         }
       }
 
       .intro-area{
         width: 50%;
-        display: inline-block;
+        display: block;
 
         h5{
-          margin-left: 50px;
           font-size: 80px;
           letter-spacing: -5px;
           font-weight: 800;
@@ -489,23 +474,16 @@
         }
 
         .yellow-bg{
-          // right: 20px;
-          //a) left: 20px;
-          // background: url("../img/yellowbg4.svg");
-          background: $main-yellow;
-          padding: 45px 75px;
-          margin-top: -12px;
-          width: 835px;          
+          padding: 35px 0 0 40%;     
+          width: 63.5vw;          
           height: 310px;
-          position: relative;
-            right: 39%;
-          //  right: 600px;
-          z-index: 5;
-          clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);          
-          filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
+          right: 27%;
+          clip-path: none;          
+          filter: none;
+          box-shadow: -20px 20px 10px rgba(50,50,50,0.1);
 
           .container{
-            margin-left: 220px;
+            margin-left: 0;
 
             h1{
               font-size: 55px;
@@ -570,13 +548,7 @@
           }
           
           .bg-cutout{
-            width: 342px;
-            // float: left;
-            position: absolute;
-            top: 50%;
-            right: 69.9%;
-            transform: translateY(-50%) scaleX(-1);
-            //a)  transform: scaleX(-1);
+            display: none;
           }
         }
       }
