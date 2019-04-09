@@ -470,7 +470,7 @@ header {
     #home-section .vertical-container .intro-area .yellow-bg {
       padding: 38px 0 38px 33%;
       width: 63.5vw;
-      height: 277px;
+      min-height: 27vh;
       right: 27%;
       -webkit-clip-path: none;
       clip-path: none;
@@ -481,14 +481,14 @@ header {
       #home-section .vertical-container .intro-area .yellow-bg .container {
         margin-left: 0; }
         #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-          font-size: 40px; }
+          font-size: 2.5rem; }
         #home-section .vertical-container .intro-area .yellow-bg .container h3 {
-          font-size: 24px;
+          font-size: 1.5rem;
           color: #fff; }
         #home-section .vertical-container .intro-area .yellow-bg .container p {
           font-size: 1rem; }
         #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a {
-          padding: 10px 28px;
+          padding: 0.625rem 1.75rem;
           letter-spacing: 0; }
           #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn {
             padding: 7px 25px; }

@@ -465,7 +465,9 @@
         .yellow-bg{
           padding: 38px 0 38px 33%;     
           width: 63.5vw;          
-          height: 277px;
+          // height: 277px;
+          min-height: 27vh;
+          // max-height: 33vh;
           right: 27%;
           clip-path: none;          
           filter: none;
@@ -475,11 +477,11 @@
             margin-left: 0;
 
             h1{
-              font-size: 40px;
+              font-size: 2.5rem;
             }
 
             h3{
-              font-size: 24px;
+              font-size: 1.5rem;
               color: #fff;
             }
 
@@ -489,7 +491,7 @@
 
             .call-actions{
               a{
-                padding: 10px 28px;
+                padding: 0.625rem 1.75rem;
                 letter-spacing: 0;
                 
                 &.hire-btn{
