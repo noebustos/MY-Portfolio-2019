@@ -519,55 +519,14 @@
   #home-section{
     .vertical-container{
       .img-container{
-        display: block;
-
-        img.hero-img{
-          width: 45%;
-          // margin: 0 auto;
-          // position: absolute;
-          // top: 20.1%;
-          top: 50%;
-          // left: 6%;
-          // z-index: 10;
-          transform: translateY(-50%);
-        }
-
         img.shirt-gradient{
-          // width: 440px;
-          width: 45%;
-          margin: 0 auto;
-          position: absolute;
-          // bottom: 0;
           bottom: 26.7%;
-          // left: 6%;
-          // z-index: 11;
-        }
-
-        .hero-bg-shadow{
-          position: absolute;
-          left: 20%;
-          width: 100px;
-          height: 100px;
-        }
-
-        .bg-circle-container{
-          width: 900px;
-          height: 900px;
-          position: relative;    
-          z-index: 2;
-
-          .bg-circle-big{
-            width: 900px;
-            height: 900px;
-          }
         }
       }
 
       .intro-area{
         .yellow-bg{
-          padding: 38px 0 38px 36%;             
-          // min-height: 38vh; 
-          height: auto;        
+          padding: 38px 0 38px 36%;                  
 
           .container{
             h1{
@@ -600,76 +559,14 @@
   #home-section{
     .vertical-container{
       .img-container{
-        display: block;
-
-        img.hero-img{
-          width: 45%;
-          // margin: 0 auto;
-          // position: absolute;
-          // top: 20.1%;
-          top: 50%;
-          // left: 6%;
-          // z-index: 10;
-          transform: translateY(-50%);
-        }
-
         img.shirt-gradient{
-          // width: 440px;
-          width: 45%;
-          margin: 0 auto;
-          position: absolute;
-          // bottom: 0;
           bottom: 29.5%;
-          // left: 6%;
-          // z-index: 11;
-        }
-
-        .hero-bg-shadow{
-          position: absolute;
-          left: 20%;
-          width: 100px;
-          height: 100px;
-        }
-
-        .bg-circle-container{
-          width: 900px;
-          height: 900px;
-          position: relative;    
-          z-index: 2;
-
-          .bg-circle-big{
-            width: 900px;
-            height: 900px;
-          }
         }
       }
 
       .intro-area{
-        .yellow-bg{
-          padding: 38px 0 38px 36%;             
-          // min-height: 38vh;         
-          height: auto;
-
+        .yellow-bg{          
           .container{
-            h1{
-              font-size: 4rem;
-              font-weight: 400;
-              font-family: 'Lato', sans-serif;
-
-              span{
-                font-weight: 400;
-                // font-family: 'Montserrat', sans-serif;
-              }
-            }
-
-            h3{
-              font-size: 1.6rem;
-              width: 200px;
-              span{
-                display: none;
-              }
-            }
-
             p{
               // width: 55%;
               width: 80%;
@@ -681,90 +578,6 @@
   }
 }
 
- /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 617px){ 
-  #home-section{
-    .vertical-container{
-      .img-container{
-        display: block;
-
-        img.hero-img{
-          width: 45%;
-          // margin: 0 auto;
-          // position: absolute;
-          // top: 20.1%;
-          top: 50%;
-          // left: 6%;
-          // z-index: 10;
-          transform: translateY(-50%);
-        }
-
-        img.shirt-gradient{
-          // width: 440px;
-          width: 45%;
-          margin: 0 auto;
-          position: absolute;
-          // bottom: 0;
-          bottom: 29.5%;
-          // left: 6%;
-          // z-index: 11;
-        }
-
-        .hero-bg-shadow{
-          position: absolute;
-          left: 20%;
-          width: 100px;
-          height: 100px;
-        }
-
-        .bg-circle-container{
-          width: 900px;
-          height: 900px;
-          position: relative;    
-          z-index: 2;
-
-          .bg-circle-big{
-            width: 900px;
-            height: 900px;
-          }
-        }
-      }
-
-      .intro-area{
-        .yellow-bg{
-          padding: 38px 0 38px 36%;             
-          min-height: 38vh;         
-
-          .container{
-            h1{
-              font-size: 4rem;
-              font-weight: 400;
-              font-family: 'Lato', sans-serif;
-
-              span{
-                font-weight: 400;
-                // font-family: 'Montserrat', sans-serif;
-              }
-            }
-
-            h3{
-              font-size: 1.6rem;
-              width: 200px;
-              span{
-                display: none;
-              }
-            }
-
-            p{
-              // width: 55%;
-              width: 80%;
-            }
-          }
-        }
-      }
-    }
-  }
-}
 
  /* Tablet (portrait and landscape) */
 // @media only screen and (min-width: 480px) and (max-width: 767px){ }
