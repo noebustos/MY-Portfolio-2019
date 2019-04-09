@@ -652,61 +652,38 @@
 
 
  /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 617px){ 
+@media only screen and (min-width: 480px) and (max-width: 530px){ 
   #home-section{
     .vertical-container{
       .img-container{
         img.shirt-gradient{
-          bottom: 29.5%;
+          bottom: 32.5%;
         }
         .hero-bg-shadow{
           position: absolute;
-          left: 20%;
+          left: 19%;
           width: 90px;
           height: 90px;
+        }
+        
+        .bg-circle-container{
+          width: 900px;
+          height: 900px;
+          position: relative;    
+          z-index: 2;
+
+          .bg-circle-big{
+            width: 900px;
+            height: 900px;
+          }
         }
       }
 
       .intro-area{
         .yellow-bg{      
-          padding: 30px 0 30px 45%;                      
+          padding: 30px 0 30px 42%;                      
 
           .container{
-            h1{
-              font-size: 3rem;
-              font-weight: 700;
-              span{
-                font-weight: 700;
-              }
-            }
-            p{
-              // width: 55%;
-              width: 80%;
-              line-height: 1.4;
-            }
-
-            .call-actions{
-              a{
-                padding: 0.625rem 1.75rem;
-                letter-spacing: 0;
-                display: block;
-                
-                &.resume-btn{
-                  width: 118.41px;
-                  margin-bottom: 17px;
-                }
-
-                &.hire-btn{
-                  text-align: center;
-                  width: 118.31px;
-                  padding: 7px 0;
-                }
-
-                &:hover{
-                  padding: 10px 0;
-                }
-              }
-            }
           }
         }
       }
