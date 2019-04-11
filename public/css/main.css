@@ -1331,7 +1331,87 @@ header {
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   #about-section {
-    display: none !important; } }
+    padding: 120px 30px; }
+    #about-section .container .section-title h2 {
+      font-size: 2.8125rem; }
+    #about-section .container .section-title img {
+      width: 95px; }
+    #about-section .container .content {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 100%; }
+      #about-section .container .content .columns {
+        width: auto;
+        overflow: auto;
+        position: relative; }
+        #about-section .container .content .columns.left-column .col-title {
+          text-transform: uppercase;
+          position: relative; }
+          #about-section .container .content .columns.left-column .col-title .bg-text {
+            font-size: 155px;
+            font-weight: 900;
+            color: #E4EDF6;
+            margin: -22px 0 20px -7px;
+            background: -webkit-linear-gradient(120deg, #e4edf6 40%, #f8fafc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; }
+          #about-section .container .content .columns.left-column .col-title .title-container {
+            position: absolute;
+            bottom: 30px;
+            color: #555555; }
+            #about-section .container .content .columns.left-column .col-title .title-container h5 {
+              font-size: 1.8rem;
+              font-weight: 700;
+              letter-spacing: 2px;
+              margin-bottom: 5px; }
+            #about-section .container .content .columns.left-column .col-title .title-container h6 {
+              font-size: 1.3rem;
+              font-weight: 400; }
+        #about-section .container .content .columns.left-column p.body-text {
+          width: 500px;
+          line-height: 1.5;
+          margin-bottom: 50px; }
+        #about-section .container .content .columns.left-column .other-info h6 {
+          font-size: 1.3rem;
+          font-weight: 600;
+          color: #555555;
+          margin-bottom: 17px;
+          text-transform: capitalize;
+          line-height: 1.4; }
+        #about-section .container .content .columns.left-column .other-info .interest-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          color: #555555; }
+          #about-section .container .content .columns.left-column .other-info .interest-container ul.interests li {
+            margin: 5px 0; }
+            #about-section .container .content .columns.left-column .other-info .interest-container ul.interests li.interest-title {
+              font-weight: 600;
+              margin: 0 0 9px; }
+        #about-section .container .content .columns.right-column img {
+          position: relative;
+          z-index: 5; }
+        #about-section .container .content .columns.right-column .name-accent-text {
+          font-size: 5.5rem;
+          font-weight: 800;
+          text-transform: uppercase;
+          color: #fff;
+          position: absolute;
+          z-index: 10;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+        #about-section .container .content .columns.right-column .bg-circle {
+          width: 60%;
+          height: 75%;
+          border-radius: 50%;
+          background: #FEB332;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          z-index: 1; } }
 
 #skills-section {
   background: #0057B2;
