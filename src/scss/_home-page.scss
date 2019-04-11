@@ -835,11 +835,10 @@
 
         .bg-circle-container{
           // width: 565px;
-          width: 213%;
+          width: 115%;
           height: 600px;
-          border-radius: 0;
-          position: relative;    
-          z-index: 2;
+          border-radius: 0;  
+          right: auto;
 
           .bg-circle-big{
             display: none;
@@ -875,6 +874,35 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+}
+
+
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 500px){ 
+  #home-section{
+    .vertical-container{
+      .img-container{
+        img.hero-img{
+          left: 4%;
+        }
+
+        img.shirt-gradient{
+          bottom: 33.5%;
+          left: 4%;
+        }
+        .hero-bg-shadow{
+          width: 80px;
+          height: 80px;
+        }
+      }
+
+      .intro-area{
+        .yellow-bg{      
+          padding: 30px 0 30px 38%;                      
         }
       }
     }
