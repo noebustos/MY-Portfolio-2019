@@ -267,7 +267,7 @@
 
       .content{
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto auto;
         grid-template-columns: 100%;  
 
         .columns{
@@ -376,3 +376,4 @@
     }
   }
 }
+

@@ -467,3 +467,22 @@
     }
   }  
 }
+
+
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 620px){ 
+  #skills-section{
+    .skills-container{
+      width: 100%;
+      flex-direction: column;
+      margin: 0 auto;
+      align-items: center;
+
+      .skill{
+        &.less-knowledge{
+          margin: 17px 0;
+        }
+      }
+    }
+  }  
+}
