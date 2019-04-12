@@ -1583,43 +1583,51 @@ header {
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   #skills-section {
     background: -webkit-gradient(linear, left top, right top, from(#034d9a), to(#0057b2));
-    background: linear-gradient(90deg, #034d9a 0%, #0057b2 100%); }
+    background: linear-gradient(90deg, #034d9a 0%, #0057b2 100%);
+    overflow: hidden; }
     #skills-section .section-title p {
-      width: 100%; }
+      width: 100%;
+      text-align: left; }
     #skills-section .skills-container {
       width: 100%; }
     #skills-section .bg-circle-xl {
       display: none; }
     #skills-section .bg-circle-md1 {
+      display: none;
       width: 60vw;
       height: 60vw;
       top: -149%;
       bottom: auto;
       left: -37%; }
     #skills-section .bg-circle-md2 {
+      display: none;
       width: 60vw;
       height: 60vw;
       bottom: -149%;
       top: auto;
       right: -37%; }
     #skills-section .bg-circle-sm1 {
+      display: none;
       width: 15vw;
       height: 15vw;
       top: -23%;
       left: -13%; }
     #skills-section .bg-circle-sm11 {
+      display: none;
       width: 15vw;
       height: 15vw;
       bottom: -23%;
       left: auto;
       right: -13%; }
     #skills-section .bg-circle-sm111 {
+      display: none;
       width: 80vw;
       height: 80vw;
       bottom: -206%;
       top: auto;
       right: -6%; }
     #skills-section .bg-circle-sm2 {
+      display: none;
       width: 80vw;
       height: 80vw;
       bottom: auto;
@@ -1642,12 +1650,14 @@ header {
       right: auto;
       left: 33%; }
     #skills-section .bg-circle-l1 {
+      display: none;
       width: 20vw;
       height: 20vw;
       bottom: auto;
       top: -50%;
       right: -15%; }
     #skills-section .bg-circle-l11 {
+      display: none;
       width: 20vw;
       height: 20vw;
       top: auto;
