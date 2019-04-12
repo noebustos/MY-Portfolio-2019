@@ -319,20 +319,19 @@
 @media only screen and (min-width: 480px) and (max-width: 768px){ 
   #skills-section{
     // clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
-    
-    .section-title{
-      h2{
-      }
+    // background: linear-gradient(90deg, rgba(0,87,178,1) 0%, rgba(3,77,154,1) 100%);
+    background: linear-gradient(90deg, rgba(3,77,154,1) 0%, rgba(0,87,178,1) 100%);
 
+    .section-title{
       p{
-        // width: 600px;
+        width: 100%;
       }
     }
 
     .skills-container{
       // display: flex;
       // width: 68%;
-
+      width: 100%;
 
       .skill{
         .skill-title{
@@ -351,19 +350,11 @@
     }
 
     .bg-circle-xl{
-      width: 800px;
-      height: 800px;
-      border-radius: 50%;
-      background: #fff;
-      opacity: .4;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 5;
+      display: none;
     }
 
     .bg-circle-md1{
+      // display: none; 
       width: 120px;
       height: 120px;
       border-radius: 50%;
@@ -388,123 +379,43 @@
     }
 
     .bg-circle-sm1{
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      background: #fff;
-      opacity: .4;
-      position: absolute;
-      top: 30%;
-      left: 0;
-      z-index: 5;
+      display: none; 
     }
 
     .bg-circle-sm11{
-      width: 25px;
-      height: 25px;
-      border-radius: 50%;
-      background: #fff;
-      opacity: .4;
-      position: absolute;
-      bottom: -42%;
-      left: 17%;
-      z-index: 5;
+      display: none; 
     }
 
     .bg-circle-sm111{
-      width: 25px;
-      height: 25px;
-      border-radius: 50%;
-      background: #fff;
-      opacity: .4;
-      position: absolute;
-      top: -42%;
-      right: 17%;
-      z-index: 5;
+      display: none; 
     }
     
     .bg-circle-sm2{
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      background: #fff;
-      opacity: .4;
-      position: absolute;
-      bottom: 30%;
-      right: 0;
-      z-index: 5;
+      display: none; 
     }
 
     .bg-circle-xs1{
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background: #fff;
-      opacity: .4;
-      position: absolute;
-      top: 50%;
-      left: 10%;
-      z-index: 5;
+      display: none; 
     }
 
     .bg-circle-xs2{
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background: #fff;
-      opacity: .4;
-      position: absolute;
-      top: 50%;
-      right: 10%;
-      z-index: 5;
+      display: none; 
     }
 
     .bg-circle-l1{
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      background: #fff;
-      opacity: .4;
-      position: absolute;
-      bottom: -20%;
-      right: 8%;
-      z-index: 5;
+      display: none; 
     }
 
     .bg-circle-l11{
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      background: #fff;
-      opacity: .4;
-      position: absolute;
-      top: -20%;
-      left: 8%;
-      z-index: 5;
+      display: none; 
     }
 
     .bg-circle-l2{
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      background: #fff;
-      opacity: .4;
-      position: absolute;
-      bottom: -46%;
-      right: 20%;
-      z-index: 5;
+      display: none; 
     }
 
     .bg-circle-l22{
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      background: #fff;
-      opacity: .4;
-      position: absolute;
-      top: -46%;
-      left: 20%;
-      z-index: 5;
+      display: none; 
     }
   }  
 }

@@ -132,7 +132,8 @@ a{
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px){ 
   section{
-    padding: 120px 30px;
+    // width: 100vw;
+    padding: 120px 30px !important;
 
     .section-title{
       h2{
