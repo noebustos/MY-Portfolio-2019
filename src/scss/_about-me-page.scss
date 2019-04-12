@@ -282,6 +282,7 @@
 
               .bg-text{
                 // font-size: 155px;
+                font-size: 25.3vw;
                 // font-weight: 900;
                 // color: #E4EDF6;
                 // margin: -22px 0 20px -7px;
@@ -324,11 +325,12 @@
               }
 
               .interest-container{
-                // display: grid;
-                // grid-template-columns: 1fr 1fr 1fr;
-                // color: $med-black;
+                display: flex;
+                justify-content: space-between;
+              margin-bottom: 70px;
 
                 ul.interests{
+                  justify-self: center;
                   li{
                     // margin: 5px 0;
 
@@ -351,4 +353,26 @@
       }
     }
  }
+}
+
+
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 620px){ 
+ #about-section{
+    .content{
+      .columns{
+        &.left-column{
+          .col-title{
+            .bg-text{
+              font-size: 25.3vw;  
+            }
+
+            .title-container{
+              bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
 }

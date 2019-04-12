@@ -1321,10 +1321,29 @@ header {
       grid-template-columns: 100%; }
       #about-section .container .content .columns {
         width: auto; }
+        #about-section .container .content .columns.left-column .col-title .bg-text {
+          font-size: 25.3vw; }
         #about-section .container .content .columns.left-column p.body-text {
           width: 100%; }
+        #about-section .container .content .columns.left-column .other-info .interest-container {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          margin-bottom: 70px; }
+          #about-section .container .content .columns.left-column .other-info .interest-container ul.interests {
+            justify-self: center; }
         #about-section .container .content .columns.right-column img {
           width: 75%; } }
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 620px) {
+  #about-section .content .columns.left-column .col-title .bg-text {
+    font-size: 25.3vw; }
+  #about-section .content .columns.left-column .col-title .title-container {
+    bottom: 20px; } }
 
 #skills-section {
   background: #0057B2;
