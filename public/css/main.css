@@ -1179,8 +1179,7 @@ header {
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 577px) {
   #projects-section .projects-container {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 26.8vh 26.8vh 26.8vh 40vh 40vh; }
+    grid-template-rows: 26.8vh 26.8vh 26.8vh 45vh; }
     #projects-section .projects-container .projects .project-info-box {
       width: 95%;
       height: 94%; }

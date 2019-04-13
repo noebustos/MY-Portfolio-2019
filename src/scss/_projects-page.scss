@@ -651,14 +651,8 @@
   #projects-section{
 
     .projects-container{
-      grid-template-columns: 1fr 1fr;
-      // grid-template-rows: 275px 325px 325px;
-      // grid-template-rows: 39.3% 325px 325px;
-      // grid-template-rows: 26.8vh 325px 325px;
-      grid-template-rows: 26.8vh 26.8vh 26.8vh 40vh 40vh;
-      // grid-template-rows: 26.8vh minmax(31.8vh, 1fr) minmax(31.8vh, 1fr);
-
-
+      grid-template-rows: 26.8vh 26.8vh 26.8vh 45vh;
+      
       .projects{
         .project-info-box{
           width: 95%;
