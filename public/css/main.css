@@ -878,6 +878,7 @@ header {
   #contact-section .content .columns.left-column {
     text-align: left !important; }
     #contact-section .content .columns.left-column .forward-container {
+      max-width: 90%;
       padding: 40px 35px; }
       #contact-section .content .columns.left-column .forward-container .title-questions h6 {
         font-size: 1.6rem;
@@ -890,7 +891,12 @@ header {
         max-width: 100%;
         font-size: 1rem; }
         #contact-section .content .columns.left-column .forward-container .subtitle p {
-          line-height: 1.4; } }
+          line-height: 1.4; }
+      #contact-section .content .columns.left-column .forward-container .social-media-container .social-media-links a {
+        font-size: 14px;
+        text-align: center; }
+    #contact-section .content .columns.left-column .bg-container {
+      width: 70.5%; } }
 
 #projects-section {
   background: #F8F9FB;
