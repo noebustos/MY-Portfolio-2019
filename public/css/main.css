@@ -867,10 +867,14 @@ header {
 
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  #contact-section .section-title h2 {
-    color: #fff; }
+  #contact-section .lower-bg-shape {
+    opacity: .3;
+    height: 50%;
+    background: #fff; }
+    #contact-section .lower-bg-shape img {
+      display: none; }
   #contact-section .section-title img {
-    width: 120px; }
+    width: 110px; }
   #contact-section .content {
     position: relative;
     z-index: 10;

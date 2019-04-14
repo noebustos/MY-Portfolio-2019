@@ -293,18 +293,21 @@
     .lower-bg-shape{
       // position: absolute;
       // z-index: 1;
+      opacity: .3;
       // opacity: .2;
       // top: 50%;
       // width: 100vh;
+      height: 50%;
+      background: #fff;
+      
+      img{
+        display: none;
+      }
     }
 
     .section-title{
-      h2{
-        color: #fff;
-      }
-
       img{
-        width: 120px;
+        width: 110px;
       }
     }
 
