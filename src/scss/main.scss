@@ -58,25 +58,25 @@ a{
   color: $med-black;
 }
 
-  footer{
+footer{
 
-    background: $lt-gray;
-    padding: 36px 0;
-    color: $med-black;
-    font-weight: 500;
- 
-    .container{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      justify-items: center;
-    }
+  background: $lt-gray;
+  padding: 36px 0;
+  color: $med-black;
+  font-weight: 500;
 
-    .logo{
-      font-size: 1.5rem;
-      font-weight: 700;
-    }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
   }
+
+  .logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
 
 
 
