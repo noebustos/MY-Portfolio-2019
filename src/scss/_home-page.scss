@@ -354,43 +354,21 @@
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px){ 
   #home-section{
-    // height: 100vh;
-    // overflow: hidden;
-
     .vertical-container{
-      // height: 100vh;
-      // display: flex;
-      // flex-direction: row;
-      // flex-wrap: nowrap;
-      // justify-content: center;
-      // align-items: center;
-      // align-content: center;
-
       .img-container{
-        // width: 50%;
         display: block;
-        // text-align: center;
 
         img.hero-img{
           width: 45%;
-          // margin: 0 auto;
-          // position: absolute;
-          // top: 20.1%;
           top: 50%;
-          // left: 6%;
-          // z-index: 10;
           transform: translateY(-50%);
         }
 
         img.shirt-gradient{
-          // width: 440px;
           width: 45%;
           margin: 0 auto;
           position: absolute;
-          // bottom: 0;
           bottom: 24.7%;
-          // left: 6%;
-          // z-index: 11;
         }
 
         .hero-bg-shadow{
@@ -419,22 +397,12 @@
 
         h5{
           display: none;
-          // font-size: 80px;
-          // letter-spacing: -5px;
-          // font-weight: 800;
-          // background: rgb(255,255,255);
-          // background: linear-gradient(0deg, rgba(255,255,255,0) 20%, rgba(255,255,255,.08) 100%);
-          // -webkit-background-clip: text;
-          // -webkit-text-fill-color: transparent;
         }
 
         .yellow-bg{
           padding: 38px 0 38px 33%;     
           width: 63.5vw;          
-          // height: 277px;
-          // min-height: 27vh;
           height: auto;
-          // max-height: 33vh;
           right: 27%;
           clip-path: none;          
           filter: none;
@@ -510,22 +478,12 @@
 
         h5{
           display: none;
-          // font-size: 80px;
-          // letter-spacing: -5px;
-          // font-weight: 800;
-          // background: rgb(255,255,255);
-          // background: linear-gradient(0deg, rgba(255,255,255,0) 20%, rgba(255,255,255,.08) 100%);
-          // -webkit-background-clip: text;
-          // -webkit-text-fill-color: transparent;
         }
 
         .yellow-bg{
           padding: 38px 0 38px 33%;     
           width: 63.5vw;          
-          // height: 277px;
-          // min-height: 27vh;
           height: auto;
-          // max-height: 33vh;
           right: 27%;
           clip-path: none;          
           filter: none;
