@@ -235,42 +235,13 @@
         grid-template-columns: 100%;  
 
         .columns{
-          // width: 50%;
           width: auto;
-          // width: 100%;
 
           &.left-column{
             .col-title{
-              // text-transform: uppercase;
-              // position: relative;
 
               .bg-text{
-                // font-size: 155px;
-                font-size: 25.3vw;
-                // font-weight: 900;
-                // color: #E4EDF6;
-                // margin: -22px 0 20px -7px;
-                // background: -webkit-linear-gradient(120deg, rgba(228,237,246,1) 40%, rgba(248,250,252,1) 100%);
-                // -webkit-background-clip: text;
-                // -webkit-text-fill-color: transparent;       
-              }
-
-              .title-container{
-                // position: absolute;
-                // bottom: 30px;
-                // color: $med-black;
-
-                h5{
-                  // font-size: 1.8rem;
-                  // font-weight: 700;
-                  // letter-spacing: 2px;
-                  // margin-bottom: 5px;
-                }
-
-                h6{
-                  // font-size: 1.3rem;
-                  // font-weight: 400;
-                }
+                font-size: 25.3vw;     
               }
             }
 
@@ -279,30 +250,13 @@
             }
 
             .other-info{
-              h6{
-                // font-size: 1.3rem;
-                // font-weight: 600;
-                // color: $med-black;
-                // margin-bottom: 17px;
-                // text-transform: capitalize;
-                // line-height: 1.4;
-              }
-
               .interest-container{
                 display: flex;
                 justify-content: space-between;
-              margin-bottom: 70px;
+                margin-bottom: 70px;
 
                 ul.interests{
                   justify-self: center;
-                  li{
-                    // margin: 5px 0;
-
-                    &.interest-title{
-                      // font-weight: 600;
-                      // margin: 0 0 9px;
-                    }
-                  }
                 }
               }
             }
