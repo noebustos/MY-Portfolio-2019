@@ -308,14 +308,10 @@
   }
 }
 
-
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px){ 
   #skills-section{
-    // clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
-    // background: linear-gradient(90deg, rgba(0,87,178,1) 0%, rgba(3,77,154,1) 100%);
     background: linear-gradient(90deg, rgba(3,77,154,1) 0%, rgba(0,87,178,1) 100%);
-    // width: 100vw;
     overflow: hidden;
 
     .section-title{
@@ -326,24 +322,7 @@
     }
 
     .skills-container{
-      // display: flex;
-      // width: 68%;
       width: 100%;
-
-      .skill{
-        .skill-title{
-          // font-size: 1.2rem;
-          // font-weight: 700;
-          // letter-spacing: 1.5px;
-          // margin-bottom: 17px;
-        }
-
-        ul{
-          // display: grid;
-          // grid-template-columns: 1fr 1fr; 
-          // grid-row-gap: 5px;
-        }
-      }
     }
 
     .bg-circle-xl{
@@ -352,112 +331,50 @@
 
     .bg-circle-md1{
       display: none; 
-      width: 60vw;
-      height: 60vw;
-      top: -149%;
-      bottom: auto;
-      left: -37%;
     }
 
     .bg-circle-md2{
       display: none;
-      width: 60vw;
-      height: 60vw;
-      bottom: -149%;
-      top: auto;
-      right: -37%;
     }
 
     .bg-circle-sm1{
       display: none;
-      width: 15vw;
-      height: 15vw;
-      top: -23%;
-      left: -13%;
     }
 
     .bg-circle-sm11{
       display: none; 
-      width: 15vw;
-      height: 15vw;
-      bottom: -23%;
-      left: auto;
-      right: -13%;
     }
 
     .bg-circle-sm111{
       display: none; 
-      width: 80vw;
-      height: 80vw;
-      bottom: -206%;
-      top: auto;
-      right: -6%;
     }
     
     .bg-circle-sm2{
       display: none;
-      width: 80vw;
-      height: 80vw;
-      bottom: auto;
-      top: -206%;
-      right: auto;
-      left: -6%;
     }
 
     .bg-circle-xs1{
       display: none; 
-      width: 7vw;
-      height: 7vw;
-      top: -38%;
-      left: auto;
-      right: 33%;
-
     }
 
     .bg-circle-xs2{
       display: none; 
-      width: 7vw;
-      height: 7vw;
-      top: auto;
-      bottom: -38%;
-      right: auto;
-      left: 33%;
     }
 
     .bg-circle-l1{
       display: none; 
-      width: 20vw;
-      height: 20vw;
-      bottom: auto;
-      top: -50%;
-      right: -15%;
     }
 
     .bg-circle-l11{
       display: none; 
-      width: 20vw;
-      height: 20vw;
-      top: auto;
-      bottom: -50%;
-      left: -15%;
-
     }
 
     .bg-circle-l2{
       display: none;
-      width: 2.5vw;
-      height: 2.5vw;
-      bottom: -21%;
-      right: 17%;
     }
 
     .bg-circle-l22{
       display: none;
-      width: 2.5vw;
-      height: 2.5vw;
-      top: -21%;
-      left: 17%;    
-      right: auto;
     }
   }  
 }
