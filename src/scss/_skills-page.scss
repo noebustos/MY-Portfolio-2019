@@ -211,16 +211,12 @@
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px){ 
   #skills-section{
-    // display: none;
     padding: 6.25rem 1.25rem;
     overflow: hidden;;
     width: 100%;
     clip-path: polygon(0% 0%, 100% 6%, 100% 100%, 0% 94%);
-    // clip-path: none;
-// background: linear-gradient(180deg, rgba(0,0,0,.2) 0%, rgba(0,87,178,1) 50%);
-  background: linear-gradient(0deg, rgba(0,87,178,1) 0%, rgba(3,77,154,1) 100%);
+    background: linear-gradient(0deg, rgba(0,87,178,1) 0%, rgba(3,77,154,1) 100%);
 
-  
     .section-title{
       p{
         width: 100%;
@@ -229,9 +225,8 @@
     }
 
     .skills-container{
-       flex-wrap: wrap;
+      flex-wrap: wrap;
       width: 100%;
-
 
       .skill{
         .skill-title{
@@ -257,7 +252,6 @@
       width: 120%;
       height: 100%;
       border-radius: 0;
-      // background: linear-gradient(180deg, rgba(0,0,0,.3) 0%, rgba(0,0,0,0) 100%);
       opacity: 1;
       top: -27%;
       left: -10%;
