@@ -219,7 +219,6 @@
   }
 }
 
-
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px){ 
   #projects-section{
@@ -227,6 +226,7 @@
       img{
         width: 170px;
       }
+
       p{
         width: 100%;
       }
@@ -234,138 +234,14 @@
 
     .projects-container{
       grid-template-columns: 1fr 1fr;
-      // grid-template-rows: 275px 325px 325px;
-      // grid-template-rows: 39.3% 325px 325px;
-      // grid-template-rows: 26.8vh 325px 325px;
       grid-template-rows: 26.8vh 31.8vh 31.8vh;
-      // grid-template-rows: 26.8vh minmax(31.8vh, 1fr) minmax(31.8vh, 1fr);
-
 
       .projects{
-        .project-info-box{
-          // width: 95%;
-          // height: 94%;
-          // padding: 30px;
-          // position: absolute;
-          // bottom: 0;
-          // left: 0;
-          // z-index: 10;
-          // text-align: middle;
-          // transform: translate(-60%, 60%);
-          // opacity: 0;
-          // transition: all .5s cubic-bezier(0,.02,.33,1.35);        
-
+        .project-info-box{       
           &.info-box-xl{
             width: 96%;
             height: 96%;
             padding: 30px;
-          }
-
-          .project-title{
-            // text-transform: capitalize;
-            // margin: 0 auto;
-            // text-align: center;
-
-            .title-container{
-              // display: inline-block;
-            }
-
-            .placement {
-              // display: inline-block;
-              // margin-right: 17px;
-              // font-size: 3.3rem;
-              // font-weight: 900;
-              // color: $main-yellow;
-              // text-align: left;
-            }
-
-            h6 {
-              // display: inline-block;
-              // text-align: left;
-              // font-size: 1.2rem;
-              // font-weight: 600;
-              // color: $med-black;
-              // line-height: 1.2;
-            }
-          }
-
-            .project-desc{
-              // text-align: left;
-              // margin: 35px auto;
-              // line-height: 1.5;
-              // color: $med-gray;
-            }
-
-          .project-btns{
-            // margin: 0 auto;
-            // width: 100%;
-            // display: flex;
-            // justify-content: space-evenly;
-            // font-size: 12px;
-            // text-transform: uppercase;
-            // font-weight: 700;
-            // letter-spacing: 1px;
-            
-            .code-btn-container{
-              // margin-right: 15px;      
-
-              .code-btn{
-                // display: block;
-                // margin: 0 auto 5px;
-                // transition: all .2s ease-in-out;
-              }
-
-              img{
-                // display: block;
-                // margin-left: -1px;
-                // opacity: 0; 
-                // transform: translateY(- 5px);
-                // transition: transform .2s $easeOutBack, opacity .15s;
-              }
-
-              &:hover{
-                .code-btn{
-                // color: $dark-yellow;
-                } 
-                
-                img{
-                  // opacity: 1;
-                  // transform: translateY(0);
-                }
-              }
-            }
-
-            .site-btn-container{
-              // margin-left: 15px;      
-
-              .site-btn{
-                // display: block;
-                // margin: 0 auto 5px;
-                // transition: all .2s ease-in-out;
-              }
-
-              img{
-                // display: block;
-                // opacity: 0; 
-
-                // transform: translateY(- 5px);
-                // transition: transform .2s $easeOutBack, opacity .15s;
-              }
-
-              &:hover{
-                .site-btn{
-                  // color: $dark-yellow;
-                  // position: relative;
-                } 
-
-                img{
-                  // opacity: 1;
-                  // transform: translateY(0);
-                  // position: relative;
-                  // right: 2px;
-                }
-              }
-            }
           }
         }
 
@@ -382,10 +258,7 @@
 
         &.project2{
           grid-column: 1/2;
-          grid-row: 2/3;
-          background: url("https://cdn.dribbble.com/users/14268/screenshots/5395958/reilanding.png")center left;
-          background-repeat: no-repeat;
-          background-size: cover;        
+          grid-row: 2/3;       
         }
 
         &.project3{
