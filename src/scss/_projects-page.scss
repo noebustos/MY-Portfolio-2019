@@ -654,17 +654,15 @@
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px){ 
   #projects-section{
-    // background: green;
       padding: 6.25rem 1.25rem;
-      // margin-top: 0;
       margin-top: -47px;
     clip-path: polygon(0% 0%, 100% 2.1%, 100% 100%, 0% 100%);
-    // clip-path: none;
 
     .section-title{
       img{
         width: 150px;
       }
+
       p{
         width: 100%;
         text-align: left;
@@ -681,8 +679,6 @@
 
       .projects{
         .project-info-box{
-          // padding: 1.5625rem;
-          // padding: 7%;
           padding: 6%;
           text-align: left;       
 
@@ -700,7 +696,6 @@
             }
 
             h6 {
-              // font-size: 1.2rem;
               font-size: 1.25rem;
             }
           }
