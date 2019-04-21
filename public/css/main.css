@@ -908,6 +908,11 @@ header {
       position: relative;
       right: 6%; } }
 
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 696px) {
+  #contact-section .content .columns.left-column .forward-container .title-questions h6 {
+    margin-bottom: 5px; } }
+
 #projects-section {
   background: #F8F9FB;
   padding: 180px 0 150px;
