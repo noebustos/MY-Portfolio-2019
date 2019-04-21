@@ -902,7 +902,11 @@ header {
       width: 70%;
       left: -30px; }
   #contact-section .content .columns.right-column {
-    position: static; } }
+    position: static; }
+    #contact-section .content .columns.right-column img {
+      width: 120%;
+      position: relative;
+      right: 6%; } }
 
 #projects-section {
   background: #F8F9FB;
