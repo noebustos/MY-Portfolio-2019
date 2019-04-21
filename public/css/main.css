@@ -867,7 +867,7 @@ header {
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   #contact-section .lower-bg-shape {
-    opacity: .3;
+    left: 0;
     height: 50%;
     background: #fff; }
     #contact-section .lower-bg-shape img {
