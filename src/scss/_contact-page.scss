@@ -326,11 +326,9 @@
           // position: relative;
 
           .forward-container{
-            // border-radius: 5px;
             max-width: 90%;
-            padding: 40px 35px;
-            // margin: 8.5% 0 0 8.5%;
-            // position: relative;
+            padding: 30px;
+            margin: 8.5% 0 0 0;
 
             .title-questions{
               // position: relative;
@@ -360,7 +358,7 @@
 
             .subtitle{
               max-width: 100%;
-              // margin: 17px auto 50px;
+              margin: 14px auto 50px;
               font-size: 1rem;
               
               p{
@@ -374,8 +372,7 @@
             }
             
             .contact-title{
-              // text-transform: capitalize;
-              // margin-bottom: 17px;
+              margin-bottom: 14px;
             }
 
             .social-media-container{
@@ -399,15 +396,13 @@
           } 
 
           .bg-container{
-            // background: $main-blue;
-            width: 70.5%;
+            width: 70%;
             // height: 100%;
             // box-sizing: content-box;
             // padding-bottom: 8.5%;
-            // color: $med-gray;
             // position: absolute;
-            // z-index: 15;
             // top: 0;
+            left: -30px;
           }
         }
 
@@ -415,7 +410,7 @@
           // width: 50%;
           // display: inline-block;
           // float: right;
-          // position: relative; 
+          position: static; 
           // text-align: center;
           // vertical-align: middle;
           
