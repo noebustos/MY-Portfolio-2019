@@ -922,6 +922,13 @@ header {
       #contact-section .content .columns.left-column .forward-container {
         max-width: 70%;
         margin: 0 auto; }
+      #contact-section .content .columns.left-column .bg-container {
+        width: 80%;
+        height: 73%;
+        top: 23%;
+        margin: 0 auto;
+        right: 0;
+        left: 0; }
     #contact-section .content .columns.right-column {
       width: 100%;
       display: block !important;
