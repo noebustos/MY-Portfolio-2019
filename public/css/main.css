@@ -934,8 +934,9 @@ header {
       display: block !important;
       float: none; }
       #contact-section .content .columns.right-column img {
-        width: 70%;
-        margin-top: 10%; } }
+        width: 75%;
+        right: 0;
+        margin-top: 100px; } }
 
 #projects-section {
   background: #F8F9FB;
