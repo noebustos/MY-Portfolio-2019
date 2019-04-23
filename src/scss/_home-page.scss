@@ -104,7 +104,7 @@
             margin-left: 220px;
 
             h1{
-              font-size: 55px;
+              font-size: 	3.125rem;
               font-weight: 700;
               color: #fff;
               text-transform: uppercase;
@@ -1024,7 +1024,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 950px){ 
+@media only screen and (min-width: 769px) and (max-width: 949px){ 
   #home-section{
     .vertical-container{
       .img-container{
@@ -1043,8 +1043,13 @@
         //   left: 11%;
         // }
         
+          .bg-circle-container{
+            // right: 126%;
+          }
+        } 
+
         .bg-circle-container{
-          // right: 126%;
+          right: 136%;
         }
       }
 
@@ -1061,7 +1066,7 @@
           }
           
           .bg-cutout{
-            // right: 69.9%;
+            right: 70.9%;
           }
         }
       }

@@ -275,7 +275,7 @@ header {
         #home-section .vertical-container .intro-area .yellow-bg .container {
           margin-left: 220px; }
           #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-            font-size: 55px;
+            font-size: 3.125rem;
             font-weight: 700;
             color: #fff;
             text-transform: uppercase;
@@ -759,27 +759,11 @@ header {
       right: 69.9%; } }
 
 /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 950px) {
-  #home-section .vertical-container .img-container {
-    display: block; }
-    #home-section .vertical-container .img-container img.hero-img {
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      transform: translateY(-50%); }
-    #home-section .vertical-container .img-container img.shirt-gradient {
-      bottom: 26.9%; }
-    #home-section .vertical-container .img-container .hero-bg-shadow {
-      left: 11%; }
-    #home-section .vertical-container .img-container .bg-circle-container {
-      right: 126%; }
-  #home-section .vertical-container .intro-area {
-    display: block; }
-    #home-section .vertical-container .intro-area h5 {
-      margin-left: 13px; }
-    #home-section .vertical-container .intro-area .yellow-bg .container {
-      margin-left: 180px; }
-    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-      right: 69.9%; } }
+@media only screen and (min-width: 769px) and (max-width: 949px) {
+  #home-section .vertical-container .img-container .bg-circle-container {
+    right: 136%; }
+  #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+    right: 70.9%; } }
 
 /* Tablet (portrait and landscape) */
 /* laptop */
@@ -2102,3 +2086,8 @@ footer {
 @media only screen and (min-width: 769px) and (max-width: 1025px) {
   .container {
     max-width: 900px; } }
+
+/* desktop */
+@media only screen and (min-width: 769px) and (max-width: 949px) {
+  .container {
+    max-width: 860px; } }
