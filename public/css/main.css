@@ -699,8 +699,14 @@ header {
     #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
       width: 1100px;
       height: 1100px; }
-  #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-    right: 72.9%; } }
+  #home-section .vertical-container .intro-area .yellow-bg {
+    width: 792px;
+    right: 41%; }
+    #home-section .vertical-container .intro-area .yellow-bg .container {
+      margin-left: 203px;
+      position: absolute; }
+    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+      right: 69.9%; } }
 
 /* Tablet (portrait and landscape) */
 /* laptop */
