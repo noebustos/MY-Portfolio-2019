@@ -751,6 +751,33 @@ header {
       right: 126%; }
   #home-section .vertical-container .intro-area {
     display: block; }
+    #home-section .vertical-container .intro-area h5 {
+      margin-left: 13px; }
+    #home-section .vertical-container .intro-area .yellow-bg .container {
+      margin-left: 180px; }
+    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+      right: 69.9%; } }
+
+/* laptop */
+@media only screen and (min-width: 769px) and (max-width: 950px) {
+  #home-section .vertical-container .img-container {
+    display: block; }
+    #home-section .vertical-container .img-container img.hero-img {
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); }
+    #home-section .vertical-container .img-container img.shirt-gradient {
+      bottom: 26.9%; }
+    #home-section .vertical-container .img-container .hero-bg-shadow {
+      left: 11%; }
+    #home-section .vertical-container .img-container .bg-circle-container {
+      right: 126%; }
+  #home-section .vertical-container .intro-area {
+    display: block; }
+    #home-section .vertical-container .intro-area h5 {
+      margin-left: 13px; }
+    #home-section .vertical-container .intro-area .yellow-bg .container {
+      margin-left: 180px; }
     #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
       right: 69.9%; } }
 

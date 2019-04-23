@@ -979,94 +979,89 @@
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1025px){ 
   #home-section{
-
     .vertical-container{
       .img-container{
         display: block;
-        // position: absolute;
-        // top: 0;
-        // bottom: 0;
 
         img.hero-img{
-          // width: 35%;
-          // left: 0;
           top: 50%;
           transform: translateY(-50%);
         }
 
         img.shirt-gradient{
-          // width: 35%;
           bottom: 26.9%;
-          // left: 0;
         }
         
         .hero-bg-shadow{
-          // position: absolute;
-          // top: 50%;
           left: 11%;
-          // z-index: 9;
-          // transform: translateY(-50%);
-          // width: 140px;
-          // height: 140px;
-          // border-radius: 50%;
-          // box-shadow: 0 0 140px 140px rgba(0,0,0,.2);
         }
         
         .bg-circle-container{
-          // width: 1030px;
-          // height: 1030px;
           right: 126%;
-
-          .bg-circle-big{
-            // width: 1030px;
-            // height: 1030px;
-          }
         }
       }
 
       .intro-area{
         display: block;
-        // position: absolute;
+
+        h5{
+          margin-left: 13px;
+        }
 
         .yellow-bg{
-          // width: 840px;
-          // right: 53%;
-          // clip-path: none;
-
           .container{
-            // margin-left: 243px;
-            // position: absolute;
-
-            h1{
-              // font-size: 2.5rem;
-            }
-
-            h3{
-              // font-size: 1.5rem;
-            }
-
-            p{
-              // font-size: 1rem;
-            }
-
-            .call-actions{
-              a{
-                // padding: 0.625rem 1.75rem;
-                // letter-spacing: 0;
-                
-                &.hire-btn{
-                  // padding: 7px 25px;
-                }
-
-                &:hover{
-                  // padding: 10px 28px;
-                }
-              }
-            }
+            margin-left: 180px;
           }
           
           .bg-cutout{
             right: 69.9%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+ /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 950px){ 
+  #home-section{
+    .vertical-container{
+      .img-container{
+        // display: block;
+
+        img.hero-img{
+          // top: 50%;
+          // transform: translateY(-50%);
+        }
+
+        img.shirt-gradient{
+          // bottom: 26.9%;
+        }
+        
+        .hero-bg-shadow{
+        //   left: 11%;
+        // }
+        
+        .bg-circle-container{
+          // right: 126%;
+        }
+      }
+
+      .intro-area{
+        // display: block;
+
+        h5{
+          // margin-left: 13px;
+        }
+
+        .yellow-bg{
+          .container{
+            // margin-left: 180px;
+          }
+          
+          .bg-cutout{
+            // right: 69.9%;
           }
         }
       }
