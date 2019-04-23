@@ -684,6 +684,24 @@ header {
     padding: 30px 0 30px 38%; } }
 
 /* desktop */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  #home-section .vertical-container .img-container img.hero-img {
+    width: 35%; }
+  #home-section .vertical-container .img-container img.shirt-gradient {
+    width: 35%;
+    bottom: 23.1%; }
+  #home-section .vertical-container .img-container .hero-bg-shadow {
+    width: 100px;
+    height: 100px; }
+  #home-section .vertical-container .img-container .bg-circle-container {
+    width: 1100px;
+    height: 1100px; }
+    #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
+      width: 1100px;
+      height: 1100px; }
+  #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+    right: 72.9%; } }
+
 /* Tablet (portrait and landscape) */
 /* laptop */
 /* laptop */
