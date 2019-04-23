@@ -70,7 +70,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     justify-items: center;
-    
+
     .logo{
       font-size: 1.5rem;
       font-weight: 700;
@@ -146,10 +146,15 @@ footer{
  
  footer{
   padding: 30px 20px;
+  line-height: 1.3;
   
   .container{
-    p{
-      width: 40%;
+    .copyright{
+      width: 32%;
+    }
+    .footer-info{
+      // text-align: right;
+      width: 19%;
     }
   }
  }
