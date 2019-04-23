@@ -1931,7 +1931,7 @@ a {
   color: #555555; }
 
 footer {
-  background: #F8F9FB;
+  background: #fff;
   padding: 36px 0;
   color: #555555;
   font-weight: 500; }
@@ -1946,9 +1946,9 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     justify-items: center; }
-  footer .logo {
-    font-size: 1.5rem;
-    font-weight: 700; }
+    footer .container .logo {
+      font-size: 1.5rem;
+      font-weight: 700; }
 
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px) {
@@ -1959,7 +1959,6 @@ footer {
     section .section-title img {
       width: 90px; }
   footer {
-    background: #fff;
     padding: 2rem 1.25rem;
     font-size: .9rem;
     text-align: center; }
@@ -1982,4 +1981,8 @@ footer {
     section .section-title h2 {
       font-size: 2.8125rem; }
     section .section-title img {
-      width: 95px; } }
+      width: 95px; }
+  footer {
+    padding: 30px 20px; }
+    footer .container p {
+      width: 40%; } }

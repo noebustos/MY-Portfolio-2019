@@ -60,7 +60,7 @@ a{
 
 footer{
 
-  background: $lt-gray;
+  background: #fff;
   padding: 36px 0;
   color: $med-black;
   font-weight: 500;
@@ -70,11 +70,11 @@ footer{
     justify-content: space-between;
     align-items: center;
     justify-items: center;
-  }
-
-  .logo{
-    font-size: 1.5rem;
-    font-weight: 700;
+    
+    .logo{
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
   }
 }
 
@@ -96,7 +96,6 @@ footer{
   }
   
   footer{
-    background: #fff;
     padding: 2rem 1.25rem;
     font-size: .9rem;
     text-align: center;
@@ -146,6 +145,13 @@ footer{
   }
  
  footer{
+  padding: 30px 20px;
+  
+  .container{
+    p{
+      width: 40%;
+    }
+  }
  }
 }
 
