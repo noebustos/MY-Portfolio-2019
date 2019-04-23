@@ -820,7 +820,7 @@
 }
 
 
- /* desktop */
+ /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1200px){ 
   #home-section{
     .vertical-container{
@@ -893,6 +893,82 @@
           
           .bg-cutout{
             right: 69.9%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+ /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 1134px){ 
+  #home-section{
+    .vertical-container{
+      .img-container{
+        img.hero-img{
+          width: 35%;
+          left: 0;
+        }
+
+        img.shirt-gradient{
+          width: 35%;
+          bottom: 28.9%;
+          left: 0;
+        }
+        
+        .bg-circle-container{
+          width: 1030px;
+          height: 1030px;
+          right: 102%;
+
+          .bg-circle-big{
+            width: 1030px;
+            height: 1030px;
+          }
+        }
+      }
+
+      .intro-area{
+        .yellow-bg{
+          width: 840px;
+          right: 53%;
+          clip-path: none;
+
+          .container{
+            margin-left: 243px;
+            position: absolute;
+
+            h1{
+              // font-size: 2.5rem;
+            }
+
+            h3{
+              // font-size: 1.5rem;
+            }
+
+            p{
+              // font-size: 1rem;
+            }
+
+            .call-actions{
+              a{
+                // padding: 0.625rem 1.75rem;
+                // letter-spacing: 0;
+                
+                &.hire-btn{
+                  // padding: 7px 25px;
+                }
+
+                &:hover{
+                  // padding: 10px 28px;
+                }
+              }
+            }
+          }
+          
+          .bg-cutout{
+            right: 65.9%;
           }
         }
       }

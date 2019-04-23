@@ -683,7 +683,7 @@ header {
   #home-section .vertical-container .intro-area .yellow-bg {
     padding: 30px 0 30px 38%; } }
 
-/* desktop */
+/* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   #home-section .vertical-container .img-container img.hero-img {
     width: 35%; }
@@ -707,6 +707,33 @@ header {
       position: absolute; }
     #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
       right: 69.9%; } }
+
+/* laptop */
+@media only screen and (min-width: 769px) and (max-width: 1134px) {
+  #home-section .vertical-container .img-container img.hero-img {
+    width: 35%;
+    left: 0; }
+  #home-section .vertical-container .img-container img.shirt-gradient {
+    width: 35%;
+    bottom: 28.9%;
+    left: 0; }
+  #home-section .vertical-container .img-container .bg-circle-container {
+    width: 1030px;
+    height: 1030px;
+    right: 102%; }
+    #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
+      width: 1030px;
+      height: 1030px; }
+  #home-section .vertical-container .intro-area .yellow-bg {
+    width: 840px;
+    right: 53%;
+    -webkit-clip-path: none;
+    clip-path: none; }
+    #home-section .vertical-container .intro-area .yellow-bg .container {
+      margin-left: 243px;
+      position: absolute; }
+    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+      right: 65.9%; } }
 
 /* Tablet (portrait and landscape) */
 /* laptop */
@@ -2019,3 +2046,8 @@ footer {
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   .container {
     max-width: 1100px; } }
+
+/* desktop */
+@media only screen and (min-width: 769px) and (max-width: 1134px) {
+  .container {
+    max-width: 1000px; } }

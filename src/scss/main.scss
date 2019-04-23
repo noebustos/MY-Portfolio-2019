@@ -172,6 +172,17 @@ footer{
 }
 
 
+ /* desktop */
+@media only screen and (min-width: 769px) and (max-width: 1134px){ 
+  .container{
+    max-width: 1000px;
+    // margin: 0 auto;
+    // // height: 100vh;
+    // position: relative;
+  }
+}
+
+
 
 
 
