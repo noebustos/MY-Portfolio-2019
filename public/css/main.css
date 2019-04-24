@@ -775,20 +775,26 @@ header {
     bottom: 27.9%;
     left: -1%; }
   #home-section .vertical-container .img-container .bg-circle-container {
-    right: 157%; }
+    right: 157%;
+    z-index: 5; }
   #home-section .vertical-container .intro-area .yellow-bg {
-    height: auto; }
+    height: auto;
+    z-index: 8;
+    width: 655px; }
     #home-section .vertical-container .intro-area .yellow-bg .container {
       position: static; }
       #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-        width: 50%;
+        width: 80%;
         font-size: 55px; }
         #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
           letter-spacing: 6px; }
-      #home-section .vertical-container .intro-area .yellow-bg .container h3 span {
-        display: none; }
+      #home-section .vertical-container .intro-area .yellow-bg .container h3 {
+        width: 75%; }
+        #home-section .vertical-container .intro-area .yellow-bg .container h3 span {
+          display: none; }
     #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-      right: 73%; } }
+      right: 73%;
+      z-index: 0; } }
 
 /* Tablet (portrait and landscape) */
 /* laptop */
