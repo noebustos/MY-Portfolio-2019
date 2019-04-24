@@ -1072,6 +1072,82 @@
 
 
  /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 885px){ 
+  #home-section{
+    .vertical-container{
+      .img-container{
+        // display: block;
+
+        img.hero-img{
+          width: 40%;
+          // top: 50%;
+          // transform: translateY(-50%);
+        }
+
+        img.shirt-gradient{
+          width: 40%;
+          bottom: 26.9%;
+        }
+        
+        .hero-bg-shadow{
+        //   left: 11%;
+        // }
+        } 
+
+        .bg-circle-container{
+          right: 157%;
+        }
+      }
+
+      .intro-area{
+        // display: block;
+
+        h5{
+          margin-left: 31px;
+        }
+
+        .yellow-bg{
+          height: auto;
+          width: 625px;
+          padding: 40px;
+          right: 46%;
+          filter: none !important;  
+          box-shadow: 0 0 5px 5px rgba(100,100,100,.1);
+
+          .container{
+            margin-left: 140px;
+            position: static;
+
+            h1{
+              // font-size: 45px;
+              // width: 100%;
+              span{
+                letter-spacing: 6px;
+                // font-weight: 500;
+              }
+            }
+
+            h3{
+              // width: 90%;
+              
+              span{
+                // display: none;
+              }
+            }  
+          }
+          
+          .bg-cutout{
+            display: none;
+            // right: 72.9%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+ /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 839px){ 
   #home-section{
     .vertical-container{
@@ -1079,14 +1155,14 @@
         // display: block;
 
         img.hero-img{
-          //  width: 40%;
+           width: 40%;
           // top: 50%;
           // transform: translateY(-50%);
           // left: -1%;
         }
 
         img.shirt-gradient{
-          //  width: 40%;
+           width: 40%;
           // bottom: 26.9%;
           // left: -1%;
         }
@@ -1110,13 +1186,13 @@
         .yellow-bg{
           height: auto;
           width: 645px;
-          padding: 45px;
+          padding: 40px;
           right: 51%;
           filter: none !important;  
           box-shadow: 0 0 5px 5px rgba(100,100,100,.1);
 
           .container{
-            margin-left: 201px;
+            // margin-left: 239px;
             position: static;
 
             h1{
@@ -1135,6 +1211,9 @@
               span{
                 display: none;
               }
+            }
+            p{
+              // width: 70%;
             }
           }
           
