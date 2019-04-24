@@ -766,35 +766,34 @@ header {
     right: 70.9%; } }
 
 /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 885px) {
-  #home-section .vertical-container .img-container img.hero-img {
-    width: 38%;
-    left: -1%; }
-  #home-section .vertical-container .img-container img.shirt-gradient {
-    width: 38%;
-    bottom: 27.9%;
-    left: -1%; }
+@media only screen and (min-width: 769px) and (max-width: 839px) {
   #home-section .vertical-container .img-container .bg-circle-container {
-    right: 157%;
-    z-index: 5; }
+    right: 168%; }
+  #home-section .vertical-container .intro-area h5 {
+    margin-left: 41px; }
   #home-section .vertical-container .intro-area .yellow-bg {
     height: auto;
-    z-index: 8;
-    width: 655px; }
+    width: 645px;
+    padding: 45px;
+    right: 51%;
+    -webkit-filter: none !important;
+    filter: none !important;
+    -webkit-box-shadow: 0 0 5px 5px rgba(100, 100, 100, 0.1);
+    box-shadow: 0 0 5px 5px rgba(100, 100, 100, 0.1); }
     #home-section .vertical-container .intro-area .yellow-bg .container {
+      margin-left: 201px;
       position: static; }
       #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-        width: 80%;
         font-size: 55px; }
         #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
           letter-spacing: 6px; }
       #home-section .vertical-container .intro-area .yellow-bg .container h3 {
-        width: 75%; }
+        width: 90%; }
         #home-section .vertical-container .intro-area .yellow-bg .container h3 span {
           display: none; }
     #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-      right: 73%;
-      z-index: 0; } }
+      display: none;
+      right: 73%; } }
 
 /* Tablet (portrait and landscape) */
 /* laptop */
@@ -2127,3 +2126,8 @@ footer {
 @media only screen and (min-width: 769px) and (max-width: 885px) {
   .container {
     max-width: 790px; } }
+
+/* desktop */
+@media only screen and (min-width: 769px) and (max-width: 839px) {
+  .container {
+    max-width: 750px; } }

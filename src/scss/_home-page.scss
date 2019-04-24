@@ -1042,10 +1042,6 @@
         .hero-bg-shadow{
         //   left: 11%;
         // }
-        
-          .bg-circle-container{
-            // right: 126%;
-          }
         } 
 
         .bg-circle-container{
@@ -1073,38 +1069,34 @@
     }
   }
 }
+
+
  /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 885px){ 
+@media only screen and (min-width: 769px) and (max-width: 839px){ 
   #home-section{
     .vertical-container{
       .img-container{
         // display: block;
 
         img.hero-img{
-           width: 38%;
+          //  width: 40%;
           // top: 50%;
           // transform: translateY(-50%);
-          left: -1%;
+          // left: -1%;
         }
 
         img.shirt-gradient{
-           width: 38%;
-          bottom: 27.9%;
-          left: -1%;
+          //  width: 40%;
+          // bottom: 26.9%;
+          // left: -1%;
         }
         
         .hero-bg-shadow{
         //   left: 11%;
-        // }
-        
-          .bg-circle-container{
-            // right: 126%;
-          }
         } 
 
         .bg-circle-container{
-          right: 157%;
-          z-index: 5;
+          right: 168%;
         }
       }
 
@@ -1112,19 +1104,23 @@
         // display: block;
 
         h5{
-          // margin-left: 13px;
+          margin-left: 41px;
         }
 
         .yellow-bg{
           height: auto;
-          z-index: 8;
-          width: 655px;
+          width: 645px;
+          padding: 45px;
+          right: 51%;
+          filter: none !important;  
+          box-shadow: 0 0 5px 5px rgba(100,100,100,.1);
 
           .container{
-            // margin-left: 180px;
+            margin-left: 201px;
             position: static;
+
             h1{
-              width: 80%;
+              // width: 80%;
               font-size: 55px;
 
               span{
@@ -1134,7 +1130,7 @@
             }
 
             h3{
-              width: 75%;
+              width: 90%;
               
               span{
                 display: none;
@@ -1143,10 +1139,10 @@
           }
           
           .bg-cutout{
+            display: none;
             right: 73%;
             // width: 300px;
             // height: 600px;
-            z-index: 0;
           }
         }
       }
