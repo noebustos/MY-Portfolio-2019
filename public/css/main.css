@@ -779,17 +779,15 @@ header {
   #home-section .vertical-container .intro-area .yellow-bg {
     height: auto;
     width: 625px;
-    padding: 40px;
+    padding: 40px 0;
     right: 46%;
     -webkit-filter: none !important;
     filter: none !important;
     -webkit-box-shadow: 0 0 5px 5px rgba(100, 100, 100, 0.1);
     box-shadow: 0 0 5px 5px rgba(100, 100, 100, 0.1); }
     #home-section .vertical-container .intro-area .yellow-bg .container {
-      margin-left: 140px;
+      margin-left: 171px;
       position: static; }
-      #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
-        letter-spacing: 6px; }
     #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
       display: none; } }
 
