@@ -765,6 +765,31 @@ header {
   #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
     right: 70.9%; } }
 
+/* laptop */
+@media only screen and (min-width: 769px) and (max-width: 885px) {
+  #home-section .vertical-container .img-container img.hero-img {
+    width: 38%;
+    left: -1%; }
+  #home-section .vertical-container .img-container img.shirt-gradient {
+    width: 38%;
+    bottom: 27.9%;
+    left: -1%; }
+  #home-section .vertical-container .img-container .bg-circle-container {
+    right: 157%; }
+  #home-section .vertical-container .intro-area .yellow-bg {
+    height: auto; }
+    #home-section .vertical-container .intro-area .yellow-bg .container {
+      position: static; }
+      #home-section .vertical-container .intro-area .yellow-bg .container h1 {
+        width: 50%;
+        font-size: 55px; }
+        #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
+          letter-spacing: 6px; }
+      #home-section .vertical-container .intro-area .yellow-bg .container h3 span {
+        display: none; }
+    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+      right: 73%; } }
+
 /* Tablet (portrait and landscape) */
 /* laptop */
 /* laptop */
@@ -2091,3 +2116,8 @@ footer {
 @media only screen and (min-width: 769px) and (max-width: 949px) {
   .container {
     max-width: 860px; } }
+
+/* desktop */
+@media only screen and (min-width: 769px) and (max-width: 885px) {
+  .container {
+    max-width: 790px; } }
