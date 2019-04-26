@@ -820,6 +820,8 @@
 }
 
 
+
+
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1200px){ 
   #home-section{
@@ -1103,7 +1105,8 @@
         // display: block;
 
         h5{
-          margin-left: 31px;
+          // margin-left: 31px;
+          display: none;
         }
 
         .yellow-bg{
@@ -1155,16 +1158,14 @@
         // display: block;
 
         img.hero-img{
-           width: 40%;
+          // width: 40%;
           // top: 50%;
           // transform: translateY(-50%);
-          // left: -1%;
         }
 
         img.shirt-gradient{
-           width: 40%;
-          // bottom: 26.9%;
-          // left: -1%;
+          // width: 40%;
+          bottom: 27.9%;
         }
         
         .hero-bg-shadow{
@@ -1180,48 +1181,51 @@
         // display: block;
 
         h5{
-          margin-left: 41px;
+          // margin-left: 31px;
+          // display: none;
         }
 
         .yellow-bg{
-          height: auto;
-          width: 645px;
-          padding: 40px;
-          right: 51%;
-          filter: none !important;  
-          box-shadow: 0 0 5px 5px rgba(100,100,100,.1);
+          // height: auto;
+          // width: 625px;
+          padding: 40px 30%;
+          // right: 46%;
+          // filter: none !important;  
+          // box-shadow: 0 0 5px 5px rgba(100,100,100,.1);
 
           .container{
-            // margin-left: 239px;
-            position: static;
+            // margin-left: 171px;
+            // position: static;
+            margin: 0;
 
             h1{
+              // font-size: 42px;
               // width: 80%;
-              font-size: 55px;
-
-              span{
-                letter-spacing: 6px;
-                // font-weight: 500;
-              }
+              line-height: 1.05;
+              // text-align: center;
+              // margin: 0 auto;
             }
 
             h3{
-              width: 90%;
-              
+              // text-align: center;
+              // width: 75%;
+              line-height: 1.2;
+
               span{
-                display: none;
+                // display: none;
               }
-            }
+            }  
             p{
-              // width: 70%;
+              // text-align: center;
+              // width: 45%;
+              // line-height: 1.3;
+              // margin: 0 auto;
             }
           }
           
           .bg-cutout{
-            display: none;
-            right: 73%;
-            // width: 300px;
-            // height: 600px;
+            // display: none;
+            // right: 72.9%;
           }
         }
       }
