@@ -1778,6 +1778,11 @@ header {
     font-size: 129px !important; } }
 
 /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 839px) {
+  #about-section .left-column .col-title .bg-text {
+    font-size: 123px !important;
+    margin-top: -17px !important; } }
+
 #skills-section {
   background: #0057B2;
   padding: 190px 0;
