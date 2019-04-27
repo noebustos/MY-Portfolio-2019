@@ -435,6 +435,9 @@
         .bg-text{
           font-size: 141px !important;
         }
+        .title-container{
+          bottom: 29px !important;
+        }
       }
     }
   }
@@ -448,6 +451,10 @@
         .col-title{
           .bg-text{
             font-size: 129px !important;
+            margin-top: -19px!important;
+          }
+          .title-container{
+            bottom: 16px !important;
           }
         }
       }
@@ -463,6 +470,9 @@
         .bg-text{
           font-size: 123px !important;
           margin-top: -17px!important;
+        }
+        .title-container{
+          bottom: 16px !important;
         }
       }
     }
