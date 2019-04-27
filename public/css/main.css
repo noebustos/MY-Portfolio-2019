@@ -1758,6 +1758,26 @@ header {
     float: right; } }
 
 /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 1134px) {
+  #about-section .left-column .col-title .bg-text {
+    font-size: 163px !important; } }
+
+/* laptop */
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+  #about-section .left-column .col-title .bg-text {
+    font-size: 147px !important; } }
+
+/* laptop */
+@media only screen and (min-width: 769px) and (max-width: 949px) {
+  #about-section .left-column .col-title .bg-text {
+    font-size: 141px !important; } }
+
+/* laptop */
+@media only screen and (min-width: 769px) and (max-width: 885px) {
+  #about-section .left-column .col-title .bg-text {
+    font-size: 129px !important; } }
+
+/* laptop */
 #skills-section {
   background: #0057B2;
   padding: 190px 0;
