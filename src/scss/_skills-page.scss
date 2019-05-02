@@ -460,13 +460,153 @@
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1025px){ 
+  #skills-section{
+    .container{
+      .bg-circle-sm11{
+        display: none;
+      }
+      .bg-circle-sm111{
+        display: none;
+      }
 
+      .bg-circle-md1{
+        left: 5%;
+        bottom: -30%;
+        width: 30px;
+        height: 30px;
+      }
+
+      .bg-circle-md2{
+        right: 5%;
+        top: -30%;
+        width: 30px;
+        height: 30px;
+      }
+
+      .bg-circle-sm1{
+        right: 0%;
+        left: -6.5%;
+        width: 80px;
+        height: 80px;
+      }
+
+      .bg-circle-sm2{
+        right: -6.5%;
+        bottom: 28%;
+        width: 80px;
+        height: 80px;
+      }
+
+      .bg-circle-xs1{
+        width: 55px;
+        height: 55px;
+        left: -3%;
+        top: 83%;
+      }  
+
+      .bg-circle-xs2{
+        width: 55px;
+        height: 55px;
+        right: -3%;
+        top: 3%;
+      }  
+
+      .bg-circle-l1{
+        width: 55px;
+        height: 55px;
+        right: 2%;
+      }
+
+      .bg-circle-l11{
+        width: 55px;
+        height: 55px;
+        left: 1%;
+        top: -17%;
+      }
+
+      .bg-circle-l2{
+        right: 13%;
+      }
+
+      .bg-circle-l22{
+        left: 13%;
+        top: -45%;
+      }
+    }
+  }  
 }
 
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 949px){ 
+  #skills-section{
+    .container{
+      .bg-circle-sm11{
+        // display: none;
+      }
+      .bg-circle-sm111{
+        // display: none;
+      }
 
+      .bg-circle-md1{
+        // left: 5%;
+        // bottom: -30%;
+        // width: 30px;
+        // height: 30px;
+      }
+
+      .bg-circle-md2{
+        // right: 5%;
+        // top: -30%;
+        // width: 30px;
+        // height: 30px;
+      }
+
+      .bg-circle-sm1{
+        display: none;
+      }
+
+      .bg-circle-sm2{
+        display: none;
+      }
+
+      .bg-circle-xs1{
+        // width: 55px;
+        // height: 55px;
+        // left: -3%;
+        // top: 83%;
+      }  
+
+      .bg-circle-xs2{
+        // width: 55px;
+        // height: 55px;
+        // right: -3%;
+        // top: 3%;
+      }  
+
+      .bg-circle-l1{
+        // width: 55px;
+        // height: 55px;
+        // right: 2%;
+      }
+
+      .bg-circle-l11{
+        // width: 55px;
+        // height: 55px;
+        // left: 1%;
+        // top: -17%;
+      }
+
+      .bg-circle-l2{
+        // right: 13%;
+      }
+
+      .bg-circle-l22{
+        // left: 13%;
+        // top: -45%;
+      }
+    }
+  }  
 }
 
 
