@@ -2172,10 +2172,52 @@ header {
 
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 949px) {
-  #skills-section .container .bg-circle-sm1 {
+  #skills-section .container .bg-circle-md1 {
     display: none; }
+  #skills-section .container .bg-circle-md2 {
+    display: none; }
+  #skills-section .container .bg-circle-sm1 {
+    width: 20px;
+    height: 20px;
+    left: 1%;
+    bottom: -14%;
+    top: auto; }
   #skills-section .container .bg-circle-sm2 {
-    display: none; } }
+    width: 20px;
+    height: 20px;
+    right: 1%;
+    top: -14%; }
+  #skills-section .container .bg-circle-xs1 {
+    width: 125px;
+    height: 125px;
+    left: -12%;
+    top: auto;
+    bottom: -51%; }
+  #skills-section .container .bg-circle-xs2 {
+    width: 125px;
+    height: 125px;
+    right: -12%;
+    top: -51%; }
+  #skills-section .container .bg-circle-l1 {
+    width: 30px;
+    height: 30px;
+    right: 1%;
+    bottom: -26%; }
+  #skills-section .container .bg-circle-l11 {
+    width: 30px;
+    height: 30px;
+    left: 1%;
+    top: -26%; }
+  #skills-section .container .bg-circle-l2 {
+    right: -15%;
+    bottom: -88%;
+    width: 200px;
+    height: 200px; }
+  #skills-section .container .bg-circle-l22 {
+    left: -15%;
+    top: -88%;
+    width: 200px;
+    height: 200px; } }
 
 /* laptop */
 /* laptop */
