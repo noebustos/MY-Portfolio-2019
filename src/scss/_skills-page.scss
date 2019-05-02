@@ -403,12 +403,58 @@
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1200px){ 
+  #skills-section{
+    .container{
+      .bg-circle-md1{
+        left: 3%;
+      }
 
+            .bg-circle-md2{
+        right: 3%;
+      }
+    }
+  }
 }
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1134px){ 
+  #skills-section{
+    .container{
+      .bg-circle-md1{
+        left: -1.5%;
+      }
 
+      .bg-circle-md2{
+        right: -1.5%;
+      }
+
+      .bg-circle-xs1{
+        left: 6%;
+        top: 59%;
+      }  
+
+      .bg-circle-xs2{
+        right: 6%;
+        top: 33%;
+      }  
+
+      .bg-circle-l1{
+        right: 3%;
+      }
+
+      .bg-circle-l11{
+        left: 3%;
+      }
+
+      .bg-circle-l2{
+        right: 16%;
+      }
+
+      .bg-circle-l22{
+        left: 16%;
+      }
+    }
+  }  
 }
 
 

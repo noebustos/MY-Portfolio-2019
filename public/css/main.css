@@ -2092,7 +2092,33 @@ header {
       margin: 17px 0; } }
 
 /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  #skills-section .container .bg-circle-md1 {
+    left: 3%; }
+  #skills-section .container .bg-circle-md2 {
+    right: 3%; } }
+
 /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 1134px) {
+  #skills-section .container .bg-circle-md1 {
+    left: -1.5%; }
+  #skills-section .container .bg-circle-md2 {
+    right: -1.5%; }
+  #skills-section .container .bg-circle-xs1 {
+    left: 6%;
+    top: 59%; }
+  #skills-section .container .bg-circle-xs2 {
+    right: 6%;
+    top: 33%; }
+  #skills-section .container .bg-circle-l1 {
+    right: 3%; }
+  #skills-section .container .bg-circle-l11 {
+    left: 3%; }
+  #skills-section .container .bg-circle-l2 {
+    right: 16%; }
+  #skills-section .container .bg-circle-l22 {
+    left: 16%; } }
+
 /* laptop */
 /* laptop */
 /* laptop */
