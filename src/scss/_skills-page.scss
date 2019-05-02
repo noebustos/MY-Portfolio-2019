@@ -461,6 +461,7 @@
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1025px){ 
   #skills-section{
+    overflow: hidden;
     .container{
       .bg-circle-sm11{
         display: none;
@@ -541,6 +542,12 @@
 @media only screen and (min-width: 769px) and (max-width: 949px){ 
   #skills-section{
     .container{
+      .skills-container{
+        .skill{
+          margin: 0 15px;
+        }
+      }
+
       .bg-circle-sm11{
         // display: none;
       }
