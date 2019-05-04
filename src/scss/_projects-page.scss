@@ -1778,7 +1778,60 @@
                 }
               }
             }
-          }       
+          }  
+
+          .project-btns{
+            // margin: 0 auto;
+            // width: 100%;
+            display: block;
+            // justify-content: space-evenly;
+            // font-size: 12px;
+            // text-transform: uppercase;
+            // font-weight: 700;
+            letter-spacing: 0px;
+            
+            .code-btn-container{
+              margin-right: 0px; 
+              margin-bottom: 18px;   
+              text-align: center;  
+
+              .code-btn{
+                // display: block;
+                // margin: 0 auto 5px;
+                // transition: all .2s ease-in-out;
+              }
+
+              img{
+                width: 50%;
+                // display: block;
+                margin: 0 auto;
+                // opacity: 0; 
+                // transform: translateY(5px);
+                // transition: transform .2s $easeOutBack, opacity .15s;
+              }
+            }
+
+            .site-btn-container{
+              margin-left: 0px;   
+              text-align: center;    
+
+              .site-btn{
+                // display: block;
+                // margin: 0 auto 5px;
+                // transition: all .2s ease-in-out;
+              }
+
+              img{
+                width: 50%;
+                margin: 0 auto;
+                // display: block;
+                // opacity: 0; 
+
+                // transform: translateY(- 5px);
+                // transition: transform .2s $easeOutBack, opacity .15s;
+              }
+            }
+          }     
         }
 
         &.project3{

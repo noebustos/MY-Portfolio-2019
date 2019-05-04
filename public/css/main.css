@@ -1658,6 +1658,22 @@ header {
       display: block; }
     #projects-section .projects-container .projects.project2 .project-info-box .project-title .title-container h6 {
       display: block; }
+  #projects-section .projects-container .projects.project2 .project-btns {
+    display: block;
+    letter-spacing: 0px; }
+    #projects-section .projects-container .projects.project2 .project-btns .code-btn-container {
+      margin-right: 0px;
+      margin-bottom: 18px;
+      text-align: center; }
+      #projects-section .projects-container .projects.project2 .project-btns .code-btn-container img {
+        width: 50%;
+        margin: 0 auto; }
+    #projects-section .projects-container .projects.project2 .project-btns .site-btn-container {
+      margin-left: 0px;
+      text-align: center; }
+      #projects-section .projects-container .projects.project2 .project-btns .site-btn-container img {
+        width: 50%;
+        margin: 0 auto; }
   #projects-section .projects-container .projects.project3 .project-info-box .project-title .title-container .placement {
     vertical-align: baseline; }
   #projects-section .projects-container .projects.project3 .project-info-box .project-title .title-container h6 {
