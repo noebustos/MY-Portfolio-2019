@@ -219,6 +219,8 @@
   }
 }
 
+
+
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px){ 
   #projects-section{
@@ -822,9 +824,508 @@
 
 
 
+
+ /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 1200px){ 
+  #projects-section{
+    // background: $lt-gray;
+    // padding: 180px 0 150px;
+    // margin-top: -68px;
+    // clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+
+    .section-title{
+      img{
+        // width: 200px;
+      }
+      p{
+        // margin: 17px auto 0;
+        // width: 500px;
+        // line-height: 1.5;
+        // font-size: 1rem;
+        // color: $med-black;
+        // font-weight: 500;
+      }
+    }
+
+    .projects-container{
+      // margin: 0 auto;
+      // display: grid;
+      // grid-template-columns: 1fr .86fr 1fr;
+      // grid-template-rows: 325px 325px;
+      // grid-gap: 25px;
+
+      .projects{
+        // position: relative;
+        // z-index: 5;
+        // overflow: hidden;
+        // transition: background .4s ease-in-out;
+      
+        &:hover{
+          // background: $main-yellow !important;
+          // box-shadow: 0px 0px 30px 8px rgba(0,0,0,0.05);
+        }
+
+        .project-info-box{
+          // width: 95%;
+          // height: 94%;
+          // background: #fff;
+          // padding: 30px;
+          // position: absolute;
+          // bottom: 0;
+          // left: 0;
+          // z-index: 10;
+          // transform: translate(-60%, 60%);
+          // opacity: 0;
+          // transition: all .5s cubic-bezier(0,.02,.33,1.35);        
+
+          &.info-box-xl{
+            // height: 97%;
+            // width: 94%;
+            // padding: 50% 30px;
+          }
+
+          .project-title{
+            // text-transform: capitalize;
+            // margin: 0 auto;
+            // text-align: center;
+
+            .title-container{
+              // display: inline-block;
+            }
+
+            .placement {
+              // display: inline-block;
+              // margin-right: 17px;
+              // font-size: 3.3rem;
+              // font-weight: 900;
+              // color: $main-yellow;
+              // text-align: left;
+            }
+
+            h6 {
+              // display: inline-block;
+              // text-align: left;
+              // font-size: 1.2rem;
+              // font-weight: 600;
+              // color: $med-black;
+              // line-height: 1.2;
+            }
+          }
+
+            .project-desc{
+              // text-align: left;
+              // margin: 35px auto;
+              // line-height: 1.5;
+              // color: $med-gray;
+            }
+
+          .project-btns{
+            // margin: 0 auto;
+            // width: 100%;
+            // display: flex;
+            // justify-content: space-evenly;
+            // font-size: 12px;
+            // text-transform: uppercase;
+            // font-weight: 700;
+            // letter-spacing: 1px;
+            
+            .code-btn-container{
+              // margin-right: 15px;      
+
+              .code-btn{
+                // display: block;
+                // margin: 0 auto 5px;
+                // transition: all .2s ease-in-out;
+              }
+
+              img{
+                // display: block;
+                // margin-left: -1px;
+                // opacity: 0; 
+                // transform: translateY(- 5px);
+                // transition: transform .2s $easeOutBack, opacity .15s;
+              }
+
+              &:hover{
+                .code-btn{
+                // color: $dark-yellow;
+                } 
+                
+                img{
+                  // opacity: 1;
+                  // transform: translateY(0);
+                }
+              }
+            }
+
+            .site-btn-container{
+              // margin-left: 15px;      
+
+              .site-btn{
+                // display: block;
+                // margin: 0 auto 5px;
+                // transition: all .2s ease-in-out;
+              }
+
+              img{
+                // display: block;
+                // opacity: 0; 
+
+                // transform: translateY(- 5px);
+                // transition: transform .2s $easeOutBack, opacity .15s;
+              }
+
+              &:hover{
+                .site-btn{
+                  // color: $dark-yellow;
+                  // position: relative;
+                } 
+
+                img{
+                  // opacity: 1;
+                  // transform: translateY(0);
+                  // position: relative;
+                  // right: 2px;
+                }
+              }
+            }
+          }
+        }
+
+        &:hover .project-info-box{
+          // transform: translate(0%, 0%);
+          // opacity: 1;
+        }
+
+        &.project1{
+          // grid-column: 1/2;
+          // grid-row: 1/2;
+          // background: url("https://cdn.dribbble.com/users/443226/screenshots/5321244/music_ui_design_preview.jpg") center center;
+          // background-repeat: no-repeat;
+          // background-size: 155%;
+        } 
+
+        &.project2{
+          // grid-column: 2/3;
+          // grid-row: 1/3;
+          // background: url("https://cdn.dribbble.com/users/14268/screenshots/5395958/reilanding.png")center left;
+          // background-repeat: no-repeat;
+          // background-size: cover;        
+        }
+
+        &.project3{
+          // grid-column: 3/4;
+          // grid-row: 1/2;
+          // background: url("https://cdn.dribbble.com/users/160219/screenshots/6084707/ro_2x.png")center center;
+          // background-repeat: no-repeat;
+          // background-size: cover;
+
+          .placement{
+            // vertical-align: middle;
+          }
+        }
+
+        &.project4{
+          .project-info-box{
+            .project-title{
+              .title-container{
+                // display: flex;
+
+                .placement{
+                  // display: block;
+                }
+                h6{
+                  // display: block;
+                }
+              }
+            }
+          }
+        }
+
+        &.project5{
+          // grid-column: 3/4;
+          // grid-row: 2/3;
+          // background: url("https://cdn.dribbble.com/users/504740/screenshots/6086531/mono.jpg")center center;
+          // background-repeat: no-repeat;
+          // background-size: cover;
+          
+          .placement{
+            // vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}
+
+
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1134px){ 
+  #projects-section{
+    // background: $lt-gray;
+    // padding: 180px 0 150px;
+    // margin-top: -68px;
+    // clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
 
+    .section-title{
+      img{
+        // width: 200px;
+      }
+      p{
+        // margin: 17px auto 0;
+        // width: 500px;
+        // line-height: 1.5;
+        // font-size: 1rem;
+        // color: $med-black;
+        // font-weight: 500;
+      }
+    }
+
+    .projects-container{
+      // margin: 0 auto;
+      // display: grid;
+      // grid-template-columns: 1fr .86fr 1fr;
+      // grid-template-rows: 325px 325px;
+      // grid-gap: 25px;
+
+      .projects{
+        // position: relative;
+        // z-index: 5;
+        // overflow: hidden;
+        // transition: background .4s ease-in-out;
+
+        .project-info-box{
+          // width: 95%;
+          // height: 94%;
+          // background: #fff;
+          padding: 25px;
+          // position: absolute;
+          // bottom: 0;
+          // left: 0;
+          // z-index: 10;
+          // transform: translate(-60%, 60%);
+          // opacity: 0;
+          // transition: all .5s cubic-bezier(0,.02,.33,1.35);        
+
+          &.info-box-xl{
+            // height: 97%;
+            // width: 94%;
+            // padding: 50% 30px;
+          }
+
+          .project-title{
+            // margin: 0 auto;
+            text-align: left;
+
+            .title-container{
+              // display: inline-block;
+              display: flex;
+              margin-top: -3px;
+            }
+
+            .placement {
+              // display: inline-block;
+              margin-right: 15px;
+              // font-size: 3.3rem;
+              // font-weight: 900;
+              // color: $main-yellow;
+              // text-align: left;
+            }
+
+            h6 {
+              // display: inline-block;
+              // text-align: left;
+              // font-size: 1.2rem;
+              // font-weight: 600;
+              // color: $med-black;
+              // line-height: 1.2;
+            }
+          }
+
+            .project-desc{
+              // text-align: left;
+              // margin: 35px auto;
+              // line-height: 1.5;
+              // color: $med-gray;
+            }
+
+          .project-btns{
+            // margin: 0 auto;
+            // width: 100%;
+            // display: flex;
+            // justify-content: space-evenly;
+            // font-size: 12px;
+            // text-transform: uppercase;
+            // font-weight: 700;
+            // letter-spacing: 1px;
+            
+            .code-btn-container{
+              // margin-right: 15px;      
+
+              .code-btn{
+                // display: block;
+                // margin: 0 auto 5px;
+                // transition: all .2s ease-in-out;
+              }
+
+              img{
+                // display: block;
+                // margin-left: -1px;
+                // opacity: 0; 
+                // transform: translateY(- 5px);
+                // transition: transform .2s $easeOutBack, opacity .15s;
+              }
+
+              &:hover{
+                .code-btn{
+                // color: $dark-yellow;
+                } 
+                
+                img{
+                  // opacity: 1;
+                  // transform: translateY(0);
+                }
+              }
+            }
+
+            .site-btn-container{
+              // margin-left: 15px;      
+
+              .site-btn{
+                // display: block;
+                // margin: 0 auto 5px;
+                // transition: all .2s ease-in-out;
+              }
+
+              img{
+                // display: block;
+                // opacity: 0; 
+
+                // transform: translateY(- 5px);
+                // transition: transform .2s $easeOutBack, opacity .15s;
+              }
+
+              &:hover{
+                .site-btn{
+                  // color: $dark-yellow;
+                  // position: relative;
+                } 
+
+                img{
+                  // opacity: 1;
+                  // transform: translateY(0);
+                  // position: relative;
+                  // right: 2px;
+                }
+              }
+            }
+          }
+        }
+
+        &:hover .project-info-box{
+          // transform: translate(0%, 0%);
+          // opacity: 1;
+        }
+
+        &.project1{
+          // grid-column: 1/2;
+          // grid-row: 1/2;
+          // background: url("https://cdn.dribbble.com/users/443226/screenshots/5321244/music_ui_design_preview.jpg") center center;
+          // background-repeat: no-repeat;
+          // background-size: 155%;
+        } 
+
+        &.project2{
+          .project-info-box{
+            .project-title{
+              .title-container{
+                display: flex;
+                // text-align: left;
+                
+                .placement{
+                  display: block;
+                  // float:left;
+                  // font-size: 3.2rem;
+                  // margin-right: 15px;
+                  // margin-right: 0px;
+                }
+                h6{
+                  display: block;
+                  // font-size: 1.15rem;
+                  // float: left;
+                  // width: 100%;
+                }
+              }
+            }
+          }       
+        }
+
+        &.project3{
+         .project-info-box{
+            .project-title{
+              .title-container{
+                // text-align: left;
+
+                .placement{
+                  vertical-align: baseline;
+                  // display: block;
+                  // float:left;
+                  // font-size: 3.2rem;
+                  // margin-right: 15px;
+                  // margin-right: 0px;
+                }
+
+                h6{
+                  margin-top: 15px;
+                  // vertical-align: bottom;
+                  // display: block;
+                  // font-size: 1.15rem;
+                  // float: left;
+                  // width: 100%;
+                }
+              }
+            }
+          }
+        }
+
+        &.project4{
+          .project-info-box{
+            .project-title{
+              .title-container{
+                // text-align: left;
+                
+                .placement{
+                  // display: block;
+                  // float:left;
+                  // font-size: 3.2rem;
+                  // margin-right: 15px;
+                  // margin-right: 0px;
+                }
+                h6{
+                  // display: block;
+                  // font-size: 1.15rem;
+                  // float: left;
+                  // width: 100%;
+                }
+              }
+            }
+          }
+        }
+
+        &.project5{
+          // grid-column: 3/4;
+          // grid-row: 2/3;
+          // background: url("https://cdn.dribbble.com/users/504740/screenshots/6086531/mono.jpg")center center;
+          // background-repeat: no-repeat;
+          // background-size: cover;
+          
+          .placement{
+            // vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
 }
 
 

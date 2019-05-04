@@ -1574,6 +1574,32 @@ header {
 
 /* laptop */
 /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 1134px) {
+  #projects-section .projects-container .projects .project-info-box {
+    padding: 25px; }
+    #projects-section .projects-container .projects .project-info-box .project-title {
+      text-align: left; }
+      #projects-section .projects-container .projects .project-info-box .project-title .title-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: -3px; }
+      #projects-section .projects-container .projects .project-info-box .project-title .placement {
+        margin-right: 15px; }
+  #projects-section .projects-container .projects.project2 .project-info-box .project-title .title-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    #projects-section .projects-container .projects.project2 .project-info-box .project-title .title-container .placement {
+      display: block; }
+    #projects-section .projects-container .projects.project2 .project-info-box .project-title .title-container h6 {
+      display: block; }
+  #projects-section .projects-container .projects.project3 .project-info-box .project-title .title-container .placement {
+    vertical-align: baseline; }
+  #projects-section .projects-container .projects.project3 .project-info-box .project-title .title-container h6 {
+    margin-top: 15px; } }
+
+/* laptop */
 /* laptop */
 /* laptop */
 /* laptop */
