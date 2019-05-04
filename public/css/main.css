@@ -1071,6 +1071,7 @@ header {
 /* laptop */
 /* laptop */
 /* laptop */
+/* laptop */
 #projects-section {
   background: #F8F9FB;
   padding: 180px 0 150px;
@@ -1682,7 +1683,7 @@ header {
       margin-top: 15px; } }
 
 /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 839px) {
+@media only screen and (min-width: 769px) and (max-width: 845px) {
   #projects-section .projects-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 26.8vh 31.8vh 31.8vh; }
