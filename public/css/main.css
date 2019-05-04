@@ -1601,7 +1601,68 @@ header {
 
 /* laptop */
 /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 949px) {
+  #projects-section .projects-container .projects .project-info-box {
+    padding: 22px 20px; }
+    #projects-section .projects-container .projects .project-info-box .project-title {
+      text-align: left; }
+      #projects-section .projects-container .projects .project-info-box .project-title .title-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 0px; }
+      #projects-section .projects-container .projects .project-info-box .project-title .placement {
+        margin-right: 15px; }
+  #projects-section .projects-container .projects.project2 .project-info-box .project-title .title-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    #projects-section .projects-container .projects.project2 .project-info-box .project-title .title-container .placement {
+      display: block; }
+    #projects-section .projects-container .projects.project2 .project-info-box .project-title .title-container h6 {
+      display: block; }
+  #projects-section .projects-container .projects.project3 .project-info-box .project-title .title-container .placement {
+    vertical-align: baseline; }
+  #projects-section .projects-container .projects.project3 .project-info-box .project-title .title-container h6 {
+    margin-top: 15px; } }
+
 /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 885px) {
+  #projects-section .projects-container .projects .project-info-box {
+    width: 96%;
+    height: 97%;
+    padding: 22px 20px; }
+    #projects-section .projects-container .projects .project-info-box.info-box-xl {
+      height: 98.5%;
+      width: 95%; }
+    #projects-section .projects-container .projects .project-info-box .project-title {
+      text-align: left; }
+      #projects-section .projects-container .projects .project-info-box .project-title .title-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 0px; }
+      #projects-section .projects-container .projects .project-info-box .project-title .placement {
+        margin-right: 15px; }
+    #projects-section .projects-container .projects .project-info-box .project-btns {
+      letter-spacing: 0px; }
+      #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container {
+        margin-right: 0px; }
+      #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container {
+        margin-left: 0px; }
+  #projects-section .projects-container .projects.project2 .project-info-box .project-title .title-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    #projects-section .projects-container .projects.project2 .project-info-box .project-title .title-container .placement {
+      display: block; }
+    #projects-section .projects-container .projects.project2 .project-info-box .project-title .title-container h6 {
+      display: block; }
+  #projects-section .projects-container .projects.project3 .project-info-box .project-title .title-container .placement {
+    vertical-align: baseline; }
+  #projects-section .projects-container .projects.project3 .project-info-box .project-title .title-container h6 {
+    margin-top: 15px; } }
+
 /* laptop */
 #about-section {
   padding: 150px 0; }
