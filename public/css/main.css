@@ -1076,11 +1076,20 @@ header {
     #contact-section .lower-bg-shape img {
       display: none; }
   #contact-section .content .columns.left-column .forward-container {
-    max-width: 80%; }
+    max-width: 80%;
+    padding: 40px; }
     #contact-section .content .columns.left-column .forward-container .subtitle {
       max-width: 100%; } }
 
 /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 949px) {
+  #contact-section .content .columns.left-column .forward-container {
+    max-width: 85%;
+    padding: 35px; }
+    #contact-section .content .columns.left-column .forward-container .title-questions h5.bg-question-mark {
+      font-size: 15rem;
+      top: -53px; } }
+
 /* laptop */
 /* laptop */
 #projects-section {
