@@ -161,6 +161,10 @@ footer{
 }
 
 
+
+
+
+
  /* desktop */
 @media only screen and (min-width: 769px) and (max-width: 1200px){ 
   .container{
@@ -221,6 +225,10 @@ footer{
     // margin: 0 auto;
     // // height: 100vh;
     // position: relative;
+  }
+
+  footer{
+    //block text touching
   }
 }
 

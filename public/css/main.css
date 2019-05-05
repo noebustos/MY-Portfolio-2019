@@ -1069,6 +1069,17 @@ header {
 /* laptop */
 /* laptop */
 /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+  #contact-section .lower-bg-shape {
+    height: 50%;
+    background: #fff; }
+    #contact-section .lower-bg-shape img {
+      display: none; }
+  #contact-section .content .columns.left-column .forward-container {
+    max-width: 80%; }
+    #contact-section .content .columns.left-column .forward-container .subtitle {
+      max-width: 100%; } }
+
 /* laptop */
 /* laptop */
 /* laptop */
