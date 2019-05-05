@@ -2554,7 +2554,12 @@ footer {
 /* desktop */
 @media only screen and (min-width: 769px) and (max-width: 885px) {
   .container {
-    max-width: 790px; } }
+    max-width: 790px; }
+  footer {
+    padding: 30px 0;
+    font-weight: 400; }
+    footer .container .copyright {
+      width: 28%; } }
 
 /* desktop */
 @media only screen and (min-width: 769px) and (max-width: 839px) {

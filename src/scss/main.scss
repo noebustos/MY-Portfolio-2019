@@ -173,6 +173,8 @@ footer{
     // // height: 100vh;
     // position: relative;
   }
+
+  //footer pass
 }
 
 
@@ -184,6 +186,8 @@ footer{
     // // height: 100vh;
     // position: relative;
   }
+
+    //footer pass
 }
 
  /* desktop */
@@ -194,6 +198,8 @@ footer{
     // // height: 100vh;
     // position: relative;
   }
+
+    //footer pass
 }
 
  /* desktop */
@@ -204,6 +210,8 @@ footer{
     // // height: 100vh;
     // position: relative;
   }
+
+    //footer pass
 }
 
 
@@ -214,6 +222,26 @@ footer{
     // margin: 0 auto;
     // // height: 100vh;
     // position: relative;
+  }
+  footer{
+    padding: 30px 0;
+    font-weight: 400;
+
+    .container{
+      // display: flex;
+      // justify-content: space-between;
+      // align-items: center;
+      // justify-items: center;
+
+      .copyright{
+        width: 28%;
+      }
+
+      .logo{
+        // font-size: 1.5rem;
+        // font-weight: 700;
+      }
+    }
   }
 }
 
