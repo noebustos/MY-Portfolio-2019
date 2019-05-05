@@ -1091,6 +1091,13 @@ header {
       top: -53px; } }
 
 /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 885px) {
+  #contact-section .content .columns.left-column .forward-container {
+    max-width: 85%;
+    padding: 30px; }
+  #contact-section .content .columns.right-column img {
+    margin-top: 10%; } }
+
 /* laptop */
 #projects-section {
   background: #F8F9FB;

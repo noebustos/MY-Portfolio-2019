@@ -751,7 +751,58 @@
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 885px){ 
 //left block too long. decrease padding.
+  #contact-section{
+    // background: $main-yellow;
+    // overflow: hidden;
+    // position: relative;
+    // padding: 150px 0;
 
+    .content{
+      // position: relative;
+      // z-index: 10;
+      // width: 100%;
+      // text-align: center;
+
+      .columns{
+        // width: 50%;
+        // position: relative;
+
+        &.left-column{
+          // display: inline-block;
+          // text-align: center;
+          // position: relative;
+
+          .forward-container{
+            // border-radius: 5px;
+            // background: #fff;
+            max-width: 85%;
+            padding: 30px;
+            // color: $med-gray;
+            // margin: 8.5% 0 0 8.5%;
+            // position: relative;
+            // // top: 50px;
+            // // left: 50px;
+            // z-index: 20;
+            // box-shadow: 10px 10px 20px 5px rgba(100,100,100,0.05);
+          } 
+        }
+
+        &.right-column{
+          // width: 50%;
+          // display: inline-block;
+          // float: right;
+          // position: relative; 
+          // text-align: center;
+          
+          
+          img{
+            // width: 115%;
+            margin-top: 10%;
+          }
+        }
+      }  
+    }
+  }
 }
 
 
