@@ -2564,4 +2564,6 @@ footer {
 /* desktop */
 @media only screen and (min-width: 769px) and (max-width: 839px) {
   .container {
-    max-width: 750px; } }
+    max-width: 750px; }
+  footer .container .copyright {
+    width: 30%; } }
