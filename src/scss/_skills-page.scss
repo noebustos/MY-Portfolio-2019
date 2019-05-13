@@ -207,7 +207,6 @@
   }
 }      
 
-
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px){ 
   #skills-section{
@@ -379,7 +378,6 @@
   }  
 }
 
-
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 620px){ 
   #skills-section{
@@ -398,9 +396,6 @@
   }  
 }
 
-
-
-
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1200px){ 
   #skills-section{
@@ -409,7 +404,7 @@
         left: 3%;
       }
 
-            .bg-circle-md2{
+      .bg-circle-md2{
         right: 3%;
       }
     }
@@ -462,10 +457,12 @@
 @media only screen and (min-width: 769px) and (max-width: 1025px){ 
   #skills-section{
     overflow: hidden;
+
     .container{
       .bg-circle-sm11{
         display: none;
       }
+
       .bg-circle-sm111{
         display: none;
       }
@@ -548,13 +545,6 @@
         }
       }
 
-      .bg-circle-sm11{
-        // display: none;
-      }
-      .bg-circle-sm111{
-        // display: none;
-      }
-
       .bg-circle-md1{
         display: none;
       }
@@ -564,7 +554,6 @@
       }
 
       .bg-circle-sm1{
-        // display: none;
         width: 20px;
         height: 20px;
         left: 1%;
@@ -573,7 +562,6 @@
       }
 
       .bg-circle-sm2{
-        // display: none;
         width: 20px;
         height: 20px;
         right: 1%;
@@ -629,7 +617,7 @@
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 885px){ 
-
+//no style. layout is good.
 }
 
 
@@ -637,21 +625,6 @@
 @media only screen and (min-width: 769px) and (max-width: 839px){ 
   #skills-section{
     .container{
-      .bg-circle-sm11{
-        // display: none;
-      }
-      .bg-circle-sm111{
-        // display: none;
-      }
-
-      .bg-circle-md1{
-        // display: none;
-      }
-
-      .bg-circle-md2{
-        // display: none;
-      }
-
       .bg-circle-sm1{
         display: none
       }
