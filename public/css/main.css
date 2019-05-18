@@ -1811,7 +1811,7 @@ header {
       #about-section .content .columns.left-column p.body-text {
         width: 500px;
         line-height: 1.5;
-        margin-bottom: 50px; }
+        margin-bottom: 3.125rem; }
       #about-section .content .columns.left-column .other-info h6 {
         font-size: 1.3rem;
         font-weight: 600;
@@ -1867,7 +1867,6 @@ header {
               position: relative;
               right: 3px; }
             #about-section .content .columns.left-column .col-title .title-container {
-              position: absolute;
               bottom: -15px;
               right: 0;
               left: 0; }
@@ -1886,8 +1885,6 @@ header {
           #about-section .content .columns.left-column .other-info .interest-container ul.interests li {
             margin: 0; }
             #about-section .content .columns.left-column .other-info .interest-container ul.interests li.interest-title {
-              font-weight: 600;
-              margin: 0 0 9px;
               grid-column: 3/4;
               grid-row: 1/2;
               justify-self: center;
@@ -1898,13 +1895,9 @@ header {
           -webkit-box-ordinal-group: 2;
           -ms-flex-order: 1;
           order: 1;
-          text-align: center;
-          vertical-align: middle;
           margin-bottom: 3.4375rem; }
           #about-section .content .columns.right-column img {
-            width: 100%;
-            position: relative;
-            z-index: 5; } }
+            width: 100%; } }
 
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px) {

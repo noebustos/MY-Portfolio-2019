@@ -54,7 +54,7 @@
         p.body-text{
           width: 500px;
           line-height: 1.5;
-          margin-bottom: 50px;
+          margin-bottom: 3.125rem;
         }
 
         .other-info{
@@ -149,7 +149,6 @@
             }
 
             .title-container{
-              position: absolute;
               bottom: -15px;
               right: 0;
               left: 0;
@@ -183,8 +182,6 @@
                   margin: 0;
 
                   &.interest-title{
-                    font-weight: 600;
-                    margin: 0 0 9px;
                     grid-column: 3/4;
                     grid-row: 1/2;
                     justify-self: center;
@@ -200,14 +197,10 @@
           justify-self: center;
           grid-row: 1/2;
           order: 1;
-          text-align: center;
-          vertical-align: middle;
           margin-bottom: 3.4375rem;
 
           img{
             width: 100%;
-            position: relative;
-            z-index: 5;
           }
         }
       }  
@@ -304,7 +297,6 @@
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1200px){ 
  #about-section{
-
     .left-column{
       .col-title{
         .bg-text{
