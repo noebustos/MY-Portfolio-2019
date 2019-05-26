@@ -142,7 +142,6 @@
             img{
               display: block;
               opacity: 0; 
-
               transform: translateY(- 5px);
 	            transition: transform .2s $easeOutBack, opacity .15s;
             }
@@ -645,8 +644,6 @@
     }
 
     .projects-container{
-      margin: 0 auto;
-      display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 340px 340px 340px 340px 340px;
       grid-gap: 30px;
@@ -675,87 +672,8 @@
           }
 
           .project-desc{
-            text-align: left;
             margin: 30px auto;
-            line-height: 1.5;
-            color: $med-gray;
           }
-
-          .project-btns{
-            margin: 0 auto;
-            width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-            font-size: 12px;
-            text-transform: uppercase;
-            font-weight: 700;
-            letter-spacing: 1px;
-            
-            .code-btn-container{
-              margin-right: 15px;      
-
-              .code-btn{
-                display: block;
-                margin: 0 auto 5px;
-                transition: all .2s ease-in-out;
-              }
-
-              img{
-                display: block;
-                margin-left: -1px;
-                opacity: 0; 
-                transform: translateY(- 5px);
-                transition: transform .2s $easeOutBack, opacity .15s;
-              }
-
-              &:hover{
-                .code-btn{
-                color: $dark-yellow;
-                } 
-                
-                img{
-                  opacity: 1;
-                  transform: translateY(0);
-                }
-              }
-            }
-
-            .site-btn-container{
-              margin-left: 15px;      
-
-              .site-btn{
-                display: block;
-                margin: 0 auto 5px;
-                transition: all .2s ease-in-out;
-              }
-
-              img{
-                display: block;
-                opacity: 0; 
-                transform: translateY(- 5px);
-                transition: transform .2s $easeOutBack, opacity .15s;
-              }
-
-              &:hover{
-                .site-btn{
-                  color: $dark-yellow;
-                  position: relative;
-                } 
-
-                img{
-                  opacity: 1;
-                  transform: translateY(0);
-                  position: relative;
-                  right: 2px;
-                }
-              }
-            }
-          }
-        }
-
-        &:hover .project-info-box{
-          transform: translate(0%, 0%);
-          opacity: 1;
         }
 
         &.project1{
