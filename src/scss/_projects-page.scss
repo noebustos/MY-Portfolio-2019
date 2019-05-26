@@ -758,7 +758,6 @@
          .project-info-box{
             .project-title{
               .title-container{
-
                 .placement{
                   vertical-align: baseline;
                 }
@@ -789,49 +788,8 @@
           padding: 22px 20px;       
 
           .project-title{
-            text-align: left;
-
             .title-container{
-              display: flex;
               margin-top: 0px;
-            }
-
-            .placement {
-              margin-right: 15px;
-            }
-          }
-        }
-
-        &.project2{
-          .project-info-box{
-            .project-title{
-              .title-container{
-                display: flex;
-                
-                .placement{
-                  display: block;
-                }
-
-                h6{
-                  display: block;
-                }
-              }
-            }
-          }       
-        }
-
-        &.project3{
-         .project-info-box{
-            .project-title{
-              .title-container{
-                .placement{
-                  vertical-align: baseline;
-                }
-
-                h6{
-                  margin-top: 15px;
-                }
-              }
             }
           }
         }
@@ -858,15 +816,8 @@
           }
 
           .project-title{
-            text-align: left;
-
             .title-container{
-              display: flex;
               margin-top: 0px;
-            }
-
-            .placement {
-              margin-right: 15px;
             }
           }
 
@@ -880,148 +831,6 @@
             .site-btn-container{
               margin-left: 0px;     
             }
-          }
-        }
-
-        &.project2{
-          .project-info-box{
-            .project-title{
-              .title-container{
-                display: flex;
-                // text-align: left;
-                
-                .placement{
-                  display: block;
-                  // float:left;
-                  // font-size: 3.2rem;
-                  // margin-right: 15px;
-                  // margin-right: 0px;
-                }
-                h6{
-                  display: block;
-                  // font-size: 1.15rem;
-                  // float: left;
-                  // width: 100%;
-                }
-              }
-            }
-          }  
-
-          .project-btns{
-            // margin: 0 auto;
-            // width: 100%;
-            display: block;
-            // justify-content: space-evenly;
-            // font-size: 12px;
-            // text-transform: uppercase;
-            // font-weight: 700;
-            letter-spacing: 0px;
-            
-            .code-btn-container{
-              margin-right: 0px; 
-              margin-bottom: 18px;   
-              text-align: center;  
-
-              .code-btn{
-                // display: block;
-                // margin: 0 auto 5px;
-                // transition: all .2s ease-in-out;
-              }
-
-              img{
-                width: 50%;
-                // display: block;
-                margin: 0 auto;
-                // opacity: 0; 
-                // transform: translateY(5px);
-                // transition: transform .2s $easeOutBack, opacity .15s;
-              }
-            }
-
-            .site-btn-container{
-              margin-left: 0px;   
-              text-align: center;    
-
-              .site-btn{
-                // display: block;
-                // margin: 0 auto 5px;
-                // transition: all .2s ease-in-out;
-              }
-
-              img{
-                width: 50%;
-                margin: 0 auto;
-                // display: block;
-                // opacity: 0; 
-
-                // transform: translateY(- 5px);
-                // transition: transform .2s $easeOutBack, opacity .15s;
-              }
-            }
-          }     
-        }
-
-        &.project3{
-         .project-info-box{
-            .project-title{
-              .title-container{
-                // text-align: left;
-
-                .placement{
-                  vertical-align: baseline;
-                  // display: block;
-                  // float:left;
-                  // font-size: 3.2rem;
-                  // margin-right: 15px;
-                  // margin-right: 0px;
-                }
-
-                h6{
-                  margin-top: 15px;
-                  // vertical-align: bottom;
-                  // display: block;
-                  // font-size: 1.15rem;
-                  // float: left;
-                  // width: 100%;
-                }
-              }
-            }
-          }
-        }
-
-        &.project4{
-          .project-info-box{
-            .project-title{
-              .title-container{
-                // text-align: left;
-                
-                .placement{
-                  // display: block;
-                  // float:left;
-                  // font-size: 3.2rem;
-                  // margin-right: 15px;
-                  // margin-right: 0px;
-                }
-                h6{
-                  // display: block;
-                  // font-size: 1.15rem;
-                  // float: left;
-                  // width: 100%;
-                }
-              }
-            }
-          }
-        }
-
-        &.project5{
-          // grid-column: 3/4;
-          // grid-row: 2/3;
-          // background: url("https://cdn.dribbble.com/users/504740/screenshots/6086531/mono.jpg")center center;
-          // background-repeat: no-repeat;
-          // background-size: cover;
-          
-          .placement{
-            // vertical-align: middle;
           }
         }
       }
