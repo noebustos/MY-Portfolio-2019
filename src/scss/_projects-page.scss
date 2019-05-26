@@ -242,7 +242,6 @@
           &.info-box-xl{
             width: 96%;
             height: 96%;
-            padding: 30px;
           }
         }
 
@@ -650,7 +649,6 @@
   }
 }
 
-
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px){ 
   #projects-section{
@@ -951,7 +949,6 @@
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 885px){ 
   #projects-section{
-
     .projects-container{
       grid-template-rows: 335px 335px;
 
