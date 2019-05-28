@@ -12,34 +12,61 @@ header{
 
   &.scroll{
     background: #fff;
-    
-    .logo{
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,.1);
+
+   .mobile-menu-icons{
+      // display: block;
+      
+      .hamburger-icon{
+        // display: block;
+        // position: absolute;
+        // left: 15px;
+        // top: 15px;
+        color: $med-black;
+
+        &.unactive{
+          // display: none;
+        }
+      }
+      .out-icon{
+        // display: block;
+        // position: absolute;
+        // left: 15px;
+        // top: 15px;
+        color: $med-black;
+
+        &.unactive{
+          // display: none;
+        }
+      }
+    }
+
+    .container{
+      .logo{
+        a{
+          color: $med-black;
+        }
+      }
+
       a{
         color: $med-black;
       }
     }
-
-    a{
-      color: $med-black;
-    }
   }
-
 
   .mobile-menu-icons{
     display: none;
 
     .hamburger-icon{
       padding: 5px;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
 
     .out-icon{
       padding: 5px;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
   }
-
-
 
   .logo{
     display: inline-block;
@@ -105,7 +132,6 @@ header{
   }
 }
 
-
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px){ 
   header{
@@ -114,6 +140,7 @@ header{
 
     &.active{
       background: rgba(0,0,0,0.5) !important;
+      box-shadow: 0px 0px 10px 5px rgba(0,0,0,.1);
     }
 
     .container{

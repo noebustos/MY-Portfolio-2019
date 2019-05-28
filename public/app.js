@@ -17,6 +17,11 @@ console.log(headerContainer);
 //   }
 // }
 
+
+
+//we want the hamburger menu to only be displayed when the user scrolls down the page. righ now its showing the white bg,with the icon, during scroll action.
+//also it would be good to look at other sites to see how they implement the mobile icon on their site. right now im thinking to have it on the top right at all times with a white padding behind it or maybe just some  boxshadow behind it. something to show separation. bc with the icon alone it blends into the site's content too much. and we want this icon to standout bc its a main navigation element.
+
 console.log(mobileMenuIcons.style)
 
 window.onscroll = () => {
