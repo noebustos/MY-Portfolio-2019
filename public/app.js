@@ -26,13 +26,14 @@ const headerContainer = document.querySelector("header .container");
 
 console.log('this is my window width size: ' + window.innerWidth);
 
+//scroll events for header
 window.onscroll = () => {
   //we want to add an if statement to check when ever we scroll up/down, for our menu to change on mobile view.
   if(window.innerWidth <= 479 ){
     console.log("look mama i made it")
 
     if (this.scrollY <= 200) {
-      header.className = '';
+      // header.className = '';
       console.log("scroll is active and   mobile menu is on none")
     }  
   
@@ -57,6 +58,8 @@ window.onscroll = () => {
 console.log(hamburgerIcon);
 console.log(outIcon);
 
+
+//click event for mobible menu btns
 mobileMenuIcons.addEventListener("click", function(){
 
 })
