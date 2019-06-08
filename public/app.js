@@ -37,10 +37,10 @@ window.onscroll = () => {
       console.log("scroll is active and   mobile menu is on none")
     }  
   
-    // else{
-    //   header.className = 'scroll';
-    // }
-
+    else{
+      header.className = 'scroll';
+    }
+//scroll is misbehaving. scroll and active classess change when scrolling. so we can only get one at a time.
 
 
   } else{
