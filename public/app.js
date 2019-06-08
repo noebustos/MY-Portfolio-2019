@@ -58,10 +58,7 @@ console.log(hamburgerIcon);
 console.log(outIcon);
 
 mobileMenuIcons.addEventListener("click", function(){
-  hamburgerIcon.classList.toggle("unactive");
-  outIcon.classList.toggle("unactive");
-  headerContainer.classList.toggle("unactive");
-  header.classList.toggle("active");
+
 })
 
 

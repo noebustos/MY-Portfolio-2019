@@ -134,22 +134,55 @@ header {
       background: rgba(0, 0, 0, 0.5) !important;
       -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
       box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); }
-    header .container.unactive {
-      display: none; }
-    header .mobile-menu-icons {
+    header.header-close .mobile-menu-icons {
       display: block; }
-      header .mobile-menu-icons .hamburger-icon {
+      header.header-close .mobile-menu-icons .hamburger-icon {
         display: block; }
-        header .mobile-menu-icons .hamburger-icon.unactive {
+        header.header-close .mobile-menu-icons .hamburger-icon.unactive {
           display: none; }
-      header .mobile-menu-icons .out-icon {
+      header.header-close .mobile-menu-icons .out-icon {
         display: block; }
-        header .mobile-menu-icons .out-icon.unactive {
+        header.header-close .mobile-menu-icons .out-icon.unactive {
           display: none; }
-    header .logo {
+    header.header-close .logo {
+      display: block; }
+    header.header-close .container {
+      display: none; }
+      header.header-close .container nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        text-align: center;
+        margin: 20px auto 0;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        header.header-close .container nav a {
+          font-size: .85rem;
+          padding: 5px;
+          margin: 0 20px; }
+          header.header-close .container nav a img {
+            display: none; }
+          header.header-close .container nav a.mobile-block {
+            margin-top: 5px; }
+    header.header-open .mobile-menu-icons {
+      display: block; }
+      header.header-open .mobile-menu-icons .hamburger-icon {
+        display: block; }
+        header.header-open .mobile-menu-icons .hamburger-icon.unactive {
+          display: none; }
+      header.header-open .mobile-menu-icons .out-icon {
+        display: block; }
+        header.header-open .mobile-menu-icons .out-icon.unactive {
+          display: none; }
+    header.header-open .logo {
       display: block;
       text-align: center; }
-    header nav {
+    header.header-open .container.unactive {
+      display: none; }
+    header.header-open .container nav {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -160,13 +193,13 @@ header {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; }
-      header nav a {
+      header.header-open .container nav a {
         font-size: .85rem;
         padding: 5px;
         margin: 0 20px; }
-        header nav a img {
+        header.header-open .container nav a img {
           display: none; }
-        header nav a.mobile-block {
+        header.header-open .container nav a.mobile-block {
           margin-top: 5px; } }
 
 /* Tablet (portrait and landscape) */
