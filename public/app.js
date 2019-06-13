@@ -40,7 +40,7 @@ console.log('this is my window width size: ' + window.innerWidth);
 //scroll events for header
 window.onscroll = () => {
   //if screen is on mobile view.
-  if(window.innerWidth <= 479 ){
+  if(window.innerWidth <= 500 ){
     if (this.scrollY <= 175) {
       header.classList.remove('scroll');
     } 
