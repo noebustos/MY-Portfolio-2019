@@ -156,7 +156,7 @@ header{
         display: block;
       }
 
-      .container{
+      nav{
         display: none;  
       }
     }
@@ -198,34 +198,35 @@ header{
         }
       }
 
-      .container{
+      nav{
         grid-column: 1/3;
         grid-row: 2/3;
+        display: block;
+        text-align: center;
 
-        nav{
+        a{
+          color: $med-black;
           display: block;
-          text-align: center;
+          font-size: 1rem;
+          padding: 10px 0;
+          margin: 0 20px;
 
-          a{
-            color: $med-black;
-            display: block;
-            font-size: 1rem;
-            padding: 10px 0;
-            margin: 0 20px;
-
-            &.active{
-              color: #aaa;
-            }
-
-            img{
-              display: none;
-            }
+          &.active{
+            color: #aaa;
           }
-        }   
-      }
+
+          img{
+            display: none;
+          }
+        }
+      }   
+      
     }
   }
 }
+
+
+
 
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 651px) and (max-width: 768px){ 
@@ -288,9 +289,121 @@ header{
       }
     }
 
-    .container{
-      max-width: none;
+    nav{
+      // display: inline-block;
+      // float: right;
+      
+      a{
+        // letter-spacing: 1px;
+        // color: #fff;
+        // font-weight: 700;
+        margin-right: 30px;
+        // transition: all .2s ease-in-out;
+        // display: inline-block;
 
+        img{
+          // display: block;
+          // margin-top: 5px;
+          // opacity: 0; 
+          // transform: translateY(- 5px);
+          // transition: transform .2s $easeOutBack, opacity .15s;
+
+          &.skills-underline{
+            // width: 100%;
+          }
+        }
+
+        &:nth-child(5){
+          margin-right: 0;
+        }
+
+        &:hover{
+          // font-weight: 800;
+          // color: $main-yellow;
+
+          img{
+            // opacity: 1;
+            // transform: translateY(0);
+          }
+        }
+        
+        &.active{
+          // color: #aaa;
+          // padding-bottom: 0;
+          // cursor: default;
+
+          &:hover{
+            img{
+              // opacity: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+  /* laptop */
+  @media only screen and (min-width: 769px) and (max-width: 839px){
+    header{
+      // margin: 0 auto;
+      // position: fixed;
+      // left: 0;
+      // right: 0;
+      padding: 20px 30px 15px;
+      // z-index: 20;
+      // text-transform: uppercase;
+      // font-size: 14px;
+      // color: #fff;
+      // vertical-align: middle;
+  
+      &.scroll{
+        // background: #fff;
+        // box-shadow: 0px 0px 10px 5px rgba(0,0,0,.1);
+  
+        .mobile-menu-icons{
+          .hamburger-icon{
+            // color: $med-black;
+          }
+          .out-icon{
+            // color: $med-black;
+          }
+        }
+  
+        .logo{
+          a{
+            color: $med-black;
+          }
+        }
+      }
+  
+      .mobile-menu-icons{
+        // display: none;
+  
+        .hamburger-icon{
+          // padding: 5px;
+          // font-size: 1.5rem;
+        }
+  
+        .out-icon{
+          // padding: 5px;
+          // font-size: 1.5rem;
+        }
+      }
+  
+      .logo{
+        // display: inline-block;
+        // font-weight: 700;
+        // font-size: 1.1rem;
+        float: left;
+  
+        a{
+          // color: #fff;
+          // position: relative;
+          // z-index: 21;
+        }
+      }
+  
       nav{
         // display: inline-block;
         // float: right;
@@ -302,27 +415,27 @@ header{
           margin-right: 30px;
           // transition: all .2s ease-in-out;
           // display: inline-block;
-
+  
           img{
             // display: block;
             // margin-top: 5px;
             // opacity: 0; 
             // transform: translateY(- 5px);
             // transition: transform .2s $easeOutBack, opacity .15s;
-
+  
             &.skills-underline{
               // width: 100%;
             }
           }
-
+  
           &:nth-child(5){
             margin-right: 0;
           }
-
+  
           &:hover{
             // font-weight: 800;
             // color: $main-yellow;
-
+  
             img{
               // opacity: 1;
               // transform: translateY(0);
@@ -333,7 +446,7 @@ header{
             // color: #aaa;
             // padding-bottom: 0;
             // cursor: default;
-
+  
             &:hover{
               img{
                 // opacity: 0;
@@ -343,9 +456,7 @@ header{
         }
       }
     }
-
   }
-}
 
 
  /* Tablet (portrait and landscape) */
@@ -409,61 +520,63 @@ header{
       }
     }
 
-    .container{
-      max-width: none;
-
-      nav{
+    nav{
+      // display: inline-block;
+      // float: right;
+      
+      a{
+        // letter-spacing: 1px;
+        // color: #fff;
+        // font-weight: 700;
+        margin-right: 50px;
+        // transition: all .2s ease-in-out;
         // display: inline-block;
-        // float: right;
-        
-        a{
-          // letter-spacing: 1px;
-          // color: #fff;
-          // font-weight: 700;
-          margin-right: 50px;
-          // transition: all .2s ease-in-out;
-          // display: inline-block;
+
+        img{
+          // display: block;
+          // margin-top: 5px;
+          // opacity: 0; 
+          // transform: translateY(- 5px);
+          // transition: transform .2s $easeOutBack, opacity .15s;
+
+          &.skills-underline{
+            // width: 100%;
+          }
+        }
+
+        &:nth-child(5){
+          margin-right: 0;
+        }
+
+        &:hover{
+          // font-weight: 800;
+          // color: $main-yellow;
 
           img{
-            // display: block;
-            // margin-top: 5px;
-            // opacity: 0; 
-            // transform: translateY(- 5px);
-            // transition: transform .2s $easeOutBack, opacity .15s;
-
-            &.skills-underline{
-              // width: 100%;
-            }
+            // opacity: 1;
+            // transform: translateY(0);
           }
-
-          &:nth-child(5){
-            margin-right: 0;
-          }
+        }
+        
+        &.active{
+          // color: #aaa;
+          // padding-bottom: 0;
+          // cursor: default;
 
           &:hover{
-            // font-weight: 800;
-            // color: $main-yellow;
-
             img{
-              // opacity: 1;
-              // transform: translateY(0);
-            }
-          }
-          
-          &.active{
-            // color: #aaa;
-            // padding-bottom: 0;
-            // cursor: default;
-
-            &:hover{
-              img{
-                // opacity: 0;
-              }
+              // opacity: 0;
             }
           }
         }
       }
     }
-
   }
 }
+
+
+//fix header responsiveness like all other sections. need to include all media queries like the rest of the page.
+
+
+
+
