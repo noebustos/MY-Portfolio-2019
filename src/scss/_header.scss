@@ -117,8 +117,7 @@ header{
 @media only screen and (min-width: 300px) and (max-width: 650px){ 
   header{
     width: 100% !important;
-    //padding rem === 20px
-    padding: 1.25rem;
+    padding: 20px;
     background: rgba(0, 0, 0, .2);
 
     &.scroll{
@@ -226,6 +225,12 @@ header{
 }
 
 
+ /* Tablet (portrait and landscape) */
+ @media only screen and (min-width: 480px) and (max-width: 768px){ 
+  header{
+    padding: 20px 30px !important;
+  }
+}
 
 
  /* Tablet (portrait and landscape) */
@@ -342,6 +347,7 @@ header{
     }
   }
 }
+
 
   /* laptop */
   @media only screen and (min-width: 769px) and (max-width: 839px){
@@ -576,6 +582,56 @@ header{
 
 
 //fix header responsiveness like all other sections. need to include all media queries like the rest of the page.
+
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px){ 
+
+}
+
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 790px){ 
+
+}
+
+ /* tablet */
+@media only screen and (min-width: 791px) and (max-width: 839px){ 
+
+}
+
+ /* tablet */
+@media only screen and (min-width: 840px) and (max-width: 900px){ 
+
+}
+
+ /* laptop */
+@media only screen and (min-width: 901px) and (max-width: 949px){ 
+
+
+}
+
+ /* laptop */
+@media only screen and (min-width: 950px) and (max-width: 1050px){ 
+
+}
+
+ /* desktop */
+@media only screen and (min-width: 1051px) and (max-width: 1140px){ 
+
+}
+
+ /* desktop */
+@media only screen and (min-width: 1141px) and (max-width: 1280px){ 
+
+}
+
+ /* desktop 4k*/
+@media only screen and (min-width: 1201px) and (max-width: 1400px){ 
+
+}
+
 
 
 
