@@ -36,12 +36,13 @@ console.log("scroll length size: " + winSize);
 
 
 
+console.log(header)
 
 function scrollActive(scrollLenth) {
-  if (this.scrollY <= scrollLenth) {
+  if (window.scrollY <= scrollLenth) {
     header.classList.remove('scroll');
   } 
-  else{
+  else if (window.scrollY > scrollLenth){
     header.classList.add('scroll');
   }
 }
@@ -101,8 +102,8 @@ window.onscroll = () => {
 
 
   //Screen on tablet view.
-  if(window.innerWidth > 479 && window.innerWidth <= 790){
-    scrollActive(175);
+  else if(window.innerWidth > 479 && window.innerWidth <= 790){
+    scrollActive(100);
 
     //active nav link functionality.
     //home section
