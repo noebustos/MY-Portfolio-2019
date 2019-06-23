@@ -5,25 +5,14 @@ const outIcon = document.querySelector(" .out-icon");
 const mobileMenuIcons = document.querySelector(".mobile-menu-icons");
 const headerContainer = document.querySelector("header .container");
 
-
 const homeNav = document.querySelector('.home-nav');
 const aboutNav = document.querySelector('.about-nav');
-const skillsNav = document.querySelector('.skills-nav');
+ const skillsNav = document.querySelector('.skills-nav');
 const projectsNav = document.querySelector('.projects-nav');
 const contactNav = document.querySelector('.contact-nav');
 
+var navLinks = [homeNav, aboutNav, skillsNav, projectsNav, contactNav];
 
-
-
-// window.onscroll = function() {
-  
-//   if (window.pageYOffset > window.innerHeight){
-//     header.className = 'scroll'
-//   }  
-//   else {
-//     header.className = ''
-//   }
-// }
 
 var winSize = window.scrollY
 console.log("scroll length size: " + winSize);
@@ -34,33 +23,17 @@ console.log("scroll length size: " + winSize);
 //projects section scroll size:  3165
 //contact section scroll size: 4892 
 
-
-var navLinks = [homeNav, aboutNav, skillsNav, projectsNav, contactNav];
-var currentScroll;
-console.log('navLinks place #3: ' + navLinks[3]);
-console.log(navLinks[3].textContent);
-
-
-//activeNavLink doesnt work. link might be pointing to something else.
-//homeNav doesnt start with active class when page is loaded/when you start. could be bc its only being called when window.onscroll is on.
-
-function activeNavLink (link) {
+function activeNavLink (linkClass) {
+  //acitive link gets active class. all others dont
   for (i = 0; i < navLinks.length; i++) {
-    //our link will ONLY have the active class. All other links get the active class REMOVED.
-    if(link == navLinks[i]){
+    if (navLinks[i].classList.contains(linkClass)){
       navLinks[i].classList.add('active'); 
-      console.log(navLinks[i] + " section for loop === true")
-    }
-    else{
+    } else{
       navLinks[i].classList.remove('active');
-      console.log(navLinks[i] + " section for loop !== true") 
     }
   }
 }
 
-
-
-console.log(header)
 function scrollActive(scrollLenth) {
   if (window.scrollY <= scrollLenth) {
     header.classList.remove('scroll');
@@ -82,27 +55,27 @@ window.onscroll = () => {
     //home section
     if(window.scrollY >= '0' && window.scrollY < '731'){
       console.log("home section on view")
-      activeNavLink ('homeNav');
+      activeNavLink ('home-nav');
     }
     //about section
     else if(window.scrollY >= '731' && window.scrollY < '1924'){
       console.log("about section on view")
-      activeNavLink ('aboutNav');
+      activeNavLink ('about-nav');
     }
     //skills section
     else if(window.scrollY >= '1924' && window.scrollY < '2561'){
       console.log("skills section on view")
-      activeNavLink ('skillsNav');
+      activeNavLink ('skills-nav');
     }
     //projects section
     else if(window.scrollY >= '2561' && window.scrollY < '4799'){
       console.log("projects section on view")
-      activeNavLink ('projectsNav');
+      activeNavLink ('projects-nav');
     }
     //contact section
     else if(window.scrollY >= '4799 ' && window.scrollY < '5310'){
       console.log("contact section on view")
-      activeNavLink ('contactNav');
+      activeNavLink ('contact-nav');
     }
   }
 
