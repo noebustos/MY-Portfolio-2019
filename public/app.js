@@ -18,9 +18,9 @@ var winSize = window.scrollY
 console.log("scroll length size: " + winSize);
 //this has to be done on all device views. mobile,tablet,laptop, and desktop.
 //about me sec:  821
-//skills section scroll size:  1743
+//skills section scroll size:  1749
 //projects section scroll size: 2385
-//contact section scroll size: 3591, 3739
+//contact section scroll size: 3597, 3811
 
 function activeNavLink (linkClass) {
   //acitive link gets active class. all others dont
@@ -315,6 +315,38 @@ window.onscroll = () => {
     }
     //contact section
     else if(window.scrollY >= '3591' && window.scrollY < '4000'){
+      console.log("contact section on view")
+      activeNavLink ('contact-nav'); 
+    }
+  }
+  //Screen on laptop view.
+  else if(window.innerWidth >= 950 && window.innerWidth <= 1050){
+    scrollActive(175);
+
+    //active nav link functionality.
+    //home section
+    if(window.scrollY >= '0' && window.scrollY < '821'){
+      console.log("home section on view")
+      activeNavLink ('home-nav'); 
+    }
+    //about section
+    else if(window.scrollY >= '821' && window.scrollY < '1749'){
+      console.log("about section on view")
+      activeNavLink ('about-nav');
+ 
+    }
+    //skills section
+    else if(window.scrollY >= '1749' && window.scrollY < '2385'){
+      console.log("skills section on view")
+      activeNavLink ('skills-nav'); 
+    }
+    //projects section
+    else if(window.scrollY >= '2385' && window.scrollY < '3597'){
+      console.log("projects section on view")
+      activeNavLink ('projects-nav');
+    }
+    //contact section
+    else if(window.scrollY >= '3597' && window.scrollY < '4000'){
       console.log("contact section on view")
       activeNavLink ('contact-nav'); 
     }
