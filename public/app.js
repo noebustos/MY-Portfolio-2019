@@ -35,9 +35,32 @@ console.log("scroll length size: " + winSize);
 //contact section scroll size: 4892 
 
 
+var navLinks = [homeNav, aboutNav, skillsNav, projectsNav, contactNav];
+var currentScroll;
+console.log('navLinks place #3: ' + navLinks[3]);
+console.log(navLinks[3].textContent);
+
+
+//activeNavLink doesnt work. link might be pointing to something else.
+//homeNav doesnt start with active class when page is loaded/when you start. could be bc its only being called when window.onscroll is on.
+
+function activeNavLink (link) {
+  for (i = 0; i < navLinks.length; i++) {
+    //our link will ONLY have the active class. All other links get the active class REMOVED.
+    if(link == navLinks[i]){
+      navLinks[i].classList.add('active'); 
+      console.log(navLinks[i] + " section for loop === true")
+    }
+    else{
+      navLinks[i].classList.remove('active');
+      console.log(navLinks[i] + " section for loop !== true") 
+    }
+  }
+}
+
+
 
 console.log(header)
-
 function scrollActive(scrollLenth) {
   if (window.scrollY <= scrollLenth) {
     header.classList.remove('scroll');
@@ -59,51 +82,34 @@ window.onscroll = () => {
     //home section
     if(window.scrollY >= '0' && window.scrollY < '731'){
       console.log("home section on view")
-      homeNav.classList.add('active');  aboutNav.classList.remove('active');
-      skillsNav.classList.remove('active'); 
-      projectsNav.classList.remove('active');
-      contactNav.classList.remove('active'); 
+      activeNavLink ('homeNav');
     }
     //about section
     else if(window.scrollY >= '731' && window.scrollY < '1924'){
       console.log("about section on view")
-      aboutNav.classList.add('active');
-      homeNav.classList.remove('active'); 
-      skillsNav.classList.remove('active'); 
-      projectsNav.classList.remove('active');
-      contactNav.classList.remove('active'); 
+      activeNavLink ('aboutNav');
     }
     //skills section
     else if(window.scrollY >= '1924' && window.scrollY < '2561'){
       console.log("skills section on view")
-      skillsNav.classList.add('active'); 
-      projectsNav.classList.remove('active');  
-      aboutNav.classList.remove('active');
-      homeNav.classList.remove('active'); 
-      contactNav.classList.remove('active'); 
+      activeNavLink ('skillsNav');
     }
     //projects section
     else if(window.scrollY >= '2561' && window.scrollY < '4799'){
       console.log("projects section on view")
-      projectsNav.classList.add('active');  aboutNav.classList.remove('active');
-      homeNav.classList.remove('active'); 
-      skillsNav.classList.remove('active'); 
-      contactNav.classList.remove('active'); 
+      activeNavLink ('projectsNav');
     }
     //contact section
     else if(window.scrollY >= '4799 ' && window.scrollY < '5310'){
       console.log("contact section on view")
-      contactNav.classList.add('active'); 
-      projectsNav.classList.remove('active');  aboutNav.classList.remove('active');
-      homeNav.classList.remove('active'); 
-      skillsNav.classList.remove('active'); 
+      activeNavLink ('contactNav');
     }
   }
 
 
   //Screen on tablet view.
-  else if(window.innerWidth > 479 && window.innerWidth <= 790){
-    scrollActive(100);
+  else if(window.innerWidth >= 480 && window.innerWidth <= 790){
+    scrollActive(175);
 
     //active nav link functionality.
     //home section
@@ -150,6 +156,54 @@ window.onscroll = () => {
     }
   }
 
+  //Screen on tablet view.
+  else if(window.innerWidth >= 791 && window.innerWidth <= 839){
+    scrollActive(175);
+
+    //active nav link functionality.
+    //home section
+    if(window.scrollY >= '0' && window.scrollY < '821'){
+      console.log("home section on view")
+      homeNav.classList.add('active');  aboutNav.classList.remove('active');
+      skillsNav.classList.remove('active'); 
+      projectsNav.classList.remove('active');
+      contactNav.classList.remove('active'); 
+    }
+    //about section
+    else if(window.scrollY >= '821' && window.scrollY < '2122'){
+      console.log("about section on view")
+      aboutNav.classList.add('active');
+      homeNav.classList.remove('active'); 
+      skillsNav.classList.remove('active'); 
+      projectsNav.classList.remove('active');
+      contactNav.classList.remove('active'); 
+    }
+    //skills section
+    else if(window.scrollY >= '2122' && window.scrollY < '3165'){
+      console.log("skills section on view")
+      skillsNav.classList.add('active'); 
+      projectsNav.classList.remove('active');  
+      aboutNav.classList.remove('active');
+      homeNav.classList.remove('active'); 
+      contactNav.classList.remove('active'); 
+    }
+    //projects section
+    else if(window.scrollY >= '3165' && window.scrollY < '4892'){
+      console.log("projects section on view")
+      projectsNav.classList.add('active');  aboutNav.classList.remove('active');
+      homeNav.classList.remove('active'); 
+      skillsNav.classList.remove('active'); 
+      contactNav.classList.remove('active'); 
+    }
+    //contact section
+    else if(window.scrollY >= '4892 ' && window.scrollY < '5400'){
+      console.log("contact section on view")
+      contactNav.classList.add('active'); 
+      projectsNav.classList.remove('active');  aboutNav.classList.remove('active');
+      homeNav.classList.remove('active'); 
+      skillsNav.classList.remove('active'); 
+    }
+  }
 
   //if screen is NOT on mobile view.
   else{
