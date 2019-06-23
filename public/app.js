@@ -18,10 +18,9 @@ var winSize = window.scrollY
 console.log("scroll length size: " + winSize);
 //this has to be done on all device views. mobile,tablet,laptop, and desktop.
 //about me sec:  821
-//skills section scroll size: 1924
-//skill: 2122
-//projects section scroll size:  3165
-//contact section scroll size: 4892 
+//skills section scroll size:  1743
+//projects section scroll size: 2385
+//contact section scroll size: 3591, 3739
 
 function activeNavLink (linkClass) {
   //acitive link gets active class. all others dont
@@ -45,6 +44,117 @@ function scrollActive(scrollLenth) {
 
 console.log('this is my window width size: ' + window.innerWidth);
 
+
+//active link functionality needs to be onscroll and also when the page isn't scrolling
+  //Screen on mobile view.
+  if(window.innerWidth <= 479 ){
+    scrollActive(175);
+
+    //active nav link functionality.
+    //home section
+    if(window.scrollY >= '0' && window.scrollY < '731'){
+      console.log("home section on view")
+      activeNavLink ('home-nav');
+    }
+    //about section
+    else if(window.scrollY >= '731' && window.scrollY < '1924'){
+      console.log("about section on view")
+      activeNavLink ('about-nav');
+    }
+    //skills section
+    else if(window.scrollY >= '1924' && window.scrollY < '2561'){
+      console.log("skills section on view")
+      activeNavLink ('skills-nav');
+    }
+    //projects section
+    else if(window.scrollY >= '2561' && window.scrollY < '4799'){
+      console.log("projects section on view")
+      activeNavLink ('projects-nav');
+    }
+    //contact section
+    else if(window.scrollY >= '4799 ' && window.scrollY < '5310'){
+      console.log("contact section on view")
+      activeNavLink ('contact-nav');
+    }
+  }
+
+
+  //Screen on tablet view.
+  else if(window.innerWidth >= 480 && window.innerWidth <= 790){
+    scrollActive(175);
+
+    //active nav link functionality.
+    //home section
+    if(window.scrollY >= '0' && window.scrollY < '821'){
+      console.log("home section on view")
+      activeNavLink ('home-nav');
+    }
+    //about section
+    else if(window.scrollY >= '821' && window.scrollY < '2047'){
+      console.log("about section on view")
+      activeNavLink ('about-nav');
+
+    }
+    //skills section
+    else if(window.scrollY >= '2047' && window.scrollY < '2784'){
+      activeNavLink ('skills-nav');
+    }
+    //projects section
+    else if(window.scrollY >= '2784' && window.scrollY < '4373'){
+      console.log("projects section on view")
+      activeNavLink ('projects-nav'); 
+    }
+    //contact section
+    else if(window.scrollY >= '4373 ' && window.scrollY < '5400'){
+      console.log("contact section on view")
+      activeNavLink ('contact-nav'); 
+    }
+  }
+
+  //Screen on tablet view.
+  else if(window.innerWidth >= 791 && window.innerWidth <= 839){
+    scrollActive(175);
+
+    //active nav link functionality.
+    //home section
+    if(window.scrollY >= '0' && window.scrollY < '821'){
+      console.log("home section on view")
+      activeNavLink ('home-nav'); 
+    }
+    //about section
+    else if(window.scrollY >= '821' && window.scrollY < '1775'){
+      console.log("about section on view")
+      activeNavLink ('about-nav');
+ 
+    }
+    //skills section
+    else if(window.scrollY >= '1775' && window.scrollY < '2411'){
+      console.log("skills section on view")
+      activeNavLink ('skills-nav'); 
+    }
+    //projects section
+    else if(window.scrollY >= '2411' && window.scrollY < '3753'){
+      console.log("projects section on view")
+      activeNavLink ('projects-nav');
+    }
+    //contact section
+    else if(window.scrollY >= '3753 ' && window.scrollY < '3900'){
+      console.log("contact section on view")
+      activeNavLink ('contact-nav'); 
+    }
+  }
+
+  //if screen is NOT on mobile view.
+  else{
+    if (this.scrollY <= 350) {
+      header.className = '';
+    }  
+    else{
+      header.className = 'scroll';
+    }
+  }
+
+   
 //scroll events for header
 window.onscroll = () => {
   //Screen on mobile view.
@@ -88,44 +198,27 @@ window.onscroll = () => {
     //home section
     if(window.scrollY >= '0' && window.scrollY < '821'){
       console.log("home section on view")
-      homeNav.classList.add('active');  aboutNav.classList.remove('active');
-      skillsNav.classList.remove('active'); 
-      projectsNav.classList.remove('active');
-      contactNav.classList.remove('active'); 
+      activeNavLink ('home-nav');
     }
     //about section
-    else if(window.scrollY >= '821' && window.scrollY < '2122'){
+    else if(window.scrollY >= '821' && window.scrollY < '2047'){
       console.log("about section on view")
-      aboutNav.classList.add('active');
-      homeNav.classList.remove('active'); 
-      skillsNav.classList.remove('active'); 
-      projectsNav.classList.remove('active');
-      contactNav.classList.remove('active'); 
+      activeNavLink ('about-nav');
+
     }
     //skills section
-    else if(window.scrollY >= '2122' && window.scrollY < '3165'){
-      console.log("skills section on view")
-      skillsNav.classList.add('active'); 
-      projectsNav.classList.remove('active');  
-      aboutNav.classList.remove('active');
-      homeNav.classList.remove('active'); 
-      contactNav.classList.remove('active'); 
+    else if(window.scrollY >= '2047' && window.scrollY < '2784'){
+      activeNavLink ('skills-nav');
     }
     //projects section
-    else if(window.scrollY >= '3165' && window.scrollY < '4892'){
+    else if(window.scrollY >= '2784' && window.scrollY < '4373'){
       console.log("projects section on view")
-      projectsNav.classList.add('active');  aboutNav.classList.remove('active');
-      homeNav.classList.remove('active'); 
-      skillsNav.classList.remove('active'); 
-      contactNav.classList.remove('active'); 
+      activeNavLink ('projects-nav'); 
     }
     //contact section
-    else if(window.scrollY >= '4892 ' && window.scrollY < '5400'){
+    else if(window.scrollY >= '4373 ' && window.scrollY < '5400'){
       console.log("contact section on view")
-      contactNav.classList.add('active'); 
-      projectsNav.classList.remove('active');  aboutNav.classList.remove('active');
-      homeNav.classList.remove('active'); 
-      skillsNav.classList.remove('active'); 
+      activeNavLink ('contact-nav'); 
     }
   }
 
@@ -137,44 +230,93 @@ window.onscroll = () => {
     //home section
     if(window.scrollY >= '0' && window.scrollY < '821'){
       console.log("home section on view")
-      homeNav.classList.add('active');  aboutNav.classList.remove('active');
-      skillsNav.classList.remove('active'); 
-      projectsNav.classList.remove('active');
-      contactNav.classList.remove('active'); 
+      activeNavLink ('home-nav'); 
     }
     //about section
-    else if(window.scrollY >= '821' && window.scrollY < '2122'){
+    else if(window.scrollY >= '821' && window.scrollY < '1775'){
       console.log("about section on view")
-      aboutNav.classList.add('active');
-      homeNav.classList.remove('active'); 
-      skillsNav.classList.remove('active'); 
-      projectsNav.classList.remove('active');
-      contactNav.classList.remove('active'); 
+      activeNavLink ('about-nav');
+ 
     }
     //skills section
-    else if(window.scrollY >= '2122' && window.scrollY < '3165'){
+    else if(window.scrollY >= '1775' && window.scrollY < '2411'){
       console.log("skills section on view")
-      skillsNav.classList.add('active'); 
-      projectsNav.classList.remove('active');  
-      aboutNav.classList.remove('active');
-      homeNav.classList.remove('active'); 
-      contactNav.classList.remove('active'); 
+      activeNavLink ('skills-nav'); 
     }
     //projects section
-    else if(window.scrollY >= '3165' && window.scrollY < '4892'){
+    else if(window.scrollY >= '2411' && window.scrollY < '3753'){
       console.log("projects section on view")
-      projectsNav.classList.add('active');  aboutNav.classList.remove('active');
-      homeNav.classList.remove('active'); 
-      skillsNav.classList.remove('active'); 
-      contactNav.classList.remove('active'); 
+      activeNavLink ('projects-nav');
     }
     //contact section
-    else if(window.scrollY >= '4892 ' && window.scrollY < '5400'){
+    else if(window.scrollY >= '3753 ' && window.scrollY < '3900'){
       console.log("contact section on view")
-      contactNav.classList.add('active'); 
-      projectsNav.classList.remove('active');  aboutNav.classList.remove('active');
-      homeNav.classList.remove('active'); 
-      skillsNav.classList.remove('active'); 
+      activeNavLink ('contact-nav'); 
+    }
+  }
+
+  //Screen on tablet view.
+  else if(window.innerWidth >= 840 && window.innerWidth <= 900){
+    scrollActive(175);
+
+    //active nav link functionality.
+    //home section
+    if(window.scrollY >= '0' && window.scrollY < '821'){
+      console.log("home section on view")
+      activeNavLink ('home-nav'); 
+    }
+    //about section
+    else if(window.scrollY >= '821' && window.scrollY < '1779'){
+      console.log("about section on view")
+      activeNavLink ('about-nav');
+ 
+    }
+    //skills section
+    else if(window.scrollY >= '1779' && window.scrollY < '2415'){
+      console.log("skills section on view")
+      activeNavLink ('skills-nav'); 
+    }
+    //projects section
+    else if(window.scrollY >= '2415' && window.scrollY < '3744'){
+      console.log("projects section on view")
+      activeNavLink ('projects-nav');
+    }
+    //contact section
+    else if(window.scrollY >= '3744' && window.scrollY < '4000'){
+      console.log("contact section on view")
+      activeNavLink ('contact-nav'); 
+    }
+  }
+  //Screen on laptop view.
+  else if(window.innerWidth >= 901 && window.innerWidth <= 949){
+    scrollActive(175);
+
+    //active nav link functionality.
+    //home section
+    if(window.scrollY >= '0' && window.scrollY < '821'){
+      console.log("home section on view")
+      activeNavLink ('home-nav'); 
+    }
+    //about section
+    else if(window.scrollY >= '821' && window.scrollY < '1743'){
+      console.log("about section on view")
+      activeNavLink ('about-nav');
+ 
+    }
+    //skills section
+    else if(window.scrollY >= '1743' && window.scrollY < '2379'){
+      console.log("skills section on view")
+      activeNavLink ('skills-nav'); 
+    }
+    //projects section
+    else if(window.scrollY >= '2379' && window.scrollY < '3591'){
+      console.log("projects section on view")
+      activeNavLink ('projects-nav');
+    }
+    //contact section
+    else if(window.scrollY >= '3591' && window.scrollY < '4000'){
+      console.log("contact section on view")
+      activeNavLink ('contact-nav'); 
     }
   }
 
