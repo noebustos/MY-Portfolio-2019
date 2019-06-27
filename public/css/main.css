@@ -58,7 +58,7 @@ header {
   color: #fff;
   vertical-align: middle; }
   header.scroll {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.95);
     -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); }
     header.scroll .mobile-menu-icons .hamburger-icon {
@@ -131,7 +131,6 @@ header {
     padding: 20px;
     background: rgba(0, 0, 0, 0.2); }
     header.scroll {
-      background: rgba(255, 255, 255, 0.9);
       -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
       box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); }
       header.scroll .logo a {
@@ -165,7 +164,7 @@ header {
       header.header-close .container nav {
         display: none; }
     header.header-open {
-      background: rgba(255, 255, 255, 0.9);
+      background: rgba(255, 255, 255, 0.95);
       -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
       box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); }
       header.header-open .container {
