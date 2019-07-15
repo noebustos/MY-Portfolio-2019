@@ -515,13 +515,13 @@ header {
       width: 100px;
       height: 100px; }
     #home-section .vertical-container .img-container .bg-circle-container {
-      width: 900px;
-      height: 900px;
+      width: 800px;
+      height: 800px;
       position: relative;
       z-index: 2; }
       #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
-        width: 900px;
-        height: 900px; }
+        width: 800px;
+        height: 800px; }
   #home-section .vertical-container .intro-area {
     width: 50%;
     display: block; }
@@ -622,9 +622,16 @@ header {
         display: none; } }
 
 /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 650px) {
+  #home-section .vertical-container .img-container .bg-circle-container {
+    right: 144%; } }
+
+/* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 626px) {
   #home-section .vertical-container .img-container img.shirt-gradient {
     bottom: 29.5%; }
+  #home-section .vertical-container .img-container .bg-circle-container {
+    right: 144%; }
   #home-section .vertical-container .intro-area .yellow-bg .container p {
     width: 80%;
     line-height: 1.4; } }
@@ -668,9 +675,10 @@ header {
     bottom: 30.5%; }
   #home-section .vertical-container .img-container .bg-circle-container {
     border-radius: 0;
-    width: 118%;
+    width: 130%;
     height: 700px;
-    right: auto; }
+    right: auto;
+    left: -30%; }
     #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
       border-radius: 0;
       width: 100%;
@@ -709,7 +717,7 @@ header {
     width: 90px;
     height: 90px; }
   #home-section .vertical-container .img-container .bg-circle-container {
-    width: 115%;
+    width: 130%;
     height: 600px;
     border-radius: 0;
     right: auto; }
@@ -795,6 +803,13 @@ header {
       right: 65.9%; } }
 
 /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 1050px) {
+  #home-section .vertical-container .img-container .bg-circle-container {
+    width: 1030px;
+    height: 1030px;
+    right: 118%; } }
+
+/* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1025px) {
   #home-section .vertical-container .img-container {
     display: block; }
@@ -823,6 +838,13 @@ header {
     right: 136%; }
   #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
     right: 70.9%; } }
+
+/* laptop */
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  #home-section .vertical-container .img-container .bg-circle-container {
+    right: 157%; }
+  #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+    right: 73.4%; } }
 
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 885px) {

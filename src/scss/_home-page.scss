@@ -373,14 +373,14 @@
         }
 
         .bg-circle-container{
-          width: 900px;
-          height: 900px;
+          width: 800px;
+          height: 800px;
           position: relative;    
           z-index: 2;
 
           .bg-circle-big{
-            width: 900px;
-            height: 900px;
+            width: 800px;
+            height: 800px;
           }
         }
       }
@@ -568,12 +568,28 @@
 
 
  /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 650px){ 
+  #home-section{
+    .vertical-container{
+      .img-container{
+        .bg-circle-container{
+          right: 144%;
+        }
+      }
+    }
+  }
+}
+
+ /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 626px){ 
   #home-section{
     .vertical-container{
       .img-container{
         img.shirt-gradient{
           bottom: 29.5%;
+        }
+        .bg-circle-container{
+          right: 144%;
         }
       }
 
@@ -670,9 +686,10 @@
 
         .bg-circle-container{
           border-radius: 0;
-          width: 118%;
+          width: 130%;
           height: 700px;
           right: auto;
+          left: -30%;
 
 
           .bg-circle-big{
@@ -750,7 +767,7 @@
         }
 
         .bg-circle-container{
-          width: 115%;
+          width: 130%;
           height: 600px;
           border-radius: 0;  
           right: auto;
@@ -896,6 +913,7 @@
           width: 1030px;
           height: 1030px;
           right: 102%;
+          // right: 118%;
 
           .bg-circle-big{
             width: 1030px;
@@ -918,6 +936,21 @@
           .bg-cutout{
             right: 65.9%;
           }
+        }
+      }
+    }
+  }
+}
+ /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 1050px){ 
+  #home-section{
+    .vertical-container{
+      .img-container{
+        .bg-circle-container{
+          width: 1030px;
+          height: 1030px;
+          // right: 102%;
+          right: 118%;
         }
       }
     }
@@ -991,6 +1024,27 @@
     }
   }
 }
+ /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 900px){ 
+  #home-section{
+    .vertical-container{
+      .img-container{
+        .bg-circle-container{
+          right: 157%;
+        }
+      }
+
+      .intro-area{
+        .yellow-bg{
+          .bg-cutout{
+            right: 73.4%;
+          }
+        }
+      }
+    }
+  }
+}
+
 
 
  /* laptop */
