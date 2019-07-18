@@ -1915,16 +1915,36 @@ header {
     font-size: 163px !important; } }
 
 /* laptop */
+@media only screen and (min-width: 1026px) and (max-width: 1049px) {
+  #about-section .left-column .col-title .bg-text {
+    font-size: 147px !important; } }
+
+/* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1025px) {
   #about-section .left-column .col-title .bg-text {
     font-size: 147px !important; } }
 
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 949px) {
+  #about-section {
+    padding: 150px 0 326px; }
+    #about-section .left-column .col-title .bg-text {
+      font-size: 141px !important; }
+    #about-section .left-column .col-title .title-container {
+      bottom: 29px !important; }
+    #about-section .left-column .other-info {
+      width: 80%;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%); }
+      #about-section .left-column .other-info h6 {
+        text-align: center; } }
+
+/* laptop */
+@media only screen and (min-width: 886px) and (max-width: 899px) {
   #about-section .left-column .col-title .bg-text {
-    font-size: 141px !important; }
-  #about-section .left-column .col-title .title-container {
-    bottom: 29px !important; } }
+    font-size: 130px !important; } }
 
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 885px) {
@@ -1937,18 +1957,11 @@ header {
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 839px) {
   #about-section {
-    padding: 120px 30px 341px !important; }
+    padding: 120px 30px 296px !important; }
     #about-section .left-column .col-title .bg-text {
-      font-size: 123px !important;
-      margin-top: -17px !important; }
-    #about-section .left-column .other-info {
-      width: 90%;
-      position: absolute;
-      left: 50%;
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%); }
-      #about-section .left-column .other-info h6 {
-        text-align: center; } }
+      letter-spacing: -2px !important;
+      font-size: 119px !important;
+      margin-top: -17px !important; } }
 
 #skills-section {
   background: #0057B2;
