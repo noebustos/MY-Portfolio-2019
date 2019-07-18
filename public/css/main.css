@@ -1998,7 +1998,11 @@ header {
       font-size: 1.2rem;
       font-weight: 700;
       letter-spacing: 1.5px;
-      margin-bottom: 17px; }
+      margin-bottom: 17px;
+      text-align: center; }
+    #skills-section .skills-container .skill.knowledgeable {
+      -ms-flex-item-align: end;
+      align-self: flex-end; }
     #skills-section .skills-container .skill ul {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -2246,8 +2250,13 @@ header {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    #skills-section .skills-container .skill.less-knowledge {
-      margin: 17px 0; } }
+    #skills-section .skills-container .skill {
+      margin-bottom: 25px; }
+      #skills-section .skills-container .skill.less-knowledgeable {
+        margin-bottom: 0 !important; }
+      #skills-section .skills-container .skill.knowledgeable {
+        -ms-flex-item-align: auto;
+        align-self: auto; } }
 
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1200px) {

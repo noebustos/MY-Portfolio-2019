@@ -39,6 +39,11 @@
         font-weight: 700;
         letter-spacing: 1.5px;
         margin-bottom: 17px;
+        text-align: center;
+      }
+
+      &.knowledgeable{
+        align-self: flex-end;
       }
 
       ul{
@@ -234,6 +239,7 @@
           width: 100%;
         }
 
+        //fix issue.doesnt point to anything. and table isnt stacking up right on placement.
         ul{
           &.knowledge{
             margin: 0 auto 5%;
@@ -310,6 +316,7 @@
 
 
 
+//fix white space issue on lower screen size for this media query.
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px){ 
   #skills-section{
@@ -381,6 +388,7 @@
   }  
 }
 
+//max-620 min-480
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 620px){ 
   #skills-section{
@@ -391,8 +399,14 @@
       align-items: center;
 
       .skill{
-        &.less-knowledge{
-          margin: 17px 0;
+        margin-bottom: 25px;
+
+        &.less-knowledgeable{
+          margin-bottom: 0 !important;
+        }
+
+        &.knowledgeable {
+          align-self: auto;
         }
       }
     }
