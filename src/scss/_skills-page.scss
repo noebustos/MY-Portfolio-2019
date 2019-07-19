@@ -29,7 +29,7 @@
     z-index: 10;
     display: flex;
     justify-content: space-evenly;
-    width: 68%;
+    width: 69%;
     margin: 0 auto;
 
 
@@ -216,7 +216,7 @@
 @media only screen and (min-width: 300px) and (max-width: 479px){ 
   #skills-section{
     padding: 6.25rem 1.25rem;
-    overflow: hidden;;
+    overflow: hidden;
     width: 100%;
     clip-path: polygon(0% 0%, 100% 6%, 100% 100%, 0% 94%);
     background: linear-gradient(0deg, rgba(0,87,178,1) 0%, rgba(3,77,154,1) 100%);
@@ -229,26 +229,27 @@
     }
 
     .skills-container{
-      flex-wrap: wrap;
       width: 100%;
+      flex-direction: column;
+      margin: 0 auto;
+      align-items: center;
 
       .skill{
+        margin-bottom: 25px;
+
         .skill-title{
           font-size: 1.25rem;
           font-weight: 600;
           width: 100%;
         }
 
-        //fix issue.doesnt point to anything. and table isnt stacking up right on placement.
-        ul{
-          &.knowledge{
-            margin: 0 auto 5%;
-          }
+        &.less-knowledgeable{
+          margin-bottom: 0 !important;
+        }
 
-          &.less-knowledge{
-            margin: 0 auto 5%;
-          }
-        }  
+        &.knowledgeable {
+          align-self: auto;
+        }
       }
     }
 
@@ -332,6 +333,7 @@
 
     .skills-container{
       width: 100%;
+      // justify-content: space-between;
     }
 
     .bg-circle-xl{
@@ -390,7 +392,7 @@
 
 //max-620 min-480
  /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 620px){ 
+@media only screen and (min-width: 480px) and (max-width: 650px){ 
   #skills-section{
     .skills-container{
       width: 100%;
@@ -412,6 +414,18 @@
     }
   }  
 }
+
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 690px){
+//max-670 min-621
+  #skills-section{
+    .skills-container{
+      justify-content: space-between;
+    }  
+  }    
+}
+// @media only screen and (min-width: 621px) and (max-width: 670px){
 
 
 
