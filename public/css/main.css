@@ -2002,11 +2002,17 @@ header {
       text-align: center; }
     #skills-section .skills-container .skill.knowledgeable {
       -ms-flex-item-align: end;
-      align-self: flex-end; }
+      align-self: flex-end;
+      position: relative;
+      top: 17px; }
     #skills-section .skills-container .skill ul {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-row-gap: 5px; }
+      #skills-section .skills-container .skill ul li {
+        padding: 1px 0; }
+        #skills-section .skills-container .skill ul li:nth-of-type(odd) {
+          margin-right: 12px; }
   #skills-section .bg-circle-xl {
     width: 800px;
     height: 800px;
@@ -2268,6 +2274,10 @@ header {
         align-self: auto; } }
 
 /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 650px) {
+  #skills-section .skills-container .skill.knowledgeable {
+    position: static; } }
+
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   #skills-section .container .section-title p {
@@ -2306,6 +2316,43 @@ header {
     right: 16%; }
   #skills-section .container .bg-circle-l22 {
     left: 16%; } }
+
+/* laptop */
+@media only screen and (min-width: 1026px) and (max-width: 1050px) {
+  #skills-section .container .bg-circle-sm11 {
+    left: 12%;
+    bottom: -34%; }
+  #skills-section .container .bg-circle-sm111 {
+    right: 12%;
+    top: -34%; }
+  #skills-section .container .bg-circle-md1 {
+    left: -7%;
+    bottom: -10%; }
+  #skills-section .container .bg-circle-md2 {
+    right: -7%;
+    top: -10%; }
+  #skills-section .container .bg-circle-sm1 {
+    left: -42px; }
+  #skills-section .container .bg-circle-sm2 {
+    right: -42px; }
+  #skills-section .container .bg-circle-xs1 {
+    display: none; }
+  #skills-section .container .bg-circle-xs2 {
+    display: none; }
+  #skills-section .container .bg-circle-l1 {
+    right: -5%;
+    bottom: -26%;
+    width: 100px;
+    height: 100px; }
+  #skills-section .container .bg-circle-l11 {
+    left: -5%;
+    top: -26%;
+    width: 100px;
+    height: 100px; }
+  #skills-section .container .bg-circle-l2 {
+    right: 13%; }
+  #skills-section .container .bg-circle-l22 {
+    left: 13%; } }
 
 /* laptop */
 @media only screen and (min-width: 950px) and (max-width: 1050px) {
