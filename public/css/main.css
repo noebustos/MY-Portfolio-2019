@@ -1476,84 +1476,47 @@ header {
     #projects-section .projects-container .projects .project-info-box .project-title .title-container h6 {
       font-size: 1.1rem; } }
 
-/* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 578px) {
-  #projects-section .projects-container {
-    grid-template-rows: 28vh 35vh 35vh; }
-    #projects-section .projects-container .projects .project-info-box .project-title .title-container .placement {
-      font-size: 2.8rem; } }
+@media only screen and (min-width: 581px) and (max-width: 750px) {
+  #projects-section .projects-container .projects.project5 {
+    grid-column: 1/3;
+    grid-row: 5/6; } }
 
 /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 577px) {
+@media only screen and (min-width: 480px) and (max-width: 585px) {
   #projects-section .projects-container {
-    grid-template-rows: 26.8vh 26.8vh 26.8vh 45vh; }
+    grid-template-rows: 33vh 33vh 33vh 33vh 33vh; }
     #projects-section .projects-container .projects .project-info-box {
-      width: 97.5% !important;
-      height: 95% !important; }
-      #projects-section .projects-container .projects .project-info-box.info-box-xl {
-        padding: 30px; }
-      #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container img {
-        display: none; }
-      #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container img {
-        display: none; }
-    #projects-section .projects-container .projects.project1 .project-info-box {
-      width: 97.5% !important;
+      width: 97% !important;
       height: 95% !important;
-      padding: 30px 10%; }
+      padding: 26px; }
+      #projects-section .projects-container .projects .project-info-box .project-title .title-container .placement {
+        font-size: 2.8rem; }
+    #projects-section .projects-container .projects.project1 .project-info-box {
+      padding: 26;
+      width: 97% !important;
+      height: 95% !important; }
     #projects-section .projects-container .projects.project2 {
       grid-column: 1/3;
       grid-row: 2/3; }
+      #projects-section .projects-container .projects.project2 .project-info-box, #projects-section .projects-container .projects.project2 .info-box-xl {
+        padding: 26; }
     #projects-section .projects-container .projects.project3 {
       grid-column: 1/3;
       grid-row: 3/4; }
     #projects-section .projects-container .projects.project4 {
-      grid-column: 1/2;
+      grid-column: 1/3;
       grid-row: 4/5; }
-      #projects-section .projects-container .projects.project4 .project-info-box {
-        width: 94.7% !important;
-        height: 97% !important; }
-        #projects-section .projects-container .projects.project4 .project-info-box .project-btns {
-          display: block;
-          -webkit-box-pack: initial;
-          -ms-flex-pack: initial;
-          justify-content: initial;
-          text-align: center; }
-          #projects-section .projects-container .projects.project4 .project-info-box .project-btns .code-btn-container {
-            margin: 0 auto 17px; }
-            #projects-section .projects-container .projects.project4 .project-info-box .project-btns .code-btn-container .code-btn {
-              margin: 0 auto; }
-            #projects-section .projects-container .projects.project4 .project-info-box .project-btns .code-btn-container img {
-              display: none; }
-          #projects-section .projects-container .projects.project4 .project-info-box .project-btns .site-btn-container {
-            margin: 0 auto; }
-            #projects-section .projects-container .projects.project4 .project-info-box .project-btns .site-btn-container .site-btn {
-              margin: 0 auto; }
-            #projects-section .projects-container .projects.project4 .project-info-box .project-btns .site-btn-container img {
-              display: none; }
+      #projects-section .projects-container .projects.project4 .project-info-box .project-title {
+        text-align: center;
+        margin: 0 auto; }
+        #projects-section .projects-container .projects.project4 .project-info-box .project-title .title-container .placement {
+          bottom: 1px;
+          float: none; }
+        #projects-section .projects-container .projects.project4 .project-info-box .project-title .title-container h6 {
+          float: none; }
     #projects-section .projects-container .projects.project5 {
-      grid-column: 2/3;
-      grid-row: 4/5; }
-      #projects-section .projects-container .projects.project5 .project-info-box {
-        width: 94.7% !important;
-        height: 97% !important; }
-        #projects-section .projects-container .projects.project5 .project-info-box .project-btns {
-          display: block;
-          -webkit-box-pack: initial;
-          -ms-flex-pack: initial;
-          justify-content: initial;
-          text-align: center; }
-          #projects-section .projects-container .projects.project5 .project-info-box .project-btns .code-btn-container {
-            margin: 0 auto 17px; }
-            #projects-section .projects-container .projects.project5 .project-info-box .project-btns .code-btn-container .code-btn {
-              margin: 0 auto; }
-            #projects-section .projects-container .projects.project5 .project-info-box .project-btns .code-btn-container img {
-              display: none; }
-          #projects-section .projects-container .projects.project5 .project-info-box .project-btns .site-btn-container {
-            margin: 0 auto; }
-            #projects-section .projects-container .projects.project5 .project-info-box .project-btns .site-btn-container .site-btn {
-              margin: 0 auto; }
-            #projects-section .projects-container .projects.project5 .project-info-box .project-btns .site-btn-container img {
-              display: none; } }
+      grid-column: 1/3;
+      grid-row: 5/6; } }
 
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px) {
@@ -1604,6 +1567,7 @@ header {
         #projects-section .projects-container .projects.project5 .placement {
           vertical-align: baseline; } }
 
+/* Tablet (portrait and landscape) */
 /* laptop */
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1134px) {
