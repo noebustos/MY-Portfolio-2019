@@ -219,6 +219,205 @@
   }
 }
 
+
+
+
+
+ /* tablet */
+ @media only screen and (min-width: 769px) and (max-width: 845px){ 
+  #projects-section{
+    .projects-container{
+      grid-template-columns: 1fr 1fr;
+
+      .projects{
+        .project-info-box{       
+          &.info-box-xl{
+            width: 96%;
+            height: 96%;
+            padding: 30px;
+          }
+
+          .project-btns{
+            letter-spacing: 1px;
+          }
+
+          .project-btns{
+            .code-btn-container{
+              margin: 0;     
+            }
+
+            .site-btn-container{
+              margin: 0;
+            }
+          }
+        }
+
+        &.project1{
+          grid-column: 1/3;
+          grid-row: 1/2;
+
+          .project-info-box{
+            width: 98%;
+            height: 95%;
+            padding: 30px 10%;
+          }
+        } 
+
+        &.project2{
+          grid-column: 1/2;
+          grid-row: 2/3;    
+
+          .project-btns{
+            display: flex;
+            
+            .code-btn-container{
+              margin-right: 15px; 
+              margin-bottom: 0;   
+              text-align: center;  
+
+              img{
+                width: auto;
+                margin: 0 auto;
+              }
+            }
+
+            .site-btn-container{
+              margin-left: 15px;   
+              text-align: center;    
+
+              img{
+                width: auto;
+                margin: 0 auto;
+              }
+            }
+          }     
+        }
+
+        &.project3{
+          grid-column: 2/3;
+          grid-row: 2/3;
+
+          .project-info-box{
+            width: 96%;
+            height: 96%;
+          }
+        }
+
+        &.project4{
+          grid-column: 1/2;
+          grid-row: 3/4;
+
+          .project-info-box{
+            width: 96%;
+            height: 96%;
+          }
+        }
+
+        &.project5{
+          grid-column: 2/3;
+          grid-row: 3/4;
+
+          .project-info-box{
+            width: 96%;
+            height: 96%;
+          }
+
+          .placement{
+            vertical-align: top;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+//padding issues on tablet size(s) fix troughout.
+
+//prjects boxes break at 769px. padding of boxes changes(smaller).
+//1st info box title is tripping for real dawg. on larger size. 791 confirmed.
+@media only screen and (min-width: 751px) and (max-width: 800px){ 
+  #projects-section{
+    .projects-container{
+      grid-template-rows: 34vh 41vh 41vh !important;
+      
+      .projects{
+        .project-info-box{
+          // width: 97% !important;
+          // height: 95% !important;
+          // padding: 26px;
+          
+
+          .project-title{
+            .title-container{
+              .placement{
+                // font-size: 2.8rem;
+              }
+            }
+          }
+        }
+
+        &.project1{
+          .project-info-box{
+            // padding: 26;
+            // width: 97% !important;
+            // height: 95% !important;
+          }
+        } 
+
+        &.project2{
+          // grid-column: 1/3;
+          // grid-row: 2/3;    
+          
+          .project-info-box, .info-box-xl{
+            padding: 30;
+          }
+        }
+
+        &.project3{
+          // grid-column: 1/3;
+          // grid-row: 3/4;
+        }
+
+        &.project4{
+          // grid-column: 1/3;
+          // grid-row: 4/5;
+
+          .project-info-box{
+            .project-title{
+              // text-align: center;
+              // margin: 0 auto;
+
+              .title-container{
+                .placement {
+                  // bottom: 1px;
+                  // float: none;
+                }
+
+                h6{
+                  // float: none;
+                }
+              }    
+            }
+
+            .project-btns {
+              // position: relative;
+              // top: 20px;
+            }
+          }
+        }
+
+        &.project5{
+          // grid-column: 1/3;
+          // grid-row: 5/6;
+        }
+      }
+    }
+  }
+}
+
+
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px){ 
   #projects-section{
@@ -234,7 +433,6 @@
 
     .projects-container{
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 26.8vh 31.8vh 31.8vh;
 
       .projects{
         .project-info-box{       
@@ -340,90 +538,6 @@
   }
 }
 
-
-
-
-//prjects boxes break at 769px
-//1st info box title is tripping for real dawg. on larger size. 791 confirmed.
-@media only screen and (min-width: 751px) and (max-width: 800px){ 
-  #projects-section{
-    .projects-container{
-      grid-template-rows: 34vh 41vh 41vh !important;
-      
-      .projects{
-        .project-info-box{
-          // width: 97% !important;
-          // height: 95% !important;
-          // padding: 26px;
-          
-
-          .project-title{
-            .title-container{
-              .placement{
-                // font-size: 2.8rem;
-              }
-            }
-          }
-        }
-
-        &.project1{
-          .project-info-box{
-            // padding: 26;
-            // width: 97% !important;
-            // height: 95% !important;
-          }
-        } 
-
-        &.project2{
-          // grid-column: 1/3;
-          // grid-row: 2/3;    
-          
-          .project-info-box, .info-box-xl{
-            padding: 30;
-          }
-        }
-
-        &.project3{
-          // grid-column: 1/3;
-          // grid-row: 3/4;
-        }
-
-        &.project4{
-          // grid-column: 1/3;
-          // grid-row: 4/5;
-
-          .project-info-box{
-            .project-title{
-              // text-align: center;
-              // margin: 0 auto;
-
-              .title-container{
-                .placement {
-                  // bottom: 1px;
-                  // float: none;
-                }
-
-                h6{
-                  // float: none;
-                }
-              }    
-            }
-
-            .project-btns {
-              // position: relative;
-              // top: 20px;
-            }
-          }
-        }
-
-        &.project5{
-          // grid-column: 1/3;
-          // grid-row: 5/6;
-        }
-      }
-    }
-  }
-}
 
 @media only screen and (min-width: 764px) and (max-width: 768px){ 
   #projects-section{
@@ -595,8 +709,8 @@
 @media only screen and (min-width: 480px) and (max-width: 716px){ 
   #projects-section{
     .projects-container{
-      grid-template-rows: 27.8vh 31.8vh 33vh;
-      
+      grid-template-rows: 34vh 41vh 41vh;
+
       .projects{
         &.project2{
           .project-title{
@@ -694,8 +808,6 @@
 @media only screen and (min-width: 480px) and (max-width: 617px){ 
   #projects-section{
     .projects-container{
-      grid-template-rows: 27.8vh 32vh 33vh;
-      
       .projects{
         &.project4{
           .project-info-box{
@@ -722,9 +834,6 @@
     }
   }
 }
-
-
-  
 
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 600px){ 
@@ -803,6 +912,7 @@
     }
   }
 }
+
 
 
 
@@ -889,12 +999,6 @@
     }
   }
 }
-
-
-/* Tablet (portrait and landscape) */
-// @media only screen and (min-width: 480px) and (max-width: 577px){
-
-// }
 
 
 
@@ -1028,111 +1132,3 @@
   }
 }
 
- /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 845px){ 
-  #projects-section{
-    .projects-container{
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 26.8vh 31.8vh 31.8vh;
-
-      .projects{
-        .project-info-box{       
-          &.info-box-xl{
-            width: 96%;
-            height: 96%;
-            padding: 30px;
-          }
-
-          .project-btns{
-            letter-spacing: 1px;
-          }
-
-          .project-btns{
-            .code-btn-container{
-              margin: 0;     
-            }
-
-            .site-btn-container{
-              margin: 0;
-            }
-          }
-        }
-
-        &.project1{
-          grid-column: 1/3;
-          grid-row: 1/2;
-
-          .project-info-box{
-            width: 98%;
-            height: 95%;
-            padding: 30px 10%;
-          }
-        } 
-
-        &.project2{
-          grid-column: 1/2;
-          grid-row: 2/3;    
-
-          .project-btns{
-            display: flex;
-            
-            .code-btn-container{
-              margin-right: 15px; 
-              margin-bottom: 0;   
-              text-align: center;  
-
-              img{
-                width: auto;
-                margin: 0 auto;
-              }
-            }
-
-            .site-btn-container{
-              margin-left: 15px;   
-              text-align: center;    
-
-              img{
-                width: auto;
-                margin: 0 auto;
-              }
-            }
-          }     
-        }
-
-        &.project3{
-          grid-column: 2/3;
-          grid-row: 2/3;
-
-          .project-info-box{
-            width: 96%;
-            height: 96%;
-          }
-        }
-
-        &.project4{
-          grid-column: 1/2;
-          grid-row: 3/4;
-
-          .project-info-box{
-            width: 96%;
-            height: 96%;
-          }
-        }
-
-        &.project5{
-          grid-column: 2/3;
-          grid-row: 3/4;
-
-          .project-info-box{
-            width: 96%;
-            height: 96%;
-          }
-
-          .placement{
-            vertical-align: top;
-          }
-        }
-      }
-    }
-  }
-}
