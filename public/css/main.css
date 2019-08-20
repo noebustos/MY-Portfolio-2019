@@ -1485,7 +1485,7 @@ header {
   #projects-section .projects-container {
     grid-template-rows: 26.8vh 31.8vh 33vh; }
     #projects-section .projects-container .projects {
-      padding: 26px; }
+      padding: 30px; }
       #projects-section .projects-container .projects.project4 .project-info-box .project-title {
         text-align: left; }
         #projects-section .projects-container .projects.project4 .project-info-box .project-title .title-container .placement {
@@ -1496,7 +1496,7 @@ header {
           #projects-section .projects-container .projects.project4 .project-info-box .project-title .title-container h6 br {
             display: none; }
       #projects-section .projects-container .projects .project-info-box.info-box-xl {
-        padding: 26px; } }
+        padding: 30px; } }
 
 @media only screen and (min-width: 764px) and (max-width: 768px) {
   #projects-section .projects-container .projects.project4 .project-info-box .project-title .title-container .placement {
@@ -1516,6 +1516,19 @@ header {
 @media only screen and (min-width: 701px) and (max-width: 745px) {
   #projects-section .projects-container .projects.project4 .project-info-box .project-title .title-container h6 {
     width: 75% !important; } }
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 717px) and (max-width: 727px) {
+  #projects-section .projects-container {
+    grid-template-rows: 34vh 41vh 41vh; }
+    #projects-section .projects-container .projects.project2 .project-title .title-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      #projects-section .projects-container .projects.project2 .project-title .title-container h6 {
+        width: 70%; }
+        #projects-section .projects-container .projects.project2 .project-title .title-container h6 br {
+          display: none; } }
 
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 716px) {
@@ -1677,7 +1690,7 @@ header {
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 949px) {
   #projects-section .projects-container .projects .project-info-box {
-    padding: 22px 20px;
+    padding: 30px;
     width: 96%;
     height: 96%; }
     #projects-section .projects-container .projects .project-info-box .project-title .title-container {

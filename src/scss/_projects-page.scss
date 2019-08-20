@@ -500,7 +500,7 @@
       grid-template-rows: 26.8vh 31.8vh 33vh;
 
       .projects{
-        padding: 26px;
+        padding: 30px;
 
         &.project4{
           .project-info-box{
@@ -527,7 +527,7 @@
 
         .project-info-box{
           &.info-box-xl{
-            padding: 26px;
+            padding: 30px;
           }
         }
       }
@@ -728,6 +728,40 @@
   }
 }
 
+
+//717-727 === 2nd box title changes position. offset. bug.
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 717px) and (max-width: 727px){ 
+  #projects-section{
+    .projects-container{
+      grid-template-rows: 34vh 41vh 41vh;
+
+      .projects{
+        &.project2{
+          .project-title{
+            .title-container{
+              display: flex;
+
+              h6{
+                width: 70%;
+
+                br{
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+
+        .project-info-box{
+
+          &.info-box-xl{
+          }
+        }
+      }
+    }
+  }
+}
 
 
  /* Tablet (portrait and landscape) */
@@ -1189,7 +1223,7 @@
     .projects-container{
       .projects{
         .project-info-box{
-          padding: 22px 20px;       
+          padding: 30px;       
           width: 96%;
           height: 96%;
 
@@ -1258,5 +1292,8 @@
   }
 }
 
-//770 === box2 yellow border gets lost.  √√
-//886 === loose last row of boxes.    √√
+//770 === box2 yellow border gets lost.  √√√
+//886 === loose last row of boxes.    √√√
+//717-727 === 2nd box title changes position. offset. bug.   √√√
+
+//886 === padding inside boxes is not congruent.  √√√
