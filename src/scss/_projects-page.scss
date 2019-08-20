@@ -1152,6 +1152,71 @@
 //No other diferent styles for this device width.
 }
 
+
+
+ /* laptop */
+@media only screen and (min-width: 1135px) and (max-width: 1140px){ 
+  #projects-section{
+    .projects-container{
+      grid-template-rows: 42vh 42vh;
+
+      .projects{
+        .project-info-box{
+          // padding: 25px;
+
+          .project-title{
+            // text-align: left;
+
+            .title-container{
+              // display: flex;
+              // margin-top: -3px;
+            }
+
+            .placement {
+              // margin-right: 15px;
+            }
+          }
+        }
+
+        &.project2{
+          .project-info-box{
+            .project-title{
+              .title-container{
+                // display: flex;
+                
+                .placement{
+                  // display: block;
+                }
+
+                h6{
+                  // display: block;
+                }
+              }
+            }
+          }       
+        }
+
+        &.project3{
+         .project-info-box{
+            .project-title{
+              .title-container{
+                .placement{
+                  // vertical-align: baseline;
+                }
+
+                h6{
+                  // margin-top: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1134px){ 
   #projects-section{
@@ -1218,6 +1283,57 @@
 }
 
  /* laptop */
+@media only screen and (min-width: 1000px) and (max-width: 1050px){ 
+  #projects-section{
+    .projects-container{
+      .projects{
+        .project-info-box{
+          // padding: 30px;       
+          width: 95%;
+          height: 95%;
+      
+
+          &.info-box-xl{
+            width: 94.5% !important;
+            height: 97.5% !important;
+          }
+
+          .project-title{
+            .title-container{
+            }
+          }
+        }
+      }
+    }
+  }
+}
+ /* laptop */
+@media only screen and (min-width: 950px) and (max-width: 999px){ 
+  #projects-section{
+    .projects-container{
+      .projects{
+        .project-info-box{
+          // padding: 30px;       
+          width: 96% !important;
+          height: 96% !important;
+
+          &.info-box-xl{
+            width: 95% !important;
+            height: 98% !important;
+          }
+
+          .project-title{
+            .title-container{
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+ /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 949px){ 
   #projects-section{
     .projects-container{
@@ -1228,7 +1344,6 @@
           height: 96%;
 
           &.info-box-xl{
-
           }
 
           .project-title{
@@ -1241,6 +1356,27 @@
     }
   }
 }
+
+
+ /* laptop */
+@media only screen and (min-width: 901px) and (max-width: 949px){ 
+  #projects-section{
+    .projects-container{
+      grid-template-rows: 43vh 43vh;
+
+      .projects{
+        .project-info-box{
+          &.info-box-xl{
+            height: 98% !important;
+            width: 95% !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+
 
 
 
@@ -1291,9 +1427,3 @@
     }
   }
 }
-
-//770 === box2 yellow border gets lost.  √√√
-//886 === loose last row of boxes.    √√√
-//717-727 === 2nd box title changes position. offset. bug.   √√√
-
-//886 === padding inside boxes is not congruent.  √√√
