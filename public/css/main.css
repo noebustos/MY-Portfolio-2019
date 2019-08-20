@@ -1372,7 +1372,8 @@ header {
 /* tablet */
 @media only screen and (min-width: 769px) and (max-width: 900px) {
   #projects-section .projects-container {
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 325px 325px 325px; }
     #projects-section .projects-container .projects .project-info-box.info-box-xl {
       width: 96%;
       height: 96%;
@@ -1679,9 +1680,6 @@ header {
     padding: 22px 20px;
     width: 96%;
     height: 96%; }
-    #projects-section .projects-container .projects .project-info-box.info-box-xl {
-      width: 95%;
-      height: 98%; }
     #projects-section .projects-container .projects .project-info-box .project-title .title-container {
       margin-top: 0px; } }
 
@@ -1700,7 +1698,11 @@ header {
         #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container {
           margin-right: 0px; }
         #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container {
-          margin-left: 0px; } }
+          margin-left: 0px; }
+    #projects-section .projects-container .projects.project1 .project-info-box .project-title .title-container {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
 
 #about-section {
   padding: 150px 0; }

@@ -228,6 +228,7 @@
   #projects-section{
     .projects-container{
       grid-template-columns: 1fr 1fr;
+      grid-template-rows: 325px 325px 325px;
 
       .projects{
         .project-info-box{       
@@ -332,8 +333,7 @@
 }
 
 
-//min-801  rows bug. last row gets deleted.
-//1st info box title is tripping for real dawg. on larger size. 791 confirmed.
+//1st info box title is tripping for real dawg. on larger size. 769 confirmed.
 @media only screen and (min-width: 751px) and (max-width: 800px){ 
   #projects-section{
     .projects-container{
@@ -1194,10 +1194,9 @@
           height: 96%;
 
           &.info-box-xl{
-            width: 95%;
-            height: 98%;
+
           }
-          
+
           .project-title{
             .title-container{
               margin-top: 0px;
@@ -1244,8 +1243,20 @@
             }
           }
         }
+
+        &.project1{
+          .project-info-box{
+            .project-title{ 
+              .title-container {
+                justify-content: center;
+              }
+            }  
+          } 
+        } 
       }
     }
   }
 }
 
+//770 === box2 yellow border gets lost.  √√
+//886 === loose last row of boxes.    √√
