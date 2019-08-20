@@ -1370,7 +1370,7 @@ header {
           vertical-align: middle; }
 
 /* tablet */
-@media only screen and (min-width: 769px) and (max-width: 845px) {
+@media only screen and (min-width: 769px) and (max-width: 900px) {
   #projects-section .projects-container {
     grid-template-columns: 1fr 1fr; }
     #projects-section .projects-container .projects .project-info-box.info-box-xl {
@@ -1504,9 +1504,17 @@ header {
   #projects-section .projects-container .projects.project4 .project-info-box .project-title .title-container h6 {
     width: 77%; } }
 
-@media only screen and (min-width: 601px) and (max-width: 750px) {
+@media only screen and (min-width: 626px) and (max-width: 750px) {
   #projects-section .projects-container {
-    grid-template-rows: 34vh 41vh 41vh; } }
+    grid-template-rows: 34vh 41vh 41vh; }
+    #projects-section .projects-container .projects .project-info-box {
+      padding: 30px; }
+    #projects-section .projects-container .projects.project4 .project-info-box .project-title .title-container h6 {
+      width: 76%; } }
+
+@media only screen and (min-width: 701px) and (max-width: 745px) {
+  #projects-section .projects-container .projects.project4 .project-info-box .project-title .title-container h6 {
+    width: 75% !important; } }
 
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 716px) {
@@ -1515,18 +1523,17 @@ header {
     #projects-section .projects-container .projects.project2 .project-title .title-container h6 {
       width: 70%; }
       #projects-section .projects-container .projects.project2 .project-title .title-container h6 br {
-        display: none; }
-    #projects-section .projects-container .projects .project-info-box {
-      padding: 22px; }
-      #projects-section .projects-container .projects .project-info-box.info-box-xl {
-        padding: 22px; } }
+        display: none; } }
 
-/* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 666px) {
+@media only screen and (min-width: 671px) and (max-width: 700px) {
+  #projects-section .projects-container .projects.project4 .project-info-box .project-title .title-container h6 {
+    width: 73%; } }
+
+@media only screen and (min-width: 626px) and (max-width: 670px) {
   #projects-section .projects-container .projects .project-info-box {
-    padding: 20px; }
-    #projects-section .projects-container .projects .project-info-box.info-box-xl {
-      padding: 20px; } }
+    padding: 24px !important; }
+  #projects-section .projects-container .projects.project4 .project-info-box .project-title .title-container h6 {
+    width: 74%; } }
 
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 658px) {
@@ -1553,7 +1560,7 @@ header {
     font-size: 1.1rem; } }
 
 /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 600px) {
+@media only screen and (min-width: 480px) and (max-width: 625px) {
   #projects-section .projects-container {
     grid-template-rows: 33vh 33vh 33vh 33vh 33vh; }
     #projects-section .projects-container .projects .project-info-box {
@@ -1669,21 +1676,23 @@ header {
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 949px) {
   #projects-section .projects-container .projects .project-info-box {
-    padding: 22px 20px; }
+    padding: 22px 20px;
+    width: 96%;
+    height: 96%; }
+    #projects-section .projects-container .projects .project-info-box.info-box-xl {
+      width: 95%;
+      height: 98%; }
     #projects-section .projects-container .projects .project-info-box .project-title .title-container {
       margin-top: 0px; } }
 
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 885px) {
   #projects-section .projects-container {
-    grid-template-rows: 335px 335px; }
+    grid-template-rows: 335px 335px 335px; }
     #projects-section .projects-container .projects .project-info-box {
       width: 96%;
       height: 97%;
       padding: 30px; }
-      #projects-section .projects-container .projects .project-info-box.info-box-xl {
-        height: 98.5%;
-        width: 95%; }
       #projects-section .projects-container .projects .project-info-box .project-title .title-container {
         margin-top: 0px; }
       #projects-section .projects-container .projects .project-info-box .project-btns {
