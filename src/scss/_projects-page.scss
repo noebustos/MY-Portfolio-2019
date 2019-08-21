@@ -67,7 +67,7 @@
           text-align: center;
 
           .title-container{
-            display: inline-block;
+            display: flex;
           }
 
           .placement {
@@ -516,7 +516,6 @@
                 display: flex;
                 .placement{
                   position: relative;
-                  bottom: 10px;
                 }
 
                 h6{
@@ -919,7 +918,6 @@
             .project-title{
               .title-container{
                 .placement{
-                  bottom: -8px;
                   float: left;
                 }
 
@@ -956,36 +954,6 @@
   }
 }
 
- /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 617px){ 
-  #projects-section{
-    .projects-container{
-      .projects{
-        &.project4{
-          .project-info-box{
-            .project-title{
-              .title-container{
-                h6{
-                  width: 65%;
-                }              
-              }
-            }
-          }
-        }
-
-        .project-info-box{
-          .project-title{
-            .title-container{
-              h6{
-                font-size: 1.1rem;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
 
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 625px){ 
@@ -1065,7 +1033,35 @@
   }
 }
 
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 617px){ 
+  #projects-section{
+    .projects-container{
+      .projects{
+        &.project4{
+          .project-info-box{
+            .project-title{
+              .title-container{
+                h6{
+                }              
+              }
+            }
+          }
+        }
 
+        .project-info-box{
+          .project-title{
+            .title-container{
+              h6{
+                font-size: 1.1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 
 /* Smartphones (portrait and landscape) */
@@ -1106,7 +1102,6 @@
             text-align: left;
 
             .title-container{
-              display: block;
             }
 
             h6 {
@@ -1435,3 +1430,6 @@
     }
   }
 }
+
+
+//min1135-max1140
