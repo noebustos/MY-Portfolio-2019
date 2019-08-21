@@ -226,7 +226,7 @@
 
 
 
-
+//643
 
  /* tablet */
  @media only screen and (min-width: 769px) and (max-width: 900px){ 
@@ -236,10 +236,12 @@
       grid-template-rows: 325px 325px 325px;
 
       .projects{
-        .project-info-box{       
+        .project-info-box{    
+          height: 95.5% !important;            
+
           &.info-box-xl{
             width: 96%;
-            height: 96%;
+            height: 95.5%;            
             padding: 30px;
           }
 
@@ -421,6 +423,53 @@
 
 
  /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 751px) and (max-width: 780px){ 
+  #projects-section{
+    .projects-container{
+    grid-template-rows: 35vh 45vh 45vh !important;
+    }
+  }
+}
+
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 671px) and (max-width: 750px){ 
+  #projects-section{
+    .projects-container{
+    grid-template-rows: 39vh 45vh 45vh !important;
+    }
+  }
+}
+
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 659px) and (max-width: 670px){ 
+  #projects-section{
+    .projects-container{
+    grid-template-rows: 34vh 43.5vh 43.5vh !important;
+    }
+  }
+}
+
+
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 644px) and (max-width: 658px){ 
+  #projects-section{
+    .projects-container{
+    grid-template-rows: 37vh 43.5vh 43.5vh !important;
+    }
+  }
+}
+
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 626px) and (max-width: 643px){ 
+  #projects-section{
+    .projects-container{
+    grid-template-rows: 37vh 47vh 47vh !important;
+    }
+  }
+}
+
+
+ /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px){ 
   #projects-section{
     .section-title{
@@ -437,10 +486,13 @@
       grid-template-columns: 1fr 1fr;
 
       .projects{
-        .project-info-box{       
+        .project-info-box{     
+          height: 96.5%;      
+          width: 96%;
+
           &.info-box-xl{
             width: 96%;
-            height: 96%;
+            height: 96.5%;          
           }
         }
 
@@ -450,7 +502,7 @@
 
           .project-info-box{
             width: 98%;
-            height: 95%;
+            height: 96.5%;
             padding: 30px 10%;
           }
         } 
@@ -465,8 +517,8 @@
           grid-row: 2/3;
 
           .project-info-box{
-            width: 96%;
-            height: 96%;
+            // width: 96%;
+            // height: 96.5%;
           }
         }
 
@@ -475,8 +527,8 @@
           grid-row: 3/4;
 
           .project-info-box{
-            width: 96%;
-            height: 96%;
+            // width: 96%;
+            // height: 96.5%;
           }
         }
 
@@ -485,8 +537,8 @@
           grid-row: 3/4;
 
           .project-info-box{
-            width: 96%;
-            height: 96%;
+            // width: 96%;
+            // height: 96.5%;
           }
 
           .placement{
@@ -954,6 +1006,25 @@
   }
 }
 
+//max625- 494min
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 490px) and (max-width: 625px){ 
+  #projects-section{
+    .projects-container{
+      grid-template-rows: 36.5vh 36.5vh 36.5vh 36.5vh 36.5vh !important;
+    }
+  }
+}
+
+//max489- 480min
+ /* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 489px){ 
+  #projects-section{
+    .projects-container{
+      grid-template-rows: 40vh 40vh 40vh 40vh 40vh !important;
+    }
+  }
+}
 
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 625px){ 
@@ -1090,11 +1161,13 @@
       .projects{
         .project-info-box{
           padding: 6%;
-          text-align: left;       
+          text-align: left;  
+          width: 95%;
+          height: 95%;     
 
           &.info-box-xl{
             width: 95%;
-            height: 94%;
+            height: 95%;
             padding: 6%;
           }
 
@@ -1140,6 +1213,23 @@
 
           .placement{
             vertical-align: baseline;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 330px){ 
+  #projects-section{
+    .projects-container{
+      .projects{
+        .project-info-box{
+          height: 96%;     
+
+          &.info-box-xl{
+            height: 96%;
           }
         }
       }
@@ -1344,7 +1434,7 @@
         .project-info-box{
           padding: 30px;       
           width: 96%;
-          height: 96%;
+          height: 97%;
 
           &.info-box-xl{
           }
@@ -1365,7 +1455,7 @@
 @media only screen and (min-width: 901px) and (max-width: 949px){ 
   #projects-section{
     .projects-container{
-      grid-template-rows: 43vh 43vh;
+      grid-template-rows: 48.5vh 48.5vh;
 
       .projects{
         .project-info-box{
@@ -1378,8 +1468,6 @@
     }
   }
 }
-
-
 
 
 
@@ -1430,6 +1518,3 @@
     }
   }
 }
-
-
-//min1135-max1140
