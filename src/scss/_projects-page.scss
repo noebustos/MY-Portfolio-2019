@@ -54,6 +54,11 @@
           height: 97%;
           width: 94%;
           padding: 50% 30px;
+          .project-title{
+            .title-container{
+              display: flex;
+            }
+          }
         }
 
         .project-title{
@@ -212,7 +217,7 @@
         background-size: cover;
         
         .placement{
-          vertical-align: middle;
+          vertical-align: top;
         }
       }
     }
@@ -333,7 +338,7 @@
 }
 
 
-//1st info box title is tripping for real dawg. on larger size. 769 confirmed.
+
 @media only screen and (min-width: 751px) and (max-width: 800px){ 
   #projects-section{
     .projects-container{
@@ -729,7 +734,7 @@
 }
 
 
-//717-727 === 2nd box title changes position. offset. bug.
+
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 717px) and (max-width: 727px){ 
   #projects-section{
