@@ -226,7 +226,6 @@
 
 
 
-//643
 
  /* tablet */
  @media only screen and (min-width: 769px) and (max-width: 900px){ 
@@ -433,7 +432,6 @@
   }
 }
 
-
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 751px) and (max-width: 780px){ 
   #projects-section{
@@ -442,7 +440,6 @@
     }
   }
 }
-
 
 @media only screen and (min-width: 764px) and (max-width: 768px){ 
   #projects-section{
@@ -653,7 +650,6 @@
   }
 }
 
-
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 671px) and (max-width: 750px){ 
   #projects-section{
@@ -662,7 +658,6 @@
     }
   }
 }
-
 
 @media only screen and (min-width: 626px) and (max-width: 750px){ 
   #projects-section{
@@ -746,7 +741,6 @@
   }
 }
 
-
 @media only screen and (min-width: 701px) and (max-width: 745px){ 
   #projects-section{
     .projects-container{      
@@ -769,7 +763,6 @@
     }
   }
 }
-
 
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 717px) and (max-width: 727px){ 
@@ -837,7 +830,6 @@
   }
 }
 
-
 @media only screen and (min-width: 671px) and (max-width: 700px){ 
   #projects-section{
     .projects-container{      
@@ -862,7 +854,6 @@
   }
 }
 
-
  /* Tablet (portrait and landscape) */
  @media only screen and (min-width: 659px) and (max-width: 670px){ 
   #projects-section{
@@ -871,7 +862,6 @@
     }
   }
 }
-
 
 @media only screen and (min-width: 626px) and (max-width: 670px){ 
   #projects-section{
@@ -1032,7 +1022,6 @@
     }
   }
 }
-
 
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 625px){ 
@@ -1259,7 +1248,6 @@
   }
 }
 
-
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 330px){ 
   #projects-section{
@@ -1289,8 +1277,6 @@
 //No other diferent styles for this device width.
 }
 
-
-
  /* laptop */
 @media only screen and (min-width: 1135px) and (max-width: 1140px){ 
   #projects-section{
@@ -1299,7 +1285,12 @@
 
       .projects{
         .project-info-box{
+          height: 95% !important;
           // padding: 25px;
+
+          &.info-box-xl{
+            height: 97.5% !important;
+          }
 
           .project-title{
             // text-align: left;
@@ -1352,7 +1343,6 @@
     }
   }
 }
-
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1134px){ 
@@ -1408,6 +1398,43 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+}
+
+
+//1051-1040
+@media only screen and (min-width: 1040px) and (max-width: 1051px){ 
+  #projects-section{
+    .projects-container{
+      .projects{
+        .project-info-box{
+          height: 95% !important;
+
+          &.info-box-xl{
+            height: 97.5% !important;
+          }
+        }
+
+        &.project1{
+
+        } 
+
+        &.project2{
+     
+        }
+
+        &.project3{
+
+        }
+
+        &.project4{
+
+        }
+
+        &.project5{
         }
       }
     }
@@ -1481,8 +1508,7 @@
       .projects{
         .project-info-box{
           &.info-box-xl{
-            height: 98% !important;
-            width: 95% !important;
+            height: 98.3% !important;            width: 95% !important;
           }
         }
       }
@@ -1562,3 +1588,9 @@
     }
   }
 }
+
+
+
+
+
+
