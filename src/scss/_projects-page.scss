@@ -513,14 +513,13 @@
               text-align: left;
 
               .title-container{
+                display: flex;
                 .placement{
                   position: relative;
                   bottom: 10px;
                 }
 
                 h6{
-                  width: 75%;
-
                   br{
                     display: none;
                   }
@@ -596,6 +595,8 @@
 
 
               .title-container{
+                display: flex;
+
                 .placement {
                   position: relative;
                   bottom: 21px;
@@ -603,8 +604,7 @@
                   // float: none;
                 }
 
-                h6{
-                  width: 77%;                  
+                h6{             
                   // float: none;
                 }
               }    
@@ -680,13 +680,13 @@
               // margin: 0 auto;
 
               .title-container{
+                display: flex;
                 .placement {
                   // bottom: 1px;
                   // float: none;
                 }
 
                 h6{
-                  width: 76%;
                   // width: 77%;
                   // float: none;
                 }
@@ -718,11 +718,11 @@
           .project-info-box{
             .project-title{
               .title-container{
+                display: flex;
                 .placement {
                 }
 
                 h6{
-                  width: 75% !important;
                 }
               }    
             }
@@ -748,7 +748,7 @@
               display: flex;
 
               h6{
-                width: 70%;
+                // width: 70%;
 
                 br{
                   display: none;
@@ -778,9 +778,10 @@
       .projects{
         &.project2{
           .project-title{
+            display: flex;
             .title-container{
               h6{
-                width: 70%;
+                // width: 70%;
 
                 br{
                   display: none;
@@ -809,11 +810,12 @@
           .project-info-box{
             .project-title{
               .title-container{
+                display: flex;
                 .placement {
                 }
 
                 h6{
-                  width: 73%;
+                  // width: 73%;
                 }
               }    
             }
@@ -877,13 +879,14 @@
               // margin: 0 auto;
 
               .title-container{
+                display: flex;
                 .placement {
                   // bottom: 1px;
                   // float: none;
                 }
 
                 h6{
-                  width: 74%;
+                  // width: 74%;
                   // float: none;
                 }
               }    
