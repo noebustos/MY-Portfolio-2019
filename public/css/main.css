@@ -1231,6 +1231,13 @@ header {
         height: 94%;
         background: #fff;
         padding: 30px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -1243,11 +1250,26 @@ header {
         #projects-section .projects-container .projects .project-info-box.info-box-xl {
           height: 97%;
           width: 94%;
-          padding: 50% 30px; }
+          padding: 50% 30px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
           #projects-section .projects-container .projects .project-info-box.info-box-xl .project-title .title-container {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex; }
+          #projects-section .projects-container .projects .project-info-box.info-box-xl .project-btns {
+            margin: 0; }
         #projects-section .projects-container .projects .project-info-box .project-title {
           text-transform: capitalize;
           margin: 0 auto;
@@ -1276,7 +1298,7 @@ header {
           line-height: 1.5;
           color: #707070; }
         #projects-section .projects-container .projects .project-info-box .project-btns {
-          margin: 0 auto;
+          margin: auto auto 0;
           width: 100%;
           display: -webkit-box;
           display: -ms-flexbox;
