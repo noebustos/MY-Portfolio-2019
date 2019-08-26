@@ -521,9 +521,15 @@
   }
 }
 
+
+
+
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 790px){ 
   #contact-section{
+    .lower-bg-shape{
+      left: 0;
+    }
     .content{
       .columns{
         &.left-column{
@@ -535,8 +541,34 @@
 
         &.right-column{          
           img{
-            margin-top: 25%;
-            // top: 7vh !important;
+          }
+        }
+      }  
+    }
+  }
+}
+
+
+
+ /* laptop */
+@media only screen and (min-width: 743px) and (max-width: 768px){ 
+  #contact-section{
+    .lower-bg-shape{
+      // left: 0;
+      width: 100%;
+    }
+    .content{
+      .columns{
+        &.left-column{
+          .forward-container{
+            // max-width: 85%;
+            // padding: 30px;
+          } 
+        }
+
+        &.right-column{          
+          // left: 0;
+          img{
           }
         }
       }  
@@ -550,7 +582,7 @@
 // 768MAX-743MIN bottom color bg gets off place. RIGHT side.
 
 // 769MIN-790MAX bottom color bg gets off place. LEFT side.
-
+//left: 0;
 
   
 

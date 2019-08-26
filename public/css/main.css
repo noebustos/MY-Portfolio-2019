@@ -1207,8 +1207,13 @@ header {
 
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 790px) {
-  #contact-section .content .columns.right-column img {
-    margin-top: 25%; } }
+  #contact-section .lower-bg-shape {
+    left: 0; } }
+
+/* laptop */
+@media only screen and (min-width: 743px) and (max-width: 768px) {
+  #contact-section .lower-bg-shape {
+    width: 100%; } }
 
 #projects-section {
   background: #F8F9FB;
