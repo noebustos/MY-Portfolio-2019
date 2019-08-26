@@ -250,6 +250,31 @@
   }
 }
 
+
+
+ /* tablet */
+ @media only screen and (min-width: 697px) and (max-width: 768px){ 
+  #contact-section{
+    .content{
+      .columns{
+        &.left-column{
+          .forward-container{
+            // max-width: 85%;
+            // padding: 30px;
+          } 
+        }
+
+        &.right-column{          
+          img{
+            // margin-top: 25%;
+            top: 7vh !important;
+          }
+        }
+      }  
+    }
+  }
+}
+
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px){ 
   #contact-section{
@@ -326,11 +351,34 @@
           position: static; 
           
           img{
-            width: 120%;
+            width: 125%;
             position: relative;
-            right: 6%;
+            right: 7%;
           }
         }  
+      }  
+    }
+  }
+}
+
+/* tablet */
+ @media only screen and (min-width: 651px) and (max-width: 696px){ 
+  #contact-section{
+    .content{
+      .columns{
+        &.left-column{
+          .forward-container{
+            // max-width: 85%;
+            // padding: 30px;
+          } 
+        }
+
+        &.right-column{          
+          img{
+            // margin-top: 25%;
+            top: 11vh !important;
+          }
+        }
       }  
     }
   }
@@ -356,7 +404,7 @@
 }
 
  /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 630px){ 
+@media only screen and (min-width: 480px) and (max-width: 650px){ 
   #contact-section{
     .content{
       .columns{
@@ -386,8 +434,7 @@
           float: none;
           
           img{
-            width: 75%;
-            right: 0;
+            width: 80%;            right: 0;
             margin-top: 100px;
           }
         }  
@@ -395,6 +442,8 @@
     }
   }
 }
+
+
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1025px){ 
@@ -471,3 +520,35 @@
     }
   }
 }
+
+ /* laptop */
+@media only screen and (min-width: 769px) and (max-width: 790px){ 
+  #contact-section{
+    .content{
+      .columns{
+        &.left-column{
+          .forward-container{
+            // max-width: 85%;
+            // padding: 30px;
+          } 
+        }
+
+        &.right-column{          
+          img{
+            margin-top: 25%;
+            // top: 7vh !important;
+          }
+        }
+      }  
+    }
+  }
+}
+
+
+
+
+
+
+
+  
+
