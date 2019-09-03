@@ -178,9 +178,12 @@
 
 
 
+
+
+
 //im choosing this breakpoints
 /* Smartphones (portrait and landscape) */
-@media only screen and (min-width: 300px) and (max-width: 479px){ 
+@media only screen and (min-width: 300px) and (max-width: 600px){ 
   #home-section{
     width: 100% !important;
     height: 100% !important;
@@ -277,7 +280,7 @@
             font-size: 1rem !important;
             color: #fff;
             font-weight: 500;
-            margin-top: 30px !important;            
+            margin-top: 30px !important;      
           }
 
           .call-actions{
@@ -307,7 +310,7 @@
 }
 
 /* Smartphones (portrait and landscape) */
-@media only screen and (min-width: 300px) and (min-height: 360px) and (max-height: 601px) and (max-width: 479px){ 
+@media only screen and (min-width: 300px) and (min-height: 360px) and (max-height: 601px) and (max-width: 600px){ 
   #home-section{
     .img-container{
       .hero-img{
@@ -318,7 +321,7 @@
 }
 
 /* Smartphones (portrait and landscape) */
-@media only screen and (min-width: 300px) and (min-height: 602px) and (max-height: 668px) and (max-width: 479px){ 
+@media only screen and (min-width: 300px) and (min-height: 602px) and (max-height: 668px) and (max-width: 600px){ 
   #home-section{
     .img-container{
       .hero-img{
@@ -329,7 +332,7 @@
 }
 
 /* Smartphones (portrait and landscape) */
-@media only screen and (min-width: 300px) and (min-height: 800px) and (max-height: 900px) and (max-width: 479px){ 
+@media only screen and (min-width: 300px) and (min-height: 800px) and (max-height: 900px) and (max-width: 600px){ 
   #home-section{
     .img-container{
       .hero-img{
@@ -349,8 +352,106 @@
 
 
 
+
+
+
+//font-styles for tablet view
+@media only screen and (min-width: 480px) and (max-width: 790px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        .yellow-bg{
+          .container{
+            h1{
+              font-size: 2.8125rem;
+              font-weight: 700;
+            }
+
+            h3{
+              font-size: 1.6rem;
+            }
+
+            p{
+              font-size: 1rem;
+              line-height: 1.4;
+            }
+
+            .call-actions{
+              a{
+                &.hire-btn{
+                }
+
+                &:hover{
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 787px) and (max-width: 790px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        h5{
+          // margin-left: 21px;
+        }
+
+        .yellow-bg{
+          display: flex;
+          justify-content: flex-end;    
+          padding: 40px 95px 40px 0;          // right: auto !important;
+
+          .container{
+            margin: 0;
+
+            h1 {
+            }
+          }
+          .bg-cutout{
+            // display: none;
+          }
+        }
+      }
+    }
+  }   
+}
+
+@media only screen and (min-width: 769px) and (max-width: 773px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        h5{
+
+        }
+
+        .yellow-bg{
+          display: flex;
+          justify-content: flex-end;
+          padding: 40px 106px 40px 0px !important;
+          // right: auto !important;
+
+          .container{
+            margin: 0;
+
+            h1 {
+            }  
+          }
+          .bg-cutout{
+            // display: none;
+          }
+        }
+      }
+    }
+  }   
+}
+
+
  /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 768px){ 
+@media only screen and (min-width: 601px) and (max-width: 768px){ 
   #home-section{
     .vertical-container{
       .img-container{
@@ -379,7 +480,7 @@
         .bg-circle-container{
           width: 800px;
           height: 800px;
-          position: relative;    
+          position: relative;
           z-index: 2;
 
           .bg-circle-big{
@@ -398,11 +499,11 @@
         }
 
         .yellow-bg{
-          padding: 38px 0 38px 33%;     
-          width: 63.5vw;          
+          padding: 38px 0 38px 33%;
+          width: 63.5vw;
           height: auto;
           right: 27%;
-          clip-path: none;          
+          clip-path: none;
           filter: none;
           box-shadow: -20px 20px 10px rgba(50,50,50,0.1);
 
@@ -410,22 +511,22 @@
             margin-left: 0;
 
             h1{
-              font-size: 2.5rem;
+
             }
 
             h3{
-              font-size: 1.5rem;
+
             }
 
             p{
-              font-size: 1rem;
+
             }
 
             .call-actions{
               a{
                 padding: 0.625rem 1.75rem;
                 letter-spacing: 0;
-                
+
                 &.hire-btn{
                   padding: 7px 25px;
                 }
@@ -436,9 +537,40 @@
               }
             }
           }
-          
+
           .bg-cutout{
             display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 697px) and (max-width: 747px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        h5{
+          // margin-left: 21px;
+        }
+
+        .yellow-bg{
+          display: flex;
+          justify-content: flex-end;
+          padding: 38px 40px 38px 0;
+          // right: auto !important;
+
+          .container{
+            margin: 0;
+
+            h1 {
+
+            }
+          }
+          .bg-cutout{
+            // display: none;
           }
         }
       }
@@ -459,8 +591,12 @@
   } 
 }
 
+
+
+
+
  /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 721px){ 
+@media only screen and (min-width: 601px) and (max-width: 721px){ 
   #home-section{
     .vertical-container{
       .img-container{
@@ -471,7 +607,7 @@
         .bg-circle-container{
           width: 800px;
           height: 800px;
-          position: relative;    
+          position: relative;
           z-index: 2;
 
           .bg-circle-big{
@@ -490,10 +626,9 @@
         }
 
         .yellow-bg{
-          padding: 38px 0 38px 29%;          width: 63.5vw;          
           height: auto;
           right: 27%;
-          clip-path: none;          
+          clip-path: none;
           filter: none;
           box-shadow: -20px 20px 10px rgba(50,50,50,0.1);
 
@@ -501,15 +636,15 @@
             margin-left: 0;
 
             h1{
-              font-size: 2.5rem;
+
             }
 
             h3{
-              font-size: 1.5rem;
+
             }
 
             p{
-              font-size: 1rem;
+
             }
 
             .call-actions{
@@ -537,13 +672,94 @@
   }
 }
 
- /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 720px){ 
+
+
+
+//current view. gray bg
+@media only screen and (min-width: 651px) and (max-width: 700px){
   #home-section{
     .vertical-container{
+      .img-container{
+        img.shirt-gradient{
+
+        }
+
+        .bg-circle-container{
+        
+
+          .bg-circle-big{
+           
+          }
+        }
+      }
+
       .intro-area{
-        .yellow-bg{           
+
+
+        h5{
+
+        }
+
+        .yellow-bg{
+          background: #aaa;
+          display: flex;
+          justify-content: flex-end;
+          // padding: 38px 38px 38px 94px;
+
           .container{
+            margin: 0;
+            width: 80%;
+            
+            h1{
+              max-width: none;
+              letter-spacing: 1px;
+              text-align: right;
+              margin-left: auto;
+
+              span{
+                font-weight: 700;
+              }
+            }
+
+            h3{
+              text-align: right;
+              margin-left: auto;
+            }
+
+            p{
+              max-width:  none;
+              width: 100% !important;
+              text-align: right;
+              margin-left: auto;
+            }
+
+            .call-actions{
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+              align-items: center;
+              margin-bottom: 0;
+
+              a{
+                margin-right: 0;
+                // padding: 12px 68px;
+                margin-left: auto;
+
+                &.resume-btn{
+                  margin-bottom: 16px;
+                  // margin-right: auto;
+                }
+
+                &.hire-btn{
+                  // margin-right: auto;
+                  // padding: 9px 65px;
+                }
+
+              }
+            }
+          }
+
+          .bg-cutout{
           }
         }
       }
@@ -551,8 +767,46 @@
   }
 }
 
+
+// bg-container/bg-img setup
+@media only screen and (min-width: 651px) and (max-width: 700px){
+  #home-section{
+    .vertical-container{
+      .img-container{
+        img.shirt-gradient{
+        }
+
+        .bg-circle-container{
+          width: 100vw;
+          height: 55vh;
+          top: -57px;
+          right: initial;
+          left: -30px;
+          border-radius: 0;
+          position: absolute;
+          background: initial;
+
+          .bg-circle-big{
+            // linear-gradient(180deg, rgba(0,87,178,1) 0%, rgba(0,74,152,0) 100%)
+
+
+            background: linear-gradient(0deg, rgba(0,87,178,1) 0%, rgba(0,87,178,0.8) 100%), url("../img/code-syntax.jpg")center center;
+
+            background-size: 950px;
+
+            width: 100vw;
+            height: 55vh;
+            border-radius: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
 /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 696px){
+@media only screen and (min-width: 601px) and (max-width: 696px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -563,12 +817,11 @@
 
       .intro-area{
         .yellow-bg{
-          padding: 38px 0 38px 34%;            
+          padding: 38px 0 38px 34%;
+          
           .container{
             h1{
               max-width: 90%;
-              font-size: 2.5rem;
-              font-weight: 400;
               font-family: 'Lato', sans-serif;
 
               span{
@@ -577,7 +830,6 @@
             }
 
             h3{
-              font-size: 1.6rem;
               width: 200px;
               line-height: 1.2;
 
@@ -597,16 +849,101 @@
   }
 }  
 
- /* Tablet (portrait and landscape) */
- @media only screen and (min-width: 627px) and (max-width: 675px){ 
+
+
+//current
+@media only screen and (min-width: 601px) and (max-width: 650px){
   #home-section{
     .vertical-container{
+      .img-container{
+        img.shirt-gradient{
+        }
+
+        .bg-circle-container{
+          width: 100vw;
+          height: 55vh;
+          top: -52px;
+          right: initial;
+          left: -30px;
+          border-radius: 0;
+          position: absolute;
+          background: initial;
+
+          .bg-circle-big{
+            background: linear-gradient(0deg, rgba(0,87,178,1) 0%, rgba(0,87,178,0.8) 100%), url("../img/code-syntax.jpg")center center;
+
+            background-size: 950px;
+
+            width: 100vw;
+            height: 55vh;
+            border-radius: 0;
+          }
+        }
+      }
+
       .intro-area{
+        h5{
+        }
+
         .yellow-bg{
+          // background: #aaa;
+          display: flex;
+          justify-content: flex-end;
+          padding: 38px 38px 38px 94px;
+
           .container{
-            p{
-              width: 90% !important;
+            margin: 0;
+            width: 80%;
+
+            h1{
+              max-width: none;
+              letter-spacing: 1px;
+              text-align: right;
+              margin-left: auto;
+
+              span{
+                font-weight: 700;
+              }
             }
+
+            h3{
+              text-align: right;
+              margin-left: auto;
+            }
+
+            p{
+              max-width:  none;
+              width: 100% !important;
+              text-align: right;
+              margin-left: auto;
+            }
+
+            .call-actions{
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+              align-items: center;
+              margin-bottom: 0;
+
+              a{
+                margin-right: 0;
+                padding: 12px 68px;
+                margin-left: auto;
+
+                &.resume-btn{
+                  margin-bottom: 16px;
+                  // margin-right: auto;
+                }
+
+                &.hire-btn{
+                  // margin-right: auto;
+                  padding: 9px 65px;
+                }
+              }
+            }
+          }
+
+          .bg-cutout{
           }
         }
       }
@@ -614,18 +951,9 @@
   }
 }
 
- /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 650px){ 
-  #home-section{
-    .vertical-container{
-      .img-container{
-        .bg-circle-container{
-          right: 144%;
-        }
-      }
-    }
-  }
-}
+
+
+
 
 @media only screen and (min-width: 618px) and (max-width:  644px){
   #home-section {
@@ -641,56 +969,50 @@
   }
 }
 
+//font-styles for h6 bg text
  /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 626px){ 
+@media only screen and (min-width: 480px) and (max-width: 600px){ 
   #home-section{
     .vertical-container{
       .img-container{
-        img.shirt-gradient{
-          bottom: 29.5%;
+        .hero-img{
+          width: 45% !important;
+          top: 55% !important;
         }
-        .bg-circle-container{
-          right: 144%;
-        }
-      }
 
-      .intro-area{
-        .yellow-bg{          
-          .container{
-            p{
-              width: 80%;
-              line-height: 1.4;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
- /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 617px){ 
-  #home-section{
-    .vertical-container{
-      .img-container{
         img.shirt-gradient{
-          bottom: 29.5%;
+          // bottom: 32.5%;
         }
 
         .hero-bg-shadow{
-          position: absolute;
-          left: 20%;
-          width: 90px;
-          height: 90px;
+          //usure about this. but dont discard.
+          // width: 60px !important;
+          // height: 60px !important;
+        }
+
+        .bg-circle-container{
+          // width: 130%;
+          // height: 600px;
+          // border-radius: 0;  
+          // right: auto;
+
+          .bg-circle-big{
+            // display: none;
+          }
         }
       }
 
       .intro-area{
-        .yellow-bg{      
-          padding: 30px 0 30px 45%;                    
+        h5{
+           font-size: 5rem !important;
+           margin-top: 65px !important;
+        }
+
+        .yellow-bg{    
+          // padding: 30px 0 30px 42%;                     
           .container{
             h1{
-              font-size: 2.5rem;
+              font-size: 2.8125rem !important;
               font-weight: 700;
 
               span{
@@ -698,135 +1020,27 @@
               }
             }
 
+            h3{
+              font-size: 1.6rem !important;
+            }
             p{
-              margin-top: 12px;
-              width: 80%;
+              // margin-top: 12px;
             }
-
-            .call-actions{
-              margin-bottom: 0;
-
-              a{
-                padding: 0.625rem 1.75rem;
-                letter-spacing: 0;
-                display: block;
-                text-align: center;
-                
-                &.resume-btn{
-                  width: 118.41px;
-                  margin-bottom: 17px;
-                }
-
-                &.hire-btn{
-                  text-align: center;
-                  width: 118.31px;
-                  padding: 7px 0;
-                }
-
-                &:hover{
-                  padding: 10px 0;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
- /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 585px){ 
-  #home-section{
-    .vertical-container{
-      .img-container{
-        img.shirt-gradient{
-          bottom: 30.5%;
-        }
-
-        .bg-circle-container{
-          border-radius: 0;
-          width: 130%;
-          height: 700px;
-          right: auto;
-          left: -30%;
-
-
-          .bg-circle-big{
-            border-radius: 0;
-            width: 100%;
-            height: 700px;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 480px) and (max-width:  580px){
-  #home-section {
-    .vertical-container {
-      .img-container {
-        .hero-bg-shadow {
-          left: 19.5% !important;
-          width: 70px !important;
-          height: 70px !important;
-        }
-      }
-    }
-  }
-}
-
- /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 530px){ 
-  #home-section{
-    .vertical-container{
-      .img-container{
-        img.shirt-gradient{
-          bottom: 32.5%;
-        }
-
-        .hero-bg-shadow{
-          position: absolute;
-          left: 19%;
-          width: 90px;
-          height: 90px;
-        }
-
-        .bg-circle-container{
-          width: 130%;
-          height: 600px;
-          border-radius: 0;  
-          right: auto;
-
-          .bg-circle-big{
-            display: none;
-          }
-        }
-      }
-
-      .intro-area{
-        .yellow-bg{      
-          padding: 30px 0 30px 42%;                      
-
-          .container{
            .call-actions{
-              a{
-                border-radius: 0;
+            text-align: center;
+
+              a{      
+                padding: 10px 30px !important;
 
                 &.resume-btn{
-                  width: 195px;
-                  margin-bottom: 17px
                 }
 
                 &.hire-btn{
-                  width: 195px;
-                  text-align: center;
-                  padding: 7px 0;
+                  padding: 7px 27px !important;
                 }
 
                 &:hover{
-                  padding: 10px 0;
+                  padding: 10px 30px !important;
                 }
               }
             }
@@ -836,35 +1050,36 @@
     }
   }
 }
+
 
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 500px){ 
   #home-section{
     .vertical-container{
       .img-container{
-        img.hero-img{
-          left: 4%;
-        }
-
-        img.shirt-gradient{
-          bottom: 33.5%;
-          left: 4%;
+        .hero-img{
+          width: 50% !important;
+          top: 53.5% !important;
         }
 
         .hero-bg-shadow{
-          width: 80px;
-          height: 80px;
-        }
-      }
-
-      .intro-area{
-        .yellow-bg{      
-          padding: 30px 0 30px 38%;                      
+          //usure about this. but dont discard.
+          // width: 60px !important;
+          // height: 60px !important;
         }
       }
     }
   }
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -882,6 +1097,7 @@
     }
   }
 }
+
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1200px){ 
@@ -932,6 +1148,7 @@
   }
 }
 
+
 /* laptop */
 @media only screen and (min-width: 1135px) and (max-width: 1140px){
   #home-section {
@@ -945,6 +1162,7 @@
   }
 }
 
+
 /* laptop */
 @media only screen and (min-width: 1026px) and (max-width: 1134px){
   #home-section {
@@ -957,6 +1175,7 @@
     }
   }
 }
+
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1134px){ 
@@ -1007,6 +1226,7 @@
   }
 }
 
+
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1050px){ 
   #home-section{
@@ -1022,6 +1242,37 @@
     }
   }
 }
+
+//current
+@media only screen and (min-width: 950px) and (max-width: 1025px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        h5{
+          margin-left: 38px;
+        }
+
+        .yellow-bg{
+          display: flex;
+          justify-content: flex-end;    
+          padding: 45px 152px;
+
+          .container{
+            margin: 0;
+
+            h1 {
+              // font-size: 3rem;
+            }  
+          }
+          .bg-cutout{
+            // display: none;
+          }
+        }
+      }
+    }
+  }   
+}
+
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1025px){ 
@@ -1069,6 +1320,36 @@
   }
 }
 
+//current
+@media only screen and (min-width: 901px) and (max-width: 949px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        h5{
+          margin-left: 21px;
+        }
+
+        .yellow-bg{
+          padding: 45px 73px;
+          // display: flex;
+          // justify-content: flex-end;    
+          // padding: 45px 152px;
+
+          .container{
+            // margin: 0;
+
+            h1 {
+              // font-size: 3rem;
+            }  
+          }
+          .bg-cutout{
+            display: none;
+          }
+        }
+      }
+    }
+  }   
+}
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 949px){ 
@@ -1092,7 +1373,28 @@
 }
 
 
-//need to change semi-circle img bc it goes out of its position. goes out to the left pass hero img.
+@media only screen and (min-width: 886px) and (max-width: 900px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        .yellow-bg{
+          // padding: 45px 37px;
+
+          .container{
+            h1 {
+              // font-size: 3rem;
+            }  
+          }
+          .bg-cutout{
+            display: none;
+          }
+        }
+      }
+    }
+  }   
+}
+
+
 @media only screen and (min-width: 885px) and (max-width: 900px){
   //895-885-908
   #home-section{
@@ -1111,6 +1413,8 @@
     }
   }   
 }
+
+
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 900px){ 
@@ -1132,6 +1436,37 @@
     }
   }
 }
+
+
+@media only screen and (min-width: 880px) and (max-width: 885px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        h5{
+          // margin-left: 21px;
+        }
+
+        .yellow-bg{
+          display: flex;
+          justify-content: flex-end;    
+          padding: 40px 47px;
+
+          .container{
+            margin: 0;
+
+            h1 {
+              // font-size: 3rem;
+            }  
+          }
+          .bg-cutout{
+            // display: none;
+          }
+        }
+      }
+    }
+  }   
+}
+
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 885px){ 
@@ -1179,6 +1514,37 @@
   }
 }
 
+
+@media only screen and (min-width: 791px) and (max-width: 839px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        h5{
+          // margin-left: 21px;
+        }
+
+        .yellow-bg{
+          display: flex;
+          justify-content: flex-end;    
+          padding: 40px 21% 40px 0;
+          // right: auto !important;
+
+          .container{
+            margin: 0;
+
+            h1 {
+              // font-size: 3rem;
+            }  
+          }
+          .bg-cutout{
+            // display: none;
+          }
+        }
+      }
+    }
+  }   
+}
+
  /* laptop */
  @media only screen and (min-width: 787px) and (max-width: 839px){ 
   #home-section{
@@ -1197,6 +1563,7 @@
     } 
   } 
 }
+
 
  /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 839px){ 
@@ -1232,530 +1599,4 @@
     }
   }
 }
-
-/* laptop */
-@media only screen and (min-width: 769px) and (max-width: 790px){
-  //790-769
-  //895-885-908
-}
-
-
-
-
-//CURRENT
-@media only screen and (min-width: 886px) and (max-width: 900px){
-  //895-885-908
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        .yellow-bg{
-          // padding: 45px 37px;
-
-          .container{
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-
-
-
-//CURRENT
-@media only screen and (min-width: 950px) and (max-width: 1025px){
-  //895-885-908
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          margin-left: 38px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 45px 152px;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-//√max-1025-min950
-//√√√take out all margins when adding flex.
-//√√display: flex;
-//√justify-content: flex-end;
-
-
-
-//MIN 901-MAX 949
-//CURRENT
-@media only screen and (min-width: 901px) and (max-width: 949px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          margin-left: 21px;
-        }
-
-        .yellow-bg{
-          padding: 45px 73px;
-          // display: flex;
-          // justify-content: flex-end;    
-          // padding: 45px 152px;
-
-          .container{
-            // margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-
-
-//885
-@media only screen and (min-width: 880px) and (max-width: 885px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 40px 47px;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-
-
-//MAX 839-MIN791
-@media only screen and (min-width: 791px) and (max-width: 839px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 40px 21% 40px 0;
-          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-//MAX 790-MIN769
-@media only screen and (min-width: 787px) and (max-width: 790px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 40px 95px 40px 0;          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-//CURRENT
-//MAX 790-MIN769
-@media only screen and (min-width: 784px) and (max-width: 786px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 40px 96px 40px 0;
-          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-//MAX 790-MIN769
-@media only screen and (min-width: 781px) and (max-width: 783px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 40px 98px 40px 0;
-          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-//MAX 790-MIN769
-@media only screen and (min-width: 778px) and (max-width: 780px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 40px 101px 40px 0px !important;          
-          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-//MAX 790-MIN769
-@media only screen and (min-width: 774px) and (max-width: 777px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 40px 103px 40px 0px !important;          
-          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-//MAX 790-MIN769
-@media only screen and (min-width: 769px) and (max-width: 773px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 40px 106px 40px 0px !important;          
-          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-
-
-
-
-
-//747
-//MAX 790-MIN769
-@media only screen and (min-width: 697px) and (max-width: 747px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 38px 40px 38px 0;       
-          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-
-
-@media only screen and (min-width: 660px) and (max-width: 696px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 38px 40px 38px 0;          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              max-width: none;
-              // font-size: 3rem;
-            }  
-            p{
-              max-width: none;
-            }
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-@media only screen and (min-width: 647px) and (max-width: 659px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 38px 0 38px 113px;          
-          .container{
-            margin: 0;
-
-            h1 {
-              // max-width: none;
-              // font-size: 3rem;
-            }  
-
-            p{
-              max-width: 87%;
-              width: 100% !important;
-            }
-
-            .call-actions{
-              display: inline-block;
-              .hire-btn{
-                margin: 0;
-              }
-            }
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-
-@media only screen and (min-width: 640px) and (max-width: 646px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 38px 39px 38px 0;
-
-          .container{
-            width: 71%;
-            margin: initial;
-
-            h1 {
-              margin-right: 0;
-              // max-width: none;
-              // font-size: 3rem;
-            }  
-            h3{
-              margin-right: 0;
-            }
-
-            p{
-              max-width: 87%;
-              width: 100% !important;
-              margin-right: 0;
-            }
-
-            .call-actions{
-              display: inline-block;
-              margin-right: 0;
-              .hire-btn{
-                margin: 0;
-              }
-            }
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-
-
-
-
-
-
 

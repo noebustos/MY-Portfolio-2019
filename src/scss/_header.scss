@@ -113,6 +113,8 @@ header{
   }
 }
 
+
+
 /* Smartphones (portrait and landscape) */
 //mobile menue
 @media only screen and (min-width: 300px) and (max-width: 650px){ 
@@ -230,6 +232,13 @@ header{
   }
 }
 
+// background: rgba(255,255,255,.95);
+@media only screen and (min-width: 651px) and (max-width: 700px){
+  header{
+    background: rgba(0, 0, 0, .2) !important;
+  }
+}
+
  /* Tablet (portrait and landscape) */
  @media only screen and (min-width: 480px) and (max-width: 790px){ 
   header{
@@ -270,6 +279,8 @@ header{
     }
   }
 }
+
+
 
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 780px) and (max-width: 900px){ 
