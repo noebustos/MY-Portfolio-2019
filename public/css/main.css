@@ -713,21 +713,18 @@ header {
 @media only screen and (min-width: 601px) and (max-width: 696px) {
   #home-section .vertical-container .img-container img.shirt-gradient {
     bottom: 20.7%; }
-  #home-section .vertical-container .intro-area .yellow-bg {
-    padding: 38px 0 38px 34%; }
-    #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-      max-width: 90%;
-      font-family: 'Lato', sans-serif; }
-      #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
-        font-weight: 400; }
-    #home-section .vertical-container .intro-area .yellow-bg .container h3 {
-      width: 200px;
-      line-height: 1.2; }
-      #home-section .vertical-container .intro-area .yellow-bg .container h3 span {
-        display: none; }
-    #home-section .vertical-container .intro-area .yellow-bg .container p {
-      max-width: 80%;
-      margin-top: 17px; } }
+  #home-section .vertical-container .intro-area .yellow-bg .container h1 {
+    font-family: 'Montserrat', sans-serif; }
+    #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
+      font-family: 'Montserrat', sans-serif; }
+  #home-section .vertical-container .intro-area .yellow-bg .container h3 {
+    width: 200px;
+    line-height: 1.2; }
+    #home-section .vertical-container .intro-area .yellow-bg .container h3 span {
+      display: none; }
+  #home-section .vertical-container .intro-area .yellow-bg .container p {
+    max-width: 80%;
+    margin-top: 17px; } }
 
 @media only screen and (min-width: 601px) and (max-width: 650px) {
   #home-section .vertical-container .img-container .bg-circle-container {
