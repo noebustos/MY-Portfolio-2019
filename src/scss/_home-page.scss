@@ -379,6 +379,20 @@
   }
 }
 
+//yellow-bg position fix
+@media only screen and (min-width: 691px) and (max-width: 800px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        .yellow-bg{
+          // top: 7vh !important;
+          // right: -2.6vw;
+        }
+      }
+    }
+  }
+}
+
 //current view. gray bg
 @media only screen and (min-width: 601px) and (max-width: 800px){
   #home-section{
@@ -524,8 +538,9 @@
   }
 }
 
+
 //yellow-bg position fix
-@media only screen and (min-width: 651px) and (max-width: 800px){
+@media only screen and (min-width: 651px) and (max-width: 790px){
   #home-section{
     .vertical-container{
       .intro-area{
@@ -1163,54 +1178,6 @@
 }
 
 
-@media only screen and (min-width: 801px) and (max-width: 839px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 40px 21% 40px 0;
-          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
- /* laptop */
- @media only screen and (min-width: 801px) and (max-width: 839px){ 
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        .yellow-bg{
-          padding: 40px 0 40px 42%;
-
-          .container{
-            h1 {
-              font-size: 3rem;
-            }  
-          } 
-        } 
-      } 
-    } 
-  } 
-}
 
 
  /* laptop */
