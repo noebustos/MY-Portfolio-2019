@@ -461,8 +461,25 @@
 }
 
 
- /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 601px) and (max-width: 768px){ 
+//768    yellow-bg: width: 38vw;
+//small tablet view.
+@media only screen and (min-width: 730px) and (max-width: 768px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        .yellow-bg{
+          width: 38vw !important;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+//current view. gray bg
+@media only screen and (min-width: 601px) and (max-width: 768px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -489,119 +506,6 @@
         }
 
         .bg-circle-container{
-          width: 800px;
-          height: 800px;
-          position: relative;
-          z-index: 2;
-
-          .bg-circle-big{
-            width: 800px;
-            height: 800px;
-          }
-        }
-      }
-
-      .intro-area{
-        width: 50%;
-        display: block;
-
-        h5{
-          display: none;
-        }
-
-        .yellow-bg{
-          padding: 38px 0 38px 33%;
-          width: 63.5vw;
-          height: auto;
-          right: 27%;
-          clip-path: none;
-          filter: none;
-          box-shadow: -20px 20px 10px rgba(50,50,50,0.1);
-
-          .container{
-            margin-left: 0;
-
-            h1{
-
-            }
-
-            h3{
-
-            }
-
-            p{
-
-            }
-
-            .call-actions{
-              a{
-                padding: 0.625rem 1.75rem;
-                letter-spacing: 0;
-
-                &.hire-btn{
-                  padding: 7px 25px;
-                }
-
-                &:hover{
-                  padding: 10px 28px;
-                }
-              }
-            }
-          }
-
-          .bg-cutout{
-            display: none;
-          }
-        }
-      }
-    }
-  }
-}
-
-
-@media only screen and (min-width: 697px) and (max-width: 747px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;
-          padding: 38px 40px 38px 0;
-          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-
-            }
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }
-}
-
-
-
-
-
-// bg-container/bg-img setup
-@media only screen and (min-width: 601px) and (max-width: 740px){
-  #home-section{
-    .vertical-container{
-      .img-container{
-        img.shirt-gradient{
-        }
-
-        .bg-circle-container{
           width: 100vw;
           // height: 55vh;
           height: 66.66vh;
@@ -613,30 +517,22 @@
           background: initial;
 
           .bg-circle-big{
-            // linear-gradient(180deg, rgba(0,87,178,1) 0%, rgba(0,74,152,0) 100%)
             background: linear-gradient(0deg, rgba(0,87,178,1) 0%, rgba(0,87,178,0.8) 100%), url("../img/code-syntax.jpg")center center;
-            // background-size: 950px;
             background-size: 150%;
             width: 100vw;
-            // height: 55vh;
             height: 66.66vh;
             border-radius: 0;
           }
         }
       }
-    }
-  }
-}
 
-
-
-
-
-//current view. gray bg
-@media only screen and (min-width: 601px) and (max-width: 740px){
-  #home-section{
-    .vertical-container{
       .intro-area{
+        display: block;
+
+        h5{
+          display: none;
+        }
+
         .yellow-bg{
           background: #aaa;
           display: flex;
@@ -647,6 +543,9 @@
           right: -5vw;
           position: absolute;
           height: 93vh;
+          clip-path: none;
+          filter: none;
+          box-shadow: -20px 20px 10px rgba(50,50,50,0.1);
 
           .container{
             margin: 0;
@@ -714,16 +613,18 @@
               }
             }
           }
+
+          .bg-cutout{
+            display: none;
+          }
         }
       }
     }
   }
 }
 
-
-
 //yellow-bg position fix
-@media only screen and (min-width: 651px) and (max-width: 740px){
+@media only screen and (min-width: 651px) and (max-width: 750px){
   #home-section{
     .vertical-container{
       .intro-area{
@@ -787,6 +688,11 @@
     }
   }
 }
+
+
+
+
+
 
 //font-styles for h6 bg text
  /* Tablet (portrait and landscape) */

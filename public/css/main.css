@@ -537,7 +537,10 @@ header {
     #home-section .vertical-container .intro-area .yellow-bg .container {
       margin: 0; } }
 
-/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 730px) and (max-width: 768px) {
+  #home-section .vertical-container .intro-area .yellow-bg {
+    width: 38vw !important; } }
+
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   #home-section .vertical-container .img-container {
     display: block; }
@@ -557,23 +560,39 @@ header {
       width: 100px;
       height: 100px; }
     #home-section .vertical-container .img-container .bg-circle-container {
-      width: 800px;
-      height: 800px;
-      position: relative;
-      z-index: 2; }
+      width: 100vw;
+      height: 66.66vh;
+      top: -57px;
+      right: initial;
+      left: -30px;
+      border-radius: 0;
+      position: absolute;
+      background: initial; }
       #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
-        width: 800px;
-        height: 800px; }
+        background: -webkit-gradient(linear, left bottom, left top, from(#0057b2), to(rgba(0, 87, 178, 0.8))), url("../img/code-syntax.jpg") center center;
+        background: linear-gradient(0deg, #0057b2 0%, rgba(0, 87, 178, 0.8) 100%), url("../img/code-syntax.jpg") center center;
+        background-size: 150%;
+        width: 100vw;
+        height: 66.66vh;
+        border-radius: 0; }
   #home-section .vertical-container .intro-area {
-    width: 50%;
     display: block; }
     #home-section .vertical-container .intro-area h5 {
       display: none; }
     #home-section .vertical-container .intro-area .yellow-bg {
-      padding: 38px 0 38px 33%;
-      width: 63.5vw;
-      height: auto;
-      right: 27%;
+      background: #aaa;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 0;
+      padding: 40 38px;
+      width: 40vw;
+      right: -5vw;
+      position: absolute;
+      height: 93vh;
       -webkit-clip-path: none;
       clip-path: none;
       -webkit-filter: none;
@@ -581,115 +600,60 @@ header {
       -webkit-box-shadow: -20px 20px 10px rgba(50, 50, 50, 0.1);
       box-shadow: -20px 20px 10px rgba(50, 50, 50, 0.1); }
       #home-section .vertical-container .intro-area .yellow-bg .container {
-        margin-left: 0; }
-        #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a {
-          padding: 0.625rem 1.75rem;
-          letter-spacing: 0; }
-          #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn {
-            padding: 7px 25px; }
-          #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a:hover {
-            padding: 10px 28px; }
+        margin: 0;
+        width: 100%; }
+        #home-section .vertical-container .intro-area .yellow-bg .container h1 {
+          max-width: none;
+          letter-spacing: initial;
+          text-align: right;
+          font-size: 2.8125rem; }
+          #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif; }
+        #home-section .vertical-container .intro-area .yellow-bg .container h3 {
+          text-align: right;
+          margin-top: 8px;
+          width: 100%; }
+          #home-section .vertical-container .intro-area .yellow-bg .container h3 span {
+            display: none; }
+        #home-section .vertical-container .intro-area .yellow-bg .container p {
+          max-width: none;
+          width: 100%;
+          text-align: right;
+          margin-left: auto;
+          margin-top: 45px; }
+        #home-section .vertical-container .intro-area .yellow-bg .container .call-actions {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          margin-bottom: 0;
+          text-align: center;
+          margin-top: 100px; }
+          #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a {
+            width: 100%;
+            margin-right: 0;
+            padding: 12px 58px;
+            margin-left: auto; }
+            #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.resume-btn {
+              margin-bottom: 17px; }
+              #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.resume-btn:hover {
+                padding: 12px 58px; }
+            #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn {
+              padding: 9px 58px; }
+              #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn:hover {
+                padding: 9px 58px;
+                border: 3px solid #0057B2; }
       #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
         display: none; } }
 
-@media only screen and (min-width: 697px) and (max-width: 747px) {
-  #home-section .vertical-container .intro-area .yellow-bg {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    padding: 38px 40px 38px 0; }
-    #home-section .vertical-container .intro-area .yellow-bg .container {
-      margin: 0; } }
-
-@media only screen and (min-width: 601px) and (max-width: 740px) {
-  #home-section .vertical-container .img-container .bg-circle-container {
-    width: 100vw;
-    height: 66.66vh;
-    top: -57px;
-    right: initial;
-    left: -30px;
-    border-radius: 0;
-    position: absolute;
-    background: initial; }
-    #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
-      background: -webkit-gradient(linear, left bottom, left top, from(#0057b2), to(rgba(0, 87, 178, 0.8))), url("../img/code-syntax.jpg") center center;
-      background: linear-gradient(0deg, #0057b2 0%, rgba(0, 87, 178, 0.8) 100%), url("../img/code-syntax.jpg") center center;
-      background-size: 150%;
-      width: 100vw;
-      height: 66.66vh;
-      border-radius: 0; } }
-
-@media only screen and (min-width: 601px) and (max-width: 740px) {
-  #home-section .vertical-container .intro-area .yellow-bg {
-    background: #aaa;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-top: 0;
-    padding: 40 38px;
-    width: 40vw;
-    right: -5vw;
-    position: absolute;
-    height: 93vh; }
-    #home-section .vertical-container .intro-area .yellow-bg .container {
-      margin: 0;
-      width: 100%; }
-      #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-        max-width: none;
-        letter-spacing: initial;
-        text-align: right;
-        font-size: 2.8125rem; }
-        #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
-          font-weight: 700;
-          font-family: 'Montserrat', sans-serif; }
-      #home-section .vertical-container .intro-area .yellow-bg .container h3 {
-        text-align: right;
-        margin-top: 8px;
-        width: 100%; }
-        #home-section .vertical-container .intro-area .yellow-bg .container h3 span {
-          display: none; }
-      #home-section .vertical-container .intro-area .yellow-bg .container p {
-        max-width: none;
-        width: 100%;
-        text-align: right;
-        margin-left: auto;
-        margin-top: 45px; }
-      #home-section .vertical-container .intro-area .yellow-bg .container .call-actions {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        margin-bottom: 0;
-        text-align: center;
-        margin-top: 100px; }
-        #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a {
-          width: 100%;
-          margin-right: 0;
-          padding: 12px 58px;
-          margin-left: auto; }
-          #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.resume-btn {
-            margin-bottom: 17px; }
-            #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.resume-btn:hover {
-              padding: 12px 58px; }
-          #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn {
-            padding: 9px 58px; }
-            #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn:hover {
-              padding: 9px 58px;
-              border: 3px solid #0057B2; } }
-
-@media only screen and (min-width: 651px) and (max-width: 740px) {
+@media only screen and (min-width: 651px) and (max-width: 750px) {
   #home-section .vertical-container .intro-area .yellow-bg {
     top: -7.2vh !important; } }
 
