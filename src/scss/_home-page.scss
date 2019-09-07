@@ -365,105 +365,9 @@
 
 
 
-//font-styles for tablet view
-@media only screen and (min-width: 480px) and (max-width: 790px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        .yellow-bg{
-          .container{
-            h1{
-              font-size: 2.8125rem;
-              font-weight: 700;
-            }
 
-            h3{
-              font-size: 1.6rem;
-              line-height: 1.2;
-            }
-
-            p{
-              font-size: 1rem;
-              line-height: 1.4;
-            }
-
-            .call-actions{
-              a{
-                &.hire-btn{
-                }
-
-                &:hover{
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 787px) and (max-width: 790px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;    
-          padding: 40px 95px 40px 0;          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-            }
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-@media only screen and (min-width: 769px) and (max-width: 773px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;
-          padding: 40px 106px 40px 0px !important;
-          // right: auto !important;
-
-          .container{
-            margin: 0;
-
-            h1 {
-            }  
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }   
-}
-
-
-//768    yellow-bg: width: 38vw;
 //small tablet view.
-@media only screen and (min-width: 730px) and (max-width: 768px){
+@media only screen and (min-width: 730px) and (max-width: 800px){
   #home-section{
     .vertical-container{
       .intro-area{
@@ -475,11 +379,8 @@
   }
 }
 
-
-
-
 //current view. gray bg
-@media only screen and (min-width: 601px) and (max-width: 768px){
+@media only screen and (min-width: 601px) and (max-width: 800px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -624,12 +525,50 @@
 }
 
 //yellow-bg position fix
-@media only screen and (min-width: 651px) and (max-width: 750px){
+@media only screen and (min-width: 651px) and (max-width: 800px){
   #home-section{
     .vertical-container{
       .intro-area{
         .yellow-bg{
           top: -7.2vh !important;
+        }
+      }
+    }
+  }
+}
+
+//font-styles for tablet view
+@media only screen and (min-width: 480px) and (max-width: 790px){
+  #home-section{
+    .vertical-container{
+      .intro-area{
+        .yellow-bg{
+          .container{
+            h1{
+              font-size: 2.8125rem;
+              font-weight: 700;
+            }
+
+            h3{
+              font-size: 1.6rem;
+              line-height: 1.2;
+            }
+
+            p{
+              font-size: 1rem;
+              line-height: 1.4;
+            }
+
+            .call-actions{
+              a{
+                &.hire-btn{
+                }
+
+                &:hover{
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -827,7 +766,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 1200px){ 
+@media only screen and (min-width: 801px) and (max-width: 1200px){ 
   #home-section{
     .vertical-container{
       .img-container{
@@ -905,7 +844,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 1134px){ 
+@media only screen and (min-width: 801px) and (max-width: 1134px){ 
   #home-section{
     .vertical-container{
       .img-container{
@@ -955,7 +894,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 1050px){ 
+@media only screen and (min-width: 801px) and (max-width: 1050px){ 
   #home-section{
     .vertical-container{
       .img-container{
@@ -1002,7 +941,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 1025px){ 
+@media only screen and (min-width: 801px) and (max-width: 1025px){ 
   #home-section{
     .vertical-container{
       .img-container{
@@ -1078,7 +1017,7 @@
 }
 
  /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 949px){ 
+@media only screen and (min-width: 801px) and (max-width: 949px){ 
   #home-section{
     .vertical-container{
       .img-container{
@@ -1099,26 +1038,6 @@
 }
 
 
-@media only screen and (min-width: 886px) and (max-width: 900px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        .yellow-bg{
-          // padding: 45px 37px;
-
-          .container{
-            h1 {
-              // font-size: 3rem;
-            }  
-          }
-          .bg-cutout{
-            display: none;
-          }
-        }
-      }
-    }
-  }   
-}
 
 
 @media only screen and (min-width: 885px) and (max-width: 900px){
@@ -1134,6 +1053,9 @@
               font-size: 3rem;
             }  
           }
+          .bg-cutout{
+            display: none;
+          }
         }
       }
     }
@@ -1143,7 +1065,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 900px){ 
+@media only screen and (min-width: 801px) and (max-width: 900px){ 
   #home-section{
     .vertical-container{
       .img-container{
@@ -1164,7 +1086,7 @@
 }
 
 
-@media only screen and (min-width: 880px) and (max-width: 885px){
+@media only screen and (min-width: 881px) and (max-width: 885px){
   #home-section{
     .vertical-container{
       .intro-area{
@@ -1195,7 +1117,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 885px){ 
+@media only screen and (min-width: 801px) and (max-width: 885px){ 
   #home-section{
     .vertical-container{
       .img-container{
@@ -1241,7 +1163,7 @@
 }
 
 
-@media only screen and (min-width: 791px) and (max-width: 839px){
+@media only screen and (min-width: 801px) and (max-width: 839px){
   #home-section{
     .vertical-container{
       .intro-area{
@@ -1272,7 +1194,7 @@
 }
 
  /* laptop */
- @media only screen and (min-width: 787px) and (max-width: 839px){ 
+ @media only screen and (min-width: 801px) and (max-width: 839px){ 
   #home-section{
     .vertical-container{
       .intro-area{
@@ -1292,7 +1214,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 839px){ 
+@media only screen and (min-width: 801px) and (max-width: 839px){ 
   #home-section{
     .vertical-container{
       .img-container{

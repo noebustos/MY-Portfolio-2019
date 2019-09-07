@@ -502,46 +502,11 @@ header {
   #home-section .intro-area h5 {
     margin-top: 35%; } }
 
-@media only screen and (min-width: 480px) and (max-width: 790px) {
-  #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-    font-size: 2.8125rem;
-    font-weight: 700; }
-  #home-section .vertical-container .intro-area .yellow-bg .container h3 {
-    font-size: 1.6rem;
-    line-height: 1.2; }
-  #home-section .vertical-container .intro-area .yellow-bg .container p {
-    font-size: 1rem;
-    line-height: 1.4; } }
-
-@media only screen and (min-width: 787px) and (max-width: 790px) {
-  #home-section .vertical-container .intro-area .yellow-bg {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    padding: 40px 95px 40px 0; }
-    #home-section .vertical-container .intro-area .yellow-bg .container {
-      margin: 0; } }
-
-@media only screen and (min-width: 769px) and (max-width: 773px) {
-  #home-section .vertical-container .intro-area .yellow-bg {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    padding: 40px 106px 40px 0px !important; }
-    #home-section .vertical-container .intro-area .yellow-bg .container {
-      margin: 0; } }
-
-@media only screen and (min-width: 730px) and (max-width: 768px) {
+@media only screen and (min-width: 730px) and (max-width: 800px) {
   #home-section .vertical-container .intro-area .yellow-bg {
     width: 38vw !important; } }
 
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 800px) {
   #home-section .vertical-container .img-container {
     display: block; }
     #home-section .vertical-container .img-container img.hero-img {
@@ -653,9 +618,20 @@ header {
       #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
         display: none; } }
 
-@media only screen and (min-width: 651px) and (max-width: 750px) {
+@media only screen and (min-width: 651px) and (max-width: 800px) {
   #home-section .vertical-container .intro-area .yellow-bg {
     top: -7.2vh !important; } }
+
+@media only screen and (min-width: 480px) and (max-width: 790px) {
+  #home-section .vertical-container .intro-area .yellow-bg .container h1 {
+    font-size: 2.8125rem;
+    font-weight: 700; }
+  #home-section .vertical-container .intro-area .yellow-bg .container h3 {
+    font-size: 1.6rem;
+    line-height: 1.2; }
+  #home-section .vertical-container .intro-area .yellow-bg .container p {
+    font-size: 1rem;
+    line-height: 1.4; } }
 
 @media only screen and (min-width: 601px) and (max-width: 685px) {
   #home-section .vertical-container .intro-area .yellow-bg {
@@ -709,7 +685,7 @@ header {
     right: 112%; } }
 
 /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 1200px) {
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
   #home-section .vertical-container .img-container img.hero-img {
     width: 35%; }
   #home-section .vertical-container .img-container img.shirt-gradient {
@@ -744,7 +720,7 @@ header {
     left: 12%; } }
 
 /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 1134px) {
+@media only screen and (min-width: 801px) and (max-width: 1134px) {
   #home-section .vertical-container .img-container img.hero-img {
     width: 35%;
     left: 0; }
@@ -771,7 +747,7 @@ header {
       right: 65.9%; } }
 
 /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 1050px) {
+@media only screen and (min-width: 801px) and (max-width: 1050px) {
   #home-section .vertical-container .img-container .bg-circle-container {
     width: 1030px;
     height: 1030px;
@@ -792,7 +768,7 @@ header {
       margin: 0; } }
 
 /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 1025px) {
+@media only screen and (min-width: 801px) and (max-width: 1025px) {
   #home-section .vertical-container .img-container {
     display: block; }
     #home-section .vertical-container .img-container img.hero-img {
@@ -823,30 +799,28 @@ header {
       display: none; } }
 
 /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 949px) {
+@media only screen and (min-width: 801px) and (max-width: 949px) {
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 136%; }
   #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
     right: 70.9%; } }
 
-@media only screen and (min-width: 886px) and (max-width: 900px) {
-  #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-    display: none; } }
-
 @media only screen and (min-width: 885px) and (max-width: 900px) {
   #home-section .vertical-container .intro-area .yellow-bg {
     padding: 45px 37px; }
     #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-      font-size: 3rem; } }
+      font-size: 3rem; }
+    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+      display: none; } }
 
 /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 900px) {
+@media only screen and (min-width: 801px) and (max-width: 900px) {
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 157%; }
   #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
     right: 73.4%; } }
 
-@media only screen and (min-width: 880px) and (max-width: 885px) {
+@media only screen and (min-width: 881px) and (max-width: 885px) {
   #home-section .vertical-container .intro-area .yellow-bg {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -859,7 +833,7 @@ header {
       margin: 0; } }
 
 /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 885px) {
+@media only screen and (min-width: 801px) and (max-width: 885px) {
   #home-section .vertical-container .img-container img.hero-img {
     width: 40%; }
   #home-section .vertical-container .img-container img.shirt-gradient {
@@ -884,7 +858,7 @@ header {
     #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
       display: none; } }
 
-@media only screen and (min-width: 791px) and (max-width: 839px) {
+@media only screen and (min-width: 801px) and (max-width: 839px) {
   #home-section .vertical-container .intro-area .yellow-bg {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -897,14 +871,14 @@ header {
       margin: 0; } }
 
 /* laptop */
-@media only screen and (min-width: 787px) and (max-width: 839px) {
+@media only screen and (min-width: 801px) and (max-width: 839px) {
   #home-section .vertical-container .intro-area .yellow-bg {
     padding: 40px 0 40px 42%; }
     #home-section .vertical-container .intro-area .yellow-bg .container h1 {
       font-size: 3rem; } }
 
 /* laptop */
-@media only screen and (min-width: 769px) and (max-width: 839px) {
+@media only screen and (min-width: 801px) and (max-width: 839px) {
   #home-section .vertical-container .img-container img.shirt-gradient {
     bottom: 27.9%; }
   #home-section .vertical-container .img-container .bg-circle-container {
