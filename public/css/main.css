@@ -343,9 +343,6 @@ header {
             color: #fff;
             text-transform: uppercase;
             margin-top: -8px; }
-            #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
-              font-weight: 300;
-              font-family: 'Lato', sans-serif; }
           #home-section .vertical-container .intro-area .yellow-bg .container h3 {
             font-size: 28px;
             color: #fff;
@@ -664,9 +661,6 @@ header {
             letter-spacing: initial;
             text-align: right;
             font-size: 2.8125rem; }
-            #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
-              font-weight: 700;
-              font-family: 'Montserrat', sans-serif; }
           #home-section .vertical-container .intro-area .yellow-bg .container h3 {
             text-align: right;
             margin-top: 8px;
@@ -746,21 +740,14 @@ header {
   #home-section .vertical-container .intro-area h5 {
     font-size: 5rem !important;
     margin-top: 65px !important; }
-  #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-    font-size: 2.8125rem !important;
-    font-weight: 700; }
-    #home-section .vertical-container .intro-area .yellow-bg .container h1 span {
-      font-weight: 700; }
-  #home-section .vertical-container .intro-area .yellow-bg .container h3 {
-    font-size: 1.6rem !important; }
-  #home-section .vertical-container .intro-area .yellow-bg .container .call-actions {
-    text-align: center; }
-    #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a {
-      padding: 10px 30px !important; }
-      #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn {
-        padding: 7px 27px !important; }
-      #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a:hover {
-        padding: 10px 30px !important; } }
+  #home-section .vertical-container .intro-area .yellow-bg {
+    background: #aaa; }
+    #home-section .vertical-container .intro-area .yellow-bg .container h1 {
+      font-size: 2.8125rem !important; }
+    #home-section .vertical-container .intro-area .yellow-bg .container h3 {
+      font-size: 1.6rem !important; }
+    #home-section .vertical-container .intro-area .yellow-bg .container .call-actions {
+      text-align: center; } }
 
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (min-height: 800px) and (max-height: 900px) and (max-width: 600px) {

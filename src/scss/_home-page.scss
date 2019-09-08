@@ -54,7 +54,7 @@
         height: 1200px;
         border-radius: 50%;
         position: relative;
-        right: 98%;    
+        right: 98%;
         z-index: 2;
 
         .bg-circle-big{
@@ -90,12 +90,12 @@
         background: $main-yellow;
         padding: 45px 75px;
         margin-top: -12px;
-        width: 835px;          
+        width: 835px;
         height: 310px;
         position: relative;
         right: 39%;
         z-index: 5;
-        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);          
+        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
         filter: drop-shadow(-20px 20px 10px rgba(50,50,50,0.1));
 
         .container{
@@ -109,8 +109,8 @@
             margin-top: -8px;
 
             span{
-              font-weight: 300;
-              font-family: 'Lato', sans-serif;
+              // font-weight: 300;
+              // font-family: 'Lato', sans-serif;
             }
           }
 
@@ -125,7 +125,7 @@
             font-size: 1.1rem;
             color: #fff;
             font-weight: 500;
-            margin-top: 40px;            
+            margin-top: 40px;
           }
 
           .call-actions{
@@ -140,7 +140,7 @@
               font-weight: 700;
               letter-spacing: 1px;
               border-radius: 5px;
-              transition: all .2s ease-in-out;             
+              transition: all .2s ease-in-out;
 
               &.resume-btn{
                 background: #fff;
@@ -152,7 +152,7 @@
                   padding: 10px 30px;
                 }
               }
-              
+
               &.hire-btn{
                 padding: 7px 27px;
                 border: 3px solid #fff;
@@ -167,7 +167,7 @@
             }
           }
         }
-        
+
         .bg-cutout{
           width: 342px;
           position: absolute;
@@ -201,7 +201,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 1200px){ 
+@media only screen and (min-width: 801px) and (max-width: 1200px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -239,7 +239,7 @@
             margin-left: 203px;
             position: absolute;
           }
-          
+
           .bg-cutout{
             right: 69.9%;
           }
@@ -279,7 +279,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 1134px){ 
+@media only screen and (min-width: 801px) and (max-width: 1134px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -293,7 +293,7 @@
           bottom: 28.9%;
           left: 0;
         }
-        
+
         .bg-circle-container{
           width: 1030px;
           height: 1030px;
@@ -317,7 +317,7 @@
             margin-left: 243px;
             position: absolute;
           }
-          
+
           .bg-cutout{
             right: 65.9%;
           }
@@ -329,7 +329,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 1050px){ 
+@media only screen and (min-width: 801px) and (max-width: 1050px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -355,7 +355,7 @@
 
         .yellow-bg{
           display: flex;
-          justify-content: flex-end;    
+          justify-content: flex-end;
           padding: 45px 152px;
 
           .container{
@@ -363,7 +363,7 @@
 
             h1 {
               // font-size: 3rem;
-            }  
+            }
           }
           .bg-cutout{
             // display: none;
@@ -371,12 +371,12 @@
         }
       }
     }
-  }   
+  }
 }
 
 
  /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 1025px){ 
+@media only screen and (min-width: 801px) and (max-width: 1025px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -390,11 +390,11 @@
         img.shirt-gradient{
           bottom: 26.9%;
         }
-        
+
         .hero-bg-shadow{
           left: 11%;
         }
-        
+
         .bg-circle-container{
           right: 126%;
         }
@@ -411,7 +411,7 @@
           .container{
             margin-left: 180px;
           }
-          
+
           .bg-cutout{
             right: 69.9%;
           }
@@ -432,7 +432,7 @@
         .yellow-bg{
           padding: 45px 73px;
           // display: flex;
-          // justify-content: flex-end;    
+          // justify-content: flex-end;
           // padding: 45px 152px;
 
           .container{
@@ -440,7 +440,7 @@
 
             h1 {
               // font-size: 3rem;
-            }  
+            }
           }
           .bg-cutout{
             display: none;
@@ -448,11 +448,11 @@
         }
       }
     }
-  }   
+  }
 }
 
  /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 949px){ 
+@media only screen and (min-width: 801px) and (max-width: 949px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -462,7 +462,7 @@
       }
 
       .intro-area{
-        .yellow-bg{          
+        .yellow-bg{
           .bg-cutout{
             right: 70.9%;
           }
@@ -476,7 +476,6 @@
 
 
 @media only screen and (min-width: 885px) and (max-width: 900px){
-  //895-885-908
   #home-section{
     .vertical-container{
       .intro-area{
@@ -486,7 +485,7 @@
           .container{
             h1 {
               font-size: 3rem;
-            }  
+            }
           }
           .bg-cutout{
             display: none;
@@ -494,13 +493,13 @@
         }
       }
     }
-  }   
+  }
 }
 
 
 
  /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 900px){ 
+@media only screen and (min-width: 801px) and (max-width: 900px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -531,7 +530,7 @@
 
         .yellow-bg{
           display: flex;
-          justify-content: flex-end;    
+          justify-content: flex-end;
           padding: 40px 47px;
 
           .container{
@@ -539,7 +538,7 @@
 
             h1 {
               // font-size: 3rem;
-            }  
+            }
           }
           .bg-cutout{
             // display: none;
@@ -547,12 +546,12 @@
         }
       }
     }
-  }   
+  }
 }
 
 
  /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 885px){ 
+@media only screen and (min-width: 801px) and (max-width: 885px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -587,7 +586,7 @@
             margin-left: 171px;
             position: static;
           }
-          
+
           .bg-cutout{
             display: none;
           }
@@ -759,11 +758,6 @@
               letter-spacing: initial;
               text-align: right;
               font-size: 2.8125rem;
-
-              span{
-                font-weight: 700;
-                font-family: 'Montserrat', sans-serif;
-              }
             }
 
             h3{
@@ -949,28 +943,16 @@
     .vertical-container{
       .img-container{
         .hero-img{
-          // width: 45% !important;
-          // top: 55% !important;
         }
 
         img.shirt-gradient{
-          // bottom: 32.5%;
         }
 
         .hero-bg-shadow{
-          //usure about this. but dont discard.
-          // width: 60px !important;
-          // height: 60px !important;
         }
 
         .bg-circle-container{
-          // width: 130%;
-          // height: 600px;
-          // border-radius: 0;  
-          // right: auto;
-
           .bg-circle-big{
-            // display: none;
           }
         }
       }
@@ -981,39 +963,35 @@
            margin-top: 65px !important;
         }
 
-        .yellow-bg{    
-          // padding: 30px 0 30px 42%;                     
+        .yellow-bg{
+          background: #aaa;
+
           .container{
             h1{
               font-size: 2.8125rem !important;
-              font-weight: 700;
-
-              span{
-                font-weight: 700;
-              }
             }
 
             h3{
               font-size: 1.6rem !important;
             }
             p{
-              // margin-top: 12px;
             }
+
            .call-actions{
             text-align: center;
 
-              a{      
-                padding: 10px 30px !important;
+              a{
+                // padding: 10px 30px !important;
 
                 &.resume-btn{
                 }
 
                 &.hire-btn{
-                  padding: 7px 27px !important;
+                  // padding: 7px 27px !important;
                 }
 
                 &:hover{
-                  padding: 10px 30px !important;
+                  // padding: 10px 30px !important;
                 }
               }
             }
@@ -1140,11 +1118,11 @@
 
       .yellow-bg{
         padding: 7% !important;
-        width: 100% !important;            
-        height: auto !important;  
-        position: static !important;  
-        clip-path: none !important;          
-        filter: none !important;  
+        width: 100% !important;
+        height: auto !important;
+        position: static !important;
+        clip-path: none !important;
+        filter: none !important;
         box-shadow: 0 0 5px 5px rgba(0,0,0,.1);
 
         .container{
@@ -1165,7 +1143,7 @@
             font-size: 1rem !important;
             color: #fff;
             font-weight: 500;
-            margin-top: 30px !important;      
+            margin-top: 30px !important;
           }
 
           .call-actions{
@@ -1174,7 +1152,7 @@
             a{
               padding: 10px 25px !important;
               font-size: 12px !important;
-              
+
               &.hire-btn{
                 padding: 8px 25px !important;
               }
