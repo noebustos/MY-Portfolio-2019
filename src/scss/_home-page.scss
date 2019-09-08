@@ -600,7 +600,7 @@
 
 
  /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 839px){ 
+@media only screen and (min-width: 801px) and (max-width: 839px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -626,7 +626,7 @@
 
             h3{
               line-height: 1.2;
-            }  
+            }
           }
         }
       }
@@ -792,7 +792,7 @@
                 margin-left: auto;
 
                 &.resume-btn{
-                  margin-bottom: 17px;
+                  margin-bottom: 20px;
 
                   &:hover{
                     padding: 12px 58px;
@@ -834,7 +834,7 @@
   }
 }
 
-//font-styles for tablet view
+//font-styles for tablet and mobile view
 @media only screen and (min-width: 480px) and (max-width: 790px){
   #home-section{
     .vertical-container{
@@ -842,13 +842,13 @@
         .yellow-bg{
           .container{
             h1{
-              font-size: 2.8125rem;
-              font-weight: 700;
+              font-size: 2.8125rem !important;
+              font-weight: 700 !important;
             }
 
             h3{
-              font-size: 1.6rem;
-              line-height: 1.2;
+              font-size: 1.6rem !important;
+              line-height: 1.2 !important;
             }
 
             p{
@@ -878,25 +878,21 @@
     .vertical-container{
       .intro-area{
         .yellow-bg{
-          //diffrent styles
           padding: 40px 30px;
           top: -6.5vh;
 
 
           .container{
             h1{
-              //diffrent styles
-              font-size: 2.7rem;
+              font-size: 2.7rem !important;
             }
 
             .call-actions{
               a{
                 &.hire-btn{
-                  //dif
                   padding: 9px 50px;
 
                   &:hover{
-                    //dif
                     padding: 9px 50px;
                   }
                 }
@@ -936,9 +932,9 @@
 
 
 
-//font-styles for h6 bg text
+//h5 font-size
 // large mobile view
-@media only screen and (min-width: 480px) and (max-width: 600px){ 
+@media only screen and (min-width: 480px) and (max-width: 600px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -964,15 +960,15 @@
         }
 
         .yellow-bg{
-          background: #aaa;
+          // background: #aaa;
 
           .container{
             h1{
-              font-size: 2.8125rem !important;
+              // font-size: 2.8125rem !important;
             }
 
             h3{
-              font-size: 1.6rem !important;
+              // font-size: 1.6rem !important;
             }
             p{
             }
@@ -1046,7 +1042,7 @@
 }
 
 /* Smartphones (portrait and landscape) */
-@media only screen and (min-width: 300px) and (max-width: 600px){ 
+@media only screen and (min-width: 300px) and (max-width: 600px){
   #home-section{
     width: 100% !important;
     height: 100% !important;
@@ -1111,9 +1107,7 @@
       margin-top: 5%;
 
       h5{
-        margin-left: 0 !important;
-        font-size: 	4rem !important;
-        margin-top: 25.5%;
+
       }
 
       .yellow-bg{
@@ -1130,35 +1124,41 @@
           width: 100% !important;
 
           h1{
-            font-size: 2rem !important;
           }
 
           h3{
-            font-size: 1.3rem !important;
-            color: #fff;
             margin-top: 7px !important;
+            font-weight: 500;
           }
 
           p{
-            font-size: 1rem !important;
-            color: #fff;
-            font-weight: 500;
             margin-top: 30px !important;
           }
 
           .call-actions{
             margin-top: 45px !important;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 0 !important;
 
             a{
-              padding: 10px 25px !important;
               font-size: 12px !important;
 
-              &.hire-btn{
-                padding: 8px 25px !important;
+              &.resume-btn{
+                padding: 12px 35px !important;
+
+                &:hover{
+                  padding: 12px 35px !important;
+                }
               }
 
-              &:hover{
-                padding: 10px 25px !important;
+              &.hire-btn{
+                padding: 9px 32px !important;
+
+                &:hover{
+                  padding: 9px 32px !important;
+                  border: 3px solid $main-blue;
+                }
               }
             }
           }
@@ -1167,11 +1167,294 @@
         .bg-cutout{
           display: none;
         }
-      }  
+      }
     }
   }
 }
 
+
+@media only screen and (min-width: 300px) and (max-width: 479px){
+  #home-section{
+    .vertical-container{
+      .img-container{
+        .hero-img{
+        }
+
+        img.shirt-gradient{
+        }
+
+        .hero-bg-shadow{
+        }
+
+        .bg-circle-container{
+          .bg-circle-big{
+          }
+        }
+      }
+
+      .intro-area{
+        h5{
+          margin-left: 0 !important;
+          font-size: 	4rem !important;
+          margin-top: 25.5%;
+        }
+
+        .yellow-bg{
+          .container{
+            h1{
+             font-size: 2.5rem;
+             margin-top: -5px;
+            }
+
+            h3{
+              font-size: 1.25rem;
+            }
+            p{
+
+            }
+
+           .call-actions{
+            text-align: center;
+
+              a{
+                // padding: 10px 30px !important;
+
+                &.resume-btn{
+                }
+
+                &.hire-btn{
+                  // padding: 7px 27px !important;
+                }
+
+                &:hover{
+                  // padding: 10px 30px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 368px) and (max-width: 399px){
+  #home-section{
+    .vertical-container{
+      .img-container{
+        .hero-img{
+        }
+
+        img.shirt-gradient{
+        }
+
+        .hero-bg-shadow{
+        }
+
+        .bg-circle-container{
+          .bg-circle-big{
+          }
+        }
+      }
+
+      .intro-area{
+        h5{
+          // margin-left: 0 !important;
+          // font-size: 	4rem !important;
+          // margin-top: 25.5%;
+        }
+
+        .yellow-bg{
+
+          .container{
+            h1{
+              font-size: 2.3rem;
+            }
+
+            h3{
+              // font-size: 1.25rem;
+            }
+            p{
+
+            }
+
+           .call-actions{
+            // text-align: center;
+
+              a{
+              
+
+                &.resume-btn{
+                }
+
+                &.hire-btn{
+
+                }
+
+                &:hover{
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 367px){
+  #home-section{
+    .vertical-container{
+      .img-container{
+        .hero-img{
+        }
+
+        img.shirt-gradient{
+        }
+
+        .hero-bg-shadow{
+        }
+
+        .bg-circle-container{
+          .bg-circle-big{
+          }
+        }
+      }
+
+      .intro-area{
+        h5{
+          // margin-left: 0 !important;
+          // font-size: 	4rem !important;
+          // margin-top: 25.5%;
+        }
+
+        .yellow-bg{
+
+          .container{
+            h1{
+              // font-size: 2.3rem;
+              letter-spacing: 2px;
+            }
+
+            h3{
+              // font-size: 1.25rem;
+            }
+            p{
+
+            }
+
+           .call-actions{
+            // text-align: center;
+
+              a{
+              
+
+                &.resume-btn{
+                }
+
+                &.hire-btn{
+
+                }
+
+                &:hover{
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//348
+@media only screen and (min-width: 300px) and (max-width: 348px){
+  #home-section{
+    .vertical-container{
+      .img-container{
+        display: none !important;
+
+        .hero-img{
+        }
+
+        img.shirt-gradient{
+        }
+
+        .hero-bg-shadow{
+        }
+
+        .bg-circle-container{
+          .bg-circle-big{
+          }
+        }
+      }
+
+      .intro-area{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        h5{
+          margin-top: 0;
+        }
+
+        .yellow-bg{
+          padding: 10% 7% !important;
+
+          .container{
+            h1{
+
+            }
+
+            h3{
+              width: 84%;
+              margin: 7px auto 0;
+
+              span{
+                display: none;
+              }
+            }
+
+            p{
+              width: 73%;
+              margin: 30px auto 0;
+            }
+
+           .call-actions{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+              a{
+                margin-right: 0;
+
+                &.resume-btn{
+                  padding: 13px 65px !important;
+
+                  &:hover{
+                    padding: 13px 65px !important;
+                  }
+                }
+
+                &.hire-btn{
+                  padding: 10px 62px !important;
+                  margin-top: 25px;
+
+                  &:hover{
+                    padding: 10px 62px !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 
 
