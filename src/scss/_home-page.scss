@@ -298,6 +298,7 @@
 }
 
  /* laptop */
+ //img container styles
 @media only screen and (min-width: 801px) and (max-width: 1200px){
   #home-section{
     .vertical-container{
@@ -361,13 +362,7 @@
 }
 
 
-
-
-
-
-
-
-@media only screen and (min-width: 950px) and (max-width: 1025px){
+@media only screen and (min-width: 951px) and (max-width: 1025px){
   #home-section{
     .vertical-container{
       .intro-area{
@@ -397,39 +392,7 @@
 }
 
 
-
-
-@media only screen and (min-width: 901px) and (max-width: 949px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          margin-left: 21px;
-        }
-
-        .yellow-bg{
-          padding: 45px 73px;
-          // display: flex;
-          // justify-content: flex-end;
-          // padding: 45px 152px;
-
-          .container{
-            // margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }
-          }
-          .bg-cutout{
-            display: none;
-          }
-        }
-      }
-    }
-  }
-}
-
- // .img-container, .bg-cutout
+ // .img-container
 /* laptop */
 @media only screen and (min-width: 901px) and (max-width: 949px){
   #home-section{
@@ -439,24 +402,13 @@
           right: 136%;
         }
       }
-
-      .intro-area{
-        .yellow-bg{
-          .bg-cutout{
-            right: 70.9%;
-          }
-        }
-      }
     }
   }
 }
 
-
-
-
  /* laptop */
  // .img-container, .bg-cutout
-@media only screen and (min-width: 801px) and (max-width: 900px){
+@media only screen and (min-width: 840px) and (max-width: 900px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -464,22 +416,9 @@
           right: 157%;
         }
       }
-
-      .intro-area{
-        h5{
-          display: none;
-        }
-        .yellow-bg{
-          .bg-cutout{
-            display: none;
-          }
-        }
-      }
     }
   }
 }
-
-
 
  /* laptop */
  //img.hero-img
@@ -494,8 +433,6 @@
     }
   }
 }
-
-
 
 
  /* laptop */
@@ -517,7 +454,8 @@
   }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 900px){
+//laptop main view
+@media only screen and (min-width: 801px) and (max-width: 950px){
   #home-section{
     .container{
       position: initial;
@@ -557,7 +495,7 @@
         // width: initial;
   
         h5{
-       
+          display: none;
         }
   
         .yellow-bg{
@@ -627,7 +565,7 @@
           }
   
           .bg-cutout{
-        
+            display: none;
           }
         }
       }

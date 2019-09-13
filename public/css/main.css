@@ -431,7 +431,7 @@ header {
   #home-section .vertical-container .img-container .hero-bg-shadow {
     left: 12%; } }
 
-@media only screen and (min-width: 950px) and (max-width: 1025px) {
+@media only screen and (min-width: 951px) and (max-width: 1025px) {
   #home-section .vertical-container .intro-area h5 {
     margin-left: 38px; }
   #home-section .vertical-container .intro-area .yellow-bg {
@@ -445,29 +445,15 @@ header {
     #home-section .vertical-container .intro-area .yellow-bg .container {
       margin: 0; } }
 
-@media only screen and (min-width: 901px) and (max-width: 949px) {
-  #home-section .vertical-container .intro-area h5 {
-    margin-left: 21px; }
-  #home-section .vertical-container .intro-area .yellow-bg {
-    padding: 45px 73px; }
-    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-      display: none; } }
-
 /* laptop */
 @media only screen and (min-width: 901px) and (max-width: 949px) {
   #home-section .vertical-container .img-container .bg-circle-container {
-    right: 136%; }
-  #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-    right: 70.9%; } }
+    right: 136%; } }
 
 /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 900px) {
+@media only screen and (min-width: 840px) and (max-width: 900px) {
   #home-section .vertical-container .img-container .bg-circle-container {
-    right: 157%; }
-  #home-section .vertical-container .intro-area h5 {
-    display: none; }
-  #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-    display: none; } }
+    right: 157%; } }
 
 /* laptop */
 @media only screen and (min-width: 801px) and (max-width: 885px) {
@@ -481,11 +467,13 @@ header {
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 168%; } }
 
-@media only screen and (min-width: 801px) and (max-width: 900px) {
+@media only screen and (min-width: 801px) and (max-width: 950px) {
   #home-section .container {
     position: initial; }
   #home-section .vertical-container .intro-area {
     position: relative; }
+    #home-section .vertical-container .intro-area h5 {
+      display: none; }
     #home-section .vertical-container .intro-area .yellow-bg {
       position: absolute;
       right: 0;
@@ -526,6 +514,8 @@ header {
           margin-left: auto;
           margin-right: 99px;
           margin-bottom: 0; }
+      #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+        display: none; }
   #home-section .vertical-container .intro-area-bg {
     background: #FEB332;
     position: absolute;
