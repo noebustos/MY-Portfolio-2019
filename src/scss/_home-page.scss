@@ -703,11 +703,11 @@
         
   
         img.hero-img{
-  
+          width: 32%;
         }
   
         img.shirt-gradient{
-       
+          width: 32%;
         }
   
         .hero-bg-shadow{
@@ -725,13 +725,18 @@
   
       .intro-area{
         // position: relative;
+        height: 100vh;
   
         h5{
-          // display: none;
+          display: block;
+          margin-left: 33px;
+          position: absolute;
+          top: 23.5%;
         }
   
         .yellow-bg{
           // background: #aaa;
+          background: $main-yellow;
           // position: absolute;
           // right: 0;
           // top: 50%;
@@ -744,6 +749,7 @@
           // margin-top: 0;
           // display: flex;
           // justify-content: flex-end;
+          overflow: hidden;
 
           .container{
             // margin: 0;
@@ -796,13 +802,20 @@
           }
   
           .bg-cutout{
-            // display: none;
+            display: block;
+            width: 500px;
+            position: absolute;
+            top: 67%;
+            right: 435px;
+            opacity: 0.8;
           }
         }
       }
 
       .intro-area-bg{
         // background: indianred;
+        background: $main-yellow;
+
         // position: absolute;
         // right: 0;
         // top: 50%;
