@@ -187,6 +187,7 @@
 
 
 /* laptop */
+ // .img-container
 @media only screen and (min-width: 1201px) and (max-width: 1280px){
   #home-section {
     .vertical-container {
@@ -199,6 +200,102 @@
   }
 }
 
+//font styles for laptop view
+@media only screen and (min-width: 791px) and (max-width: 1280px){
+  #home-section{
+
+
+    .vertical-container{
+  
+  
+      .img-container{
+        
+  
+        img.hero-img{
+  
+        }
+  
+        img.shirt-gradient{
+       
+        }
+  
+        .hero-bg-shadow{
+      
+        }
+  
+        .bg-circle-container{
+      
+  
+          .bg-circle-big{
+  
+          }
+        }
+      }
+  
+      .intro-area{
+        
+  
+        h5{
+       
+        }
+  
+        .yellow-bg{
+       
+  
+          .container{
+  
+  
+            h1{
+              font-size: 3.125rem;
+              line-height: 1.05;
+  
+              span{
+            
+              }
+            }
+  
+            h3{
+              font-size: 1.8rem;
+              line-height: 1.2;
+            }
+  
+            p{
+              font-size: 1rem;
+            }
+  
+            .call-actions{
+          
+  
+              a{
+              
+  
+                &.resume-btn{
+               
+  
+                  &:hover{
+                 
+                  }
+                }
+  
+                &.hire-btn{
+             
+  
+                  &:hover{
+                
+                  }
+                }
+              }
+            }
+          }
+  
+          .bg-cutout{
+        
+          }
+        }
+      }
+    }
+  }
+}
 
  /* laptop */
 @media only screen and (min-width: 801px) and (max-width: 1200px){
@@ -229,28 +326,13 @@
           }
         }
       }
-
-      .intro-area{
-        .yellow-bg{
-          width: 792px;
-          right: 41%;
-
-          .container{
-            margin-left: 203px;
-            position: absolute;
-          }
-
-          .bg-cutout{
-            right: 69.9%;
-          }
-        }
-      }
     }
   }
 }
 
 
 /* laptop */
+ // .img-container
 @media only screen and (min-width: 1135px) and (max-width: 1140px){
   #home-section {
     .vertical-container {
@@ -265,6 +347,7 @@
 
 
 /* laptop */
+ // .img-container
 @media only screen and (min-width: 1026px) and (max-width: 1134px){
   #home-section {
     .vertical-container {
@@ -278,71 +361,10 @@
 }
 
 
- /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 1134px){
-  #home-section{
-    .vertical-container{
-      .img-container{
-        img.hero-img{
-          width: 35%;
-          left: 0;
-        }
-
-        img.shirt-gradient{
-          width: 35%;
-          bottom: 28.9%;
-          left: 0;
-        }
-
-        .bg-circle-container{
-          width: 1030px;
-          height: 1030px;
-          right: 102%;
-          // right: 118%;
-
-          .bg-circle-big{
-            width: 1030px;
-            height: 1030px;
-          }
-        }
-      }
-
-      .intro-area{
-        .yellow-bg{
-          width: 840px;
-          right: 53%;
-          clip-path: none;
-
-          .container{
-            margin-left: 243px;
-            position: absolute;
-          }
-
-          .bg-cutout{
-            right: 65.9%;
-          }
-        }
-      }
-    }
-  }
-}
 
 
- /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 1050px){
-  #home-section{
-    .vertical-container{
-      .img-container{
-        .bg-circle-container{
-          width: 1030px;
-          height: 1030px;
-          // right: 102%;
-          right: 118%;
-        }
-      }
-    }
-  }
-}
+
+
 
 
 @media only screen and (min-width: 950px) and (max-width: 1025px){
@@ -375,51 +397,7 @@
 }
 
 
- /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 1025px){
-  #home-section{
-    .vertical-container{
-      .img-container{
-        display: block;
 
-        img.hero-img{
-          top: 50%;
-          transform: translateY(-50%);
-        }
-
-        img.shirt-gradient{
-          bottom: 26.9%;
-        }
-
-        .hero-bg-shadow{
-          left: 11%;
-        }
-
-        .bg-circle-container{
-          right: 126%;
-        }
-      }
-
-      .intro-area{
-        display: block;
-
-        h5{
-          margin-left: 13px;
-        }
-
-        .yellow-bg{
-          .container{
-            margin-left: 180px;
-          }
-
-          .bg-cutout{
-            right: 69.9%;
-          }
-        }
-      }
-    }
-  }
-}
 
 @media only screen and (min-width: 901px) and (max-width: 949px){
   #home-section{
@@ -451,8 +429,9 @@
   }
 }
 
- /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 949px){
+ // .img-container, .bg-cutout
+/* laptop */
+@media only screen and (min-width: 901px) and (max-width: 949px){
   #home-section{
     .vertical-container{
       .img-container{
@@ -475,30 +454,8 @@
 
 
 
-@media only screen and (min-width: 885px) and (max-width: 900px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        .yellow-bg{
-          padding: 45px 37px;
-
-          .container{
-            h1 {
-              font-size: 3rem;
-            }
-          }
-          .bg-cutout{
-            display: none;
-          }
-        }
-      }
-    }
-  }
-}
-
-
-
  /* laptop */
+ // .img-container, .bg-cutout
 @media only screen and (min-width: 801px) and (max-width: 900px){
   #home-section{
     .vertical-container{
@@ -509,84 +466,10 @@
       }
 
       .intro-area{
-        .yellow-bg{
-          .bg-cutout{
-            right: 73.4%;
-          }
-        }
-      }
-    }
-  }
-}
-
-
-@media only screen and (min-width: 881px) and (max-width: 885px){
-  #home-section{
-    .vertical-container{
-      .intro-area{
-        h5{
-          // margin-left: 21px;
-        }
-
-        .yellow-bg{
-          display: flex;
-          justify-content: flex-end;
-          padding: 40px 47px;
-
-          .container{
-            margin: 0;
-
-            h1 {
-              // font-size: 3rem;
-            }
-          }
-          .bg-cutout{
-            // display: none;
-          }
-        }
-      }
-    }
-  }
-}
-
-
- /* laptop */
-@media only screen and (min-width: 801px) and (max-width: 885px){
-  #home-section{
-    .vertical-container{
-      .img-container{
-        img.hero-img{
-          width: 40%;
-        }
-
-        img.shirt-gradient{
-          width: 40%;
-          bottom: 26.9%;
-        }
-
-        .bg-circle-container{
-          right: 157%;
-        }
-      }
-
-      .intro-area{
         h5{
           display: none;
         }
-
         .yellow-bg{
-          height: auto;
-          width: 625px;
-          padding: 40px 0;
-          right: 46%;
-          filter: none !important;  
-          box-shadow: 0 0 5px 5px rgba(100,100,100,.1);
-
-          .container{
-            margin-left: 171px;
-            position: static;
-          }
-
           .bg-cutout{
             display: none;
           }
@@ -598,8 +481,25 @@
 
 
 
+ /* laptop */
+ //img.hero-img
+@media only screen and (min-width: 801px) and (max-width: 885px){
+  #home-section{
+    .vertical-container{
+      .img-container{
+        img.hero-img{
+          width: 40%;
+        }
+      }
+    }
+  }
+}
+
+
+
 
  /* laptop */
+  // .img-container
 @media only screen and (min-width: 801px) and (max-width: 839px){
   #home-section{
     .vertical-container{
@@ -613,22 +513,134 @@
         }
       }
 
-      .intro-area{
-        .yellow-bg{
-          padding: 40px 30%;
+    }
+  }
+}
 
-          .container{
-            margin: 0;
+@media only screen and (min-width: 801px) and (max-width: 900px){
+  #home-section{
+    .container{
+      position: initial;
+    }
 
-            h1{
-              line-height: 1.05;
-            }
-
-            h3{
-              line-height: 1.2;
-            }
+    .vertical-container{
+  
+  
+      .img-container{
+        
+  
+        img.hero-img{
+  
+        }
+  
+        img.shirt-gradient{
+       
+        }
+  
+        .hero-bg-shadow{
+      
+        }
+  
+        .bg-circle-container{
+      
+  
+          .bg-circle-big{
+  
           }
         }
+      }
+  
+      .intro-area{
+        position: relative;
+        // right: 0;
+
+        // width: initial;
+  
+        h5{
+       
+        }
+  
+        .yellow-bg{
+          // background: #aaa;
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 70vw;
+          box-shadow: initial;
+          padding: 38px 0;
+          clip-path: initial;
+          margin-top: 0;
+
+          .container{
+            margin-left: 0;
+            max-width: initial;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+  
+            h1{
+              font-size: 2.9rem;
+              margin-left: auto;
+              margin-top: -2px;
+
+
+              span{
+            
+              }
+            }
+  
+            h3{
+              margin-left: auto;
+              margin-right: 21px;
+            }
+  
+            p{
+              margin-left: auto;
+              margin-right: 116px;            }
+  
+            .call-actions{
+              margin-left: auto;
+              margin-right: 99px;
+              margin-bottom: 0;          
+              a{
+              
+  
+                &.resume-btn{
+               
+  
+                  &:hover{
+                 
+                  }
+                }
+  
+                &.hire-btn{
+             
+  
+                  &:hover{
+                
+                  }
+                }
+              }
+            }
+          }
+  
+          .bg-cutout{
+        
+          }
+        }
+      }
+
+      .intro-area-bg{
+        // background: #aaa;
+        background: $main-yellow;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100px;
+        height: 310px;
       }
     }
   }
