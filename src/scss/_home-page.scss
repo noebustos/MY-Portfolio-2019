@@ -931,7 +931,44 @@
 }
 
 
+//hero img styles
+@media only screen and (min-width: 801px) and (max-width: 950px){
+  #home-section{
+    .container{
+    }
 
+    .vertical-container{
+  
+  
+      .img-container{
+        position: relative;
+  
+        img.hero-img{
+          width: 75%;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+        }
+  
+        img.shirt-gradient{
+       
+        }
+  
+        .hero-bg-shadow{
+      
+        }
+  
+        .bg-circle-container{
+      
+  
+          .bg-circle-big{
+  
+          }
+        }
+      }
+    }
+  }
+}
 
 
 

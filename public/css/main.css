@@ -617,6 +617,16 @@ header {
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 168%; } }
 
+@media only screen and (min-width: 801px) and (max-width: 950px) {
+  #home-section .vertical-container .img-container {
+    position: relative; }
+    #home-section .vertical-container .img-container img.hero-img {
+      width: 75%;
+      top: 50%;
+      left: 0;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); } }
+
 @media only screen and (min-width: 791px) and (max-width: 800px) {
   #home-section .container {
     max-width: initial; }
