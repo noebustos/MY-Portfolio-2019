@@ -389,10 +389,11 @@ header {
           -webkit-transform: translateY(-50%) scaleX(-1);
           transform: translateY(-50%) scaleX(-1); }
 
-/* laptop */
-@media only screen and (min-width: 1201px) and (max-width: 1280px) {
+@media only screen and (min-width: 1241px) and (max-width: 1280px) {
   #home-section .vertical-container .img-container .bg-circle-container {
-    right: 112%; } }
+    right: 115%; }
+  #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+    right: 600px; } }
 
 @media only screen and (min-width: 791px) and (max-width: 1280px) {
   #home-section .vertical-container .intro-area .yellow-bg .container h1 {
@@ -422,14 +423,118 @@ header {
       height: 1100px; } }
 
 /* laptop */
-@media only screen and (min-width: 1135px) and (max-width: 1140px) {
-  #home-section .vertical-container .img-container .bg-circle-container {
-    right: 114%; } }
-
-/* laptop */
 @media only screen and (min-width: 1026px) and (max-width: 1134px) {
   #home-section .vertical-container .img-container .hero-bg-shadow {
     left: 12%; } }
+
+@media only screen and (min-width: 1201px) and (max-width: 1240px) {
+  #home-section .vertical-container .img-container .bg-circle-container {
+    right: 115%; }
+  #home-section .vertical-container .intro-area h5 {
+    margin-left: 116px; }
+  #home-section .vertical-container .intro-area .yellow-bg {
+    padding: 45px 0 !important; }
+    #home-section .vertical-container .intro-area .yellow-bg h1 {
+      font-size: 3.125rem !important; }
+    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+      right: 534px; }
+  #home-section .vertical-container .intro-area-bg {
+    height: 312px !important; } }
+
+@media only screen and (min-width: 1141px) and (max-width: 1200px) {
+  #home-section .vertical-container .img-container .bg-circle-container {
+    right: 96%; }
+  #home-section .vertical-container .intro-area h5 {
+    margin-left: 133px; }
+  #home-section .vertical-container .intro-area .yellow-bg {
+    padding: 45px 0 !important; }
+    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+      right: 534px; }
+  #home-section .vertical-container .intro-area-bg {
+    height: 310px !important; } }
+
+@media only screen and (min-width: 951px) and (max-width: 1240px) {
+  #home-section .container {
+    position: initial; }
+  #home-section .vertical-container .img-container img.hero-img {
+    width: 32%; }
+  #home-section .vertical-container .img-container img.shirt-gradient {
+    width: 32%; }
+  #home-section .vertical-container .intro-area {
+    position: relative;
+    height: 100vh; }
+    #home-section .vertical-container .intro-area h5 {
+      display: block;
+      position: absolute;
+      top: 23.5%; }
+    #home-section .vertical-container .intro-area .yellow-bg {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 75vw;
+      height: initial;
+      -webkit-box-shadow: initial;
+      box-shadow: initial;
+      padding: 40px 0;
+      -webkit-clip-path: initial;
+      clip-path: initial;
+      margin-top: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      overflow: hidden; }
+      #home-section .vertical-container .intro-area .yellow-bg .container {
+        margin: 0;
+        max-width: initial; }
+        #home-section .vertical-container .intro-area .yellow-bg .container h1 {
+          font-size: 3rem;
+          margin-left: auto;
+          margin-top: -8px; }
+        #home-section .vertical-container .intro-area .yellow-bg .container h3 {
+          margin-left: initial;
+          margin-right: auto; }
+        #home-section .vertical-container .intro-area .yellow-bg .container p {
+          margin-left: initial;
+          margin-right: auto; }
+        #home-section .vertical-container .intro-area .yellow-bg .container .call-actions {
+          margin-left: initial;
+          margin-right: auto; }
+      #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+        display: block;
+        position: absolute;
+        opacity: 0.8;
+        width: 500px;
+        top: 67%; }
+  #home-section .vertical-container .intro-area-bg {
+    background: #FEB332;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100px;
+    height: 300px; } }
+
+@media only screen and (min-width: 1051px) and (max-width: 1140px) {
+  #home-section .vertical-container .img-container .bg-circle-container {
+    right: 116%; }
+  #home-section .vertical-container .intro-area h5 {
+    margin-left: 83px; }
+  #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+    right: 486px; } }
+
+@media only screen and (min-width: 951px) and (max-width: 1051px) {
+  #home-section .vertical-container .img-container .bg-circle-container {
+    right: 140%; }
+  #home-section .vertical-container .intro-area h5 {
+    margin-left: 33px; }
+  #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+    right: 435px; } }
 
 @media only screen and (min-width: 801px) and (max-width: 950px) {
   #home-section .container {
@@ -511,89 +616,6 @@ header {
     bottom: 27.9%; }
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 168%; } }
-
-@media only screen and (min-width: 951px) and (max-width: 1100px) {
-  #home-section .container {
-    position: initial; }
-  #home-section .vertical-container .intro-area {
-    position: relative; }
-    #home-section .vertical-container .intro-area h5 {
-      display: none; }
-    #home-section .vertical-container .intro-area .yellow-bg {
-      background: #aaa;
-      position: absolute;
-      right: 0;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      transform: translateY(-50%);
-      width: 70vw;
-      height: initial;
-      -webkit-box-shadow: initial;
-      box-shadow: initial;
-      padding: 40px 0;
-      -webkit-clip-path: initial;
-      clip-path: initial;
-      margin-top: 0;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: end;
-      -ms-flex-pack: end;
-      justify-content: flex-end; }
-      #home-section .vertical-container .intro-area .yellow-bg .container {
-        margin: 0;
-        max-width: initial; }
-        #home-section .vertical-container .intro-area .yellow-bg .container h1 {
-          font-size: 3rem;
-          margin-left: auto;
-          margin-top: -8px; }
-        #home-section .vertical-container .intro-area .yellow-bg .container h3 {
-          margin-left: initial;
-          margin-right: auto; }
-        #home-section .vertical-container .intro-area .yellow-bg .container p {
-          margin-left: initial;
-          margin-right: auto; }
-        #home-section .vertical-container .intro-area .yellow-bg .container .call-actions {
-          margin-left: initial;
-          margin-right: auto; }
-      #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-        display: none; }
-  #home-section .vertical-container .intro-area-bg {
-    background: indianred;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 100px;
-    height: 300px; } }
-
-@media only screen and (min-width: 951px) and (max-width: 1100px) {
-  #home-section .vertical-container .img-container img.hero-img {
-    width: 32%; }
-  #home-section .vertical-container .img-container img.shirt-gradient {
-    width: 32%; }
-  #home-section .vertical-container .img-container .bg-circle-container {
-    right: 140%; }
-  #home-section .vertical-container .intro-area {
-    height: 100vh; }
-    #home-section .vertical-container .intro-area h5 {
-      display: block;
-      margin-left: 33px;
-      position: absolute;
-      top: 23.5%; }
-    #home-section .vertical-container .intro-area .yellow-bg {
-      background: #FEB332;
-      overflow: hidden; }
-      #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-        display: block;
-        width: 500px;
-        position: absolute;
-        top: 67%;
-        right: 435px;
-        opacity: 0.8; }
-  #home-section .vertical-container .intro-area-bg {
-    background: #FEB332; } }
 
 @media only screen and (min-width: 791px) and (max-width: 800px) {
   #home-section .container {
