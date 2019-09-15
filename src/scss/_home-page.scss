@@ -344,12 +344,9 @@
     .vertical-container{
       .img-container{
         img.hero-img{
-          width: 35%;
         }
 
         img.shirt-gradient{
-          width: 35%;
-          bottom: 23.1%;
         }
 
         .hero-bg-shadow{
@@ -373,19 +370,6 @@
 
 
 
-/* laptop */
- // .hero-bg-shadow
-@media only screen and (min-width: 1026px) and (max-width: 1134px){
-  #home-section {
-    .vertical-container {
-      .img-container {
-        .hero-bg-shadow {
-          left: 12%;
-        }
-      }
-    }
-  }
-}
 
 
 //smaller laptop view
@@ -514,11 +498,9 @@
         
   
         img.hero-img{
-          width: 32%;
         }
   
         img.shirt-gradient{
-          width: 32%;
         }
   
         .hero-bg-shadow{
@@ -868,8 +850,8 @@
 }
 
 
- // .img-container
 /* laptop */
+//bg-circle-container
 @media only screen and (min-width: 901px) and (max-width: 949px){
   #home-section{
     .vertical-container{
@@ -896,29 +878,16 @@
   }
 }
 
- /* laptop */
- //img.hero-img
-@media only screen and (min-width: 801px) and (max-width: 885px){
-  #home-section{
-    .vertical-container{
-      .img-container{
-        img.hero-img{
-          width: 40%;
-        }
-      }
-    }
-  }
-}
+
 
 
  /* laptop */
-  // .img-container
+  // .bg-circle-container
 @media only screen and (min-width: 801px) and (max-width: 839px){
   #home-section{
     .vertical-container{
       .img-container{
         img.shirt-gradient{
-          bottom: 27.9%;
         }
 
         .bg-circle-container{
@@ -931,8 +900,12 @@
 }
 
 
+
+
+
+
 //hero img styles
-@media only screen and (min-width: 801px) and (max-width: 950px){
+@media only screen and (min-width: 801px) and (max-width: 1280px){
   #home-section{
     .container{
     }
@@ -944,14 +917,51 @@
         position: relative;
   
         img.hero-img{
-          width: 75%;
           top: 50%;
           left: 0;
           transform: translateY(-50%);
         }
   
         img.shirt-gradient{
-       
+          // top: 64%;
+          left: 0;
+          transform: translateY(-50%);
+        }
+  
+        .hero-bg-shadow{
+      
+        }
+  
+        .bg-circle-container{
+      
+  
+          .bg-circle-big{
+  
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//hero img styles
+@media only screen and (min-width: 801px) and (max-width: 900px){
+  #home-section{
+    .container{
+    }
+
+    .vertical-container{
+  
+  
+      .img-container{
+        img.hero-img{
+          width: 75%;
+        }
+  
+        img.shirt-gradient{
+          width: 75%;
+          top: 64%;
         }
   
         .hero-bg-shadow{
