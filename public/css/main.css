@@ -403,6 +403,10 @@ header {
   #home-section .vertical-container .img-container img.shirt-gradient {
     width: 68% !important; } }
 
+@media only screen and (min-width: 1140px) and (max-width: 1280px) {
+  #home-section .vertical-container .img-container .hero-bg-shadow {
+    left: 130px !important; } }
+
 @media only screen and (min-width: 801px) and (max-width: 1280px) {
   #home-section .vertical-container .img-container {
     position: relative !important; }
@@ -415,7 +419,10 @@ header {
       top: 64% !important;
       left: 0 !important;
       -webkit-transform: translateY(-50%) !important;
-      transform: translateY(-50%) !important; } }
+      transform: translateY(-50%) !important; }
+    #home-section .vertical-container .img-container .hero-bg-shadow {
+      width: 100px !important;
+      height: 100px !important; } }
 
 @media only screen and (min-width: 791px) and (max-width: 1280px) {
   #home-section .vertical-container .intro-area .yellow-bg .container h1 {
@@ -426,18 +433,6 @@ header {
     line-height: 1.2 !important; }
   #home-section .vertical-container .intro-area .yellow-bg .container p {
     font-size: 1rem !important; } }
-
-/* laptop */
-@media only screen and (min-width: 801px) and (max-width: 1200px) {
-  #home-section .vertical-container .img-container .hero-bg-shadow {
-    width: 100px !important;
-    height: 100px !important; }
-  #home-section .vertical-container .img-container .bg-circle-container {
-    width: 1100px !important;
-    height: 1100px !important; }
-    #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
-      width: 1100px !important;
-      height: 1100px !important; } }
 
 @media only screen and (min-width: 1201px) and (max-width: 1240px) {
   #home-section .vertical-container .img-container .bg-circle-container {
@@ -452,18 +447,6 @@ header {
       right: 534px !important; }
   #home-section .vertical-container .intro-area-bg {
     height: 312px !important; } }
-
-@media only screen and (min-width: 1141px) and (max-width: 1200px) {
-  #home-section .vertical-container .img-container .bg-circle-container {
-    right: 96% !important; }
-  #home-section .vertical-container .intro-area h5 {
-    margin-left: 133px !important; }
-  #home-section .vertical-container .intro-area .yellow-bg {
-    padding: 45px 0 !important; }
-    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-      right: 534px !important; }
-  #home-section .vertical-container .intro-area-bg {
-    height: 310px !important; } }
 
 @media only screen and (min-width: 951px) and (max-width: 1240px) {
   #home-section .container {
@@ -528,11 +511,34 @@ header {
     width: 100px !important;
     height: 300px !important; } }
 
+@media only screen and (min-width: 1141px) and (max-width: 1200px) {
+  #home-section .vertical-container .img-container .bg-circle-container {
+    right: 96% !important; }
+  #home-section .vertical-container .intro-area h5 {
+    margin-left: 133px !important; }
+  #home-section .vertical-container .intro-area .yellow-bg {
+    padding: 45px 0 !important; }
+    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+      right: 534px !important; }
+  #home-section .vertical-container .intro-area-bg {
+    height: 310px !important; } }
+
+/* laptop */
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  #home-section .vertical-container .img-container .bg-circle-container {
+    width: 1100px !important;
+    height: 1100px !important; }
+    #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
+      width: 1100px !important;
+      height: 1100px !important; } }
+
 @media only screen and (min-width: 1051px) and (max-width: 1140px) {
   #home-section .vertical-container .img-container img.hero-img {
     width: 66% !important; }
   #home-section .vertical-container .img-container img.shirt-gradient {
     width: 66% !important; }
+  #home-section .vertical-container .img-container .hero-bg-shadow {
+    left: 105px !important; }
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 116% !important; }
   #home-section .vertical-container .intro-area h5 {
@@ -557,6 +563,10 @@ header {
     width: 70% !important; }
   #home-section .vertical-container .intro-area .yellow-bg {
     width: 75vw !important; } }
+
+@media only screen and (min-width: 840px) and (max-width: 1050px) {
+  #home-section .vertical-container .img-container .hero-bg-shadow {
+    left: 95px !important; } }
 
 /* laptop */
 @media only screen and (min-width: 950px) and (max-width: 950px) {
@@ -642,6 +652,8 @@ header {
 
 /* laptop */
 @media only screen and (min-width: 801px) and (max-width: 839px) {
+  #home-section .vertical-container .img-container .hero-bg-shadow {
+    left: 85px !important; }
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 168% !important; } }
 
