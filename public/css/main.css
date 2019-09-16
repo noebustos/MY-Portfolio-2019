@@ -239,7 +239,7 @@ header {
   background: #0057B2;
   height: 100vh;
   overflow: hidden; }
-  #home-section .vertical-container {
+  #home-section .container .vertical-container {
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -258,28 +258,30 @@ header {
     align-items: center;
     -ms-flex-line-pack: center;
     align-content: center; }
-    #home-section .vertical-container .img-container {
+    #home-section .container .vertical-container .img-container {
       width: 50%;
       display: inline-block;
       text-align: center; }
-      #home-section .vertical-container .img-container img.hero-img {
-        width: 440px;
+      #home-section .container .vertical-container .img-container img.hero-img {
+        width: 420px;
         margin: 0 auto;
-        position: absolute;
-        top: 20.1%;
-        left: 6%;
-        z-index: 10; }
-      #home-section .vertical-container .img-container img.shirt-gradient {
-        width: 440px;
-        margin: 0 auto;
-        position: absolute;
-        bottom: 27.1%;
-        left: 6%;
-        z-index: 11; }
-      #home-section .vertical-container .img-container .hero-bg-shadow {
         position: absolute;
         top: 50%;
-        left: 18%;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 10; }
+      #home-section .container .vertical-container .img-container img.shirt-gradient {
+        width: 440px;
+        margin: 0 auto;
+        position: absolute;
+        top: 69%;
+        left: 0;
+        z-index: 11; }
+      #home-section .container .vertical-container .img-container .hero-bg-shadow {
+        position: absolute;
+        top: 50%;
+        left: 11%;
         z-index: 9;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -288,7 +290,7 @@ header {
         border-radius: 50%;
         -webkit-box-shadow: 0 0 140px 140px rgba(0, 0, 0, 0.2);
         box-shadow: 0 0 140px 140px rgba(0, 0, 0, 0.2); }
-      #home-section .vertical-container .img-container .bg-circle-container {
+      #home-section .container .vertical-container .img-container .bg-circle-container {
         background: rgba(3, 77, 154, 0.95);
         width: 1200px;
         height: 1200px;
@@ -296,7 +298,7 @@ header {
         position: relative;
         right: 98%;
         z-index: 2; }
-        #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
+        #home-section .container .vertical-container .img-container .bg-circle-container .bg-circle-big {
           -webkit-box-shadow: 0px 0px 50px 20px rgba(50, 50, 50, 0.1);
           box-shadow: 0px 0px 50px 20px rgba(50, 50, 50, 0.1);
           background: -webkit-gradient(linear, left top, right top, from(rgba(3, 77, 154, 0.9)), to(rgba(3, 77, 154, 0.9))), url("../img/code-syntax.jpg") center center;
@@ -309,11 +311,11 @@ header {
           border-radius: 50%;
           position: relative;
           z-index: 1; }
-    #home-section .vertical-container .intro-area {
+    #home-section .container .vertical-container .intro-area {
       width: 50%;
       display: inline-block; }
-      #home-section .vertical-container .intro-area h5 {
-        margin-left: 50px;
+      #home-section .container .vertical-container .intro-area h5 {
+        margin-left: 91px;
         font-size: 80px;
         letter-spacing: -5px;
         font-weight: 800;
@@ -322,41 +324,41 @@ header {
         background: linear-gradient(0deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.08) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
-      #home-section .vertical-container .intro-area .yellow-bg {
+      #home-section .container .vertical-container .intro-area .yellow-bg {
         background: #FEB332;
         padding: 45px 75px;
         margin-top: -12px;
-        width: 835px;
         height: 310px;
         position: relative;
-        right: 39%;
         z-index: 5;
         -webkit-clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
         clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
         -webkit-filter: drop-shadow(-20px 20px 10px rgba(50, 50, 50, 0.1));
-        filter: drop-shadow(-20px 20px 10px rgba(50, 50, 50, 0.1)); }
-        #home-section .vertical-container .intro-area .yellow-bg .container {
-          margin-left: 220px; }
-          #home-section .vertical-container .intro-area .yellow-bg .container h1 {
+        filter: drop-shadow(-20px 20px 10px rgba(50, 50, 50, 0.1));
+        width: 930px;
+        right: 55%; }
+        #home-section .container .vertical-container .intro-area .yellow-bg .container {
+          margin-left: 350px; }
+          #home-section .container .vertical-container .intro-area .yellow-bg .container h1 {
             font-size: 3.125rem;
             font-weight: 700;
             color: #fff;
             text-transform: uppercase;
             margin-top: -8px; }
-          #home-section .vertical-container .intro-area .yellow-bg .container h3 {
-            font-size: 28px;
+          #home-section .container .vertical-container .intro-area .yellow-bg .container h3 {
+            font-size: 1.8rem;
             color: #fff;
             text-transform: capitalize;
             margin-top: 10px; }
-          #home-section .vertical-container .intro-area .yellow-bg .container p {
+          #home-section .container .vertical-container .intro-area .yellow-bg .container p {
             font-size: 1.1rem;
             color: #fff;
             font-weight: 500;
             margin-top: 40px; }
-          #home-section .vertical-container .intro-area .yellow-bg .container .call-actions {
+          #home-section .container .vertical-container .intro-area .yellow-bg .container .call-actions {
             margin-top: 50px;
             margin-bottom: 12px; }
-            #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a {
+            #home-section .container .vertical-container .intro-area .yellow-bg .container .call-actions a {
               margin-right: 20px;
               text-transform: uppercase;
               padding: 10px 30px;
@@ -366,34 +368,54 @@ header {
               border-radius: 5px;
               -webkit-transition: all .2s ease-in-out;
               transition: all .2s ease-in-out; }
-              #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.resume-btn {
+              #home-section .container .vertical-container .intro-area .yellow-bg .container .call-actions a.resume-btn {
                 background: #fff;
                 color: #FEB332; }
-                #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.resume-btn:hover {
+                #home-section .container .vertical-container .intro-area .yellow-bg .container .call-actions a.resume-btn:hover {
                   background: #0057B2;
                   color: #fff;
                   padding: 10px 30px; }
-              #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn {
+              #home-section .container .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn {
                 padding: 7px 27px;
                 border: 3px solid #fff;
                 color: #fff; }
-                #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn:hover {
+                #home-section .container .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn:hover {
                   background: #0057B2;
                   color: #fff;
                   border: 3px solid #0057B2; }
-        #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-          width: 342px;
+        #home-section .container .vertical-container .intro-area .yellow-bg .bg-cutout {
           position: absolute;
-          top: 50%;
-          right: 69.9%;
           -webkit-transform: translateY(-50%) scaleX(-1);
-          transform: translateY(-50%) scaleX(-1); }
+          transform: translateY(-50%) scaleX(-1);
+          width: 371px;
+          top: 53%;
+          right: 63%; }
 
 @media only screen and (min-width: 1241px) and (max-width: 1280px) {
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 115%; }
   #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
     right: 600px; } }
+
+@media only screen and (min-width: 1141px) and (max-width: 1280px) {
+  #home-section .vertical-container .img-container img.hero-img {
+    width: 68%; }
+  #home-section .vertical-container .img-container img.shirt-gradient {
+    width: 68%; } }
+
+@media only screen and (min-width: 801px) and (max-width: 1280px) {
+  #home-section .vertical-container .img-container {
+    position: relative; }
+    #home-section .vertical-container .img-container img.hero-img {
+      top: 50%;
+      left: 0;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); }
+    #home-section .vertical-container .img-container img.shirt-gradient {
+      top: 64%;
+      left: 0;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); } }
 
 @media only screen and (min-width: 791px) and (max-width: 1280px) {
   #home-section .vertical-container .intro-area .yellow-bg .container h1 {
@@ -507,12 +529,18 @@ header {
     height: 300px; } }
 
 @media only screen and (min-width: 1051px) and (max-width: 1140px) {
+  #home-section .vertical-container .img-container img.hero-img {
+    width: 66%; }
+  #home-section .vertical-container .img-container img.shirt-gradient {
+    width: 66%; }
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 116%; }
   #home-section .vertical-container .intro-area h5 {
     margin-left: 83px; }
-  #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
-    right: 486px; } }
+  #home-section .vertical-container .intro-area .yellow-bg {
+    width: 75vw !important; }
+    #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
+      right: 486px; } }
 
 @media only screen and (min-width: 951px) and (max-width: 1051px) {
   #home-section .vertical-container .img-container .bg-circle-container {
@@ -521,6 +549,14 @@ header {
     margin-left: 33px; }
   #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
     right: 435px; } }
+
+@media only screen and (min-width: 901px) and (max-width: 1050px) {
+  #home-section .vertical-container .img-container img.hero-img {
+    width: 70%; }
+  #home-section .vertical-container .img-container img.shirt-gradient {
+    width: 70%; }
+  #home-section .vertical-container .intro-area .yellow-bg {
+    width: 75vw !important; } }
 
 @media only screen and (min-width: 801px) and (max-width: 950px) {
   #home-section .container {
@@ -591,30 +627,16 @@ header {
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 157%; } }
 
-/* laptop */
-@media only screen and (min-width: 801px) and (max-width: 839px) {
-  #home-section .vertical-container .img-container .bg-circle-container {
-    right: 168%; } }
-
-@media only screen and (min-width: 801px) and (max-width: 1280px) {
-  #home-section .vertical-container .img-container {
-    position: relative; }
-    #home-section .vertical-container .img-container img.hero-img {
-      top: 50%;
-      left: 0;
-      -webkit-transform: translateY(-50%);
-      transform: translateY(-50%); }
-    #home-section .vertical-container .img-container img.shirt-gradient {
-      left: 0;
-      -webkit-transform: translateY(-50%);
-      transform: translateY(-50%); } }
-
 @media only screen and (min-width: 801px) and (max-width: 900px) {
   #home-section .vertical-container .img-container img.hero-img {
     width: 75%; }
   #home-section .vertical-container .img-container img.shirt-gradient {
-    width: 75%;
-    top: 64%; } }
+    width: 75%; } }
+
+/* laptop */
+@media only screen and (min-width: 801px) and (max-width: 839px) {
+  #home-section .vertical-container .img-container .bg-circle-container {
+    right: 168%; } }
 
 @media only screen and (min-width: 791px) and (max-width: 800px) {
   #home-section .container {
@@ -995,7 +1017,7 @@ header {
             position: relative;
             color: #555555; }
             #contact-section .content .columns.left-column .forward-container .title-questions h6 {
-              font-size: 1.7rem;
+              font-size: 1.8rem;
               position: relative;
               z-index: 20;
               letter-spacing: 1px;
@@ -2182,7 +2204,7 @@ header {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 52%;
+    width: 55%;
     margin: 0 auto; }
     #skills-section .skills-container .skill .skill-title {
       font-size: 1.2rem;
