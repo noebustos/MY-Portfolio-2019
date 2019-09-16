@@ -511,6 +511,11 @@ header {
     width: 100px !important;
     height: 300px !important; } }
 
+/* laptop (smaller height) */
+@media only screen and (min-width: 801px) and (min-height: 700px) and (max-height: 750px) and (max-width: 1240px) {
+  #home-section .vertical-container .intro-area h5 {
+    top: 20.7% !important; } }
+
 @media only screen and (min-width: 1141px) and (max-width: 1200px) {
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 96% !important; }
@@ -662,7 +667,6 @@ header {
   #home-section .container {
     max-width: initial !important; }
     #home-section .container .vertical-container .intro-area .yellow-bg {
-      top: -7vh !important;
       width: 37vw !important; } }
 
 @media only screen and (min-width: 730px) and (max-width: 800px) {
@@ -671,24 +675,25 @@ header {
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
   #home-section {
-    padding: 120px 0 120px 30px !important; }
+    padding: 0 0 0 30px !important; }
     #home-section .vertical-container .img-container {
       display: block !important; }
       #home-section .vertical-container .img-container img.hero-img {
-        width: 45% !important;
+        width: 43% !important;
         top: 50% !important;
         -webkit-transform: translateY(-50%) !important;
         transform: translateY(-50%) !important; }
       #home-section .vertical-container .img-container img.shirt-gradient {
-        width: 45% !important;
+        width: 43% !important;
         margin: 0 auto !important;
         position: absolute !important;
-        bottom: 24.7% !important; }
+        top: initial !important;
+        bottom: 20.7% !important; }
       #home-section .vertical-container .img-container .hero-bg-shadow {
         position: absolute !important;
-        left: 20% !important;
-        width: 100px !important;
-        height: 100px !important; }
+        left: 14% !important;
+        width: 90px !important;
+        height: 90px !important; }
       #home-section .vertical-container .img-container .bg-circle-container {
         width: 100vw !important;
         height: 66.66vh !important;
@@ -727,7 +732,8 @@ header {
         -webkit-filter: none !important;
         filter: none !important;
         -webkit-box-shadow: -20px 20px 10px rgba(50, 50, 50, 0.1) !important;
-        box-shadow: -20px 20px 10px rgba(50, 50, 50, 0.1) !important; }
+        box-shadow: -20px 20px 10px rgba(50, 50, 50, 0.1) !important;
+        bottom: 0 !important; }
         #home-section .vertical-container .intro-area .yellow-bg .container {
           margin: 0 !important;
           width: 100% !important; }
@@ -781,7 +787,7 @@ header {
 
 @media only screen and (min-width: 651px) and (max-width: 790px) {
   #home-section .vertical-container .intro-area .yellow-bg {
-    top: -7.2vh !important; } }
+    height: 92.5vh !important; } }
 
 @media only screen and (min-width: 480px) and (max-width: 790px) {
   #home-section .vertical-container .intro-area .yellow-bg .container h1 {
@@ -796,8 +802,7 @@ header {
 
 @media only screen and (min-width: 601px) and (max-width: 685px) {
   #home-section .vertical-container .intro-area .yellow-bg {
-    padding: 40px 30px !important;
-    top: -6.5vh !important; }
+    padding: 40px 30px !important; }
     #home-section .vertical-container .intro-area .yellow-bg .container h1 {
       font-size: 2.7rem !important; }
     #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn {
@@ -805,11 +810,13 @@ header {
       #home-section .vertical-container .intro-area .yellow-bg .container .call-actions a.hire-btn:hover {
         padding: 9px 50px !important; } }
 
-@media only screen and (min-width: 618px) and (max-width: 644px) {
+@media only screen and (min-width: 601px) and (max-width: 650px) {
   #home-section .vertical-container .img-container .hero-bg-shadow {
-    left: 20% !important;
+    left: 14% !important;
     width: 90px !important;
-    height: 90px !important; } }
+    height: 90px !important; }
+  #home-section .vertical-container .intro-area .yellow-bg {
+    height: 91.8vh !important; } }
 
 @media only screen and (min-width: 480px) and (max-width: 600px) {
   #home-section .vertical-container .intro-area h5 {
