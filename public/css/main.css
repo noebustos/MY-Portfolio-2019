@@ -588,7 +588,6 @@ header {
       top: 50% !important;
       -webkit-transform: translateY(-50%) !important;
       transform: translateY(-50%) !important;
-      width: 70vw !important;
       -webkit-box-shadow: initial !important;
       box-shadow: initial !important;
       padding: 38px 0 !important;
@@ -648,7 +647,9 @@ header {
   #home-section .vertical-container .img-container img.hero-img {
     width: 75% !important; }
   #home-section .vertical-container .img-container img.shirt-gradient {
-    width: 75% !important; } }
+    width: 75% !important; }
+  #home-section .vertical-container .intro-area .yellow-bg {
+    width: 71vw !important; } }
 
 /* laptop */
 @media only screen and (min-width: 801px) and (max-width: 839px) {
