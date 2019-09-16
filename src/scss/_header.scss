@@ -114,14 +114,14 @@ header{
 }
 
 
-
 /* Smartphones (portrait and landscape) */
 //mobile menue
 @media only screen and (min-width: 300px) and (max-width: 650px){ 
   header{
     width: 100% !important;
     padding: 20px;
-    background: rgba(0, 0, 0, .2);
+    background: rgba(0, 0, 0, .25);
+    // background: #19468A;
 
     &.scroll{
       box-shadow: 0px 0px 10px 5px rgba(0,0,0,.1);
@@ -233,9 +233,13 @@ header{
 }
 
 // background: rgba(255,255,255,.95);
-@media only screen and (min-width: 651px) and (max-width: 700px){
+@media only screen and (min-width: 651px) and (max-width: 800px){
   header{
-    background: rgba(0, 0, 0, .2) !important;
+    background: rgba(0, 0, 0, .28) !important;
+    
+    &.scroll{
+      background: rgba(255, 255, 255, 0.95) !important;
+    }
   }
 }
 
@@ -247,10 +251,12 @@ header{
 }
 
 
+
  /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 651px) and (max-width: 780px){ 
   header{
     &.scroll{
+
       .logo{
         vertical-align: middle;
 

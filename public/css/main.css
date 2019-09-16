@@ -129,7 +129,7 @@ header {
   header {
     width: 100% !important;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.2); }
+    background: rgba(0, 0, 0, 0.25); }
     header.scroll {
       -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
       box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); }
@@ -206,9 +206,11 @@ header {
             header.header-open .container nav a img {
               display: none; } }
 
-@media only screen and (min-width: 651px) and (max-width: 700px) {
+@media only screen and (min-width: 651px) and (max-width: 800px) {
   header {
-    background: rgba(0, 0, 0, 0.2) !important; } }
+    background: rgba(0, 0, 0, 0.28) !important; }
+    header.scroll {
+      background: rgba(255, 255, 255, 0.95) !important; } }
 
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 790px) {
@@ -394,6 +396,9 @@ header {
 @media only screen and (min-width: 1241px) and (max-width: 1280px) {
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 115% !important; }
+  #home-section .vertical-container .intro-area h5 {
+    position: relative;
+    left: 27px; }
   #home-section .vertical-container .intro-area .yellow-bg .bg-cutout {
     right: 600px !important; } }
 
@@ -438,7 +443,9 @@ header {
   #home-section .vertical-container .img-container .bg-circle-container {
     right: 115% !important; }
   #home-section .vertical-container .intro-area h5 {
-    margin-left: 116px !important; }
+    margin-left: 50px !important;
+    position: relative;
+    left: 82px; }
   #home-section .vertical-container .intro-area .yellow-bg {
     padding: 45px 0 !important; }
     #home-section .vertical-container .intro-area .yellow-bg h1 {
@@ -697,15 +704,15 @@ header {
       #home-section .vertical-container .img-container .bg-circle-container {
         width: 100vw !important;
         height: 66.66vh !important;
-        top: -57px !important;
+        top: 0 !important;
         right: initial !important;
         left: -30px !important;
         border-radius: 0 !important;
         position: absolute !important;
         background: initial !important; }
         #home-section .vertical-container .img-container .bg-circle-container .bg-circle-big {
-          background: -webkit-gradient(linear, left bottom, left top, from(#0057b2), to(rgba(0, 87, 178, 0.8))), url("../img/code-syntax.jpg") center center !important;
-          background: linear-gradient(0deg, #0057b2 0%, rgba(0, 87, 178, 0.8) 100%), url("../img/code-syntax.jpg") center center !important;
+          background: -webkit-gradient(linear, left bottom, left top, color-stop(-10%, #0057b2), to(rgba(0, 87, 178, 0.82))), url("../img/code-syntax.jpg") center center !important;
+          background: linear-gradient(0deg, #0057b2 -10%, rgba(0, 87, 178, 0.82) 100%), url("../img/code-syntax.jpg") center center !important;
           background-size: 150% !important;
           width: 100vw !important;
           height: 66.66vh !important;

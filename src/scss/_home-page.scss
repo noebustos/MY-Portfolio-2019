@@ -234,6 +234,8 @@
       .intro-area{
   
         h5{
+          position: relative;
+          left: 27px;      
         }
   
         .yellow-bg{
@@ -478,7 +480,9 @@
       .intro-area{
   
         h5{
-          margin-left: 116px !important;
+          margin-left: 50px !important;
+          position: relative;
+          left: 82px;
         }
   
         .yellow-bg{
@@ -1129,8 +1133,6 @@
 
 
 
-
-
 //yellow-bg position fix
 @media only screen and (min-width: 791px) and (max-width: 800px){
   #home-section{
@@ -1193,7 +1195,7 @@
           width: 100vw !important;
           // height: 55vh;
           height: 66.66vh !important;
-          top: -57px !important;
+          top: 0 !important;
           right: initial !important;
           left: -30px !important;
           border-radius: 0 !important;
@@ -1201,7 +1203,7 @@
           background: initial !important;
 
           .bg-circle-big{
-            background: linear-gradient(0deg, rgba(0,87,178,1) 0%, rgba(0,87,178,0.8) 100%), url("../img/code-syntax.jpg")center center !important;
+            background: linear-gradient(0deg, rgba(0,87,178,1) -10%, rgba(0,87,178,0.82) 100%), url("../img/code-syntax.jpg")center center !important;
             background-size: 150% !important;
             width: 100vw !important;
             height: 66.66vh !important;
