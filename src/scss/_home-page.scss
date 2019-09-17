@@ -812,7 +812,6 @@
 
         .bg-circle-container {
           width: 100vw !important;
-          // height: 55vh;
           height: 66.66vh !important;
           top: 0 !important;
           right: initial !important;
@@ -839,7 +838,6 @@
         }
 
         .yellow-bg {
-          // background: #aaa;
           display: flex !important;
           justify-content: center !important;
           margin-top: 0 !important;
@@ -847,7 +845,6 @@
           width: 40vw !important;
           right: 0 !important;
           position: absolute !important;
-          //change height.
           height: 93vh !important;
           clip-path: none !important;
           filter: none !important;
@@ -926,7 +923,6 @@
   }
 }
 
-//651-790
 @media only screen and (min-width: 651px) and (max-width: 790px) {
   #home-section {
     .vertical-container {
@@ -960,14 +956,6 @@
               font-size: 1rem !important;
               line-height: 1.4 !important;
             }
-
-            .call-actions {
-              a {
-                &.hire-btn {}
-
-                &:hover {}
-              }
-            }
           }
         }
       }
@@ -982,7 +970,6 @@
       .intro-area {
         .yellow-bg {
           padding: 40px 30px !important;
-
 
           .container {
             h1 {
