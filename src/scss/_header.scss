@@ -1,4 +1,4 @@
-header{
+header {
   margin: 0 auto;
   position: fixed;
   left: 0;
@@ -10,61 +10,62 @@ header{
   color: #fff;
   vertical-align: middle;
 
-  &.scroll{
-    background: rgba(255,255,255,.95);
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,.1);
+  &.scroll {
+    background: rgba(255, 255, 255, .95);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .1);
 
-   .mobile-menu-icons{
-      .hamburger-icon{
+    .mobile-menu-icons {
+      .hamburger-icon {
         color: $med-black;
       }
-      .out-icon{
-        color: $med-black;
-      }
-    }
 
-    .logo{
-      a{
+      .out-icon {
         color: $med-black;
       }
     }
 
-    a{
+    .logo {
+      a {
+        color: $med-black;
+      }
+    }
+
+    a {
       color: $med-black;
     }
   }
 
-  .mobile-menu-icons{
+  .mobile-menu-icons {
     display: none;
 
-    .hamburger-icon{
+    .hamburger-icon {
       padding: 5px;
       font-size: 1.5rem;
     }
 
-    .out-icon{
+    .out-icon {
       padding: 5px;
       font-size: 1.5rem;
     }
   }
 
-  .logo{
+  .logo {
     display: inline-block;
     font-weight: 700;
     font-size: 1.1rem;
 
-    a{
+    a {
       color: #fff;
       position: relative;
       z-index: 21
     }
   }
 
-  nav{
+  nav {
     display: inline-block;
     float: right;
-    
-    a{
+
+    a {
       letter-spacing: 1px;
       color: #fff;
       font-weight: 700;
@@ -72,39 +73,39 @@ header{
       transition: all .2s ease-in-out;
       display: inline-block;
 
-      img{
+      img {
         display: block;
         margin-top: 5px;
-        opacity: 0; 
+        opacity: 0;
         transform: translateY(- 5px);
-	      transition: transform .2s $easeOutBack, opacity .15s;
+        transition: transform .2s $easeOutBack, opacity .15s;
 
-        &.skills-underline{
+        &.skills-underline {
           width: 100%;
         }
       }
 
-      &:nth-child(5){
+      &:nth-child(5) {
         margin-right: -.5px;
       }
 
-      &:hover{
+      &:hover {
         font-weight: 800;
         color: $main-yellow;
 
-        img{
+        img {
           opacity: 1;
           transform: translateY(0);
         }
       }
-      
-      &.active{
+
+      &.active {
         color: #aaa;
         padding-bottom: 0;
         cursor: default;
 
-        &:hover{
-          img{
+        &:hover {
+          img {
             opacity: 0;
           }
         }
@@ -113,172 +114,167 @@ header{
   }
 }
 
-
 /* Smartphones (portrait and landscape) */
-//mobile menue
-@media only screen and (min-width: 300px) and (max-width: 650px){ 
-  header{
+//mobile menu
+@media only screen and (min-width: 300px) and (max-width: 650px) {
+  header {
     width: 100% !important;
     padding: 20px;
     background: rgba(0, 0, 0, .25);
-    // background: #19468A;
 
-    &.scroll{
-      box-shadow: 0px 0px 10px 5px rgba(0,0,0,.1);
-      
-      .logo{    
-        a{
+    &.scroll {
+      box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .1);
+
+      .logo {
+        a {
           color: $med-black;
         }
       }
     }
 
-    &.header-close{
-      .container{
+    &.header-close {
+      .container {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
         align-content: center;
 
-        .mobile-menu-icons{
+        .mobile-menu-icons {
           display: block;
 
-    
-          .hamburger-icon{
+          .hamburger-icon {
             display: block;
             padding: 0;
           }
-    
-          .out-icon{
+
+          .out-icon {
             display: none;
             padding: 0;
           }
         }
 
-        .logo{
+        .logo {
           display: block;
         }
 
-        nav{
-          display: none;  
-        } 
+        nav {
+          display: none;
+        }
       }
     }
 
+    &.header-open {
+      background: rgba(255, 255, 255, .95);
+      box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .1);
 
-    &.header-open{
-      background: rgba(255,255,255,.95);
-      box-shadow: 0px 0px 10px 5px rgba(0,0,0,.1);
-
-      .container{
+      .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr;
 
-        .mobile-menu-icons{
+        .mobile-menu-icons {
           display: block;
           color: $rich-black;
           grid-column: 2/3;
           justify-self: end;
 
-          .hamburger-icon{
+          .hamburger-icon {
             display: none;
             padding: 0;
           }
 
-          .out-icon{
+          .out-icon {
             display: block;
             padding: 0;
           }
         }
 
-        .logo{
+        .logo {
           display: block;
           grid-column: 1/2;
           grid-row: 1/2;
           justify-self: start;
           text-align: center;
-          
-          a{
+
+          a {
             color: $med-black;
           }
         }
 
-        nav{
+        nav {
           grid-column: 1/3;
           grid-row: 2/3;
           display: block;
           text-align: center;
 
-          a{
+          a {
             color: $med-black;
             display: block;
             font-size: 1rem;
             padding: 10px 0;
             margin: 0 20px;
 
-            &.active{
+            &.active {
               color: #aaa;
             }
 
-            img{
+            img {
               display: none;
             }
           }
-        } 
+        }
       }
     }
   }
 }
 
 // background: rgba(255,255,255,.95);
-@media only screen and (min-width: 651px) and (max-width: 800px){
-  header{
+@media only screen and (min-width: 651px) and (max-width: 800px) {
+  header {
     background: rgba(0, 0, 0, .28) !important;
-    
-    &.scroll{
+
+    &.scroll {
       background: rgba(255, 255, 255, 0.95) !important;
     }
   }
 }
 
- /* Tablet (portrait and landscape) */
- @media only screen and (min-width: 480px) and (max-width: 790px){ 
-  header{
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 790px) {
+  header {
     padding: 22px 30px !important;
   }
 }
 
 
 
- /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 651px) and (max-width: 780px){ 
-  header{
-    &.scroll{
-
-      .logo{
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 651px) and (max-width: 780px) {
+  header {
+    &.scroll {
+      .logo {
         vertical-align: middle;
 
-        a{
+        a {
           color: $med-black;
         }
       }
     }
 
-    .logo{
+    .logo {
       float: left;
     }
 
-    nav{
-      a{
+    nav {
+      a {
         margin-right: 30px;
 
-        &:nth-child(5){
+        &:nth-child(5) {
           margin-right: 0;
         }
 
-        img{
+        img {
           display: none;
         }
       }
@@ -287,13 +283,12 @@ header{
 }
 
 
-
- /* Tablet (portrait and landscape) */
-@media only screen and (min-width: 780px) and (max-width: 900px){ 
-  header{
-    nav{
-      a{
-        img{
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 780px) and (max-width: 900px) {
+  header {
+    nav {
+      a {
+        img {
           display: none;
         }
       }
