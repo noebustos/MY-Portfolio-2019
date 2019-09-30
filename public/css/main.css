@@ -827,7 +827,7 @@ header {
   #home-section .img-container .hero-img {
     top: 65% !important; } }
 
-/* Smartphones (portrait and landscape) */
+/* Smartphones (portrait) */
 @media only screen and (min-width: 300px) and (max-width: 600px) {
   #home-section {
     width: 100% !important;
@@ -916,6 +916,7 @@ header {
         #home-section .intro-area .yellow-bg .bg-cutout {
           display: none !important; } }
 
+/* Smartphones (portrait) */
 @media only screen and (min-width: 300px) and (max-width: 479px) {
   #home-section .vertical-container .intro-area h5 {
     margin-left: 0 !important;
@@ -929,14 +930,17 @@ header {
   #home-section .vertical-container .intro-area .yellow-bg .container .call-actions {
     text-align: center !important; } }
 
+/* Smartphones (portrait) */
 @media only screen and (min-width: 368px) and (max-width: 399px) {
   #home-section .vertical-container .intro-area .yellow-bg .container h1 {
     font-size: 2.3rem !important; } }
 
+/* Smartphones (portrait) */
 @media only screen and (min-width: 300px) and (max-width: 367px) {
   #home-section .vertical-container .intro-area .yellow-bg .container h1 {
     letter-spacing: 2px !important; } }
 
+/* Smartphones (portrait) */
 @media only screen and (min-width: 300px) and (max-width: 348px) {
   #home-section .vertical-container .img-container {
     display: none !important; }
