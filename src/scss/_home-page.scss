@@ -30,16 +30,6 @@
           mask-image: linear-gradient(to bottom, rgba(10,10,10,.9), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), transparent);
         }
 
-        img.shirt-gradient {
-          width: 400px;
-          margin: 0 auto;
-          position: absolute;
-          top: 69%;
-          left: 0;
-          z-index: 11;
-          display: none;
-        }
-
         .hero-bg-shadow {
           position: absolute;
           top: 50%;
@@ -214,10 +204,6 @@
         img.hero-img {
           width: 68% !important;
         }
-
-        img.shirt-gradient {
-          width: 68% !important;
-        }
       }
     }
   }
@@ -245,12 +231,6 @@
 
         img.hero-img {
           top: 50% !important;
-          left: 0 !important;
-          transform: translateY(-50%) !important;
-        }
-
-        img.shirt-gradient {
-          top: 64% !important;
           left: 0 !important;
           transform: translateY(-50%) !important;
         }
@@ -486,10 +466,6 @@
           width: 66% !important;
         }
 
-        img.shirt-gradient {
-          width: 66% !important;
-        }
-
         .hero-bg-shadow {
           left: 105px !important;
         }
@@ -551,9 +527,6 @@
           width: 70% !important;
         }
 
-        img.shirt-gradient {
-          width: 70% !important;
-        }
       }
 
       .intro-area {
@@ -708,10 +681,6 @@
         img.hero-img {
           width: 75% !important;
         }
-
-        img.shirt-gradient {
-          width: 75% !important;
-        }
       }
 
       .intro-area {
@@ -796,14 +765,6 @@
           width: 43% !important;
           top: 50% !important;
           transform: translateY(-50%) !important;
-        }
-
-        img.shirt-gradient {
-          width: 43% !important;
-          margin: 0 auto !important;
-          position: absolute !important;
-          top: initial !important;
-          bottom: 20.7% !important;
         }
 
         .hero-bg-shadow {
@@ -1037,8 +998,6 @@
       .img-container {
         .hero-img {}
 
-        img.shirt-gradient {}
-
         .hero-bg-shadow {}
 
         .bg-circle-container {
@@ -1167,13 +1126,6 @@
         transform: translateX(-50%) !important;
       }
 
-      img.shirt-gradient {
-        display: none !important;
-        position: relative !important;
-        width: 58.5% !important;
-        left: 3px !important;
-      }
-
       .hero-bg-shadow {
         position: relative !important;
         top: -70px !important;
@@ -1268,8 +1220,6 @@
       .img-container {
         .hero-img {}
 
-        img.shirt-gradient {}
-
         .hero-bg-shadow {}
 
         .bg-circle-container {
@@ -1327,8 +1277,6 @@
       .img-container {
         .hero-img {}
 
-        img.shirt-gradient {}
-
         .hero-bg-shadow {}
 
         .bg-circle-container {
@@ -1382,8 +1330,6 @@
     .vertical-container {
       .img-container {
         .hero-img {}
-
-        img.shirt-gradient {}
 
         .hero-bg-shadow {}
 
@@ -1441,8 +1387,6 @@
         display: none !important;
 
         .hero-img {}
-
-        img.shirt-gradient {}
 
         .hero-bg-shadow {}
 
