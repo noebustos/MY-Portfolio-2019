@@ -26,6 +26,8 @@
           left: 0;
           transform: translateY(-50%);
           z-index: 10;
+          // mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(70, 59, 59, 0), transparent);
+          mask-image: linear-gradient(to bottom, rgba(10,10,10,.9), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), transparent);
         }
 
         img.shirt-gradient {
@@ -35,6 +37,7 @@
           top: 69%;
           left: 0;
           z-index: 11;
+          display: none;
         }
 
         .hero-bg-shadow {
