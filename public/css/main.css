@@ -2372,6 +2372,35 @@ header {
     #skills-section .bg-xxs2 {
       display: none; } }
 
+/* Tablet view */
+@media only screen and (min-width: 769px) and (max-width: 791px) {
+  #skills-section .container .main-bg-circle-xl {
+    opacity: .2; }
+  #skills-section .container .bg-l1 {
+    display: none; }
+  #skills-section .container .bg-l2 {
+    display: none; }
+  #skills-section .container .bg-md1 {
+    display: none; }
+  #skills-section .container .bg-md2 {
+    display: none; }
+  #skills-section .container .bg-sm1 {
+    display: none; }
+  #skills-section .container .bg-sm2 {
+    display: none; }
+  #skills-section .container .bg-xs1 {
+    display: none; }
+  #skills-section .container .bg-xs2 {
+    display: none; }
+  #skills-section .container .bg-xs3 {
+    display: none; }
+  #skills-section .container .bg-xs4 {
+    display: none; }
+  #skills-section .container .bg-xxs1 {
+    display: none; }
+  #skills-section .container .bg-xxs2 {
+    display: none; } }
+
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   #skills-section {
@@ -2453,117 +2482,59 @@ header {
   #skills-section .container .skills-container {
     width: 56%; } }
 
-/* laptop */
+/* desktop */
 @media only screen and (min-width: 1051px) and (max-width: 1140px) {
   #skills-section .container .section-title p {
     width: 64%; }
   #skills-section .container .skills-container {
-    width: 61%; } }
-
-/* desktop */
-@media only screen and (min-width: 1051px) and (max-width: 1140px) {
-  #skills-section .bg-l1 {
+    width: 61%; }
+  #skills-section .container .bg-l1 {
     width: 105px;
     height: 105px;
     left: 0%;
     bottom: -24%; }
-  #skills-section .bg-l2 {
+  #skills-section .container .bg-l2 {
     width: 105px;
     height: 105px;
     right: 0%;
     top: -24%; }
-  #skills-section .bg-md1 {
+  #skills-section .container .bg-md1 {
     width: 80px;
     height: 75px;
     right: 6%;
     bottom: -39%; }
-  #skills-section .bg-md2 {
+  #skills-section .container .bg-md2 {
     width: 80px;
     height: 75px;
     left: 6%;
     top: -39%; }
-  #skills-section .bg-sm1 {
+  #skills-section .container .bg-sm1 {
     width: 55px;
     height: 55px;
     top: 37%; }
-  #skills-section .bg-sm2 {
+  #skills-section .container .bg-sm2 {
     bottom: 37%;
     width: 55px;
     height: 55px; }
-  #skills-section .bg-xs1 {
+  #skills-section .container .bg-xs1 {
     width: 30px;
     height: 30px;
     right: 3%;
     bottom: -15%; }
-  #skills-section .bg-xs2 {
+  #skills-section .container .bg-xs2 {
     width: 30px;
     height: 30px;
     top: -15%;
     left: 3%; }
-  #skills-section .bg-xs3 {
+  #skills-section .container .bg-xs3 {
     display: none; }
-  #skills-section .bg-xs4 {
+  #skills-section .container .bg-xs4 {
     display: none; }
-  #skills-section .bg-xxs1 {
+  #skills-section .container .bg-xxs1 {
     top: initial;
     left: 10%;
     bottom: -29%; }
-  #skills-section .bg-xxs2 {
-    top: -29%;
-    bottom: initial;
-    right: 10%; } }
-
-/* laptop */
-@media only screen and (min-width: 950px) and (max-width: 1050px) {
-  #skills-section .bg-l1 {
-    bottom: -24%;
-    width: 110px;
-    height: 110px;
-    left: -5%; }
-  #skills-section .bg-l2 {
-    top: -24%;
-    width: 110px;
-    height: 110px;
-    right: -5%; }
-  #skills-section .bg-md1 {
-    width: 80px;
-    height: 75px;
-    right: 3%;
-    bottom: -40%; }
-  #skills-section .bg-md2 {
-    width: 80px;
-    height: 75px;
-    left: 3%;
-    top: -40%; }
-  #skills-section .bg-sm1 {
-    width: 50px;
-    height: 50px;
-    top: 37%;
-    left: -39px; }
-  #skills-section .bg-sm2 {
-    width: 50px;
-    height: 50px;
-    bottom: 37%;
-    right: -39px; }
-  #skills-section .bg-xs1 {
-    width: 30px;
-    height: 30px;
-    right: -1%;
-    bottom: -12%; }
-  #skills-section .bg-xs2 {
-    width: 30px;
-    height: 30px;
-    top: -12%;
-    left: -1%; }
-  #skills-section .bg-xs3 {
-    display: none; }
-  #skills-section .bg-xs4 {
-    display: none; }
-  #skills-section .bg-xxs1 {
-    top: initial;
-    left: 10%;
-    bottom: -29%; }
-  #skills-section .bg-xxs2 {
+  #skills-section .container .bg-xxs2 {
     top: -29%;
     bottom: initial;
     right: 10%; } }
@@ -2573,21 +2544,59 @@ header {
   #skills-section .container .section-title p {
     width: 64%; }
   #skills-section .container .skills-container {
-    width: 68%; } }
-
-/* laptop */
-@media only screen and (min-width: 900px) and (max-width: 949px) {
-  #skills-section .container .section-title p {
-    width: 74%; }
-  #skills-section .container .skills-container {
-    width: 71%; } }
-
-/* laptop */
-@media only screen and (min-width: 840px) and (max-width: 899px) {
-  #skills-section .container .section-title p {
-    width: 81%; }
-  #skills-section .container .skills-container {
-    width: 76%; } }
+    width: 68%; }
+  #skills-section .container .bg-l1 {
+    bottom: -24%;
+    width: 110px;
+    height: 110px;
+    left: -5%; }
+  #skills-section .container .bg-l2 {
+    top: -24%;
+    width: 110px;
+    height: 110px;
+    right: -5%; }
+  #skills-section .container .bg-md1 {
+    width: 80px;
+    height: 75px;
+    right: 3%;
+    bottom: -40%; }
+  #skills-section .container .bg-md2 {
+    width: 80px;
+    height: 75px;
+    left: 3%;
+    top: -40%; }
+  #skills-section .container .bg-sm1 {
+    width: 50px;
+    height: 50px;
+    top: 37%;
+    left: -39px; }
+  #skills-section .container .bg-sm2 {
+    width: 50px;
+    height: 50px;
+    bottom: 37%;
+    right: -39px; }
+  #skills-section .container .bg-xs1 {
+    width: 30px;
+    height: 30px;
+    right: -1%;
+    bottom: -12%; }
+  #skills-section .container .bg-xs2 {
+    width: 30px;
+    height: 30px;
+    top: -12%;
+    left: -1%; }
+  #skills-section .container .bg-xs3 {
+    display: none; }
+  #skills-section .container .bg-xs4 {
+    display: none; }
+  #skills-section .container .bg-xxs1 {
+    top: initial;
+    left: 10%;
+    bottom: -29%; }
+  #skills-section .container .bg-xxs2 {
+    top: -29%;
+    bottom: initial;
+    right: 10%; } }
 
 /* laptop */
 @media only screen and (min-width: 901px) and (max-width: 949px) {
@@ -2642,6 +2651,13 @@ header {
   #skills-section .container .bg-xxs2 {
     display: none; } }
 
+/* laptop */
+@media only screen and (min-width: 900px) and (max-width: 949px) {
+  #skills-section .container .section-title p {
+    width: 74%; }
+  #skills-section .container .skills-container {
+    width: 71%; } }
+
 @media only screen and (min-width: 830px) and (max-width: 900px) {
   #skills-section .container .bg-l1 {
     width: 50px;
@@ -2681,6 +2697,13 @@ header {
     display: none; } }
 
 /* laptop */
+@media only screen and (min-width: 840px) and (max-width: 899px) {
+  #skills-section .container .section-title p {
+    width: 81%; }
+  #skills-section .container .skills-container {
+    width: 76%; } }
+
+/* laptop */
 @media only screen and (min-width: 769px) and (max-width: 839px) {
   #skills-section .container .section-title p {
     width: 90%; }
@@ -2689,7 +2712,8 @@ header {
     #skills-section .container .skills-container .skill {
       margin: 0; } }
 
-@media only screen and (min-width: 791px) and (max-width: 829px) {
+/* laptop */
+@media only screen and (min-width: 792px) and (max-width: 829px) {
   #skills-section .container .bg-l1 {
     display: none; }
   #skills-section .container .bg-l2 {
@@ -2704,34 +2728,6 @@ header {
     height: 75px;
     top: -45%;
     left: -4%; }
-  #skills-section .container .bg-sm1 {
-    display: none; }
-  #skills-section .container .bg-sm2 {
-    display: none; }
-  #skills-section .container .bg-xs1 {
-    display: none; }
-  #skills-section .container .bg-xs2 {
-    display: none; }
-  #skills-section .container .bg-xs3 {
-    display: none; }
-  #skills-section .container .bg-xs4 {
-    display: none; }
-  #skills-section .container .bg-xxs1 {
-    display: none; }
-  #skills-section .container .bg-xxs2 {
-    display: none; } }
-
-@media only screen and (min-width: 769px) and (max-width: 791px) {
-  #skills-section .container .main-bg-circle-xl {
-    opacity: .2; }
-  #skills-section .container .bg-l1 {
-    display: none; }
-  #skills-section .container .bg-l2 {
-    display: none; }
-  #skills-section .container .bg-md1 {
-    display: none; }
-  #skills-section .container .bg-md2 {
-    display: none; }
   #skills-section .container .bg-sm1 {
     display: none; }
   #skills-section .container .bg-sm2 {

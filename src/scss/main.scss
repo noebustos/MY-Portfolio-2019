@@ -213,22 +213,21 @@ footer{
 
 
  /* laptop */
-@media only screen and (min-width: 901px) and (max-width: 949px){ 
+@media only screen and (min-width: 901px) and (max-width: 949px){
   .container{
     max-width: 860px;
   }
-
 }
 
  /* laptop */
-@media only screen and (min-width: 950px) and (max-width: 1050px){ 
+@media only screen and (min-width: 950px) and (max-width: 1050px){
   .container{
     max-width: 900px;
   }
 }
 
  /* desktop */
-@media only screen and (min-width: 1051px) and (max-width: 1140px){ 
+@media only screen and (min-width: 1051px) and (max-width: 1140px){
   .container{
     max-width: 1000px;
   }
