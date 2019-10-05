@@ -114,6 +114,7 @@ header {
   }
 }
 
+
 /* Smartphones (portrait and landscape) */
 //mobile menu
 @media only screen and (min-width: 300px) and (max-width: 650px) {
@@ -229,7 +230,6 @@ header {
   }
 }
 
-// background: rgba(255,255,255,.95);
 @media only screen and (min-width: 651px) and (max-width: 800px) {
   header {
     background: rgba(0, 0, 0, .28) !important;
