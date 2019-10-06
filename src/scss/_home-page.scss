@@ -26,7 +26,7 @@
           left: 0;
           transform: translateY(-50%);
           z-index: 10;
-          mask-image: linear-gradient(to bottom, rgba(10,10,10,.9), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), transparent);
+          mask-image: linear-gradient(to bottom, rgba(10, 10, 10, .9), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), transparent);
         }
 
         .hero-bg-shadow {
@@ -523,7 +523,7 @@
     .vertical-container {
       .img-container {
         img.hero-img {
-          width: 70% !important;
+          width: 75% !important;
         }
 
       }
@@ -678,7 +678,7 @@
     .vertical-container {
       .img-container {
         img.hero-img {
-          width: 75% !important;
+          width: 85% !important;
         }
       }
 

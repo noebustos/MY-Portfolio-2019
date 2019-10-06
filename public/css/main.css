@@ -558,7 +558,7 @@ header {
 
 @media only screen and (min-width: 901px) and (max-width: 1050px) {
   #home-section .vertical-container .img-container img.hero-img {
-    width: 70% !important; }
+    width: 75% !important; }
   #home-section .vertical-container .intro-area .yellow-bg {
     width: 75vw !important; } }
 
@@ -643,7 +643,7 @@ header {
 
 @media only screen and (min-width: 801px) and (max-width: 900px) {
   #home-section .vertical-container .img-container img.hero-img {
-    width: 75% !important; }
+    width: 85% !important; }
   #home-section .vertical-container .intro-area .yellow-bg {
     width: 71vw !important; } }
 
