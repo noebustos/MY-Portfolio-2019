@@ -1093,7 +1093,7 @@ header {
         text-align: center;
         vertical-align: middle; }
         #contact-section .content .columns.right-column img {
-          width: 115%; }
+          width: 110%; }
 
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px) {
@@ -2216,7 +2216,8 @@ header {
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 55%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 14px; }
     #skills-section .skills-container .skill .skill-title {
       font-size: 1.2rem;
       font-weight: 700;
