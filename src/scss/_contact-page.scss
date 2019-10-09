@@ -148,6 +148,7 @@
   }
 }
 
+
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px) {
   #contact-section {
@@ -213,11 +214,9 @@
                   text-align: center;
                   color: #fff;
 
-
                   i.fab {
                     font-size: 26px;
                     text-align: center;
-
                   }
 
                   span {
@@ -251,22 +250,13 @@
 }
 
 
-
 /* tablet */
 @media only screen and (min-width: 697px) and (max-width: 768px) {
   #contact-section {
     .content {
       .columns {
-        &.left-column {
-          .forward-container {
-            // max-width: 85%;
-            // padding: 30px;
-          }
-        }
-
         &.right-column {
           img {
-            // margin-top: 25%;
             top: 7vh !important;
           }
         }
@@ -366,16 +356,8 @@
   #contact-section {
     .content {
       .columns {
-        &.left-column {
-          .forward-container {
-            // max-width: 85%;
-            // padding: 30px;
-          }
-        }
-
         &.right-column {
           img {
-            // margin-top: 25%;
             top: 11vh !important;
           }
         }
@@ -445,7 +427,6 @@
 }
 
 
-
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 1025px) {
   #contact-section {
@@ -474,7 +455,6 @@
       }
     }
   }
-
 }
 
 /* laptop */
@@ -488,9 +468,11 @@
             padding: 35px;
 
             .title-questions {
-              h5.bg-question-mark {
-                font-size: 15rem;
-                top: -53px;
+              h5 {
+                &.bg-question-mark {
+                  font-size: 15rem;
+                  top: -53px;
+                }
               }
             }
           }
@@ -522,66 +504,20 @@
   }
 }
 
-
-
-
 /* laptop */
 @media only screen and (min-width: 769px) and (max-width: 790px) {
   #contact-section {
     .lower-bg-shape {
       left: 0;
     }
-
-    .content {
-      .columns {
-        &.left-column {
-          .forward-container {
-            // max-width: 85%;
-            // padding: 30px;
-          }
-        }
-
-        &.right-column {
-          img {}
-        }
-      }
-    }
   }
 }
-
-
 
 /* laptop */
 @media only screen and (min-width: 743px) and (max-width: 768px) {
   #contact-section {
     .lower-bg-shape {
-      // left: 0;
       width: 100%;
-    }
-
-    .content {
-      .columns {
-        &.left-column {
-          .forward-container {
-            // max-width: 85%;
-            // padding: 30px;
-          }
-        }
-
-        &.right-column {
-
-          // left: 0;
-          img {}
-        }
-      }
     }
   }
 }
-
-
-
-
-// 768MAX-743MIN bottom color bg gets off place. RIGHT side.
-
-// 769MIN-790MAX bottom color bg gets off place. LEFT side.
-//left: 0;
