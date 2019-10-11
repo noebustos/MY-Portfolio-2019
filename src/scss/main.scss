@@ -31,7 +31,6 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  // height: 100vh;
   position: relative;
 }
 
@@ -59,7 +58,6 @@ a {
 }
 
 footer {
-
   background: #fff;
   padding: 36px 0;
   color: $med-black;
@@ -77,9 +75,6 @@ footer {
     }
   }
 }
-
-
-
 
 
 /* Smartphones (portrait and landscape) */
@@ -126,18 +121,12 @@ footer {
   }
 }
 
-
-
-
-
-
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 600px) {
   #home-section {
     padding: 0 0 !important;
   }
 }
-
 
 /* Tablet (portrait and landscape) */
 @media only screen and (min-width: 480px) and (max-width: 790px) {
@@ -171,8 +160,6 @@ footer {
   }
 }
 
-
-
 /* tablet */
 @media only screen and (min-width: 791px) and (max-width: 839px) {
   .container {
@@ -187,8 +174,6 @@ footer {
     }
   }
 }
-
-
 
 /* tablet */
 @media only screen and (min-width: 840px) and (max-width: 900px) {
@@ -207,10 +192,6 @@ footer {
     }
   }
 }
-
-
-
-
 
 /* laptop */
 @media only screen and (min-width: 901px) and (max-width: 949px) {
@@ -244,19 +225,6 @@ footer {
 /* desktop 4k*/
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
   .container {
-    // max-width: 100px;
+
   }
 }
-
-
-
-// im choosing this breakpoints
-// @media only screen and (min-width: 300px) and (max-width: 479px){ ... }
-
-// @media only screen and (min-width: 480px) and (max-width: 767px){ ... }
-
-// @media only screen and (min-width: 768px) and (max-width: 999px){ ... }
-
-// // @media only screen and (min-width: 1000px) and (max-width: 1400px){ ... }
-
-// @media only screen and (min-width: 1000px) { ... }
