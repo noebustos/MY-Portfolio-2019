@@ -16,7 +16,7 @@ var shell = require('gulp-shell');
 // });
 
 sass.compiler = require('node-sass');
- 
+
 gulp.task('sass', function () {
   return gulp.src('./src/scss/**/*.scss')
     .pipe(sass().on('error', sass.logError))
@@ -27,7 +27,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./public/css'))
     .pipe(browserSync.stream())
 });
- 
+
 gulp.task('sass:minify', function () {
   return gulp.src('./public/css/*.css')
   .pipe(sourcemaps.init())
