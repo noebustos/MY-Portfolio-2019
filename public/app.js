@@ -15,7 +15,7 @@ const contactNav = document.querySelector('.contact-nav');
 function scrollActive(scrollLenth) {
   if (window.scrollY <= scrollLenth) {
     header.classList.remove('scroll');
-  } 
+  }
   else if (window.scrollY > scrollLenth) {
     header.classList.add('scroll');
   }
