@@ -170,24 +170,7 @@
           }
 
           .other-info {
-            h6 {
-              font-size: 1.25rem;
-            }
-
-            .interest-container {
-              ul.interests {
-                li {
-                  margin: 0;
-
-                  &.interest-title {
-                    grid-column: 3/4;
-                    grid-row: 1/2;
-                    justify-self: center;
-                    align-self: end;
-                  }
-                }
-              }
-            }
+            display: none;
           }
         }
 
