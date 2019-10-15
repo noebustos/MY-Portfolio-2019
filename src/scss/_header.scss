@@ -57,7 +57,12 @@ header {
     a {
       color: #fff;
       position: relative;
-      z-index: 21
+      z-index: 21;
+      bottom: 6px;
+
+      img{
+        width: 80px;
+      }
     }
   }
 

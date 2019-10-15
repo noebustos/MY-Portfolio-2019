@@ -84,7 +84,10 @@ header {
     header .logo a {
       color: #fff;
       position: relative;
-      z-index: 21; }
+      z-index: 21;
+      bottom: 6px; }
+      header .logo a img {
+        width: 80px; }
   header nav {
     display: inline-block;
     float: right; }
@@ -2797,9 +2800,8 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     justify-items: center; }
-    footer .container .logo {
-      font-size: 1.5rem;
-      font-weight: 700; }
+    footer .container .logo img {
+      width: 100px; }
 
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px) {

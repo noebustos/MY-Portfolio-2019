@@ -10,14 +10,17 @@ const aboutNav = document.querySelector('.about-nav');
 const skillsNav = document.querySelector('.skills-nav');
 const projectsNav = document.querySelector('.projects-nav');
 const contactNav = document.querySelector('.contact-nav');
+let logoImg= document.querySelector('.logo-link-img');
 
 
 function scrollActive(scrollLenth) {
   if (window.scrollY <= scrollLenth) {
     header.classList.remove('scroll');
+    logoImg.innerHTML = '<img src="img/jnbLogoWhite.svg" alt="main logo image">'
   }
   else if (window.scrollY > scrollLenth) {
     header.classList.add('scroll');
+    logoImg.innerHTML = '<img src="img/jnbLogoOrange.svg" alt="main logo image">';
   }
 }
 

@@ -70,8 +70,9 @@ footer {
     justify-items: center;
 
     .logo {
-      font-size: 1.5rem;
-      font-weight: 700;
+      img{
+        width: 100px;
+      }
     }
   }
 }
