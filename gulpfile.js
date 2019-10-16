@@ -48,8 +48,10 @@ gulp.task('browser-sync', function(){
 
 gulp.task('default', ['sass', 'browser-sync'], function(){
   gulp.watch('./src/scss/**/*', ['sass']);
+  gulp.watch('./src/scss/projects/**/*', ['sass']);
   gulp.watch('./src/js/**/*', ['webpack']);
   gulp.watch('./public/*.html', reload);
+  gulp.watch('./public/projects/*.html', reload);
 });
 
 gulp.task('production', ['sass:minify'])
