@@ -80,7 +80,7 @@
     }
 
     .technologies{
-      padding: 33px;
+      padding: 50px 30px;
       width: 75%;
       background: #eee;
       margin: 100px auto 100px;
@@ -93,27 +93,21 @@
         margin-bottom: 17px;
       }
 
-      .icons{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 20px;
-        align-items: center;
-        justify-items: center;
-
+      .icon{
         img{
           filter: grayscale(100%);
           transition: all .3s ease-in-out;
           cursor: pointer;
 
           &:hover{
-            filter: grayscale(0);
+            // filter: grayscale(0);
           }
         }
 
         .icon {
           img{
-            width: 100%;
-            max-width: 60px;
+            // width: 100%;
+            // max-width: 60px;
           }
         }
       }

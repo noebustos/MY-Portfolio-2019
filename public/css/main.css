@@ -2996,7 +2996,7 @@ header {
     #portfolio-project .container .info .buttons a:hover .fas {
       color: #fff; }
   #portfolio-project .container .technologies {
-    padding: 33px;
+    padding: 50px 30px;
     width: 75%;
     background: #eee;
     margin: 100px auto 100px; }
@@ -3006,26 +3006,12 @@ header {
       letter-spacing: 2px;
       text-transform: capitalize;
       margin-bottom: 17px; }
-    #portfolio-project .container .technologies .icons {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 20px;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      justify-items: center; }
-      #portfolio-project .container .technologies .icons img {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
-        cursor: pointer; }
-        #portfolio-project .container .technologies .icons img:hover {
-          -webkit-filter: grayscale(0);
-          filter: grayscale(0); }
-      #portfolio-project .container .technologies .icons .icon img {
-        width: 100%;
-        max-width: 60px; }
+    #portfolio-project .container .technologies .icon img {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      -webkit-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      cursor: pointer; }
 
 /* Tablets */
 @media only screen and (max-width: 960px) {
