@@ -1,4 +1,4 @@
-
+@import "header";
 
 #portfolio-project{
   padding: 100px 15px;
@@ -18,60 +18,79 @@
         /* background-attachment: fixed !important; */
       }
     }
+    .page-header{
+      margin-bottom: 70px;
 
-    h1{
-      margin-top: -5px;
-      margin-bottom: 14px;
-      font-size: 3.125rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: $rich-black;
+      h1{
+        margin-top: -5px;
+        margin-bottom: 14px;
+        font-size: 3.125rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $rich-black;
+      }
+      img{
+        width: 100px;
+      }
+    }
+
+    p{
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #929294;
+      &:nth-last-of-type(){
+        margin-bottom: 70px;
+
+      }
+      &:nth-of-type(2){
+        margin-bottom: 70px;
+      }
     }
 
     .info {
       .buttons{
-        padding: 20px 0;
-
         a{
           display: inline-block;
-          padding: 10px 20px;
-          border-radius: 3px;
-          color: #fff;
-          background: #000;
-          text-decoration: none;
-          text-transform: capitalize;
-          transition: all .3s ease-in-out;
+          margin: 0 25px 0 0;
+          color: $main-yellow;
+          // background: $main-yellow;
+          border: 3px solid $main-yellow;
+          text-transform: uppercase;
+          padding: 14px 30px;
+          font-size: 14px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          border-radius: 5px;
+          transition: all .2s ease-in-out;
         }
 
         .fas{
-          color: #ff5253;
+          color: $main-yellow;
           margin-right: 10px;
         }
         a:hover{
-          background: #ff5253;
+          background: $main-yellow;
+          color: #fff;
 
           .fas{
-            color: #000;
+            color: #fff;
           }
         }
       }
     }
 
-    p{
-      font-size: 1.2rem;
-      line-height: 1.7;
-      color: #929294;
-      margin-bottom: 1.8rem;
-    }
-
     .technologies{
-      padding: 100px 0;
+      padding: 33px;
+      width: 75%;
+      background: #eee;
+      margin: 100px auto 100px;
 
       h3{
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: 700;
-        margin: 2.5rem 0;
-        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        margin-bottom: 17px;
       }
 
       .icons{
