@@ -3000,8 +3000,8 @@ header {
     border-radius: 4px;
     width: 75%;
     background: #e8f5fc;
-    -webkit-box-shadow: 15px 15px 5px 0px rgba(160, 160, 160, 0.1);
-    box-shadow: 15px 15px 5px 0px rgba(160, 160, 160, 0.1);
+    -webkit-box-shadow: 15px 15px 8px 0px rgba(160, 160, 160, 0.1);
+    box-shadow: 15px 15px 8px 0px rgba(160, 160, 160, 0.1);
     margin: 100px auto 100px; }
     #portfolio-project .container .technologies h3 {
       font-size: 1.8rem;
@@ -3013,12 +3013,18 @@ header {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-bottom: 50px; }
+      margin-bottom: 50px;
+      padding: 40px;
+      position: relative;
+      border-bottom-width: 3px;
+      border-bottom-style: solid;
+      -o-border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1;
+      border-image: -webkit-gradient(linear, right top, left top, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.8)), to(rgba(170, 170, 170, 0))) 1;
+      border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1; }
       #portfolio-project .container .technologies .column-container:nth-of-type(3) {
         margin-bottom: 0; }
       #portfolio-project .container .technologies .column-container .left-column {
         padding-right: 35px;
-        border-right: 3px solid rgba(170, 170, 170, 0.3);
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -3027,7 +3033,12 @@ header {
         justify-content: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+        border-right-width: 3px;
+        border-right-style: solid;
+        -o-border-image: linear-gradient(rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.3), rgba(170, 170, 170, 0)) 1 100%;
+        border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.3)), to(rgba(170, 170, 170, 0))) 1 100%;
+        border-image: linear-gradient(rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.3), rgba(170, 170, 170, 0)) 1 100%; }
         #portfolio-project .container .technologies .column-container .left-column .icon {
           width: 100px;
           height: 100px;
@@ -3045,17 +3056,25 @@ header {
         margin-left: 35px; }
         #portfolio-project .container .technologies .column-container .right-column .container h6 {
           font-size: 1.2rem;
-          font-weight: 500;
           text-transform: capitalize;
           letter-spacing: 2px;
-          margin-bottom: 17px; }
+          margin-bottom: 17px;
+          font-weight: 700;
+          color: #555555; }
         #portfolio-project .container .technologies .column-container .right-column .container p {
           line-height: 1.8; }
     #portfolio-project .container .technologies .column-container2 {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-bottom: 50px; }
+      margin-bottom: 50px;
+      padding: 40px;
+      position: relative;
+      border-bottom-width: 3px;
+      border-bottom-style: solid;
+      -o-border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1;
+      border-image: -webkit-gradient(linear, right top, left top, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.8)), to(rgba(170, 170, 170, 0))) 1;
+      border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1; }
       #portfolio-project .container .technologies .column-container2 .left-column {
         margin-right: 35px; }
         #portfolio-project .container .technologies .column-container2 .left-column .container h6 {
@@ -3064,13 +3083,14 @@ header {
           text-transform: capitalize;
           letter-spacing: 2px;
           margin-bottom: 17px;
-          text-align: right; }
+          text-align: right;
+          font-weight: 700;
+          color: #555555; }
         #portfolio-project .container .technologies .column-container2 .left-column .container p {
           line-height: 1.8;
           text-align: right; }
       #portfolio-project .container .technologies .column-container2 .right-column {
         padding-left: 35px;
-        border-left: 3px solid rgba(170, 170, 170, 0.3);
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -3079,7 +3099,12 @@ header {
         justify-content: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+        border-left-width: 3px;
+        border-left-style: solid;
+        -o-border-image: linear-gradient(rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.3), rgba(170, 170, 170, 0)) 1 100%;
+        border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.3)), to(rgba(170, 170, 170, 0))) 1 100%;
+        border-image: linear-gradient(rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.3), rgba(170, 170, 170, 0)) 1 100%; }
         #portfolio-project .container .technologies .column-container2 .right-column .icon {
           width: 100px;
           height: 100px;
