@@ -2942,6 +2942,9 @@ header {
   header nav a img {
     display: none; } }
 
+header #project-info-body nav a {
+  color: #555555; }
+
 #portfolio-project {
   padding: 100px 15px; }
   #portfolio-project .container .project-image {
@@ -2998,10 +3001,8 @@ header {
   #portfolio-project .container .technologies {
     padding: 50px 50px;
     border-radius: 4px;
-    width: 75%;
-    background: #e8f5fc;
-    -webkit-box-shadow: 15px 15px 8px 0px rgba(160, 160, 160, 0.1);
-    box-shadow: 15px 15px 8px 0px rgba(160, 160, 160, 0.1);
+    border: 5px solid #333333;
+    width: 70%;
     margin: 100px auto 100px; }
     #portfolio-project .container .technologies h3 {
       font-size: 1.8rem;
@@ -3017,9 +3018,9 @@ header {
       position: relative;
       border-bottom-width: 3px;
       border-bottom-style: solid;
-      -o-border-image: linear-gradient(270deg, rgba(254, 179, 50, 0), rgba(254, 179, 50, 0.8), rgba(254, 179, 50, 0)) 1;
-      border-image: -webkit-gradient(linear, right top, left top, from(rgba(254, 179, 50, 0)), color-stop(rgba(254, 179, 50, 0.8)), to(rgba(254, 179, 50, 0))) 1;
-      border-image: linear-gradient(270deg, rgba(254, 179, 50, 0), rgba(254, 179, 50, 0.8), rgba(254, 179, 50, 0)) 1; }
+      -o-border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1;
+      border-image: -webkit-gradient(linear, right top, left top, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.8)), to(rgba(170, 170, 170, 0))) 1;
+      border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1; }
       #portfolio-project .container .technologies .column-container:hover .left-column .icon {
         border: 3px solid #FEB332; }
       #portfolio-project .container .technologies .column-container:hover .right-column .container h6 {
@@ -3044,9 +3045,9 @@ header {
         align-items: center;
         border-right-width: 3px;
         border-right-style: solid;
-        -o-border-image: linear-gradient(rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.3), rgba(170, 170, 170, 0)) 1 100%;
-        border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.3)), to(rgba(170, 170, 170, 0))) 1 100%;
-        border-image: linear-gradient(rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.3), rgba(170, 170, 170, 0)) 1 100%; }
+        -o-border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%;
+        border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 170, 170, 0.5)), to(rgba(170, 170, 170, 0))) 1 100%;
+        border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%; }
         #portfolio-project .container .technologies .column-container .left-column .icon {
           width: 100px;
           height: 100px;
@@ -3080,9 +3081,9 @@ header {
       position: relative;
       border-bottom-width: 3px;
       border-bottom-style: solid;
-      -o-border-image: linear-gradient(270deg, rgba(254, 179, 50, 0), rgba(254, 179, 50, 0.8), rgba(254, 179, 50, 0)) 1;
-      border-image: -webkit-gradient(linear, right top, left top, from(rgba(254, 179, 50, 0)), color-stop(rgba(254, 179, 50, 0.8)), to(rgba(254, 179, 50, 0))) 1;
-      border-image: linear-gradient(270deg, rgba(254, 179, 50, 0), rgba(254, 179, 50, 0.8), rgba(254, 179, 50, 0)) 1; }
+      -o-border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1;
+      border-image: -webkit-gradient(linear, right top, left top, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.8)), to(rgba(170, 170, 170, 0))) 1;
+      border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1; }
       #portfolio-project .container .technologies .column-container2:hover .right-column {
         -o-border-image: linear-gradient(rgba(254, 179, 50, 0), #feb332, rgba(254, 179, 50, 0)) 1 100%;
         border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 179, 50, 0)), color-stop(#feb332), to(rgba(254, 179, 50, 0))) 1 100%;
@@ -3118,9 +3119,9 @@ header {
         align-items: center;
         border-left-width: 3px;
         border-left-style: solid;
-        -o-border-image: linear-gradient(rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.3), rgba(170, 170, 170, 0)) 1 100%;
-        border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.3)), to(rgba(170, 170, 170, 0))) 1 100%;
-        border-image: linear-gradient(rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.3), rgba(170, 170, 170, 0)) 1 100%; }
+        -o-border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%;
+        border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 170, 170, 0.5)), to(rgba(170, 170, 170, 0))) 1 100%;
+        border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%; }
         #portfolio-project .container .technologies .column-container2 .right-column .icon {
           width: 100px;
           height: 100px;

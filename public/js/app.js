@@ -12,12 +12,18 @@ const projectsNav = document.querySelector('.projects-nav');
 const contactNav = document.querySelector('.contact-nav');
 let logoImg= document.querySelector('.logo-link-img');
 
-
+// Scroll actions definitions
 function scrollActive(scrollLenth) {
-  if (window.scrollY <= scrollLenth) {
+  if (window.scrollY <= scrollLenth && header.classList.contains('project-header') == false) {
     header.classList.remove('scroll');
     logoImg.innerHTML = '<img src="../img/jnbLogoWhite.svg" alt="main logo image">'
   }
+
+  else if (window.scrollY <= scrollLenth && header.classList.contains('project-header')) {
+    header.classList.remove('scroll');
+    logoImg.innerHTML = '<img src="../img/jnbLogoOrange.svg" alt="main logo image">'
+  }
+
   else if (window.scrollY > scrollLenth) {
     header.classList.add('scroll');
     logoImg.innerHTML = '<img src="../img/jnbLogoOrange.svg" alt="main logo image">';
@@ -27,8 +33,12 @@ function scrollActive(scrollLenth) {
 //scroll events for header
 window.onscroll = () => {
   //Screen on laptop view.
-  if (window.innerWidth >= 300 && window.innerWidth <= 949) {
+  if (window.innerWidth >= 300 && window.innerWidth <= 949 && header.classList.contains('project-header') === false) {
     scrollActive(175);
+  }
+
+  else if (window.innerWidth >= 300 && header.classList.contains('project-header')) {
+    scrollActive(50);
   }
   //if screen is NOT on mobile view.
   else {
