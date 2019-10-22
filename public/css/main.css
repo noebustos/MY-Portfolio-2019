@@ -3150,6 +3150,12 @@ header {
             transition: all .3s ease-in-out;
             cursor: pointer; }
 
+.project-info-footer {
+  background: #0057B2; }
+  .project-info-footer .container {
+    color: #fff;
+    font-size: 1rem; }
+
 /* Tablets */
 @media only screen and (max-width: 960px) {
   #portfolio-project h1 {

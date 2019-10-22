@@ -462,6 +462,16 @@ body{
   }
 }
 
+.project-info-footer{
+  background: $main-blue;
+  // background: $baby-blue;
+  .container{
+    color:#fff;
+    // font-weight: 600;
+    font-size: 1rem;
+  }
+}
+
 /* Tablets */
 @media only screen and (max-width: 960px){
   #portfolio-project h1 {
