@@ -182,11 +182,19 @@ body{
 
         .column{
           &:hover{
-            background: #ACBBD2;
+            background: $main-yellow;
+            // background: #ACBBD2;
+            // background: #C0D4EF;
+            // background: #ACC8ED;
+            //better dark gray
+            // background: 	#A9BEDB;
             width: 105%;
             transform: translateX(-2.5%);
             box-shadow: 0px 0px 30px 5px rgba(100,100,100, .2);
+            padding: 51.5px 60px 51.5px 60px !important;
             &.column-container{
+              border: none;
+
               .left-column{
                 border-right: 3px solid #fff; 
                 border-image: none;
@@ -208,7 +216,6 @@ body{
                   p{
                     color: #fff;
                     font-weight: 600;
-                    // font-size: 1.1rem;
                   }
                 }
               }
@@ -356,6 +363,7 @@ body{
                 }
     
                 p{
+                  font-size: 1.1rem;
                   line-height: 1.8;
                 }
               }
