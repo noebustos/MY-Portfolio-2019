@@ -1,7 +1,7 @@
 @import "header";
 
 body{
-  // background: #faf9f7;
+  background: #faf9f7;
   // background: #f5f5f5;
 }
 
@@ -182,7 +182,10 @@ body{
 
         .column{
           &:hover{
-            background: $main-yellow;
+            // background: $main-yellow;
+            background: #fff;
+            // background: red;
+
             // background: #ACBBD2;
             // background: #C0D4EF;
             // background: #ACC8ED;
@@ -191,18 +194,23 @@ body{
             width: 105%;
             transform: translateX(-2.5%);
             box-shadow: 0px 0px 30px 5px rgba(100,100,100, .2);
-            padding: 51.5px 60px 51.5px 60px !important;
+            // padding: 51.5px 60px 51.5px 60px !important;
+            padding: 50px 65px 50px 65px !important;
+
             &.column-container{
-              border: none;
+              border: 5px solid $rich-black;
+              border-radius: 3px;
+              // border: none;
 
               .left-column{
-                border-right: 3px solid #fff; 
+                border-right: 3px solid $med-gray;
                 border-image: none;
     
                 .icon{
                   // border: 3px solid $main-yellow;
                   // border: 3px solid #fff
-                  background: #fff;
+                  // background: #fff;
+                  background: $main-yellow;
                   border: none;
                 }
               }
@@ -210,12 +218,11 @@ body{
               .right-column{
                 .container{
                   h6{
-                    color: #fff;
                   }
     
                   p{
-                    color: #fff;
-                    font-weight: 600;
+                    // color: #fff;
+                    // font-weight: 600;
                   }
                 }
               }

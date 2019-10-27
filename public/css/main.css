@@ -2942,6 +2942,9 @@ header {
   header nav a img {
     display: none; } }
 
+body {
+  background: #faf9f7; }
+
 #project-info-body header nav a {
   color: #555555; }
   #project-info-body header nav a:hover {
@@ -3024,27 +3027,23 @@ header {
         border-image: -webkit-gradient(linear, right top, left top, from(rgba(150, 150, 150, 0)), color-stop(rgba(150, 150, 150, 0.8)), to(rgba(150, 150, 150, 0))) 1;
         border-image: linear-gradient(270deg, rgba(150, 150, 150, 0), rgba(150, 150, 150, 0.8), rgba(150, 150, 150, 0)) 1; }
       #portfolio-project .container .technologies .tech-container .column:hover {
-        background: #FEB332;
+        background: #fff;
         width: 105%;
         -webkit-transform: translateX(-2.5%);
         transform: translateX(-2.5%);
         -webkit-box-shadow: 0px 0px 30px 5px rgba(100, 100, 100, 0.2);
         box-shadow: 0px 0px 30px 5px rgba(100, 100, 100, 0.2);
-        padding: 51.5px 60px 51.5px 60px !important; }
+        padding: 50px 65px 50px 65px !important; }
         #portfolio-project .container .technologies .tech-container .column:hover.column-container {
-          border: none; }
+          border: 5px solid #333333;
+          border-radius: 3px; }
           #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
-            border-right: 3px solid #fff;
+            border-right: 3px solid #707070;
             -o-border-image: none;
             border-image: none; }
             #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column .icon {
-              background: #fff;
+              background: #FEB332;
               border: none; }
-          #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column .container h6 {
-            color: #fff; }
-          #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column .container p {
-            color: #fff;
-            font-weight: 600; }
         #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column {
           -o-border-image: linear-gradient(rgba(254, 179, 50, 0), #feb332, rgba(254, 179, 50, 0)) 1 100%;
           border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 179, 50, 0)), color-stop(#feb332), to(rgba(254, 179, 50, 0))) 1 100%;
