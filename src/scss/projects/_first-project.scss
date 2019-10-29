@@ -120,7 +120,7 @@ body{
           text-transform: uppercase;
           padding: 14px 30px;
           font-size: 14px;
-          font-weight: 700;
+          font-weight: 800;
           letter-spacing: 1px;
           border-radius: 5px;
           transition: all .2s ease-in-out;
@@ -136,6 +136,7 @@ body{
 
           .fas{
             color: #fff;
+            // font-weight: 600;
           }
         }
       }
@@ -144,7 +145,6 @@ body{
     .technologies{
       width: 100%;
       position: relative;
-
 
       .tech-container{
         padding: 50px 0 0 0;
@@ -183,7 +183,7 @@ body{
         .column{
           &:hover{
             // background: $main-yellow;
-            background: #fff;
+            // background: #fff;
             // background: red;
 
             // background: #ACBBD2;
@@ -191,21 +191,47 @@ body{
             // background: #ACC8ED;
             //better dark gray
             // background: 	#A9BEDB;
-            width: 105%;
-            transform: translateX(-2.5%);
-            box-shadow: 0px 0px 30px 5px rgba(100,100,100, .2);
+            width: 105.5%;
+            transform: translateX(-2.55%);
+            box-shadow: 0px 0px 30px 5px rgba(100,100,100, .23);
             // padding: 51.5px 60px 51.5px 60px !important;
-            padding: 50px 65px 50px 65px !important;
+            // padding: 50px 65px 50px 65px !important;
+
+
+            //edit
+            // border-left-width: 5px !important;
+            // border-left-style: solid !important;
+            // border-bottom: none !important;
+            // border-image: linear-gradient(180deg,rgba(51, 51, 51, 1), rgba(250, 249, 247, 1)) 1 !important;
+
+
+            border-left: 5px solid $rich-black;
+            border-bottom: none !important;
+            border-image: 0 !important;
 
             &.column-container{
-              border: 5px solid $rich-black;
+              // border: 5px solid $rich-black;
               border-radius: 3px;
               // border: none;
+              padding: 0;
+
+              
+    
 
               .left-column{
-                border-right: 3px solid $med-gray;
+                // border-right: 3px solid $med-gray;
+                background: #fff;
                 border-image: none;
-    
+                //edits
+                padding: 50px 40px 50px 65px !important;
+                border-right: none;
+                
+
+
+                // border-right-width: 5px !important;
+                // border-right-style: solid !important;
+                // border-image: linear-gradient(180deg,rgba(51, 51, 51, 1), rgba(250, 249, 247, 1)) 1 !important;
+
                 .icon{
                   // border: 3px solid $main-yellow;
                   // border: 3px solid #fff
@@ -216,13 +242,20 @@ body{
               }
 
               .right-column{
+                //edit
+                padding: 50px 65px 50px 40px !important;
+                background: #FEB332;
+                border-radius: 0 3px 3px 0px;
+                margin-left: 0;
+
                 .container{
                   h6{
+                    color: #fff;
                   }
     
                   p{
-                    // color: #fff;
-                    // font-weight: 600;
+                    color: #fff;
+                    font-weight: 500;
                   }
                 }
               }
@@ -255,7 +288,7 @@ body{
     
     
             // box-shadow: -5px -5px 10px 0px  rgba(170, 170, 170, 0.3);
-            padding: 50px 50px 50px 50px;
+            // padding: 50px 50px 50px 50px;
             position: relative;
     
             border-bottom-width: 3px;
@@ -297,13 +330,17 @@ body{
     
             &:nth-of-type(3){
               // margin-bottom: 0;
-              border: none;
+              
+              // border: none;
+
               // padding: 0;
             }
     
             .left-column{
-              padding-right: 40px;
+              // padding-right: 40px;
     
+              padding: 50px 40px 50px 65px !important;
+
               //alt
               // border-right: 3px solid rgba(170, 170, 170, 0.3);
     
@@ -353,8 +390,10 @@ body{
             }
     
             .right-column{
-              margin-left: 40px;
-    
+              // margin-left: 40px;
+              padding: 50px 65px 50px 40px !important;
+
+
               .container{
                 h6{
                   font-size: 1.2rem;
