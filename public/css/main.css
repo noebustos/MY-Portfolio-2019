@@ -3195,7 +3195,20 @@ body {
     font-size: 1rem; }
 
 /* Tablets */
-/* Phones */
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+  #portfolio-project .container .technologies .tech-container {
+    width: 75%; }
+    #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
+      padding: 35px !important; }
+    #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
+      padding: 35px !important; }
+    #portfolio-project .container .technologies .tech-container .column.column-container .left-column {
+      padding: 35px !important; }
+    #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
+      padding: 35px !important; } }
+
+/* Smartphones (portrait and landscape) */
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }

@@ -547,27 +547,192 @@ body{
 
 /* Tablets */
 @media only screen and (max-width: 960px){
-  #portfolio-project h1 {
-    // font-size: 3rem;
-  }
-  #portfolio-project p {
-    // font-size: 1rem;
-  }
-  #portfolio-project h3 {
-    // text-align: center;
+
+}
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+  #portfolio-project{
+    .container{
+      .project-image{
+  
+        .img{
+      
+        }
+      }
+
+      .page-header{
+  
+        h1{
+
+        }
+        img{
+
+        }
+      }
+  
+      p{
+       
+        &:nth-last-of-type(){
+  
+        }
+
+        &:nth-of-type(2){
+
+        }
+      }
+  
+      .info {
+        .buttons{
+          a{
+   
+          }
+  
+          .fas{
+
+          }
+
+          a:hover{
+  
+            .fas{
+
+            }
+          }
+        }
+      }
+  
+      .technologies{
+  
+        .tech-container{
+          // width: 75% !important;
+          width: 75%;
+
+          h3{
+            
+          }
+  
+          .column{
+            &:hover{
+  
+              //hover
+              &.column-container{
+                .left-column{
+                  padding: 35px !important;
+                }
+        
+                .right-column{
+                  padding: 35px !important;
+  
+                  .container{
+                    h6{
+        
+                    }
+        
+                    p{
+                    
+                    }
+                  }
+                }
+              }
+  
+              //hover
+              &.column-container2{
+
+                .left-column{
+
+                  .container{
+                    h6{
+                    
+                    }
+      
+                    p{
+                      
+                    }
+                  }
+                }
+
+                .right-column{
+
+                  .icon{
+
+                  }
+                }
+              }
+            }
+
+            &.column-container{
+
+              &:nth-of-type(3){
+
+              }
+      
+              .left-column{
+                padding: 35px !important;
+
+                .icon{
+      
+                  img{
+      
+                    &:hover{
+
+                    }
+                  }
+                }
+              }
+      
+              .right-column{
+                padding: 35px !important;
+
+                .container{
+                  h6{
+      
+                  }
+      
+                  p{
+                  
+                  }
+                }
+              }
+            }
+
+            &.column-container2{
+      
+              .left-column{
+      
+                .container{
+                  h6{
+                  
+                  }
+      
+                  p{
+
+                  }
+                }
+              }
+    
+              .right-column{
+          
+                .icon{
+      
+                  img{
+                  }
+      
+                  .icon {
+                    img{
+
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
-/* Phones */
-@media only screen and (max-width: 767px){
-  #portfolio-project .info .buttons {
-    // text-align: center;
-  }
-  #portfolio-project .info .buttons a {
-    // margin-bottom: 10px;
-  }
-  #portfolio-project .technologies .icons{
-    // display: grid;
-    // grid-template-columns: 1fr 1fr;
-  }
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+
 }
