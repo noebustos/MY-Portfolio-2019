@@ -605,7 +605,9 @@ body{
   
         .tech-container{
           // width: 75% !important;
-          width: 75%;
+          // width: 75%;
+          // width: 78%;
+          width: 80%;
 
           h3{
             
@@ -639,6 +641,7 @@ body{
               &.column-container2{
 
                 .left-column{
+                  padding: 35px !important;
 
                   .container{
                     h6{
@@ -652,6 +655,7 @@ body{
                 }
 
                 .right-column{
+                  padding: 35px !important;
 
                   .icon{
 
@@ -696,9 +700,11 @@ body{
             }
 
             &.column-container2{
-      
+              padding: 0;
+
               .left-column{
-      
+                padding: 35px !important;
+                margin-right: 0;
                 .container{
                   h6{
                   
@@ -711,7 +717,8 @@ body{
               }
     
               .right-column{
-          
+                padding: 35px !important;
+
                 .icon{
       
                   img{
