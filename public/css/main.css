@@ -3185,14 +3185,14 @@ body {
     color: #fff;
     font-size: 1rem; }
 
-/* Tablet (portrait and landscape) */
+/* Laptop View */
 @media only screen and (min-width: 951px) and (max-width: 1050px) {
   #portfolio-project .container .technologies .tech-container {
     width: 77%; }
     #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
       margin-right: 0; } }
 
-/* Tablet (portrait and landscape) */
+/* Laptop View */
 @media only screen and (min-width: 901px) and (max-width: 950px) {
   #portfolio-project .container .technologies .tech-container {
     width: 77%; }
@@ -3216,7 +3216,7 @@ body {
       #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
         padding: 45px !important; } }
 
-/* Tablet (portrait and landscape) */
+/* Tablet View */
 @media only screen and (min-width: 840px) and (max-width: 900px) {
   #portfolio-project .container .technologies .tech-container {
     width: 80%; }
@@ -3240,7 +3240,7 @@ body {
       #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
         padding: 35px !important; } }
 
-/* Tablet (portrait and landscape) */
+/* Tablet View*/
 @media only screen and (min-width: 750px) and (max-width: 839px) {
   #portfolio-project .container .technologies .tech-container {
     width: 80.5%; }
@@ -3264,45 +3264,47 @@ body {
       #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
         padding: 30px !important; } }
 
-/* Tablet (portrait and landscape) */
+/* Tablet View */
 @media only screen and (min-width: 500px) and (max-width: 749px) {
-  #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
-    padding: 30px !important; }
-  #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
-    padding: 30px !important; }
-  #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .left-column {
-    padding: 30px !important; }
-  #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column {
-    padding: 30px !important; }
-  #portfolio-project .container .technologies .tech-container .column.column-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-    #portfolio-project .container .technologies .tech-container .column.column-container .left-column {
-      padding: 30px 0 0 !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
+  #portfolio-project .container .technologies .tech-container {
+    width: 75%; }
+    #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
       padding: 30px !important; }
-      #portfolio-project .container .technologies .tech-container .column.column-container .right-column .container h6 {
-        text-align: center; }
-  #portfolio-project .container .technologies .tech-container .column.column-container2 {
-    padding: 0;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse; }
-    #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
-      padding: 30px !important;
-      margin-right: 0; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container h6 {
-        text-align: center; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container p {
-        text-align: left; }
-    #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
-      padding: 30px 0 0 !important; } }
+    #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
+      padding: 30px !important; }
+    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .left-column {
+      padding: 30px !important; }
+    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column {
+      padding: 30px !important; }
+    #portfolio-project .container .technologies .tech-container .column.column-container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      #portfolio-project .container .technologies .tech-container .column.column-container .left-column {
+        padding: 30px 0 0 !important; }
+      #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
+        padding: 30px !important; }
+        #portfolio-project .container .technologies .tech-container .column.column-container .right-column .container h6 {
+          text-align: center; }
+    #portfolio-project .container .technologies .tech-container .column.column-container2 {
+      padding: 0;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse; }
+      #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
+        padding: 30px !important;
+        margin-right: 0; }
+        #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container h6 {
+          text-align: center; }
+        #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container p {
+          text-align: left; }
+      #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
+        padding: 30px 0 0 !important; } }
 
-/* Tablet (portrait and landscape) */
-@media only screen and (min-width: 400px) and (max-width: 499px) {
+/* Mobile View */
+@media only screen and (min-width: 300px) and (max-width: 499px) {
   #portfolio-project .container .technologies .tech-container {
     width: 100%;
     border: none;
@@ -3310,7 +3312,8 @@ body {
     box-shadow: initial; }
     #portfolio-project .container .technologies .tech-container h3 {
       color: #555555;
-      background: none; }
+      background: none;
+      padding: 0 0 50px 0; }
     #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
       padding: 30px !important; }
     #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
