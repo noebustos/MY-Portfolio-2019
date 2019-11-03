@@ -147,6 +147,21 @@ body {
             border-radius: 3px;
             padding: 0 !important;
 
+            border: 5px solid #333;
+            border-bottom: 5px solid #333 !important;
+            background: #fff;
+
+            .container {
+              h6 {
+                font-size: 1.25rem;
+              }
+
+              p {
+                font-weight: 500;
+              }
+            }
+
+
             //hover
             &.column-container {
               .left-column {
@@ -171,12 +186,10 @@ body {
                 .container {
                   h6 {
                     color: #fff;
-                    font-size: 1.25rem;
                   }
 
                   p {
                     color: #fff;
-                    font-weight: 500;
                   }
                 }
               }
@@ -184,29 +197,23 @@ body {
 
             //hover
             &.column-container2 {
-              border: 5px solid #333;
-              border-bottom: 5px solid #333 !important;
-
               .left-column {
                 padding: 50px 40px 50px 65px !important;
-                background: #fff;
                 border-radius: 3px 0 0 3px;
                 margin-right: 0;
 
                 .container {
                   h6 {
-                    font-size: 1.25rem;
                   }
 
                   p {
-                    font-weight: 500;
                   }
                 }
               }
 
               .right-column {
                 background: #fff;
-                padding: 50px 40px 50px 65px !important;
+                padding: 50px 50px 50px 40px !important;
 
                 .icon {
                   background: $main-yellow;
