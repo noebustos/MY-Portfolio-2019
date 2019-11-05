@@ -1394,14 +1394,14 @@ header {
           text-transform: uppercase;
           font-weight: 700;
           letter-spacing: 1px; }
-          #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container {
+          #projects-section .projects-container .projects .project-info-box .project-btns .info-btn-container {
             margin-right: 15px; }
-            #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container .code-btn {
+            #projects-section .projects-container .projects .project-info-box .project-btns .info-btn-container .info-btn {
               display: block;
               margin: 0 auto 5px;
               -webkit-transition: all .2s ease-in-out;
               transition: all .2s ease-in-out; }
-            #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container img {
+            #projects-section .projects-container .projects .project-info-box .project-btns .info-btn-container img {
               display: block;
               margin-left: -1px;
               opacity: 0;
@@ -1411,9 +1411,9 @@ header {
               transition: opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
               transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s;
               transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-            #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container:hover .code-btn {
+            #projects-section .projects-container .projects .project-info-box .project-btns .info-btn-container:hover .info-btn {
               color: #FFA100; }
-            #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container:hover img {
+            #projects-section .projects-container .projects .project-info-box .project-btns .info-btn-container:hover img {
               opacity: 1;
               -webkit-transform: translateY(0);
               transform: translateY(0); }
@@ -1494,7 +1494,7 @@ header {
         padding: 30px; }
       #projects-section .projects-container .projects .project-info-box .project-btns {
         letter-spacing: 1px; }
-      #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container {
+      #projects-section .projects-container .projects .project-info-box .project-btns .info-btn-container {
         margin: 0; }
       #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container {
         margin: 0; }
@@ -1512,11 +1512,11 @@ header {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; }
-        #projects-section .projects-container .projects.project2 .project-btns .code-btn-container {
+        #projects-section .projects-container .projects.project2 .project-btns .info-btn-container {
           margin-right: 15px;
           margin-bottom: 0;
           text-align: center; }
-          #projects-section .projects-container .projects.project2 .project-btns .code-btn-container img {
+          #projects-section .projects-container .projects.project2 .project-btns .info-btn-container img {
             width: auto;
             margin: 0 auto; }
         #projects-section .projects-container .projects.project2 .project-btns .site-btn-container {
@@ -1900,7 +1900,7 @@ header {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    #projects-section .projects-container .projects .project-info-box.info-box-xl .project-btns .code-btn-container {
+    #projects-section .projects-container .projects .project-info-box.info-box-xl .project-btns .info-btn-container {
       margin-right: 0; }
     #projects-section .projects-container .projects .project-info-box.info-box-xl .project-btns .site-btn-container {
       margin-left: 0;
@@ -1945,7 +1945,7 @@ header {
         margin-top: 0px; }
       #projects-section .projects-container .projects .project-info-box .project-btns {
         letter-spacing: 0px; }
-        #projects-section .projects-container .projects .project-info-box .project-btns .code-btn-container {
+        #projects-section .projects-container .projects .project-info-box .project-btns .info-btn-container {
           margin-right: 0px; }
         #projects-section .projects-container .projects .project-info-box .project-btns .site-btn-container {
           margin-left: 0px; }
