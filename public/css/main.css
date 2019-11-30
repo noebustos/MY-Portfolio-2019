@@ -2945,631 +2945,38 @@ header {
 body {
   background: #faf9f7; }
 
-#project-info-body header nav a {
+#first-project-body header nav a {
   color: #555555; }
-  #project-info-body header nav a:hover {
+  #first-project-body header nav a:hover {
     color: #FEB332; }
 
-#portfolio-project {
+#first-project-body #portfolio-project {
   padding: 100px 0 150px 0; }
-  #portfolio-project .container .project-image {
+  #first-project-body #portfolio-project .container .project-image {
     width: 100%; }
-    #portfolio-project .container .project-image .img {
+    #first-project-body #portfolio-project .container .project-image .img {
       width: 100%;
       height: 450px;
       background-size: cover !important;
       background-position: top center !important;
       background-repeat: no-repeat !important; }
-  #portfolio-project .container .section-title {
+  #first-project-body #portfolio-project .container .section-title {
     text-align: left;
     margin-bottom: 0; }
-    #portfolio-project .container .section-title h2 {
+    #first-project-body #portfolio-project .container .section-title h2 {
       margin-bottom: 10px !important;
       margin-top: 20px; }
-    #portfolio-project .container .section-title img {
+    #first-project-body #portfolio-project .container .section-title img {
       width: 100px; }
-  #portfolio-project .container p {
+  #first-project-body #portfolio-project .container p {
     font-size: 1rem;
     line-height: 1.5;
     color: #929294;
     margin-top: 17px; }
-    #portfolio-project .container p:nth-of-type(2) {
+    #first-project-body #portfolio-project .container p:nth-of-type(2) {
       margin-bottom: 50px;
-      margin-top: 0; }
-  #portfolio-project .container .info .buttons a {
-    display: inline-block;
-    margin: 0 25px 0 0;
-    color: #FEB332;
-    border: 3px solid #FEB332;
-    text-transform: uppercase;
-    padding: 14px 30px;
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    border-radius: 5px;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out; }
-  #portfolio-project .container .info .buttons .fas {
-    color: #FEB332;
-    margin-right: 10px; }
-  #portfolio-project .container .info .buttons a:hover {
-    background: #FEB332;
-    color: #fff; }
-    #portfolio-project .container .info .buttons a:hover .fas {
-      color: #fff; }
-  #portfolio-project .container .technologies {
-    width: 100%;
-    position: relative;
-    margin: 150px 0 0; }
-    #portfolio-project .container .technologies .tech-container {
-      border-radius: 4px;
-      border: 5px solid #333333;
-      width: 70%;
-      -webkit-box-shadow: -14px 14px 0px -1px rgba(140, 140, 140, 0.5);
-      box-shadow: -14px 14px 0px -1px rgba(140, 140, 140, 0.5);
-      margin: 0 auto; }
-      #portfolio-project .container .technologies .tech-container h3 {
-        font-size: 1.8rem;
-        text-align: center;
-        font-weight: 700;
-        letter-spacing: 2px;
-        text-transform: capitalize;
-        padding: 50px;
-        background: #FEB332;
-        color: #fff; }
-      #portfolio-project .container .technologies .tech-container .column:hover {
-        width: 105.5%;
-        -webkit-transform: translateX(-2.55%);
-        transform: translateX(-2.55%);
-        -webkit-box-shadow: 0px 0px 30px 5px rgba(100, 100, 100, 0.23);
-        box-shadow: 0px 0px 30px 5px rgba(100, 100, 100, 0.23);
-        border-left: 5px solid #333333;
-        border-bottom: none !important;
-        -o-border-image: 0 !important;
-        border-image: 0 !important;
-        border-radius: 3px;
-        padding: 0 !important;
-        cursor: pointer;
-        border: 5px solid #333;
-        border-bottom: 5px solid #333 !important;
-        background: #fff; }
-        #portfolio-project .container .technologies .tech-container .column:hover .container h6 {
-          font-size: 1.25rem; }
-        #portfolio-project .container .technologies .tech-container .column:hover .container p {
-          font-weight: 500; }
-        #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
-          background: #fff;
-          -o-border-image: none;
-          border-image: none;
-          padding: 50px 40px 50px 65px !important;
-          border-right: none; }
-          #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column .icon {
-            background: #FEB332;
-            border: none; }
-        #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
-          padding: 50px 65px 50px 40px !important;
-          background: #FEB332;
-          border-radius: 0 3px 3px 0px;
-          margin-left: 0; }
-          #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column .container h6 {
-            color: #fff; }
-          #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column .container p {
-            color: #fff; }
-        #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .left-column {
-          padding: 50px 40px 50px 65px !important;
-          border-radius: 3px 0 0 3px;
-          margin-right: 0; }
-        #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column {
-          background: #fff;
-          padding: 50px 50px 50px 40px !important; }
-          #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column .icon {
-            background: #FEB332;
-            border: none; }
-      #portfolio-project .container .technologies .tech-container .column.column-container {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        position: relative;
-        border-bottom-width: 3px;
-        border-bottom-style: solid;
-        -o-border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1;
-        border-image: -webkit-gradient(linear, right top, left top, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.8)), to(rgba(170, 170, 170, 0))) 1;
-        border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1; }
-        #portfolio-project .container .technologies .tech-container .column.column-container .left-column {
-          padding: 50px 40px 50px 50px !important;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-          border-right-width: 3px;
-          border-right-style: solid;
-          -o-border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%;
-          border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 170, 170, 0.5)), to(rgba(170, 170, 170, 0))) 1 100%;
-          border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%; }
-          #portfolio-project .container .technologies .tech-container .column.column-container .left-column .icon {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            text-align: center;
-            vertical-align: middle;
-            border: 3px solid #707070; }
-            #portfolio-project .container .technologies .tech-container .column.column-container .left-column .icon img {
-              -webkit-filter: grayscale(100%);
-              filter: grayscale(100%);
-              -webkit-transition: all .3s ease-in-out;
-              transition: all .3s ease-in-out;
-              cursor: pointer; }
-        #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
-          padding: 50px 50px 50px 40px !important; }
-          #portfolio-project .container .technologies .tech-container .column.column-container .right-column .container h6 {
-            font-size: 1.2rem;
-            text-transform: capitalize;
-            letter-spacing: 2px;
-            margin-bottom: 17px;
-            font-weight: 700;
-            color: #555555; }
-          #portfolio-project .container .technologies .tech-container .column.column-container .right-column .container p {
-            font-size: 1.1rem;
-            line-height: 1.8; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        position: relative;
-        border-bottom-width: 3px;
-        border-bottom-style: solid;
-        -o-border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1;
-        border-image: -webkit-gradient(linear, right top, left top, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.8)), to(rgba(170, 170, 170, 0))) 1;
-        border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1; }
-        #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
-          padding: 50px 40px 50px 50px !important; }
-          #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container h6 {
-            font-size: 1.2rem;
-            font-weight: 500;
-            text-transform: capitalize;
-            letter-spacing: 2px;
-            margin-bottom: 17px;
-            text-align: right;
-            font-weight: 700;
-            color: #555555; }
-          #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container p {
-            font-size: 1.1rem;
-            line-height: 1.8;
-            text-align: right; }
-        #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
-          padding: 50px 50px 50px 40px;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-          border-left-width: 3px;
-          border-left-style: solid;
-          -o-border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%;
-          border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 170, 170, 0.5)), to(rgba(170, 170, 170, 0))) 1 100%;
-          border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%; }
-          #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column .icon {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            text-align: center;
-            vertical-align: middle;
-            border: 3px solid #707070; }
-            #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column .icon img {
-              -webkit-filter: grayscale(100%);
-              filter: grayscale(100%);
-              -webkit-transition: all .3s ease-in-out;
-              transition: all .3s ease-in-out;
-              cursor: pointer; }
-
-.project-info-footer {
-  background: #FEB332; }
-  .project-info-footer .container {
-    color: #fff;
-    font-weight: 600; }
-
-/* Laptop View */
-@media only screen and (min-width: 951px) and (max-width: 1050px) {
-  #portfolio-project .container .technologies .tech-container {
-    width: 77%; }
-    #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
-      margin-right: 0; } }
-
-/* Laptop View */
-@media only screen and (min-width: 901px) and (max-width: 950px) {
-  #portfolio-project .container .technologies .tech-container {
-    width: 77%; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
-      padding: 45px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
-      padding: 45px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .left-column {
-      padding: 45px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column {
-      padding: 45px !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container .left-column {
-      padding: 45px !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
-      padding: 45px !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container2 {
-      padding: 0; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
-        padding: 45px !important;
-        margin-right: 0; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
-        padding: 45px !important; } }
-
-/* Tablet View */
-@media only screen and (min-width: 840px) and (max-width: 900px) {
-  #portfolio-project .container .technologies .tech-container {
-    width: 80%; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
-      padding: 35px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
-      padding: 35px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .left-column {
-      padding: 35px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column {
-      padding: 35px !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container .left-column {
-      padding: 35px !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
-      padding: 35px !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container2 {
-      padding: 0; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
-        padding: 35px !important;
-        margin-right: 0; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
-        padding: 35px !important; } }
-
-/* Tablet View*/
-@media only screen and (min-width: 750px) and (max-width: 839px) {
-  #portfolio-project .container .technologies .tech-container {
-    width: 80.5%; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .left-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container .left-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container2 {
-      padding: 0; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
-        padding: 30px !important;
-        margin-right: 0; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
-        padding: 30px !important; } }
-
-/* Tablet View */
-@media only screen and (min-width: 500px) and (max-width: 749px) {
-  #portfolio-project .container .technologies .tech-container {
-    width: 75%; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .left-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column; }
-      #portfolio-project .container .technologies .tech-container .column.column-container .left-column {
-        padding: 30px 0 0 !important; }
-      #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
-        padding: 30px !important; }
-        #portfolio-project .container .technologies .tech-container .column.column-container .right-column .container h6 {
-          text-align: center; }
-    #portfolio-project .container .technologies .tech-container .column.column-container2 {
-      padding: 0;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-      flex-direction: column-reverse; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
-        padding: 30px !important;
-        margin-right: 0; }
-        #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container h6 {
-          text-align: center; }
-        #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container p {
-          text-align: left; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
-        padding: 30px 0 0 !important; } }
-
-/* Mobile View */
-@media only screen and (min-width: 300px) and (max-width: 499px) {
-  #portfolio-project .container .technologies .tech-container {
-    width: 100%;
-    border: none;
-    -webkit-box-shadow: initial;
-    box-shadow: initial; }
-    #portfolio-project .container .technologies .tech-container h3 {
-      color: #555555;
-      background: none;
-      padding: 0 0 50px 0; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .left-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column {
-      padding: 30px !important; }
-    #portfolio-project .container .technologies .tech-container .column.column-container {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column; }
-      #portfolio-project .container .technologies .tech-container .column.column-container .left-column {
-        padding: 30px 0 0 !important; }
-      #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
-        padding: 30px !important; }
-        #portfolio-project .container .technologies .tech-container .column.column-container .right-column .container h6 {
-          text-align: center; }
-    #portfolio-project .container .technologies .tech-container .column.column-container2 {
-      padding: 0;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-      flex-direction: column-reverse; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
-        padding: 30px !important;
-        margin-right: 0; }
-        #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container h6 {
-          text-align: center; }
-        #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container p {
-          text-align: left; }
-      #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
-        padding: 30px 0 0 !important; } }
-
-/* Smartphones (portrait and landscape) */
-header {
-  margin: 0 auto;
-  position: fixed;
-  left: 0;
-  right: 0;
-  padding: 20px 0 8px;
-  z-index: 20;
-  text-transform: uppercase;
-  font-size: 14px;
-  color: #fff;
-  vertical-align: middle; }
-  header.scroll {
-    background: rgba(255, 255, 255, 0.95);
-    -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); }
-    header.scroll .mobile-menu-icons .hamburger-icon {
-      color: #555555; }
-    header.scroll .mobile-menu-icons .out-icon {
-      color: #555555; }
-    header.scroll .logo a {
-      color: #555555; }
-    header.scroll a {
-      color: #555555; }
-  header .mobile-menu-icons {
-    display: none; }
-    header .mobile-menu-icons .hamburger-icon {
-      padding: 5px;
-      font-size: 1.5rem; }
-    header .mobile-menu-icons .out-icon {
-      padding: 5px;
-      font-size: 1.5rem; }
-  header .logo {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 1.1rem; }
-    header .logo a {
-      color: #fff;
-      position: relative;
-      z-index: 21;
-      bottom: 6px; }
-      header .logo a img {
-        width: 80px; }
-  header nav {
-    display: inline-block;
-    float: right; }
-    header nav a {
-      letter-spacing: 1px;
-      color: #fff;
-      font-weight: 700;
-      margin-right: 50px;
-      -webkit-transition: all .2s ease-in-out;
-      transition: all .2s ease-in-out;
-      display: inline-block; }
-      header nav a img {
-        display: block;
-        margin-top: 5px;
-        opacity: 0;
-        -webkit-transform: translateY(-5px);
-        transform: translateY(-5px);
-        -webkit-transition: opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        transition: opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s;
-        transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-        header nav a img.skills-underline {
-          width: 100%; }
-      header nav a:nth-child(5) {
-        margin-right: -.5px; }
-      header nav a:hover {
-        font-weight: 800;
-        color: #FEB332; }
-        header nav a:hover img {
-          opacity: 1;
-          -webkit-transform: translateY(0);
-          transform: translateY(0); }
-      header nav a.active {
-        color: #aaa;
-        padding-bottom: 0;
-        cursor: default; }
-        header nav a.active:hover img {
-          opacity: 0; }
-
-/* Smartphones (portrait and landscape) */
-@media only screen and (min-width: 300px) and (max-width: 650px) {
-  header {
-    width: 100% !important;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.25); }
-    header.scroll {
-      -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
-      box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); }
-      header.scroll .logo a {
-        color: #555555; }
-    header.header-close .container {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-      flex-direction: row-reverse;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -ms-flex-line-pack: center;
-      align-content: center; }
-      header.header-close .container .mobile-menu-icons {
-        display: block; }
-        header.header-close .container .mobile-menu-icons .hamburger-icon {
-          display: block;
-          padding: 0; }
-        header.header-close .container .mobile-menu-icons .out-icon {
-          display: none;
-          padding: 0; }
-      header.header-close .container .logo {
-        display: block; }
-      header.header-close .container nav {
-        display: none; }
-    header.header-open {
-      background: rgba(255, 255, 255, 0.95);
-      -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
-      box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); }
-      header.header-open .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto 1fr; }
-        header.header-open .container .mobile-menu-icons {
-          display: block;
-          color: #333333;
-          grid-column: 2/3;
-          justify-self: end; }
-          header.header-open .container .mobile-menu-icons .hamburger-icon {
-            display: none;
-            padding: 0; }
-          header.header-open .container .mobile-menu-icons .out-icon {
-            display: block;
-            padding: 0; }
-        header.header-open .container .logo {
-          display: block;
-          grid-column: 1/2;
-          grid-row: 1/2;
-          justify-self: start;
-          text-align: center; }
-          header.header-open .container .logo a {
-            color: #555555; }
-        header.header-open .container nav {
-          grid-column: 1/3;
-          grid-row: 2/3;
-          display: block;
-          text-align: center; }
-          header.header-open .container nav a {
-            color: #555555;
-            display: block;
-            font-size: 1rem;
-            padding: 10px 0;
-            margin: 0 20px; }
-            header.header-open .container nav a.active {
-              color: #aaa; }
-            header.header-open .container nav a img {
-              display: none; } }
-
-@media only screen and (min-width: 651px) and (max-width: 800px) {
-  header {
-    background: rgba(0, 0, 0, 0.28) !important; }
-    header.scroll {
-      background: rgba(255, 255, 255, 0.95) !important; } }
-
-/* Tablet (portrait and landscape) */
-@media only screen and (min-width: 480px) and (max-width: 790px) {
-  header {
-    padding: 22px 30px !important; } }
-
-/* Tablet (portrait and landscape) */
-@media only screen and (min-width: 651px) and (max-width: 780px) {
-  header.scroll .logo {
-    vertical-align: middle; }
-    header.scroll .logo a {
-      color: #555555; }
-  header .logo {
-    float: left; }
-  header nav a {
-    margin-right: 30px; }
-    header nav a:nth-child(5) {
-      margin-right: 0; }
-    header nav a img {
-      display: none; } }
-
-/* Tablet (portrait and landscape) */
-@media only screen and (min-width: 780px) and (max-width: 900px) {
-  header nav a img {
-    display: none; } }
-
-body {
-  background: #faf9f7; }
-
-#project1-info-body header nav a {
-  color: #555555; }
-  #project1-info-body header nav a:hover {
-    color: #FEB332; }
-
-#project1-info-body #portfolio-project {
-  padding: 100px 0 150px 0; }
-  #project1-info-body #portfolio-project .container .project-image {
-    width: 100%; }
-    #project1-info-body #portfolio-project .container .project-image .img {
-      width: 100%;
-      height: 450px;
-      background-size: cover !important;
-      background-position: top center !important;
-      background-repeat: no-repeat !important; }
-  #project1-info-body #portfolio-project .container .section-title {
-    text-align: left;
-    margin-bottom: 0; }
-    #project1-info-body #portfolio-project .container .section-title h2 {
-      margin-bottom: 10px !important;
       margin-top: 20px; }
-    #project1-info-body #portfolio-project .container .section-title img {
-      width: 100px; }
-  #project1-info-body #portfolio-project .container p {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #929294;
-    margin-top: 17px; }
-    #project1-info-body #portfolio-project .container p:nth-of-type(2) {
-      margin-top: 25px; }
-  #project1-info-body #portfolio-project .container .info .buttons a {
+  #first-project-body #portfolio-project .container .info .buttons a {
     display: inline-block;
     margin: 0 25px 0 0;
     color: #FEB332;
@@ -3582,26 +2989,26 @@ body {
     border-radius: 5px;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out; }
-  #project1-info-body #portfolio-project .container .info .buttons .fas {
+  #first-project-body #portfolio-project .container .info .buttons .fas {
     color: #FEB332;
     margin-right: 10px; }
-  #project1-info-body #portfolio-project .container .info .buttons a:hover {
+  #first-project-body #portfolio-project .container .info .buttons a:hover {
     background: #FEB332;
     color: #fff; }
-    #project1-info-body #portfolio-project .container .info .buttons a:hover .fas {
+    #first-project-body #portfolio-project .container .info .buttons a:hover .fas {
       color: #fff; }
-  #project1-info-body #portfolio-project .container .technologies {
+  #first-project-body #portfolio-project .container .technologies {
     width: 100%;
     position: relative;
     margin: 150px 0 0; }
-    #project1-info-body #portfolio-project .container .technologies .tech-container {
+    #first-project-body #portfolio-project .container .technologies .tech-container {
       border-radius: 4px;
       border: 5px solid #333333;
       width: 70%;
       -webkit-box-shadow: -14px 14px 0px -1px rgba(140, 140, 140, 0.5);
       box-shadow: -14px 14px 0px -1px rgba(140, 140, 140, 0.5);
       margin: 0 auto; }
-      #project1-info-body #portfolio-project .container .technologies .tech-container h3 {
+      #first-project-body #portfolio-project .container .technologies .tech-container h3 {
         font-size: 1.8rem;
         text-align: center;
         font-weight: 700;
@@ -3610,7 +3017,7 @@ body {
         padding: 50px;
         background: #FEB332;
         color: #fff; }
-      #project1-info-body #portfolio-project .container .technologies .tech-container .column:hover {
+      #first-project-body #portfolio-project .container .technologies .tech-container .column:hover {
         width: 105.5%;
         -webkit-transform: translateX(-2.55%);
         transform: translateX(-2.55%);
@@ -3626,39 +3033,39 @@ body {
         border: 5px solid #333;
         border-bottom: 5px solid #333 !important;
         background: #fff; }
-        #project1-info-body #portfolio-project .container .technologies .tech-container .column:hover .container h6 {
+        #first-project-body #portfolio-project .container .technologies .tech-container .column:hover .container h6 {
           font-size: 1.25rem; }
-        #project1-info-body #portfolio-project .container .technologies .tech-container .column:hover .container p {
+        #first-project-body #portfolio-project .container .technologies .tech-container .column:hover .container p {
           font-weight: 500; }
-        #project1-info-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
+        #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
           background: #fff;
           -o-border-image: none;
           border-image: none;
           padding: 50px 40px 50px 65px !important;
           border-right: none; }
-          #project1-info-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column .icon {
+          #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column .logo {
             background: #FEB332;
             border: none; }
-        #project1-info-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
+        #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
           padding: 50px 65px 50px 40px !important;
           background: #FEB332;
           border-radius: 0 3px 3px 0px;
           margin-left: 0; }
-          #project1-info-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column .container h6 {
+          #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column .container h6 {
             color: #fff; }
-          #project1-info-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column .container p {
+          #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column .container p {
             color: #fff; }
-        #project1-info-body #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .left-column {
+        #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .left-column {
           padding: 50px 40px 50px 65px !important;
           border-radius: 3px 0 0 3px;
           margin-right: 0; }
-        #project1-info-body #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column {
+        #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column {
           background: #fff;
           padding: 50px 50px 50px 40px !important; }
-          #project1-info-body #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column .icon {
+          #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .right-column .logo {
             background: #FEB332;
             border: none; }
-      #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container {
+      #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -3668,7 +3075,7 @@ body {
         -o-border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1;
         border-image: -webkit-gradient(linear, right top, left top, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.8)), to(rgba(170, 170, 170, 0))) 1;
         border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1; }
-        #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container .left-column {
+        #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container .left-column {
           padding: 50px 40px 50px 50px !important;
           display: -webkit-box;
           display: -ms-flexbox;
@@ -3684,32 +3091,29 @@ body {
           -o-border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%;
           border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 170, 170, 0.5)), to(rgba(170, 170, 170, 0))) 1 100%;
           border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%; }
-          #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container .left-column .icon {
-            width: 100px;
-            height: 100px;
+          #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container .left-column .logo {
+            width: 100px !important;
+            height: 100px !important;
             border-radius: 50%;
             text-align: center;
             vertical-align: middle;
-            border: 3px solid #707070; }
-            #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container .left-column .icon img {
-              -webkit-filter: grayscale(100%);
-              filter: grayscale(100%);
-              -webkit-transition: all .3s ease-in-out;
-              transition: all .3s ease-in-out;
-              cursor: pointer; }
-        #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
+            overflow: hidden; }
+            #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container .left-column .logo img {
+              width: 133%;
+              margin-left: -14px; }
+        #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
           padding: 50px 50px 50px 40px !important; }
-          #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container .right-column .container h6 {
+          #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container .right-column .container h6 {
             font-size: 1.2rem;
             text-transform: capitalize;
             letter-spacing: 2px;
             margin-bottom: 17px;
             font-weight: 700;
             color: #555555; }
-          #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container .right-column .container p {
+          #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container .right-column .container p {
             font-size: 1.1rem;
             line-height: 1.8; }
-      #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container2 {
+      #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container2 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -3719,9 +3123,9 @@ body {
         -o-border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1;
         border-image: -webkit-gradient(linear, right top, left top, from(rgba(170, 170, 170, 0)), color-stop(rgba(170, 170, 170, 0.8)), to(rgba(170, 170, 170, 0))) 1;
         border-image: linear-gradient(270deg, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0)) 1; }
-        #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
+        #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column {
           padding: 50px 40px 50px 50px !important; }
-          #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container h6 {
+          #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container h6 {
             font-size: 1.2rem;
             font-weight: 500;
             text-transform: capitalize;
@@ -3730,11 +3134,11 @@ body {
             text-align: right;
             font-weight: 700;
             color: #555555; }
-          #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container p {
+          #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container2 .left-column .container p {
             font-size: 1.1rem;
             line-height: 1.8;
             text-align: right; }
-        #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
+        #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column {
           padding: 50px 50px 50px 40px;
           display: -webkit-box;
           display: -ms-flexbox;
@@ -3750,23 +3154,22 @@ body {
           -o-border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%;
           border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 170, 170, 0.5)), to(rgba(170, 170, 170, 0))) 1 100%;
           border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0)) 1 100%; }
-          #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column .icon {
+          #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column .logo {
             width: 100px;
             height: 100px;
             border-radius: 50%;
             text-align: center;
             vertical-align: middle;
-            border: 3px solid #707070; }
-            #project1-info-body #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column .icon img {
-              -webkit-filter: grayscale(100%);
-              filter: grayscale(100%);
-              -webkit-transition: all .3s ease-in-out;
-              transition: all .3s ease-in-out;
-              cursor: pointer; }
+            border: 3px solid #707070;
+            overflow: hidden; }
+            #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container2 .right-column .logo img {
+              width: 133%;
+              margin-left: -16px;
+              margin-top: -16px; }
 
-#project1-info-body .project-info-footer {
+#first-project-body .project-info-footer {
   background: #FEB332; }
-  #project1-info-body .project-info-footer .container {
+  #first-project-body .project-info-footer .container {
     color: #fff;
     font-weight: 600; }
 
