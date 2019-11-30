@@ -151,11 +151,11 @@ body {
   
               .container {
                 h6 {
-                  font-size: 1.25rem;
+                  // font-size: 1.25rem;
                 }
   
                 p {
-                  font-weight: 500;
+                  // font-weight: 500;
                 }
               }
   
@@ -163,31 +163,23 @@ body {
               //hover
               &.column-container {
                 .left-column {
-                  background: #fff;
-                  border-image: none;
+                  // border-image: none;
                   padding: 50px 40px 50px 65px !important;
-                  border-right: none;
+                  // border-right: none;
   
                   .logo {
-                    background: $main-yellow;
-                    border: none;
                   }
                 }
   
                 .right-column {
-                  //edit
                   padding: 50px 65px 50px 40px !important;
-                  background: #FEB332;
                   border-radius: 0 3px 3px 0px;
                   margin-left: 0;
   
                   .container {
                     h6 {
-                      color: #fff;
                     }
-  
                     p {
-                      color: #fff;
                     }
                   }
                 }

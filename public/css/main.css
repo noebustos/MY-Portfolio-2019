@@ -3033,28 +3033,12 @@ body {
         border: 5px solid #333;
         border-bottom: 5px solid #333 !important;
         background: #fff; }
-        #first-project-body #portfolio-project .container .technologies .tech-container .column:hover .container h6 {
-          font-size: 1.25rem; }
-        #first-project-body #portfolio-project .container .technologies .tech-container .column:hover .container p {
-          font-weight: 500; }
         #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column {
-          background: #fff;
-          -o-border-image: none;
-          border-image: none;
-          padding: 50px 40px 50px 65px !important;
-          border-right: none; }
-          #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .left-column .logo {
-            background: #FEB332;
-            border: none; }
+          padding: 50px 40px 50px 65px !important; }
         #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column {
           padding: 50px 65px 50px 40px !important;
-          background: #FEB332;
           border-radius: 0 3px 3px 0px;
           margin-left: 0; }
-          #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column .container h6 {
-            color: #fff; }
-          #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container .right-column .container p {
-            color: #fff; }
         #first-project-body #portfolio-project .container .technologies .tech-container .column:hover.column-container2 .left-column {
           padding: 50px 40px 50px 65px !important;
           border-radius: 3px 0 0 3px;
