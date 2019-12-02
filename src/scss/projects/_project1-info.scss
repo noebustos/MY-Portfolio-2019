@@ -207,7 +207,7 @@ body {
   
                   .logo {
                     background: $main-yellow;
-                    border: none;
+                    // border: none;
                   }
                 }
               }
@@ -247,7 +247,7 @@ body {
   
               .right-column {
                 padding: 50px 50px 50px 40px !important;
-  
+                background: #fff;
                 .container {
                   h6 {
                     font-size: 1.2rem;
@@ -269,9 +269,6 @@ body {
             &.column-container2 {
               display: flex;
               position: relative;
-              border-bottom-width: 3px;
-              border-bottom-style: solid;
-              border-image: linear-gradient(270deg, rgba(170, 170, 170, 0.0), rgba(170, 170, 170, 0.8), rgba(170, 170, 170, 0.0)) 1;
   
               .left-column {
                 padding: 50px 40px 50px 50px !important;
