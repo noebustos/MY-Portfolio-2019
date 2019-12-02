@@ -10,27 +10,8 @@ body {
       a {
         color: $med-black;
 
-        img {
-          &.skills-underline {
-
-          }
-        }
-
-        &:nth-child(5) {
-        }
-
         &:hover {
           color: $main-yellow;
-
-          img {
-          }
-        }
-
-        &.active {
-          &:hover {
-            img {
-            }
-          }
         }
       }
     }
@@ -51,34 +32,33 @@ body {
           background-repeat: no-repeat !important;
         }
       }
- 
+
       .section-title {
         text-align: left;
         margin-bottom: 0;
-  
+
         h2 {
           margin-bottom: 10px !important;
           margin-top: 20px;
-  
         }
-  
+
         img {
           width: 100px;
         }
       }
-  
+
       p {
         font-size: 1rem;
         line-height: 1.5;
         color: #929294;
         margin-top: 17px;
-  
+
         &:nth-of-type(2) {
           margin-bottom: 50px;
           margin-top: 20px;
         }
       }
-  
+
       .info {
         .buttons {
           a {
@@ -94,35 +74,35 @@ body {
             border-radius: 5px;
             transition: all .2s ease-in-out;
           }
-  
+
           .fas {
             color: $main-yellow;
             margin-right: 10px;
           }
-  
+
           a:hover {
             background: $main-yellow;
             color: #fff;
-  
+
             .fas {
               color: #fff;
             }
           }
         }
       }
-  
+
       .technologies {
         width: 100%;
         position: relative;
         margin: 150px 0 0;
-  
+
         .tech-container {
           border-radius: 4px;
           border: 5px solid $rich-black;
           width: 70%;
           box-shadow: -14px 14px 0px -1px rgba(140, 140, 140, .5);
           margin: 0 auto;
-  
+
           h3 {
             font-size: 1.8rem;
             text-align: center;
@@ -133,7 +113,7 @@ body {
             background: $main-yellow;
             color: #fff;
           }
-  
+
           .column {
             &:hover {
               width: 105.5%;
@@ -148,71 +128,39 @@ body {
               border: 5px solid #333;
               border-bottom: 5px solid #333 !important;
               background: #fff;
-  
-              .container {
-                h6 {
-                  // font-size: 1.25rem;
-                }
-  
-                p {
-                  // font-weight: 500;
-                }
-              }
-  
-  
+
               //hover
               &.column-container {
                 .left-column {
-                  // border-image: none;
                   padding: 50px 40px 50px 65px !important;
-                  // border-right: none;
-  
-                  .logo {
-                  }
                 }
-  
+
                 .right-column {
                   padding: 50px 65px 50px 40px !important;
                   border-radius: 0 3px 3px 0px;
                   margin-left: 0;
-  
-                  .container {
-                    h6 {
-                    }
-                    p {
-                    }
-                  }
                 }
               }
-  
+
               //hover
               &.column-container2 {
                 .left-column {
                   padding: 50px 40px 50px 65px !important;
                   border-radius: 3px 0 0 3px;
                   margin-right: 0;
-  
-                  .container {
-                    h6 {
-                    }
-  
-                    p {
-                    }
-                  }
                 }
-  
+
                 .right-column {
                   background: #fff;
                   padding: 50px 50px 50px 40px !important;
-  
+
                   .logo {
                     background: $main-yellow;
-                    // border: none;
                   }
                 }
               }
             }
-  
+
             &.column-container {
               display: flex;
               position: relative;
@@ -235,19 +183,19 @@ body {
                   border-radius: 50%;
                   text-align: center;
                   vertical-align: middle;
-                  // border: 3px solid $med-gray;
                   overflow: hidden;
-  
+
                   img {
                     width: 133%;
                     margin-left: -14px;
                   }
                 }
               }
-  
+
               .right-column {
                 padding: 50px 50px 50px 40px !important;
                 background: #fff;
+
                 .container {
                   h6 {
                     font-size: 1.2rem;
@@ -257,7 +205,7 @@ body {
                     font-weight: 700;
                     color: $med-black;
                   }
-  
+
                   p {
                     font-size: 1.1rem;
                     line-height: 1.8;
@@ -265,14 +213,14 @@ body {
                 }
               }
             }
-  
+
             &.column-container2 {
               display: flex;
               position: relative;
-  
+
               .left-column {
                 padding: 50px 40px 50px 50px !important;
-  
+
                 .container {
                   h6 {
                     font-size: 1.2rem;
@@ -284,7 +232,7 @@ body {
                     font-weight: 700;
                     color: $med-black;
                   }
-  
+
                   p {
                     font-size: 1.1rem;
                     line-height: 1.8;
@@ -292,7 +240,7 @@ body {
                   }
                 }
               }
-  
+
               .right-column {
                 padding: 50px 50px 50px 40px;
                 display: flex;
@@ -301,7 +249,7 @@ body {
                 border-left-width: 3px;
                 border-left-style: solid;
                 border-image: linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0.0)) 1 100%;
-  
+
                 .logo {
                   width: 100px;
                   height: 100px;
@@ -310,14 +258,13 @@ body {
                   vertical-align: middle;
                   border: 3px solid $med-gray;
                   overflow: hidden;
-  
+
                   img {
                     width: 133%;
                     margin-left: -16px;
                     margin-top: -16px;
                   }
                 }
-
               }
             }
           }
@@ -327,159 +274,27 @@ body {
   }
 
   .project-info-footer {
-    // background: $main-blue;
     background: $main-yellow;
-  
-    // background: $baby-blue;
     .container {
       color: #fff;
       font-weight: 600;
-      // font-size: 1rem;
     }
   }
 }
 
-
-
+// MEDIA QUERIES
 /* Laptop View */
 @media only screen and (min-width: 951px) and (max-width: 1050px) {
   #portfolio-project {
     .container {
-      .project-image {
-
-        .img {}
-      }
-
-      .section-title {
-
-        h1 {}
-
-        img {}
-      }
-
-      p {
-
-        &:nth-last-of-type() {}
-
-        &:nth-of-type(2) {}
-      }
-
-      .info {
-        .buttons {
-          a {}
-
-          .fas {}
-
-          a:hover {
-
-            .fas {}
-          }
-        }
-      }
-
       .technologies {
-
         .tech-container {
-          // width: 75% !important;
           width: 77%;
-          // width: 78%;
-          // width: 80%;
-
-          h3 {}
 
           .column {
-            &:hover {
-
-              //hover
-              &.column-container {
-                .left-column {
-                  // padding: 45px !important;
-                }
-
-                .right-column {
-                  // padding: 45px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
-                }
-              }
-
-              //hover
-              &.column-container2 {
-
-                .left-column {
-                  // padding: 45px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
-                }
-
-                .right-column {
-                  // padding: 45px !important;
-
-                  .logo {}
-                }
-              }
-            }
-
-            &.column-container {
-
-              &:nth-of-type(3) {}
-
-              .left-column {
-                // padding: 45px !important;
-
-                .logo {
-
-                  img {
-
-                    &:hover {}
-                  }
-                }
-              }
-
-              .right-column {
-                // padding: 45px !important;
-
-                .container {
-                  h6 {}
-
-                  p {}
-                }
-              }
-            }
-
             &.column-container2 {
-              // padding: 0;
-
               .left-column {
-                // padding: 45px !important;
                 margin-right: 0;
-
-                .container {
-                  h6 {}
-
-                  p {}
-                }
-              }
-
-              .right-column {
-                // padding: 45px !important;
-
-                .logo {
-
-                  img {}
-
-                  .logo {
-                    img {}
-                  }
-                }
               }
             }
           }
@@ -493,52 +308,12 @@ body {
 @media only screen and (min-width: 901px) and (max-width: 950px) {
   #portfolio-project {
     .container {
-      .project-image {
-
-        .img {}
-      }
-
-      .section-title {
-
-        h1 {}
-
-        img {}
-      }
-
-      p {
-
-        &:nth-last-of-type() {}
-
-        &:nth-of-type(2) {}
-      }
-
-      .info {
-        .buttons {
-          a {}
-
-          .fas {}
-
-          a:hover {
-
-            .fas {}
-          }
-        }
-      }
-
       .technologies {
-
         .tech-container {
-          // width: 75% !important;
           width: 77%;
-          // width: 78%;
-          // width: 80%;
-
-          h3 {}
 
           .column {
             &:hover {
-
-              //hover
               &.column-container {
                 .left-column {
                   padding: 45px !important;
@@ -546,60 +321,27 @@ body {
 
                 .right-column {
                   padding: 45px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
                 }
               }
 
-              //hover
               &.column-container2 {
-
                 .left-column {
                   padding: 45px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
                 }
 
                 .right-column {
                   padding: 45px !important;
-
-                  .logo {}
                 }
               }
             }
 
             &.column-container {
-
-              &:nth-of-type(3) {}
-
               .left-column {
                 padding: 45px !important;
-
-                .logo {
-
-                  img {
-
-                    &:hover {}
-                  }
-                }
               }
 
               .right-column {
                 padding: 45px !important;
-
-                .container {
-                  h6 {}
-
-                  p {}
-                }
               }
             }
 
@@ -609,25 +351,10 @@ body {
               .left-column {
                 padding: 45px !important;
                 margin-right: 0;
-
-                .container {
-                  h6 {}
-
-                  p {}
-                }
               }
 
               .right-column {
                 padding: 45px !important;
-
-                .logo {
-
-                  img {}
-
-                  .logo {
-                    img {}
-                  }
-                }
               }
             }
           }
@@ -641,52 +368,12 @@ body {
 @media only screen and (min-width: 840px) and (max-width: 900px) {
   #portfolio-project {
     .container {
-      .project-image {
-
-        .img {}
-      }
-
-      .section-title {
-
-        h1 {}
-
-        img {}
-      }
-
-      p {
-
-        &:nth-last-of-type() {}
-
-        &:nth-of-type(2) {}
-      }
-
-      .info {
-        .buttons {
-          a {}
-
-          .fas {}
-
-          a:hover {
-
-            .fas {}
-          }
-        }
-      }
-
       .technologies {
-
         .tech-container {
-          // width: 75% !important;
-          // width: 75%;
-          // width: 78%;
           width: 80%;
-
-          h3 {}
 
           .column {
             &:hover {
-
-              //hover
               &.column-container {
                 .left-column {
                   padding: 35px !important;
@@ -694,60 +381,27 @@ body {
 
                 .right-column {
                   padding: 35px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
                 }
               }
 
-              //hover
               &.column-container2 {
-
                 .left-column {
                   padding: 35px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
                 }
 
                 .right-column {
                   padding: 35px !important;
-
-                  .logo {}
                 }
               }
             }
 
             &.column-container {
-
-              &:nth-of-type(3) {}
-
               .left-column {
                 padding: 35px !important;
-
-                .logo {
-
-                  img {
-
-                    &:hover {}
-                  }
-                }
               }
 
               .right-column {
                 padding: 35px !important;
-
-                .container {
-                  h6 {}
-
-                  p {}
-                }
               }
             }
 
@@ -757,25 +411,10 @@ body {
               .left-column {
                 padding: 35px !important;
                 margin-right: 0;
-
-                .container {
-                  h6 {}
-
-                  p {}
-                }
               }
 
               .right-column {
                 padding: 35px !important;
-
-                .logo {
-
-                  img {}
-
-                  .logo {
-                    img {}
-                  }
-                }
               }
             }
           }
@@ -789,52 +428,12 @@ body {
 @media only screen and (min-width: 750px) and (max-width: 839px) {
   #portfolio-project {
     .container {
-      .project-image {
-
-        .img {}
-      }
-
-      .section-title {
-
-        h1 {}
-
-        img {}
-      }
-
-      p {
-
-        &:nth-last-of-type() {}
-
-        &:nth-of-type(2) {}
-      }
-
-      .info {
-        .buttons {
-          a {}
-
-          .fas {}
-
-          a:hover {
-
-            .fas {}
-          }
-        }
-      }
-
       .technologies {
-
         .tech-container {
-          // width: 75% !important;
-          // width: 75%;
-          // width: 78%;
           width: 80.5%;
-
-          h3 {}
 
           .column {
             &:hover {
-
-              //hover
               &.column-container {
                 .left-column {
                   padding: 30px !important;
@@ -842,60 +441,27 @@ body {
 
                 .right-column {
                   padding: 30px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
                 }
               }
 
-              //hover
               &.column-container2 {
-
                 .left-column {
                   padding: 30px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
                 }
 
                 .right-column {
                   padding: 30px !important;
-
-                  .logo {}
                 }
               }
             }
 
             &.column-container {
-
-              &:nth-of-type(3) {}
-
               .left-column {
                 padding: 30px !important;
-
-                .logo {
-
-                  img {
-
-                    &:hover {}
-                  }
-                }
               }
 
               .right-column {
                 padding: 30px !important;
-
-                .container {
-                  h6 {}
-
-                  p {}
-                }
               }
             }
 
@@ -905,25 +471,10 @@ body {
               .left-column {
                 padding: 30px !important;
                 margin-right: 0;
-
-                .container {
-                  h6 {}
-
-                  p {}
-                }
               }
 
               .right-column {
                 padding: 30px !important;
-
-                .logo {
-
-                  img {}
-
-                  .logo {
-                    img {}
-                  }
-                }
               }
             }
           }
@@ -937,52 +488,12 @@ body {
 @media only screen and (min-width: 500px) and (max-width: 749px) {
   #portfolio-project {
     .container {
-      .project-image {
-
-        .img {}
-      }
-
-      .section-title {
-
-        h1 {}
-
-        img {}
-      }
-
-      p {
-
-        &:nth-last-of-type() {}
-
-        &:nth-of-type(2) {}
-      }
-
-      .info {
-        .buttons {
-          a {}
-
-          .fas {}
-
-          a:hover {
-
-            .fas {}
-          }
-        }
-      }
-
       .technologies {
-
         .tech-container {
-          // width: 75% !important;
           width: 75%;
-          // width: 78%;
-          // width: 80.5%;
-
-          h3 {}
 
           .column {
             &:hover {
-
-              //hover
               &.column-container {
                 .left-column {
                   padding: 30px !important;
@@ -990,32 +501,16 @@ body {
 
                 .right-column {
                   padding: 30px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
                 }
               }
 
-              //hover
               &.column-container2 {
-
                 .left-column {
                   padding: 30px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
                 }
 
                 .right-column {
                   padding: 30px !important;
-
-                  .logo {}
                 }
               }
             }
@@ -1023,18 +518,8 @@ body {
             &.column-container {
               flex-direction: column;
 
-              &:nth-of-type(3) {}
-
               .left-column {
                 padding: 30px 0 0 !important;
-
-                .logo {
-
-                  img {
-
-                    &:hover {}
-                  }
-                }
               }
 
               .right-column {
@@ -1044,8 +529,6 @@ body {
                   h6 {
                     text-align: center
                   }
-
-                  p {}
                 }
               }
             }
@@ -1053,7 +536,6 @@ body {
             &.column-container2 {
               padding: 0;
               flex-direction: column-reverse;
-
 
               .left-column {
                 padding: 30px !important;
@@ -1072,15 +554,6 @@ body {
 
               .right-column {
                 padding: 30px 0 0 !important;
-
-                .logo {
-
-                  img {}
-
-                  .logo {
-                    img {}
-                  }
-                }
               }
             }
           }
@@ -1094,45 +567,8 @@ body {
 @media only screen and (min-width: 300px) and (max-width: 499px) {
   #portfolio-project {
     .container {
-      .project-image {
-
-        .img {}
-      }
-
-      .section-title {
-
-        h1 {}
-
-        img {}
-      }
-
-      p {
-
-        &:nth-last-of-type() {}
-
-        &:nth-of-type(2) {}
-      }
-
-      .info {
-        .buttons {
-          a {}
-
-          .fas {}
-
-          a:hover {
-
-            .fas {}
-          }
-        }
-      }
-
       .technologies {
-
         .tech-container {
-          // width: 75% !important;
-          // width: 75%;
-          // width: 78%;
-          // width: 80.5%; 
           width: 100%;
           border: none;
           box-shadow: initial;
@@ -1145,8 +581,6 @@ body {
 
           .column {
             &:hover {
-
-              //hover
               &.column-container {
                 .left-column {
                   padding: 30px !important;
@@ -1154,32 +588,16 @@ body {
 
                 .right-column {
                   padding: 30px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
                 }
               }
 
-              //hover
               &.column-container2 {
-
                 .left-column {
                   padding: 30px !important;
-
-                  .container {
-                    h6 {}
-
-                    p {}
-                  }
                 }
 
                 .right-column {
                   padding: 30px !important;
-
-                  .logo {}
                 }
               }
             }
@@ -1187,18 +605,8 @@ body {
             &.column-container {
               flex-direction: column;
 
-              &:nth-of-type(3) {}
-
               .left-column {
                 padding: 30px 0 0 !important;
-
-                .logo {
-
-                  img {
-
-                    &:hover {}
-                  }
-                }
               }
 
               .right-column {
@@ -1208,8 +616,6 @@ body {
                   h6 {
                     text-align: center
                   }
-
-                  p {}
                 }
               }
             }
@@ -1217,7 +623,6 @@ body {
             &.column-container2 {
               padding: 0;
               flex-direction: column-reverse;
-
 
               .left-column {
                 padding: 30px !important;
@@ -1236,15 +641,6 @@ body {
 
               .right-column {
                 padding: 30px 0 0 !important;
-
-                .logo {
-
-                  img {}
-
-                  .logo {
-                    img {}
-                  }
-                }
               }
             }
           }
@@ -1253,8 +649,6 @@ body {
     }
   }
 }
-
-
 
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width: 300px) and (max-width: 479px) {}
