@@ -3680,7 +3680,7 @@ body {
               margin-left: -14px; }
         #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container .right-column {
           padding: 50px 50px 50px 40px !important;
-          background: #fff; }
+          background: none; }
           #first-project-body #portfolio-project .container .technologies .tech-container .column.column-container .right-column .container h6 {
             font-size: 1.2rem;
             text-transform: capitalize;
