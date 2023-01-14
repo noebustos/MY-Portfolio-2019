@@ -14,7 +14,7 @@
     "gulp-autoprefixer": "^6.0.0",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.11.0",
-    "webpack-cli": "^3.2.1"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
